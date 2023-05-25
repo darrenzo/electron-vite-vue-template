@@ -6,9 +6,6 @@ output.js
 /assets
 /resources
 p2pc_mem.txt
-#
-.vscode/ipch
-.vscode/settings.json
 
 # local env files
 .env.local
@@ -29,4 +26,10 @@ yarn-error.log*
 
 #Electron-builder output
 /dist_electron
-/build
+
+build/
+!build/icons
+
+# Editor directories and files
+.vscode
+.electron-vite/bytecode/_temp/main.js
