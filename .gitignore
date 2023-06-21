@@ -31,5 +31,4 @@ build/
 !build/icons
 
 # Editor directories and files
-.vscode
 .electron-vite/bytecode/_temp/main.js

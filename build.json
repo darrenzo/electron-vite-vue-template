@@ -1,44 +1,44 @@
 {
-  "asar": false,
-  "extraFiles": [],
-  "publish": [
-    {
-      "provider": "generic",
-      "url": "https://home-cdn.reolink.us/files/client/electron-release/"
-    }
-  ],
-  "productName": "Reolink",
-  "appId": "com.reolink.app",
-  "directories": {
-    "output": "build"
-  },
-  "files": [
-    "dist/electron/**/*"
-  ],
-  "dmg": {
-    "contents": [
-      {
-        "x": 410,
-        "y": 150,
-        "type": "link",
-        "path": "/Applications"
-      },
-      {
-        "x": 130,
-        "y": 150,
-        "type": "file"
-      }
-    ]
-  },
-  "mac": {
-    "icon": "build/icons/icon.icns"
-  },
-  "win": {
-    "icon": "build/icons/icon.ico",
-    "target": "nsis"
-  },
-  "linux": {
-    "target": "deb",
-    "icon": "build/icons"
-  }
+	"asar": false,
+	"extraFiles": [],
+	"publish": [
+		{
+			"provider": "generic",
+			"url": "https://home-cdn.reolink.us/files/client/electron-release/"
+		}
+	],
+	"productName": "Reolink",
+	"appId": "com.reolink.app",
+	"directories": {
+		"output": "build"
+	},
+	"files": [
+		"dist/electron/**/*"
+	],
+	"dmg": {
+		"contents": [
+			{
+				"x": 410,
+				"y": 150,
+				"type": "link",
+				"path": "/Applications"
+			},
+			{
+				"x": 130,
+				"y": 150,
+				"type": "file"
+			}
+		]
+	},
+	"mac": {
+		"icon": "build/icons/icon.icns"
+	},
+	"win": {
+		"icon": "build/icons/icon.ico",
+		"target": "nsis"
+	},
+	"linux": {
+		"target": "deb",
+		"icon": "build/icons"
+	}
 }

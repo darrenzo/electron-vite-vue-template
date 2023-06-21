@@ -1,21 +1,9 @@
+
 {
-  "compileOnSave": false,
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
   "compilerOptions": {
-    "resolveJsonModule": true,
     "baseUrl": ".",
-    "outDir": "./dist/electron/main",
-    "sourceMap": true,
-    "declaration": false,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "importHelpers": true,
-    "target": "es2017",
-    "types": [
-      "vite/client"
-    ],
     "paths": {
       "@config/*": [
         "config/*"
@@ -26,20 +14,12 @@
       "@main/*": [
         "src/main/*"
       ]
-    },
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2018",
-      "dom"
-    ]
+    }
   },
-  "include": [
-    "src/**/*",
-    "customTypes/*"
-  ],
-  "exclude": [
-    "node_modules"
+
+  "references": [
+    {
+      "path": "./tsconfig.vite-config.json"
+    }
   ]
 }

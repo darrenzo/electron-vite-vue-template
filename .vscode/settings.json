@@ -1,0 +1,15 @@
+{
+    "cSpell.words": [
+        "besthelper",
+        "cfonts",
+        "esno",
+        "helpertool",
+        "listr",
+        "rushstack",
+        "typecheck"
+    ],
+    "i18n-ally.localesPaths": [
+        "src/renderer/assets/locales"
+    ]
+
+}

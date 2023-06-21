@@ -19,7 +19,7 @@ export default (env = 'production') => {
     return defineConfig({
         input: rootResolve('src/main/index.ts'),
         output: {
-            file: rootResolve('dist/electron/main/main.ts'),
+            file: rootResolve('dist/electron/main/main.js'),
             format: 'cjs',
             name: 'MainProcess',
             sourcemap: false
