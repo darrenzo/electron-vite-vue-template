@@ -1,4 +1,4 @@
-import axios, { AxiosRequestConfig } from 'axios';
+import axios, { type AxiosRequestConfig } from "axios";
 const serves = axios.create({
     baseURL: __CONFIG__.BASE_API,
     timeout: 5000
@@ -24,11 +24,11 @@ serves.interceptors.response.use(
     },
     (err) => {
         // 判断请求异常信息中是否含有超时timeout字符串
-        if (err.message.includes('timeout')) {
-            console.log('错误回调', err);
+        if (err.message.includes("timeout")) {
+            console.log("错误回调", err);
         }
-        if (err.message.includes('Network Error')) {
-            console.log('错误回调', err);
+        if (err.message.includes("Network Error")) {
+            console.log("错误回调", err);
         }
         return Promise.reject(err);
     }
@@ -38,9 +38,7 @@ export interface BaseDataStruct<T> {
     data: T;
 }
 
-const requestPlus = async <D = any, T = any>(
-    params: AxiosRequestConfig<T>
-): Promise<BaseDataStruct<D>> => {
+const requestPlus = async <D, T>(params: AxiosRequestConfig<T>): Promise<BaseDataStruct<D>> => {
     return await serves(params);
 };
 

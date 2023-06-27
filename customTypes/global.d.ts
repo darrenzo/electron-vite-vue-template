@@ -1,5 +1,3 @@
-
-
 interface memoryInfo {
     jsHeapSizeLimit: number;
     totalJSHeapSize: number;

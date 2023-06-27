@@ -1,16 +1,14 @@
-
-import { join } from 'path';
-import { defineConfig } from 'vite';
-import vuePlugin from '@vitejs/plugin-vue';
-import vueJsx from '@vitejs/plugin-vue-jsx';
-import { getEnvConfig } from './utils/envManager';
+import { join } from "path";
+import { defineConfig } from "vite";
+import vuePlugin from "@vitejs/plugin-vue";
+import { getEnvConfig } from "./utils/envManager";
 
 function resolve(dir: string) {
-    return join(__dirname, '..', dir);
+    return join(__dirname, "..", dir);
 }
 const envConfig = getEnvConfig();
 
-const rendererPath = resolve('src/renderer');
+const rendererPath = resolve("src/renderer");
 
 export default defineConfig({
     mode: process.env.NODE_ENV,
@@ -20,18 +18,18 @@ export default defineConfig({
     },
     resolve: {
         alias: {
-            '@renderer': rendererPath
+            "@renderer": rendererPath
         }
     },
-    base: './',
+    base: "./",
     build: {
-        outDir: resolve('dist/electron/renderer'),
+        outDir: resolve("dist/electron/renderer"),
         emptyOutDir: true,
-        target: 'esnext',
-        minify: 'esbuild',
+        target: "esnext",
+        minify: "esbuild",
         cssCodeSplit: false
     },
-    plugins: [vueJsx(), vuePlugin()],
+    plugins: [vuePlugin()],
     server: {},
     optimizeDeps: {}
 });

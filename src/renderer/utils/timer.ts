@@ -17,12 +17,12 @@ class Timer {
      * @returns {void}
      * @date 2019-11-25
      */
-    timeout(interval: number, args?: any) {
+    timeout(interval: number, args?: unknown) {
         return new Promise((resolve) => {
             setTimeout(() => {
-                resolve(args)
-            }, interval)
-        })
+                resolve(args);
+            }, interval);
+        });
     }
 
     /**
@@ -31,7 +31,7 @@ class Timer {
      * @date 2019-11-25
      */
     inTheEnd() {
-        return this.timeout(0)
+        return this.timeout(0);
     }
 
     /**
@@ -41,17 +41,16 @@ class Timer {
      * @returns {Object}
      * @date 2019-11-25
      */
-    interval(interval: number, callback: () => any) {
-        this.timeout(interval)
-            .then(() => {
-                if (typeof callback === 'function') {
-                    let res = callback();
-                    if (res !== false) {
-                        this.interval(interval, callback)
-                    }
+    interval(interval: number, callback: () => unknown) {
+        this.timeout(interval).then(() => {
+            if (typeof callback === "function") {
+                const res = callback();
+                if (res !== false) {
+                    this.interval(interval, callback);
                 }
-            })
-        return { then: c => callback = c }
+            }
+        });
+        return { then: (c: () => unknown) => (callback = c) };
     }
 
     /**
@@ -60,14 +59,14 @@ class Timer {
      * @date 2019-11-29
      */
     start() {
-        const startDate = new Date()
+        const startDate = new Date();
         return {
             stop() {
-                const stopDate = new Date()
-                return stopDate.getTime() - startDate.getTime()
+                const stopDate = new Date();
+                return stopDate.getTime() - startDate.getTime();
             }
-        }
+        };
     }
 }
 
-export default new Timer()
+export default new Timer();

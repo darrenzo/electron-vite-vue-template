@@ -1,15 +1,17 @@
-import router from './router'
-import Performance from '@renderer/utils/performance'
+import router from "./router";
+import Performance from "@renderer/utils/performance";
 
-let end = null
+let end: null | ((name2?: string) => void) = null;
 router.beforeEach((to, from, next) => {
-    end = Performance.startExecute(`${from.path} => ${to.path} 路由耗时`) /// 路由性能监控
-    next()
+    end = Performance.startExecute(`${from.path} => ${to.path} 路由耗时`); /// 路由性能监控
+    next();
     setTimeout(() => {
-        end()
-    }, 0)
-})
+        if (end) {
+            end();
+        }
+    }, 0);
+});
 
 router.afterEach(() => {
     //
-})
+});

@@ -1,25 +1,18 @@
-
 {
-  "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@config/*": [
-        "config/*"
-      ],
-      "@renderer/*": [
-        "src/renderer/*"
-      ],
-      "@main/*": [
-        "src/main/*"
-      ]
-    }
-  },
+    "extends": "@vue/tsconfig/tsconfig.dom.json",
+    "include": ["customTypes/*.d.ts", "src/**/*", "src/**/*.vue"],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@config/*": ["config/*"],
+            "@renderer/*": ["src/renderer/*"],
+            "@main/*": ["src/main/*"]
+        }
+    },
 
-  "references": [
-    {
-      "path": "./tsconfig.vite-config.json"
-    }
-  ]
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        }
+    ]
 }

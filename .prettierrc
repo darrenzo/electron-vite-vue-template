@@ -1,0 +1,15 @@
+{
+    "editorconfig": true,
+    "printWidth": 160,
+    "trailingComma": "none",
+    "proseWrap": "never",
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": "*.md",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}

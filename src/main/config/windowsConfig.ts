@@ -1,5 +1,5 @@
-import { IsUseSysTitle } from './const';
-import { BrowserWindowConstructorOptions } from 'electron';
+import { IsUseSysTitle } from "./const";
+import type { BrowserWindowConstructorOptions } from "electron";
 
 export const mainWindowConfig: BrowserWindowConstructorOptions = {
     height: 800,
@@ -13,9 +13,9 @@ export const mainWindowConfig: BrowserWindowConstructorOptions = {
         nodeIntegration: true,
         webSecurity: false,
         // 如果是开发模式可以使用devTools
-        devTools: process.env.NODE_ENV === 'development',
+        devTools: process.env.NODE_ENV === "development",
         // 在macos中启用橡皮动画
-        scrollBounce: process.platform === 'darwin'
+        scrollBounce: process.platform === "darwin"
     }
 };
 
@@ -32,8 +32,8 @@ export const otherWindowConfig: BrowserWindowConstructorOptions = {
         nodeIntegration: true,
         webSecurity: false,
         // 如果是开发模式可以使用devTools
-        devTools: process.env.NODE_ENV === 'development',
+        devTools: process.env.NODE_ENV === "development",
         // 在macos中启用橡皮动画
-        scrollBounce: process.platform === 'darwin'
+        scrollBounce: process.platform === "darwin"
     }
 };

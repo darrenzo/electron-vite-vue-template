@@ -1,27 +1,26 @@
-import setIpc from './ipcMain';
-import { IsUseSysTitle } from '../config/const';
-import menuconfig from '../config/menu';
-import { app, BrowserWindow, Menu, dialog } from 'electron';
-import { winURL, loadingURL } from '../config/StaticPath';
-import { mainWindowConfig } from '../config/windowsConfig';
+import setIpc from "./ipcMain";
+import { IsUseSysTitle } from "../config/const";
+import menuconfig from "../config/menu";
+import { app, BrowserWindow, Menu, dialog, type MenuItemConstructorOptions } from "electron";
+import { winURL, loadingURL } from "../config/StaticPath";
+import { mainWindowConfig } from "../config/windowsConfig";
 
 class MainInit {
-    public winURL: string = '';
-    public shartURL: string = '';
-    public loadWindow: BrowserWindow = null;
-    public mainWindow: BrowserWindow = null;
+    public winURL = "";
+    public shartURL = "";
+    public mainWindow: BrowserWindow | null = null;
 
     constructor() {
         this.winURL = winURL;
         this.shartURL = loadingURL;
-        if (process.env.NODE_ENV === 'development') {
+        if (process.env.NODE_ENV === "development") {
             menuconfig.push({
-                label: '开发者设置',
+                label: "开发者设置",
                 submenu: [
                     {
-                        label: '切换到开发者模式',
-                        accelerator: 'CmdOrCtrl+I',
-                        role: 'toggledevtools'
+                        label: "切换到开发者模式",
+                        accelerator: "CmdOrCtrl+I",
+                        role: "toggledevtools"
                     }
                 ]
             });
@@ -32,49 +31,54 @@ class MainInit {
     // 主窗口函数
     createMainWindow() {
         this.mainWindow = new BrowserWindow({
-            titleBarStyle: IsUseSysTitle ? 'default' : 'hidden',
+            titleBarStyle: IsUseSysTitle ? "default" : "hidden",
             ...Object.assign(mainWindowConfig, {})
         });
         // 赋予模板
-        const menu = Menu.buildFromTemplate(menuconfig as any);
+        const menu = Menu.buildFromTemplate(menuconfig as MenuItemConstructorOptions[]);
         // 加载模板
         Menu.setApplicationMenu(menu);
         // 加载主窗口
         this.mainWindow.loadURL(this.winURL);
         // ready-to-show之后显示界面
-        this.mainWindow.once('ready-to-show', () => {
+        this.mainWindow.once("ready-to-show", () => {
+            if (!this.mainWindow) {
+                return;
+            }
             this.mainWindow.show();
             // 开发模式下自动开启devtools
-            if (process.env.NODE_ENV === 'development') {
+            if (process.env.NODE_ENV === "development") {
                 this.mainWindow.webContents.openDevTools({
-                    mode: 'undocked',
+                    mode: "undocked",
                     activate: true
                 });
             }
         });
         // 当确定渲染进程卡死时，分类型进行告警操作
-        app.on('render-process-gone', (event, webContents, details) => {
+        app.on("render-process-gone", (event, webContents, details) => {
+            if (!this.mainWindow) {
+                return;
+            }
             const message = {
-                title: '',
-                buttons: [],
-                message: ''
+                title: "",
+                buttons: [] as string[],
+                message: ""
             };
             switch (details.reason) {
-                case 'crashed':
-                    message.title = '警告';
-                    message.buttons = ['确定', '退出'];
-                    message.message = '图形化进程崩溃，是否进行软重启操作？';
+                case "crashed":
+                    message.title = "警告";
+                    message.buttons = ["确定", "退出"];
+                    message.message = "图形化进程崩溃，是否进行软重启操作？";
                     break;
-                case 'killed':
-                    message.title = '警告';
-                    message.buttons = ['确定', '退出'];
-                    message.message =
-                        '由于未知原因导致图形化进程被终止，是否进行软重启操作？';
+                case "killed":
+                    message.title = "警告";
+                    message.buttons = ["确定", "退出"];
+                    message.message = "由于未知原因导致图形化进程被终止，是否进行软重启操作？";
                     break;
-                case 'oom':
-                    message.title = '警告';
-                    message.buttons = ['确定', '退出'];
-                    message.message = '内存不足，是否软重启释放内存？';
+                case "oom":
+                    message.title = "警告";
+                    message.buttons = ["确定", "退出"];
+                    message.message = "内存不足，是否软重启释放内存？";
                     break;
 
                 default:
@@ -82,28 +86,37 @@ class MainInit {
             }
             dialog
                 .showMessageBox(this.mainWindow, {
-                    type: 'warning',
+                    type: "warning",
                     title: message.title,
                     buttons: message.buttons,
                     message: message.message,
                     noLink: true
                 })
                 .then((res) => {
+                    if (!this.mainWindow) {
+                        return;
+                    }
                     if (res.response === 0) this.mainWindow.reload();
                     else this.mainWindow.close();
                 });
         });
         // 不知道什么原因，反正就是这个窗口里的页面触发了假死时执行
-        this.mainWindow.on('unresponsive', () => {
+        this.mainWindow.on("unresponsive", () => {
+            if (!this.mainWindow) {
+                return;
+            }
             dialog
                 .showMessageBox(this.mainWindow, {
-                    type: 'warning',
-                    title: '警告',
-                    buttons: ['重载', '退出'],
-                    message: '图形化进程失去响应，是否等待其恢复？',
+                    type: "warning",
+                    title: "警告",
+                    buttons: ["重载", "退出"],
+                    message: "图形化进程失去响应，是否等待其恢复？",
                     noLink: true
                 })
                 .then((res) => {
+                    if (!this.mainWindow) {
+                        return;
+                    }
                     if (res.response === 0) this.mainWindow.reload();
                     else this.mainWindow.close();
                 });
@@ -114,25 +127,27 @@ class MainInit {
          * @author zmr (umbrella22)
          * @date 2020-11-27
          */
-        app.on('child-process-gone', (event, details) => {
+        app.on("child-process-gone", (event, details) => {
+            if (!this.mainWindow) {
+                return;
+            }
             const message = {
-                title: '',
-                buttons: [],
-                message: ''
+                title: "",
+                buttons: [] as string[],
+                message: ""
             };
             switch (details.type) {
-                case 'GPU':
+                case "GPU":
                     switch (details.reason) {
-                        case 'crashed':
-                            message.title = '警告';
-                            message.buttons = ['确定', '退出'];
-                            message.message = '硬件加速进程已崩溃，是否关闭硬件加速并重启？';
+                        case "crashed":
+                            message.title = "警告";
+                            message.buttons = ["确定", "退出"];
+                            message.message = "硬件加速进程已崩溃，是否关闭硬件加速并重启？";
                             break;
-                        case 'killed':
-                            message.title = '警告';
-                            message.buttons = ['确定', '退出'];
-                            message.message =
-                                '硬件加速进程被意外终止，是否关闭硬件加速并重启？';
+                        case "killed":
+                            message.title = "警告";
+                            message.buttons = ["确定", "退出"];
+                            message.message = "硬件加速进程被意外终止，是否关闭硬件加速并重启？";
                             break;
                         default:
                             break;
@@ -144,23 +159,26 @@ class MainInit {
             }
             dialog
                 .showMessageBox(this.mainWindow, {
-                    type: 'warning',
+                    type: "warning",
                     title: message.title,
                     buttons: message.buttons,
                     message: message.message,
                     noLink: true
                 })
                 .then((res) => {
+                    if (!this.mainWindow) {
+                        return;
+                    }
                     // 当显卡出现崩溃现象时使用该设置禁用显卡加速模式。
                     if (res.response === 0) {
-                        if (details.type === 'GPU') app.disableHardwareAcceleration();
+                        if (details.type === "GPU") app.disableHardwareAcceleration();
                         this.mainWindow.reload();
                     } else {
                         this.mainWindow.close();
                     }
                 });
         });
-        this.mainWindow.on('closed', () => {
+        this.mainWindow.on("closed", () => {
             this.mainWindow = null;
         });
     }
