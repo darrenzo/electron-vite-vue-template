@@ -1,5 +1,4 @@
 import setIpc from "./ipcMain";
-import { IsUseSysTitle } from "../config/const";
 import menuconfig from "../config/menu";
 import { app, BrowserWindow, Menu, dialog, type MenuItemConstructorOptions } from "electron";
 import { winURL, loadingURL } from "../config/StaticPath";
@@ -30,10 +29,7 @@ class MainInit {
     }
     // 主窗口函数
     createMainWindow() {
-        this.mainWindow = new BrowserWindow({
-            titleBarStyle: IsUseSysTitle ? "default" : "hidden",
-            ...Object.assign(mainWindowConfig, {})
-        });
+        this.mainWindow = new BrowserWindow(mainWindowConfig);
         // 赋予模板
         const menu = Menu.buildFromTemplate(menuconfig as MenuItemConstructorOptions[]);
         // 加载模板

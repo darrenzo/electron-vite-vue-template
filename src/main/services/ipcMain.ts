@@ -1,5 +1,4 @@
 import { ipcMain, dialog, BrowserWindow, app } from "electron";
-import { IsUseSysTitle } from "../config/const";
 import { winURL, staticPaths } from "../config/StaticPath";
 import { updater } from "./HotUpdater";
 import Update from "./checkupdate";
@@ -8,9 +7,7 @@ import { otherWindowConfig } from "../config/windowsConfig";
 export default {
     Mainfunc() {
         const allUpdater = new Update();
-        ipcMain.handle("IsUseSysTitle", async () => {
-            return IsUseSysTitle;
-        });
+
         ipcMain.handle("windows-mini", (event) => {
             BrowserWindow.fromWebContents(event.sender)?.minimize();
         });
@@ -64,10 +61,7 @@ export default {
         });
 
         ipcMain.handle("open-win", (event, arg) => {
-            const ChildWin = new BrowserWindow({
-                titleBarStyle: IsUseSysTitle ? "default" : "hidden",
-                ...Object.assign(otherWindowConfig, {})
-            });
+            const ChildWin = new BrowserWindow(otherWindowConfig);
             // 开发模式下自动开启devtools
             if (process.env.NODE_ENV === "development") {
                 ChildWin.webContents.openDevTools({ mode: "undocked", activate: true });

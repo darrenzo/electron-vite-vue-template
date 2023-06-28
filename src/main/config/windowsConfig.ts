@@ -1,13 +1,13 @@
-import { IsUseSysTitle } from "./const";
 import type { BrowserWindowConstructorOptions } from "electron";
 
 export const mainWindowConfig: BrowserWindowConstructorOptions = {
+    titleBarStyle: "hidden",
     height: 800,
     useContentSize: true,
     width: 1700,
     minWidth: 1366,
     show: false,
-    frame: IsUseSysTitle,
+    frame: false,
     webPreferences: {
         contextIsolation: false,
         nodeIntegration: true,
@@ -20,12 +20,13 @@ export const mainWindowConfig: BrowserWindowConstructorOptions = {
 };
 
 export const otherWindowConfig: BrowserWindowConstructorOptions = {
+    titleBarStyle: "hidden",
     height: 595,
     useContentSize: true,
     width: 1140,
     autoHideMenuBar: true,
     minWidth: 842,
-    frame: IsUseSysTitle,
+    frame: false,
     show: false,
     webPreferences: {
         contextIsolation: false,

@@ -1,7 +1,7 @@
 process.env.NODE_ENV = "development";
 
 import electron from "electron";
-import chalk, { ChalkInstance } from "chalk";
+import chalk from "chalk";
 import { join } from "path";
 import { watch } from "rollup";
 import Portfinder from "portfinder";
