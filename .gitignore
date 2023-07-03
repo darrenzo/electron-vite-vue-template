@@ -3,8 +3,6 @@ node_modules
 /dist
 www.txt
 output.js
-/assets
-/resources
 p2pc_mem.txt
 
 # local env files
@@ -28,7 +26,6 @@ yarn-error.log*
 /dist_electron
 
 build/
-!build/icons
 
-# Editor directories and files
-.electron-vite/bytecode/_temp/main.js
+
+
