@@ -75,7 +75,9 @@ async function unionBuild() {
                 title: "building renderer process",
                 task: async (_, tasks) => {
                     try {
-                        await viteBuild({ configFile: pathJoin(__dirname, "vite.config.ts") });
+                        await viteBuild({
+                            configFile: pathJoin(__dirname, "vite.config.ts")
+                        });
                         tasks.output = `${okayLog}take it away ${chalk.yellow("`electron-builder`")}\n`;
                     } catch (error) {
                         console.error(`\n${error}\n`);

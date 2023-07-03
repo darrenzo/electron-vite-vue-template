@@ -59,7 +59,10 @@ export default {
             const ChildWin = new BrowserWindow(otherWindowConfig);
             // 开发模式下自动开启devtools
             if (process.env.NODE_ENV === "development") {
-                ChildWin.webContents.openDevTools({ mode: "undocked", activate: true });
+                ChildWin.webContents.openDevTools({
+                    mode: "undocked",
+                    activate: true
+                });
             }
             ChildWin.loadURL(winURL + `#${arg.url}`);
             ChildWin.once("ready-to-show", () => {

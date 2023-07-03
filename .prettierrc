@@ -3,6 +3,7 @@
     "trailingComma": "none",
     "proseWrap": "never",
     "tabWidth": 4,
+    "singleAttributePerLine": true,
     "overrides": [
         {
             "files": "*.md",

@@ -1,0 +1,180 @@
+.flex {
+    .flex();
+}
+
+.flex-between {
+    .flex();
+
+    justify-content: space-between;
+}
+
+.flex-column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vertical-transfer {
+    .vertical-transfer();
+}
+
+.ab-center {
+    .ab-center();
+}
+
+.ban-events {
+    pointer-events: none !important;
+}
+
+.allow-events {
+    pointer-events: auto !important;
+}
+
+.locked .allow-events {
+    pointer-events: none !important;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed !important;
+}
+
+.full-screen {
+    position: absolute;
+    inset: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+}
+
+.hide {
+    display: none !important;
+}
+
+.no-drag {
+    -webkit-app-region: no-drag !important;
+}
+
+// 字体
+.headline {
+    .headline();
+}
+
+.title {
+    .title();
+}
+
+.big-title {
+    .big-title();
+}
+
+.big-subtitle {
+    .big-subtitle();
+}
+
+.middle-title {
+    .middle-title();
+}
+
+.small-title {
+    .small-title();
+}
+
+.subtitle {
+    .subtitle();
+}
+
+.discipline-title {
+    .discipline-title();
+}
+
+.discipline-description {
+    .discipline-description();
+}
+
+.body-text {
+    .body-text();
+}
+
+.text {
+    .text();
+}
+
+.text-bold {
+    .text-bold();
+}
+
+.button-text {
+    .button-text();
+}
+
+.options-text {
+    .options-text();
+}
+
+.notes-text {
+    .notes-text();
+}
+
+.notes-text-bold {
+    .notes-text-bold();
+}
+
+.reo-button {
+    .common-button();
+}
+
+.customized-label {
+    .customized-label();
+}
+
+@keyframes reo-k-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes reo-k-xcharging {
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes reo-k-ycharging {
+    100% {
+        height: 100%;
+    }
+}
+
+.reo-loading-animation {
+    .reo-loading-animation();
+}
+
+.reo-xcharging-animation {
+    transform: skewX(0);
+    animation: reo-k-xcharging 1.3s linear infinite;
+}
+
+.reo-ycharging-animation {
+    transform: skewX(0);
+    animation: reo-k-ycharging 1.3s linear infinite;
+}
+
+// 远程配置用来点击下拉的标题
+.small-toogle-controller {
+    .small-toogle-controller();
+}
+
+.toogle-controller {
+    .toogle-controller();
+}
+
+.arrow-icon-right {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}

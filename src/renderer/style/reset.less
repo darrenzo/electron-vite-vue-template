@@ -1,0 +1,230 @@
+.page-reset() {
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    font-weight: 300;
+    font-family: "SF Pro Display", Arial, sans-serif !important;
+    line-height: 1;
+    word-wrap: break-word;
+    text-size-adjust: none;
+    -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
+}
+
+.dom-reset() {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Display", Arial, sans-serif !important;
+    vertical-align: baseline;
+    border: 0;
+    outline: none;
+}
+
+.select-reset() {
+    /* 统一边框 */
+    border: solid 1px #000;
+    outline: none;
+    outline-offset: 0;
+
+    /* 将默认的select选择框样式清除 */
+    appearance: none;
+}
+
+.a-reset() {
+    color: inherit;
+    color: #009de5;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+
+    &:hover {
+        color: @color_highlight_ancillary;
+        text-decoration: none;
+    }
+
+    &:active {
+        color: @color_highlight_active;
+    }
+
+    &:active,
+    &:visited {
+        outline: none;
+    }
+}
+
+textarea,
+button {
+    outline: none;
+    outline-offset: 0;
+}
+
+img,
+button {
+    border: 0;
+}
+
+div,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+del,
+em,
+img,
+ins,
+s,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+button,
+form,
+label,
+figure,
+figcaption,
+article,
+aside,
+canvas,
+footer,
+header,
+menu,
+nav,
+output,
+section,
+audio,
+video {
+    .dom-reset();
+}
+
+input,
+button,
+textarea,
+select,
+option {
+    font-style: normal;
+}
+
+img,
+a {
+    -webkit-user-drag: none;
+}
+
+button:disabled,
+button[disabled="disabled"],
+a:disabled,
+a[disabled="disabled"] {
+    cursor: default !important;
+}
+
+input {
+    min-width: 1px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+li,
+img,
+label,
+input {
+    vertical-align: middle;
+}
+
+li {
+    list-style: none;
+}
+
+html[data-application="client"].win32 {
+    width: calc(100% - 32px);
+    height: calc(100% - 32px);
+    margin: 16px;
+    box-shadow: @win32_default_shadow;
+}
+
+html,
+body {
+    input[reo-element],
+    select[reo-element],
+    a[reo-element] {
+        .dom-reset();
+    }
+
+    input[reo-element] {
+        &[type="checkbox"],
+        &[type="radio"] {
+            display: none;
+            margin: 0;
+        }
+
+        border: 0;
+        outline: none;
+        outline-offset: 0;
+
+        /* 去掉 Microsoft Edge 的密码小眼睛样式 */
+        &[type="password"]::-ms-reveal {
+            display: none;
+        }
+    }
+
+    select[reo-element] {
+        .select-reset();
+    }
+
+    a[reo-element] {
+        .a-reset();
+    }
+
+    &[data-application="client"] {
+        .page-reset();
+        .dom-reset();
+
+        user-select: none;
+
+        input,
+        select,
+        a {
+            .dom-reset();
+        }
+
+        input {
+            border: 0;
+            outline: none;
+            outline-offset: 0;
+        }
+
+        select {
+            .select-reset();
+        }
+
+        a {
+            .a-reset();
+        }
+    }
+
+    &[data-application="web"] {
+        .app-area {
+            .page-reset();
+        }
+    }
+}

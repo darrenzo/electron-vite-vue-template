@@ -27,3 +27,37 @@
   "files.autoSave": "onFocusChange", // optional but recommended
   "vs-code-prettier-eslint.prettierLast": false, // set as "true" to run 'prettier' last not first
 ```
+
+## stylelint
+
+- 安装 stylelint
+
+- vscode 的 settings.json 配置
+
+```json
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+  },
+  "stylelint.snippet": [
+      "css",
+      "less",
+      "postcss",
+      "scss",
+      "sass",
+      "html",
+      "vue"
+  ],
+  "stylelint.validate": [
+      "css",
+      "less",
+      "postcss",
+      "scss",
+      "sass",
+      "html",
+      "vue"
+  ],
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false
+```

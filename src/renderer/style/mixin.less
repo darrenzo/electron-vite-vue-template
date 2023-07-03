@@ -1,0 +1,875 @@
+// 文字超出宽度显示省略号
+.text-omission() {
+    overflow: hidden;
+    line-height: 1.1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+// flex 组合
+.flex() {
+    display: flex;
+    align-items: center;
+}
+
+// 文字填色
+.text_fill_color(@bg_linear_color) {
+    background-image: @bg_linear_color;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+// 背景图
+.bg_image(@url) {
+    /* stylelint-disable-next-line function-no-unknown */
+    background-image: data-uri(@url);
+}
+
+// 上下左右居中
+.ab-center() {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform+_: translate(-50%, -50%);
+}
+
+// 常用透明窗口body和html设置
+.body-transparent(@borderRadius: 14px) {
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    border-radius: @borderRadius;
+    cursor: default;
+}
+
+// 功能按钮hover弹出框
+.box() {
+    position: relative;
+    height: 100%;
+    text-align: center;
+
+    .slide {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        padding: 2px 1px;
+        color: #000;
+        font-size: 12px;
+        white-space: nowrap;
+        background-color: #fff;
+        border: 2px solid #3a3b3b;
+        transform: translate(-50%, 100%);
+    }
+}
+
+// basic settings submit button
+.handleSelects() {
+    justify-content: flex-end;
+    margin-top: 20px;
+
+    .handle-item {
+        justify-content: center;
+        width: 58px;
+        height: 20px;
+        margin-left: 6px;
+        padding: 0;
+        font-size: 14px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+
+        &:active {
+            background-color: #00ade5;
+            border-color: #00ade5;
+        }
+    }
+}
+
+// 弹框里的按钮
+.dialog-btn() {
+    justify-content: center;
+    width: 88px;
+    height: 24px;
+    color: @font_color_highlight;
+    text-align: center;
+    background-color: #333;
+
+    &:hover {
+        color: #00ade5;
+    }
+}
+
+// tab选项显示底部蓝条, @height 为 父元素的高度减去tab项上下间距
+.tab-with-bottom-bar(@height: 40px, @color: @font_color, @activeColor: @font_color_highlight, @activeBgColor: @color_highlight_ancillary) {
+    position: relative;
+    height: @height;
+
+    &:not(.single-tab) {
+        color: @color;
+        cursor: pointer;
+
+        &::before {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 4px;
+            border-radius: 4px;
+            content: "";
+        }
+
+        &:hover,
+        &.active,
+        &.router-link-active {
+            color: @activeColor;
+
+            &::before {
+                background-color: @activeBgColor;
+            }
+        }
+    }
+}
+
+// 底部控制条控制设备列表栏按钮样式
+.device-list-handle-box() {
+    box-sizing: border-box;
+    padding-left: 30px;
+
+    &.devicelist-opened {
+        padding-left: 0;
+    }
+
+    button {
+        color: @font_color_highlight;
+        background-color: @color_highlight;
+        cursor: pointer;
+
+        &:hover {
+            background-color: @color_highlight_ancillary;
+        }
+
+        &:active {
+            background-color: @color_highlight_active;
+        }
+
+        &.btn-open {
+            justify-content: center;
+            box-sizing: border-box;
+            width: 64px;
+            height: 32px;
+            font-size: 24px;
+            border-radius: 16px;
+        }
+
+        &.btn-close {
+            justify-content: center;
+            box-sizing: border-box;
+            width: 27px;
+            height: 28px;
+            font-size: 14px;
+            border-radius: 0 16px 16px 0;
+        }
+    }
+}
+
+// 功能按钮并排样式
+.function-button-box(@icon_font: 15px, @width: 28px, @radius: 4px, @bg_hover_color: @color_bg_ancillary, @cell_dis: 5px, @before_bg_color: transparent) {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: inherit;
+
+    .btn-cell {
+        position: relative;
+        display: inline-block;
+        height: inherit;
+
+        & + .btn-cell {
+            margin-left: @cell_dis;
+        }
+
+        .cell-inner {
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-app-region: no-drag;
+            .icon_interaction_box(@icon_font, @width, @radius, @bg_hover_color, @before_bg_color);
+        }
+    }
+}
+
+// --图标按钮交互样式
+.icon_interaction_box(
+    @icon_font: 15px,
+    @width: 28px,
+    @radius: 4px,
+    @bg_hover_color: @color_bg_ancillary,
+    @before_bg_color: transparent,
+    @bg_active_color: @color_highlight,
+    @transparent_bg_scale: 0
+) {
+    position: relative;
+    width: @width;
+    height: @width;
+    overflow: hidden;
+    border-radius: @radius;
+    cursor: pointer;
+    .willScale (transparent) {
+        transform: scale(@transparent_bg_scale);
+    }
+    .willScale (@bgColor) when (default()) {
+        transform: scale(1);
+    }
+
+    &::before {
+        position: absolute;
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        background-color: @before_bg_color;
+        border-radius: @radius;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 0.15s;
+        content: "";
+        .willScale(@before_bg_color);
+    }
+
+    &:hover {
+        &:not(.active, .disabled)::before {
+            background-color: @bg_hover_color;
+            transform: scale(1);
+        }
+    }
+
+    &.active:not(.disabled)::before,
+    &:active:not(.disabled)::before {
+        background-color: @bg_active_color !important;
+        transform: scale(1);
+    }
+
+    .btn-icon,
+    .action-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+        display: inline-block;
+        color: @font_color;
+        font-size: @icon_font;
+        transform: translate(-50%, -50%);
+    }
+
+    &.disabled {
+        cursor: default;
+
+        .btn-icon {
+            color: #777;
+        }
+    }
+}
+
+// 自定义滚动条
+.scroller-box(@width: 6px, @radius: 3px, @barColor: #535e6b, @bgColor: #222) {
+    overflow-y: auto;
+
+    /* 定义滚动条宽度及背景 高宽分别对应横竖滚动条的尺寸 */
+    &::-webkit-scrollbar {
+        width: @width;
+        height: @width;
+        cursor: pointer;
+    }
+
+    /* 定义滚动条轨道 内阴影+圆角 */
+    &::-webkit-scrollbar-track {
+        background-color: @bgColor;
+        border: none;
+        border-radius: @radius;
+    }
+
+    /* 定义滑块 内阴影+圆角 */
+    &::-webkit-scrollbar-thumb {
+        background-color: @barColor;
+        border-radius: @radius;
+    }
+}
+
+// 圆点,默认为设备状态的圆点颜色
+.circle-point(
+    @width,
+    @bg_color: @color_deactive,
+    @bg_color_active: @color_highlight_ancillary
+) {
+    width: @width;
+    height: @width;
+    background-color: @bg_color;
+    border-radius: 100%;
+
+    &.active {
+        background-color: @bg_color_active;
+    }
+}
+
+// 字体
+.headline() {
+    color: @font_color;
+    font-weight: 600;
+    font-size: 46px;
+}
+
+.title() {
+    color: @font_color;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.big-title() {
+    color: @font_color;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.big-subtitle() {
+    color: @font_color;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.middle-title() {
+    color: @font_color;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.small-title() {
+    color: @font_color;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.subtitle() {
+    color: @font_color;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.body-text() {
+    color: @font_color;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.discipline-title() {
+    color: @font_color_highlight;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.discipline-description() {
+    color: @color_deactive;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.text() {
+    color: @font_color;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.text-bold() {
+    color: @font_color;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.button-text() {
+    color: @font_color;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.options-text() {
+    color: @font_color;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.notes-text() {
+    color: @color_deactive;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.notes-text-bold() {
+    color: @color_deactive;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+// common button
+.common-button(
+    @minWidth: 98px,
+    @height: 30px,
+    @radius: 30px,
+    @paddingRow: 0 20px,
+    @bg_color: @color_highlight,
+    @bg_hover_color: @color_highlight_ancillary,
+    @bg_active_color: @color_highlight_active
+) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: @minWidth;
+    height: @height;
+    padding: @paddingRow;
+    border-radius: @radius;
+    .color_interaction_click(@bg_color, @bg_hover_color, @bg_active_color);
+}
+
+// --click color interaction like button
+.color_interaction_click(@bg_color: @color_highlight, @bg_hover_color: @color_highlight_ancillary, @bg_active_color: @color_highlight_active) {
+    background-color: @bg_color;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    -webkit-app-region: no-drag;
+
+    // 幽灵按钮
+    &.ghost-button {
+        background-color: transparent;
+        border: 2px solid @color_highlight_ancillary;
+    }
+
+    &:disabled {
+        background-color: @color_deactive;
+        cursor: default;
+
+        &.ghost-button {
+            border: 2px solid @color_deactive;
+        }
+    }
+
+    &:not(:disabled):hover {
+        background-color: @bg_hover_color;
+
+        &.ghost-button {
+            border: 2px solid @bg_hover_color;
+        }
+    }
+
+    &:not(:disabled):active {
+        background-color: @bg_active_color;
+
+        &.ghost-button {
+            border: 2px solid @bg_active_color;
+        }
+    }
+}
+
+// 设备添加窗口底部tab区域通用布局
+.device-add-tab-layout() {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+
+    .input-error {
+        .input-error();
+    }
+
+    button {
+        .color_interaction_click();
+
+        width: 98px;
+        height: 30px;
+        color: @font_color_highlight;
+        font-size: 12px;
+        text-align: center;
+        border-radius: 30px;
+    }
+}
+
+// --错误提示区域
+.input-error(@width: 430px) {
+    width: @width;
+    margin: 2px auto 0;
+    line-height: 1.2;
+
+    .error-clue,
+    .note-clue {
+        float: left;
+        margin-top: 4px;
+        margin-right: 8px;
+    }
+
+    .error-clue {
+        .circle-point(6px, @color_warn, @color_warn);
+    }
+
+    .note-clue {
+        .circle-point(6px, @color_highlight, @color_highlight);
+    }
+}
+
+// --底部区域
+.tab-bottom() {
+    position: absolute;
+    bottom: 36px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border-top: 1px solid #707070;
+
+    .speedy-btn {
+        margin-top: 20px;
+
+        & + .speedy-btn {
+            margin-left: 10px;
+        }
+
+        button {
+            .color_interaction_click();
+
+            width: max-content;
+            min-width: 98px;
+            height: 30px;
+            padding: 0 6px;
+            color: @font_color_highlight;
+            font-size: 12px;
+            text-align: center;
+            border-radius: 30px;
+        }
+    }
+}
+
+// --输入框区域
+.simple-input() {
+    margin: 0 auto;
+
+    & + .simple-input {
+        margin-top: 10px;
+    }
+}
+
+// 自定义下拉多选框样式
+.select-box(
+    @bg_color: @bg_color_layer_2,
+    @box_width: 158px,
+    @box_height: 24px,
+    @padding-left: 10px,
+    @font_size: 14px,
+    @font_size_arrow: 14px,
+    @font_size_selected: 14px,
+    @option_hover_color: @color_highlight,
+) {
+    .select-box-inner {
+        width: @box_width;
+        height: @box_height;
+        color: @font_color;
+        font-size: @font_size;
+        background-color: @bg_color;
+
+        .selected-wrap {
+            .current-value {
+                padding: 0 @padding-left;
+            }
+
+            .arrow-icon {
+                font-size: @font_size_arrow;
+            }
+        }
+
+        .options-list-container {
+            background-color: @bg_color;
+
+            .option {
+                height: @box_height;
+                padding-right: @padding-left;
+                padding-left: @padding-left;
+
+                .selected-icon {
+                    color: @color_highlight;
+                    font-size: @font_size_selected;
+                }
+
+                &:not(:disabled, [disabled="disabled"]):hover {
+                    background-color: @option_hover_color;
+
+                    .selected-icon {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.select-box-new(
+    @select_box_bg_color: var(--color_a3),
+    @box_width: 158px,
+    @box_height: 24px,
+    @padding-left: 10px,
+    @font_size: 14px,
+    @font_size_arrow: 14px,
+    @font_size_selected: 14px,
+    @option_hover_color: @btn_bg_color_hover,
+    @options_container_bg_color: var(--color_a2)
+) {
+    .select-box-inner {
+        width: @box_width;
+        height: @box_height;
+        color: @font_color_text;
+        font-size: @font_size;
+        background-color: @select_box_bg_color;
+
+        .selected-wrap {
+            .current-value {
+                padding: 0 @padding-left;
+            }
+
+            .arrow-icon {
+                font-size: @font_size_arrow;
+            }
+        }
+
+        .options-list-container {
+            background-color: @options_container_bg_color;
+            /* stylelint-disable-next-line no-descending-specificity */
+            .option {
+                height: @box_height;
+                padding-right: @padding-left;
+                padding-left: @padding-left;
+                /* stylelint-disable-next-line no-descending-specificity */
+                .selected-icon {
+                    color: @font_color_icon_hover;
+                    font-size: @font_size_selected;
+                }
+
+                &:not(:disabled, [disabled="disabled"]):hover {
+                    background-color: @option_hover_color;
+
+                    .selected-icon {
+                        color: @font_color_icon_hover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.customized-label(
+    @width: 20px,
+    @checkedSize: 8px,
+    @radioSize: 6px,
+    @bg_color: @color_highlight_ancillary
+) {
+    cursor: pointer;
+
+    input {
+        display: none;
+    }
+
+    -webkit-app-region: no-drag;
+
+    &[radio] {
+        span[checkicon] {
+            position: relative;
+            display: inline-block;
+            box-sizing: border-box;
+            width: @width;
+            height: @width;
+            border: 2px solid @bg_color;
+            border-radius: 100%;
+        }
+
+        &.checked span[checkicon] {
+            background-color: @bg_color;
+
+            &::before {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: @radioSize;
+                height: @radioSize;
+                background-color: @font_color_highlight;
+                border-radius: 100%;
+                transform: translate(-50%, -50%);
+                content: "";
+            }
+        }
+    }
+
+    &[checkbox] {
+        /* stylelint-disable-next-line no-descending-specificity */
+        span[checkicon] {
+            position: relative;
+            display: inline-block;
+            box-sizing: border-box;
+            width: @width;
+            height: @width;
+            border: 2px solid @bg_color;
+            border-radius: 2px;
+            /* stylelint-disable-next-line no-descending-specificity */
+            &::before {
+                display: none;
+            }
+        }
+
+        &.checked span[checkicon] {
+            background-color: @bg_color;
+
+            &::before {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                display: inline-block;
+                color: @font_color_highlight;
+                font-weight: 600;
+                font-size: @checkedSize;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+// 远程配置dialog排版css
+.dialog-wrap() {
+    box-sizing: border-box;
+    width: 720px;
+    padding: 30px 4px 32px 0;
+    background-color: #222;
+    border-radius: 14px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    user-select: none;
+
+    .dialog-container {
+        .scroller-box();
+
+        box-sizing: border-box;
+        width: 100%;
+        max-height: 590px;
+        padding-left: 24px;
+
+        .dialog-context {
+            padding-bottom: 60px;
+        }
+
+        .select-box {
+            .select-box(
+                @bg_color_layer_2
+            );
+
+            .select-box-inner .selected-wrap {
+                border-radius: 3px;
+            }
+        }
+
+        .simple-input {
+            .input-wrap {
+                input {
+                    width: 285px;
+                }
+            }
+        }
+
+        h4 {
+            margin-bottom: 10px;
+            color: @font_color_highlight;
+        }
+
+        h5 {
+            margin-top: 20px;
+            margin-bottom: 4px;
+        }
+
+        p {
+            color: @font_color_dim;
+        }
+    }
+
+    .btns-wrap {
+        right: 35px;
+        bottom: 32px;
+    }
+}
+
+// 远程配置下拉控制标题
+.small-toogle-controller(
+    @marginTop: 40px,
+    @marginBottom: 10px,
+    @fontSize: 14px
+) {
+    .flex();
+
+    width: max-content;
+    margin-top: @marginTop;
+    margin-bottom: @marginBottom;
+    color: @font_color_highlight;
+    font-weight: 600;
+    font-size: @fontSize;
+    cursor: pointer;
+
+    & > span + span {
+        margin-left: 10px;
+    }
+}
+
+.toogle-controller(
+    @width: 478px,
+    @marginTop: 20px,
+    @fontSize: 20px,
+    @bg_color: @bg_color_layer_3
+) {
+    width: @width;
+    margin-top: @marginTop;
+    padding: 12px 20px;
+    background-color: @bg_color;
+    border-radius: 4px;
+
+    &.show-detail {
+        padding-bottom: 40px;
+    }
+
+    .toogle-controller-title {
+        .flex();
+
+        color: @font_color_dim;
+        font-weight: 600;
+        font-size: @fontSize;
+        cursor: pointer;
+
+        & > span + span {
+            margin-left: 10px;
+        }
+
+        &:hover,
+        &:active {
+            color: @font_color_highlight;
+        }
+
+        & + * {
+            margin-top: 20px;
+        }
+    }
+
+    .select-box .select-box-inner {
+        &,
+        .options-wrap {
+            background-color: @bg_color !important;
+        }
+    }
+
+    .simple-input .input-wrap {
+        background-color: @bg_color !important;
+    }
+}
+
+// 竖向对齐后偏移
+.vertical-transfer(@transferY: 6px) {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, calc(-100% - @transferY));
+}
+
+.reo-loading-animation(@duration: 1s) {
+    animation: reo-k-loading @duration linear infinite;
+}
