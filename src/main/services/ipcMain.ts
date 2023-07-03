@@ -1,6 +1,5 @@
 import { ipcMain, dialog, BrowserWindow, app } from "electron";
 import { winURL, staticPaths } from "../config/StaticPath";
-import { updater } from "./HotUpdater";
 import Update from "./checkupdate";
 import { otherWindowConfig } from "../config/windowsConfig";
 
@@ -54,10 +53,6 @@ export default {
         });
         ipcMain.handle("open-errorbox", (event, arg) => {
             dialog.showErrorBox(arg.title, arg.message);
-        });
-
-        ipcMain.handle("hot-update", (event) => {
-            updater(BrowserWindow.fromWebContents(event.sender));
         });
 
         ipcMain.handle("open-win", (event, arg) => {
