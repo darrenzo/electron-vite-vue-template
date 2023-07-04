@@ -1,17 +1,15 @@
 import setIpc from "./ipcMain";
 import menuconfig from "../config/menu";
 import { app, BrowserWindow, Menu, dialog, type MenuItemConstructorOptions } from "electron";
-import { winURL, loadingURL } from "../config/StaticPath";
+import { winURL } from "../config/StaticPath";
 import { mainWindowConfig } from "../config/windowsConfig";
 
 class MainInit {
     public winURL = "";
-    public shartURL = "";
     public mainWindow: BrowserWindow | null = null;
 
     constructor() {
         this.winURL = winURL;
-        this.shartURL = loadingURL;
         if (process.env.NODE_ENV === "development") {
             menuconfig.push({
                 label: "开发者设置",

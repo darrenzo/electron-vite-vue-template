@@ -3,6 +3,5 @@ export default {
         removeElectronJunk: true,
         port: 9080
     },
-    DllFolder: "",
-    HotUpdateFolder: ""
+    DllFolder: ""
 };

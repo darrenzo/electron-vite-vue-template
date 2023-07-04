@@ -1,6 +1,5 @@
 // 这里定义了静态文件路径的位置
 import { join as pathJoin } from "path";
-import config from "@config/index";
 import { app } from "electron";
 import { URL } from "url";
 
@@ -10,10 +9,9 @@ class StaticPath {
     constructor() {
         const basePath = isDev ? pathJoin(__dirname, "..", "..", "..") : pathJoin(app.getAppPath(), "..", "..");
 
-        this.__updateFolder = pathJoin(basePath, `${config.HotUpdateFolder}`);
-
         if (isDev) {
             this.__static = pathJoin(basePath, "public");
+
             this.__lib = pathJoin(basePath, "rootLib", `${process.platform}`, `${process.arch}`);
             this.__common = pathJoin(basePath, "rootLib", "common");
         } else {
@@ -45,14 +43,6 @@ class StaticPath {
      * @memberof StaticPath
      */
     __common: string;
-
-    /**
-     * 增量更新文件夹
-     *
-     * @type {string}
-     * @memberof StaticPath
-     */
-    __updateFolder: string;
 }
 
 const staticPath = new StaticPath();
@@ -78,13 +68,8 @@ export const winURL = getUrl("", pathJoin(__dirname, "..", "renderer", "index.ht
 
 export const loadingURL = getUrl("/loader.html", `${staticPath.__static}/loader.html`);
 
-export const printURL = getUrl("", pathJoin(__dirname, "..", "renderer", "index.html"), "#/Print");
-
-export const preloadPath = isDev ? pathJoin(app.getAppPath(), "..", "preload.js") : pathJoin(app.getAppPath(), "dist", "electron", "preload.js");
-
 export const lib = staticPath.__lib;
 export const common = staticPath.__common;
-export const updateFolder = staticPath.__updateFolder;
 export const staticPaths = getUrl("", staticPath.__static);
 
 // process.env 修改
