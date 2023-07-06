@@ -28,17 +28,18 @@ if (process.env.NODE_ENV === "development") {
     app.setAppUserModelId(userConfig.clientConfig.appId);
 }
 
-if (process.defaultApp) {
-    if (process.argv.length >= 2) {
-        app.removeAsDefaultProtocolClient("reolink");
-        console.log("由于框架特殊性开发环境下无法使用");
-    }
-} else {
+if (app.isPackaged) {
     app.setAsDefaultProtocolClient("reolink");
+} else {
+    app.removeAsDefaultProtocolClient("reolink");
+    console.log("由于框架特殊性开发环境下无法使用");
 }
 
 // 由于9.x版本问题，需要加入该配置关闭跨域问题
 app.commandLine.appendSwitch("disable-features", "OutOfBlinkCors");
+
+addAppEventListeners();
+
 function onAppReady() {
     if (process.env.NODE_ENV === "development") {
         const { VUEJS3_DEVTOOLS } = require("electron-devtools-vendor");
@@ -49,6 +50,7 @@ function onAppReady() {
     }
     new InitWindow().createMainWindow();
 }
+
 app.whenReady().then(onAppReady);
 
 function addAppEventListeners() {
@@ -137,5 +139,3 @@ function addAppEventListeners() {
         // quitManager.handlerAtQuit();
     });
 }
-
-addAppEventListeners();
