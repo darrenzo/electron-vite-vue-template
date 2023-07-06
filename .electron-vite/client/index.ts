@@ -5,8 +5,6 @@ export { ludafarm } from "./ludafarm";
 export { russia } from "./russia";
 export { uniden } from "./uniden";
 
-import type { DotenvParseOutput } from "dotenv";
-
 export type TConfigClient = "factory" | "china" | "reolink" | "ludafarm" | "russia" | "uniden";
 
 export interface IClientConfig {
@@ -44,9 +42,4 @@ export interface IClientConfig {
     needAccount: boolean;
     useBlazUid: boolean;
     limitCountryCode: string;
-}
-
-export interface IEnvClientConfig {
-    envConfig: DotenvParseOutput | undefined;
-    clientConfig: IClientConfig;
 }

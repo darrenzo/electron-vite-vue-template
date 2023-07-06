@@ -1,1 +1,1 @@
-export type { TConfigClient, IClientConfig, IEnvClientConfig } from "@/../.electron-vite/client";
+export type { IEnvClientConfig } from "@/../.electron-vite/utils";

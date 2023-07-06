@@ -5,7 +5,7 @@ import electronDl from "electron-dl";
 import ElectronLog from "electron-log";
 // import { quitManager } from "./services/quitManager";
 import InitWindow from "./services/windowManager";
-import type { IEnvClientConfig } from "@/../.electron-vite/utils";
+import type { IClient } from "@assets/types";
 
 crashReporter.start({
     productName: "reolink",
@@ -24,7 +24,7 @@ electronDl();
 if (process.env.NODE_ENV === "development") {
     app.setAppUserModelId(process.execPath);
 } else {
-    const userConfig = JSON.parse(UserConfigStr) as IEnvClientConfig;
+    const userConfig = JSON.parse(UserConfigStr) as IClient.IEnvClientConfig;
     app.setAppUserModelId(userConfig.clientConfig.appId);
 }
 
