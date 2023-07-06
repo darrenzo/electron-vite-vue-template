@@ -1,20 +1,22 @@
 import { join } from "path";
 import { defineConfig } from "vite";
 import vuePlugin from "@vitejs/plugin-vue";
-import { getEnvConfig } from "./utils/envManager";
+import { getEnvClientConfig } from "./utils";
 
 function resolve(dir: string) {
     return join(__dirname, "..", dir);
 }
-const envConfig = getEnvConfig();
+const envClientConfig = getEnvClientConfig();
 
 const rendererPath = resolve("src/renderer");
+
+console.log("vite process.env.NODE_ENV", process.env.NODE_ENV);
 
 export default defineConfig({
     mode: process.env.NODE_ENV,
     root: rendererPath,
     define: {
-        __CONFIG__: envConfig
+        __CONFIG__: envClientConfig
     },
     resolve: {
         alias: {

@@ -13,16 +13,7 @@ import { okayLog, errorLog, doneLog } from "./utils/chalkLog";
 const mainOpt = rollupOptions(process.env.NODE_ENV);
 
 async function clean() {
-    await deleteAsync([
-        "dist/electron/main/*",
-        "dist/electron/renderer/*",
-        "dist/web/*",
-        "build/*",
-        "!build/icons",
-        "!build/lib",
-        "!build/lib/electron-build.*",
-        "!build/icons/icon.*"
-    ]);
+    await deleteAsync(["dist/*", "build/*"]);
     console.log(`\n${doneLog}clear done`);
     if (process.env.BUILD_TARGET === "onlyClean") process.exit();
 }

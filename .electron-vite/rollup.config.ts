@@ -9,12 +9,13 @@ import esbuild from "rollup-plugin-esbuild";
 import obfuscator from "rollup-plugin-obfuscator";
 import { defineConfig } from "rollup";
 import { dependencies } from "../package.json";
-import { getEnvConfig } from "./utils/envManager";
+import { getEnvClientConfig } from "./utils";
 
-const envConfig = getEnvConfig();
+const envClientConfig = getEnvClientConfig();
 
 const rootResolve = (...pathSegments: string[]) => pathJoin(__dirname, "..", ...pathSegments);
 
+// 在此处获取process.env.NODE_ENV恒为undefined
 export default (env = "production") => {
     return defineConfig({
         input: rootResolve("src/main/index.ts"),
@@ -27,7 +28,7 @@ export default (env = "production") => {
         plugins: [
             replace({
                 preventAssignment: true,
-                "process.env.userConfig": envConfig ? JSON.stringify(envConfig) : "{}"
+                UserConfigStr: JSON.stringify(envClientConfig)
             }),
             // 提供路径和读取别名
             nodeResolve({
