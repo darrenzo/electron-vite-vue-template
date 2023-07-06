@@ -1,9 +1,14 @@
 {
     "extends": "@tsconfig/node18/tsconfig.json",
-    "include": [".electron-vite/**/*", "config/**/*", "./package.json"],
+    "include": [".electron-vite/**/*", "config/**/*", "assets/**/*", "./package.json"],
     "compilerOptions": {
         "composite": true,
         "types": ["node"],
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "paths": {
+            "@assets/*": ["assets/*"],
+            "@config/*": ["config/*"]
+        }
     }
 }

@@ -63,6 +63,7 @@ export default (env = "production") => {
             }),
             alias({
                 entries: [
+                    { find: "@assets", replacement: rootResolve("src/assets") },
                     { find: "@main", replacement: rootResolve("src/main") },
                     { find: "@config", replacement: rootResolve("config") }
                 ]

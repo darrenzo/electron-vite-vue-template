@@ -5,5 +5,12 @@ declare module "*.vue" {
 }
 
 declare const __CONFIG__: {
-    [key: string]: string;
+    envConfig:
+        | {
+              [key: string]: string;
+          }
+        | undefined;
+    clientConfig: {
+        [key: string]: string;
+    };
 };

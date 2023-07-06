@@ -4,6 +4,7 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
+            "@assets/*": ["src/assets/*"],
             "@config/*": ["config/*"],
             "@renderer/*": ["src/renderer/*"],
             "@main/*": ["src/main/*"]
