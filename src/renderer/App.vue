@@ -1,6 +1,5 @@
-<!-- eslint-disable vue/singleline-html-element-content-newline -->
 <template>
-    <div>{{ title }}</div>
+    <div>store: {{ title }}</div>
     <div class="router-box">
         <router-link
             v-slot="{ navigate }"
@@ -20,8 +19,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-const title = ref("reolink");
+import { computed } from "vue";
+import { useTemplateStore } from "./store";
+const templateStore = useTemplateStore();
+const title = computed(() => templateStore.crrRouteName);
 </script>
 
 <style lang="less" scoped>

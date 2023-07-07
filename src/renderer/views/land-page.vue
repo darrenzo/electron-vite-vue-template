@@ -6,7 +6,10 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
+import { useTemplateStore } from "../store";
 const title = ref("land-page");
+const templateStore = useTemplateStore();
+templateStore.setCrrRouteName(title.value);
 </script>
 
 <style scoped lang="less">
