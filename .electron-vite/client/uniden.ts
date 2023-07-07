@@ -9,7 +9,8 @@ export const uniden: IClientConfig = {
     identityName: "UNIDEN AUSTRALIA PTY. LIMITED (47V9C97WG7)",
 
     cdn: "https://home-cdn.reolink.us/wp-content/assets/app",
-    remoteBaseConfigUrl: "https://uniden.com.au/wp-content/uploads/Mac-UnidenSolo-V2/",
+    remoteBaseConfigUrl:
+        "https://uniden.com.au/wp-content/uploads/Mac-UnidenSolo-V2/",
     publishUrl: "https://uniden.com.au/wp-content/uploads/Mac-UnidenSolo-V2/",
 
     facebookUrl: "https://www.facebook.com/Uniden/",

@@ -13,7 +13,8 @@ import { getEnvClientConfig } from "./utils";
 
 const envClientConfig = getEnvClientConfig();
 
-const rootResolve = (...pathSegments: string[]) => pathJoin(__dirname, "..", ...pathSegments);
+const rootResolve = (...pathSegments: string[]) =>
+    pathJoin(__dirname, "..", ...pathSegments);
 
 // 在此处获取process.env.NODE_ENV恒为undefined
 export default (env = "production") => {
@@ -68,7 +69,9 @@ export default (env = "production") => {
                     { find: "@config", replacement: rootResolve("config") }
                 ]
             }),
-            process.env.NODE_ENV === "production" ? obfuscator({ global: true }) : null
+            process.env.NODE_ENV === "production"
+                ? obfuscator({ global: true })
+                : null
         ],
         external: [...builtinModules, ...Object.keys(dependencies), "electron"]
     });

@@ -13,26 +13,38 @@ class QuitManager {
             // 关闭软件时，需要停止本地录像并且生成录像文件，否则录像文件不会生成
             // windows在触发关机事件中没有可以延缓关机的api，所以本地录像计划无法保存住录像
             await record.closeLocalRecordSchedule();
-            printLog.debug("------------------ closeLocalRecordSchedule ---------------------------");
+            printLog.debug(
+                "------------------ closeLocalRecordSchedule ---------------------------"
+            );
         } catch (error) {
-            printLog.error("closeLocalRecordSchedule failed: ", errorManager.errorToJson(error));
+            printLog.error(
+                "closeLocalRecordSchedule failed: ",
+                errorManager.errorToJson(error)
+            );
         }
     }
 
     private stopAllLiveRecord() {
         return Promise.allSettled(
             playerManager.playersInfo.map((info) => {
-                const device = deviceManager.getDeviceWithHandle(info.deviceHandle);
+                const device = deviceManager.getDeviceWithHandle(
+                    info.deviceHandle
+                );
                 if (!device) {
                     return;
                 }
 
-                const channel = device.getChannelAtChannelIndex(info.channelIndex);
+                const channel = device.getChannelAtChannelIndex(
+                    info.channelIndex
+                );
                 if (!channel) {
                     return;
                 }
 
-                if (channel.live.recordState === BCSDK_RECORD_STATE_E.BCSDK_RECORD_STATE_CLOSED) {
+                if (
+                    channel.live.recordState ===
+                    BCSDK_RECORD_STATE_E.BCSDK_RECORD_STATE_CLOSED
+                ) {
                     return;
                 }
 
@@ -45,14 +57,20 @@ class QuitManager {
         try {
             electronStorage.saveStore();
         } catch (error) {
-            printLog.error("electronStorage saveStore failed: ", errorManager.errorToJson(error));
+            printLog.error(
+                "electronStorage saveStore failed: ",
+                errorManager.errorToJson(error)
+            );
         }
     }
 
     public async handlerBeforeQuit() {
         this.saveElectronStorage();
 
-        await Promise.allSettled([this.closeLocalRecordSchedule(), this.stopAllLiveRecord()]);
+        await Promise.allSettled([
+            this.closeLocalRecordSchedule(),
+            this.stopAllLiveRecord()
+        ]);
     }
 
     private handlerBeforeQuitAlready = false;

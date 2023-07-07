@@ -37,7 +37,9 @@ function info() {
         title: "关于",
         type: "info",
         message: "reolink",
-        detail: `版本信息：${packageInfo.version}\n引擎版本：${process.versions.v8}\n当前系统：${type()} ${arch()} ${release()}`,
+        detail: `版本信息：${packageInfo.version}\n引擎版本：${
+            process.versions.v8
+        }\n当前系统：${type()} ${arch()} ${release()}`,
         noLink: true,
         buttons: ["查看github", "确定"]
     });

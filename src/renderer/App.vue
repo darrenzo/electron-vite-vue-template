@@ -1,26 +1,40 @@
+<!-- eslint-disable vue/singleline-html-element-content-newline -->
 <template>
-    <div>aaaaaa</div>
-    <div>
-        <span
-            aa="1"
-            bb="2"
-        />
+    <div>{{ title }}</div>
+    <div class="router-box">
+        <router-link
+            v-slot="{ navigate }"
+            to="/land-page"
+            custom
+        >
+            <span
+                class="icon-toolbar_low"
+                @click="navigate"
+            >
+                land-page
+            </span>
+        </router-link>
+        <router-link to="/other-page"> other-page </router-link>
     </div>
+    <router-view />
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ref } from "vue";
+const title = ref("reolink");
+</script>
 
-<style lang="less">
-.flex() {
-    display: flex;
-    align-items: center;
-}
-
-.flex-a {
+<style lang="less" scoped>
+.router-box {
     .flex();
-}
 
-img {
-    width: 40px;
+    .icon-toolbar_low {
+        color: @color_warn_active;
+    }
+
+    a {
+        margin-left: 10px;
+        color: @color_warn;
+    }
 }
 </style>

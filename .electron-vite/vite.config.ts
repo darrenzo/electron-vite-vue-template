@@ -10,7 +10,8 @@ const envClientConfig = getEnvClientConfig();
 
 const rendererPath = resolve("src/renderer");
 
-console.log("vite process.env.NODE_ENV", process.env.NODE_ENV);
+const varPath = resolve("src/renderer/style/variable.less");
+const mixinPath = resolve("src/renderer/style/mixin.less");
 
 export default defineConfig({
     mode: process.env.NODE_ENV,
@@ -31,6 +32,14 @@ export default defineConfig({
         target: "esnext",
         minify: "esbuild",
         cssCodeSplit: false
+    },
+    css: {
+        preprocessorOptions: {
+            less: {
+                additionalData: `@import '${varPath}';@import '${mixinPath}';`,
+                javascriptEnabled: true
+            }
+        }
     },
     plugins: [vuePlugin()],
     server: {},

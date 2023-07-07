@@ -7,12 +7,19 @@ const isDev = process.env.NODE_ENV === "development";
 
 class StaticPath {
     constructor() {
-        const basePath = isDev ? pathJoin(__dirname, "..", "..", "..") : pathJoin(app.getAppPath(), "..", "..");
+        const basePath = isDev
+            ? pathJoin(__dirname, "..", "..", "..")
+            : pathJoin(app.getAppPath(), "..", "..");
 
         if (isDev) {
             this.__static = pathJoin(basePath, "public");
 
-            this.__lib = pathJoin(basePath, "rootLib", `${process.platform}`, `${process.arch}`);
+            this.__lib = pathJoin(
+                basePath,
+                "rootLib",
+                `${process.platform}`,
+                `${process.arch}`
+            );
             this.__common = pathJoin(basePath, "rootLib", "common");
         } else {
             this.__static = pathJoin(__dirname, "..", "renderer");
@@ -56,17 +63,30 @@ const staticPath = new StaticPath();
  * @param {string} [search=''] search值
  * @return {*}  {string} 地址
  */
-function getUrl(devPath: string, proPath: string, hash = "", search = ""): string {
-    const url = isDev ? new URL(`http://localhost:${process.env.PORT}`) : new URL("file://");
+function getUrl(
+    devPath: string,
+    proPath: string,
+    hash = "",
+    search = ""
+): string {
+    const url = isDev
+        ? new URL(`http://localhost:${process.env.PORT}`)
+        : new URL("file://");
     url.pathname = isDev ? devPath : proPath;
     url.hash = hash;
     url.search = search;
     return url.href;
 }
 
-export const winURL = getUrl("", pathJoin(__dirname, "..", "renderer", "index.html"));
+export const winURL = getUrl(
+    "",
+    pathJoin(__dirname, "..", "renderer", "index.html")
+);
 
-export const loadingURL = getUrl("/loader.html", `${staticPath.__static}/loader.html`);
+export const loadingURL = getUrl(
+    "/loader.html",
+    `${staticPath.__static}/loader.html`
+);
 
 export const lib = staticPath.__lib;
 export const common = staticPath.__common;

@@ -38,7 +38,9 @@ export interface BaseDataStruct<T> {
     data: T;
 }
 
-const requestPlus = async <D, T>(params: AxiosRequestConfig<T>): Promise<BaseDataStruct<D>> => {
+const requestPlus = async <D, T>(
+    params: AxiosRequestConfig<T>
+): Promise<BaseDataStruct<D>> => {
     return await serves(params);
 };
 

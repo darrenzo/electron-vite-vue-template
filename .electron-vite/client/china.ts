@@ -13,7 +13,8 @@ export const china: IClientConfig = {
     publishUrl: "https://web-cdn.reolink.com.cn/app/client/electron-cn/",
 
     sinaUrl: "https://www.weibo.com/u/6891302480",
-    tencentUrl: "https://home.cdn.reolink.com.cn/wp-content/uploads/2019/09/qr-code-big-footer.png",
+    tencentUrl:
+        "https://home.cdn.reolink.com.cn/wp-content/uploads/2019/09/qr-code-big-footer.png",
 
     facebookUrl: "",
     twitterUrl: "",

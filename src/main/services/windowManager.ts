@@ -1,6 +1,12 @@
 import setIpc from "./ipcMain";
 import menuconfig from "../config/menu";
-import { app, BrowserWindow, Menu, dialog, type MenuItemConstructorOptions } from "electron";
+import {
+    app,
+    BrowserWindow,
+    Menu,
+    dialog,
+    type MenuItemConstructorOptions
+} from "electron";
 import { winURL } from "../config/StaticPath";
 import { mainWindowConfig } from "../config/windowsConfig";
 
@@ -29,7 +35,9 @@ class MainInit {
     createMainWindow() {
         this.mainWindow = new BrowserWindow(mainWindowConfig);
         // 赋予模板
-        const menu = Menu.buildFromTemplate(menuconfig as MenuItemConstructorOptions[]);
+        const menu = Menu.buildFromTemplate(
+            menuconfig as MenuItemConstructorOptions[]
+        );
         // 加载模板
         Menu.setApplicationMenu(menu);
         // 加载主窗口
@@ -67,7 +75,8 @@ class MainInit {
                 case "killed":
                     message.title = "警告";
                     message.buttons = ["确定", "退出"];
-                    message.message = "由于未知原因导致图形化进程被终止，是否进行软重启操作？";
+                    message.message =
+                        "由于未知原因导致图形化进程被终止，是否进行软重启操作？";
                     break;
                 case "oom":
                     message.title = "警告";
@@ -136,12 +145,14 @@ class MainInit {
                         case "crashed":
                             message.title = "警告";
                             message.buttons = ["确定", "退出"];
-                            message.message = "硬件加速进程已崩溃，是否关闭硬件加速并重启？";
+                            message.message =
+                                "硬件加速进程已崩溃，是否关闭硬件加速并重启？";
                             break;
                         case "killed":
                             message.title = "警告";
                             message.buttons = ["确定", "退出"];
-                            message.message = "硬件加速进程被意外终止，是否关闭硬件加速并重启？";
+                            message.message =
+                                "硬件加速进程被意外终止，是否关闭硬件加速并重启？";
                             break;
                         default:
                             break;
@@ -165,7 +176,8 @@ class MainInit {
                     }
                     // 当显卡出现崩溃现象时使用该设置禁用显卡加速模式。
                     if (res.response === 0) {
-                        if (details.type === "GPU") app.disableHardwareAcceleration();
+                        if (details.type === "GPU")
+                            app.disableHardwareAcceleration();
                         this.mainWindow.reload();
                     } else {
                         this.mainWindow.close();

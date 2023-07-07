@@ -20,7 +20,9 @@ let manualRestart = false;
 function logStats(proc: string, data: any) {
     let log = "";
 
-    log += chalk.yellow.bold(`┏ ${proc} 编译过程 ${new Array(19 - proc.length + 1).join("-")}`);
+    log += chalk.yellow.bold(
+        `┏ ${proc} 编译过程 ${new Array(19 - proc.length + 1).join("-")}`
+    );
 
     log += "\n\n";
 
@@ -44,7 +46,11 @@ function logStats(proc: string, data: any) {
 function removeJunk(chunk: string) {
     if (config.dev.removeElectronJunk) {
         // Example: 2018-08-10 22:48:42.866 Electron[90311:4883863] *** WARNING: Textured window <AtomNSWindow: 0x7fb75f68a770>
-        if (/\d+-\d+-\d+ \d+:\d+:\d+\.\d+ Electron(?: Helper)?\[\d+:\d+] /.test(chunk)) {
+        if (
+            /\d+-\d+-\d+ \d+:\d+:\d+\.\d+ Electron(?: Helper)?\[\d+:\d+] /.test(
+                chunk
+            )
+        ) {
             return false;
         }
 
@@ -69,7 +75,13 @@ function mainProcessLog(data: any, color: "blue" | "red") {
         data.forEach((line: string) => {
             log += `  ${line}\n`;
         });
-        console.log(chalk[color].bold("┏ 主程序日志 -------------------") + "\n\n" + log + chalk[color].bold("┗ ----------------------------") + "\n");
+        console.log(
+            chalk[color].bold("┏ 主程序日志 -------------------") +
+                "\n\n" +
+                log +
+                chalk[color].bold("┗ ----------------------------") +
+                "\n"
+        );
     }
 }
 
@@ -85,7 +97,9 @@ function startRendererServer(): Promise<void> {
             });
             process.env.PORT = `${port}`;
             await server.listen(port);
-            console.log("\n\n" + chalk.blue("  正在准备主进程，请等待...") + "\n\n");
+            console.log(
+                "\n\n" + chalk.blue("  正在准备主进程，请等待...") + "\n\n"
+            );
             resolve();
         });
     });
@@ -124,7 +138,10 @@ function startMainWatcher(): Promise<void> {
 }
 
 function startElectroProcess() {
-    let args = ["--inspect=5858", join(__dirname, "../dist/electron/main/main.js")];
+    let args = [
+        "--inspect=5858",
+        join(__dirname, "../dist/electron/main/main.js")
+    ];
 
     // detect yarn or npm and process command line args accordingly
 

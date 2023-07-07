@@ -54,10 +54,14 @@ async function unionBuild() {
                 task: async () => {
                     try {
                         const rollupBuild = await rollup(mainOpt);
-                        await rollupBuild.write(mainOpt.output as OutputOptions);
+                        await rollupBuild.write(
+                            mainOpt.output as OutputOptions
+                        );
                     } catch (error) {
                         console.error(`\n${error}\n`);
-                        console.log(`\n  ${errorLog}failed to build main process`);
+                        console.log(
+                            `\n  ${errorLog}failed to build main process`
+                        );
                         process.exit(1);
                     }
                 }
@@ -69,10 +73,14 @@ async function unionBuild() {
                         await viteBuild({
                             configFile: pathJoin(__dirname, "vite.config.ts")
                         });
-                        tasks.output = `${okayLog}take it away ${chalk.yellow("`electron-builder`")}\n`;
+                        tasks.output = `${okayLog}take it away ${chalk.yellow(
+                            "`electron-builder`"
+                        )}\n`;
                     } catch (error) {
                         console.error(`\n${error}\n`);
-                        console.log(`\n  ${errorLog}failed to build renderer process`);
+                        console.log(
+                            `\n  ${errorLog}failed to build renderer process`
+                        );
                         process.exit(1);
                     }
                 },

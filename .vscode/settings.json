@@ -1,4 +1,13 @@
 {
-    "cSpell.words": ["besthelper", "cfonts", "esno", "helpertool", "listr", "rushstack", "rvest", "typecheck"],
+    "cSpell.words": [
+        "besthelper",
+        "cfonts",
+        "esno",
+        "helpertool",
+        "listr",
+        "rushstack",
+        "rvest",
+        "typecheck"
+    ],
     "i18n-ally.localesPaths": ["src/renderer/assets/locales"]
 }

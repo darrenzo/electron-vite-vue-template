@@ -5,7 +5,13 @@ export { ludafarm } from "./ludafarm";
 export { russia } from "./russia";
 export { uniden } from "./uniden";
 
-export type TConfigClient = "factory" | "china" | "reolink" | "ludafarm" | "russia" | "uniden";
+export type TConfigClient =
+    | "factory"
+    | "china"
+    | "reolink"
+    | "ludafarm"
+    | "russia"
+    | "uniden";
 
 export interface IClientConfig {
     appName: string;

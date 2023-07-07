@@ -1,7 +1,15 @@
 export * as chalkLog from "./chalkLog";
 
 import { DotenvParseOutput } from "dotenv";
-import { type IClientConfig, china, factory, ludafarm, reolink, russia, uniden } from "../client";
+import {
+    type IClientConfig,
+    china,
+    factory,
+    ludafarm,
+    reolink,
+    russia,
+    uniden
+} from "../client";
 import { clientConfigManager } from "./clientConfigManager";
 import { envManager } from "./envManager";
 
@@ -18,7 +26,13 @@ clientConfigManager.init(clientConfigs);
 
 export interface IEnvClientConfig {
     envConfig: DotenvParseOutput | undefined;
-    clientConfig: Omit<IClientConfig, "baseDevApiUrl" | "baseProApiUrl" | "baseDevApiV2Url" | "baseProApiV2Url"> & { baseApiUrl: string; baseApiV2Url: string };
+    clientConfig: Omit<
+        IClientConfig,
+        | "baseDevApiUrl"
+        | "baseProApiUrl"
+        | "baseDevApiV2Url"
+        | "baseProApiV2Url"
+    > & { baseApiUrl: string; baseApiV2Url: string };
 }
 
 export const getEnvClientConfig: () => IEnvClientConfig = () => {

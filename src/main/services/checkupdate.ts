@@ -73,7 +73,11 @@ class Update {
     }
 
     // 负责向渲染进程发送信息
-    Message(mainWindow: BrowserWindow, type: number, data?: string | ProgressInfo) {
+    Message(
+        mainWindow: BrowserWindow,
+        type: number,
+        data?: string | ProgressInfo
+    ) {
         const sendData = {
             state: type,
             msg: data || ""
