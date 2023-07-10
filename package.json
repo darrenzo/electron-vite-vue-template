@@ -19,9 +19,8 @@
         "dep:upgrade": "yarn upgrade-interactive --latest",
         "typecheck": "vue-tsc --noEmit",
         "commit": "cz",
-        "lint": "yarn lint:fix && yarn lint:format && yarn lint:style",
+        "lint": "yarn lint:fix && yarn lint:style",
         "lint:fix": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-        "lint:format": "prettier  --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json,vue}\" ",
         "lint:style": "stylelint ./**/*.{css,less,vue,html} --fix",
         "postinstall": "electron-builder install-app-deps",
         "prepare": "husky install"

@@ -13,7 +13,9 @@
                 land-page
             </span>
         </router-link>
-        <router-link to="/other-page"> other-page </router-link>
+        <router-link to="/other-page">
+            other-page
+        </router-link>
     </div>
     <router-view />
 </template>

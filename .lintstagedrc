@@ -1,6 +1,6 @@
 {
-    "*.{js,jsx,ts,tsx}": ["eslint --fix", "prettier --write --loglevel warn"],
-    "*.{less,css,html}": ["stylelint --fix", "prettier --write --loglevel warn"],
+    "*.{js,jsx,ts,tsx}": ["eslint --fix"],
+    "*.{less,css,html}": ["stylelint --fix"],
     "*.{yml,json,md}": ["prettier --write --loglevel warn"],
-    "*.vue": ["eslint --fix", "stylelint --fix", "prettier --write --loglevel warn"]
+    "*.vue": ["eslint --fix", "stylelint --fix"]
 }
