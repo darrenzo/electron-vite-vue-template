@@ -5,7 +5,7 @@ import chalk from "chalk";
 import { join } from "path";
 import { watch } from "rollup";
 import Portfinder from "portfinder";
-import config from "../config";
+import { DEV } from "../config";
 import { say } from "cfonts";
 import { spawn } from "child_process";
 import type { ChildProcess } from "child_process";
@@ -29,7 +29,7 @@ function logStats(proc: string, data: any) {
     if (typeof data === "object") {
         data.toString({
             colors: true,
-            chunks: false
+            chunks: false,
         })
             .split(/\r?\n/)
             .forEach((line: string) => {
@@ -44,7 +44,7 @@ function logStats(proc: string, data: any) {
 }
 
 function removeJunk(chunk: string) {
-    if (config.dev.removeElectronJunk) {
+    if (DEV.removeElectronJunk) {
         // Example: 2018-08-10 22:48:42.866 Electron[90311:4883863] *** WARNING: Textured window <AtomNSWindow: 0x7fb75f68a770>
         if (
             /\d+-\d+-\d+ \d+:\d+:\d+\.\d+ Electron(?: Helper)?\[\d+:\d+] /.test(
@@ -87,13 +87,13 @@ function mainProcessLog(data: any, color: "blue" | "red") {
 
 function startRendererServer(): Promise<void> {
     return new Promise((resolve, reject) => {
-        Portfinder.basePort = config.dev.port || 9080;
+        Portfinder.basePort = DEV.port || 9080;
         Portfinder.getPort(async (err, port) => {
             if (err) {
                 return reject("PortError:" + err);
             }
             const server = await createServer({
-                configFile: join(__dirname, "vite.config.ts")
+                configFile: join(__dirname, "vite.config.ts"),
             });
             process.env.PORT = `${port}`;
             await server.listen(port);
@@ -140,7 +140,7 @@ function startMainWatcher(): Promise<void> {
 function startElectroProcess() {
     let args = [
         "--inspect=5858",
-        join(__dirname, "../dist/electron/main/main.js")
+        join(__dirname, "../dist/electron/main/main.js"),
     ];
 
     // detect yarn or npm and process command line args accordingly
@@ -180,7 +180,7 @@ function greeting() {
         say(text, {
             colors: ["yellow"],
             font: "simple3d",
-            space: false
+            space: false,
         });
     } else {
         console.log(chalk.yellow.bold("\n  electron-vite"));

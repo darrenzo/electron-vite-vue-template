@@ -34,5 +34,5 @@ export const reolink: IClientConfig = {
     clientId: "",
     needAccount: false,
     useBlazUid: false,
-    limitCountryCode: ""
+    limitCountryCode: "",
 };

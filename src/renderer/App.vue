@@ -1,5 +1,5 @@
 <template>
-    <div>store: {{ title }}</div>
+    <div>store: {{ title }} --- {{ t("common_ipc") }}</div>
     <div class="router-box">
         <router-link
             v-slot="{ navigate }"
@@ -9,9 +9,7 @@
             <span
                 class="icon-toolbar_low"
                 @click="navigate"
-            >
-                land-page
-            </span>
+            > land-page </span>
         </router-link>
         <router-link to="/other-page">
             other-page
@@ -23,8 +21,10 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { useTemplateStore } from "./store";
+import { useI18n } from "vue-i18n";
 const templateStore = useTemplateStore();
 const title = computed(() => templateStore.crrRouteName);
+const { t } = useI18n();
 </script>
 
 <style lang="less" scoped>

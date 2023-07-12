@@ -1,0 +1,3821 @@
+{
+    "reolink_sidebar_page_terms_link": "https://m.reolink.com/terms-conditions/",
+
+    "reolink_sidebar_page_privacy_link": "https://m.reolink.com/privacy-policy/",
+
+    "app_language_mark": "zh-cn",
+
+    "common_ipc": "摄像机",
+
+    "common_bind_ipc": "绑定摄像机",
+
+    "common_bind_view": "绑定",
+
+    "common_no_camera_bound": "您还没有绑定任何摄像机",
+
+    "common_unbind": "解绑",
+
+    "common_login_passowrd_or_usernam_error": "用户名或者密码错误",
+
+    "common_dialog_ok_button": "确定",
+
+    "common_dialog_done_button": "完成",
+
+    "common_dialog_save_button": "保存",
+
+    "common_dialog_cancel_button": "取消",
+
+    "common_hide_button": "隐藏",
+
+    "common_dialog_retry_button": "重试",
+
+    "common_i_got_it_button": "知道了",
+
+    "common_dialog_exit": "退出",
+
+    "common_default_device_name": "我的设备",
+
+    "common_channel": "通道",
+
+    "common_loading_info": "加载中，请稍候...",
+
+    "common_load_failed": "加载失败，请点击重试",
+
+    "common_operate_failed": "操作失败",
+
+    "common_operate_failed_title": "操作失败",
+
+    "common_not_support_character": "请输入有效字符",
+
+    "common_load_info_not_support": "不支持",
+
+    "common_load_info_not_supported": "不支持",
+
+    "common_skip": "跳过",
+
+    "common_default": "默认",
+
+    "common_week_sunday": "周日",
+
+    "common_week_monday": "周一",
+
+    "common_week_tuesday": "周二",
+
+    "common_week_wednesday": "周三",
+
+    "common_week_thursday": "周四",
+
+    "common_week_friday": "周五",
+
+    "common_week_saturday": "周六",
+
+    "common_clarity_stream_clear": "清晰",
+
+    "common_clarity_stream_fluent": "流畅",
+
+    "common_clarity_stream_balanced": "均衡",
+
+    "common_username_description": "用户名",
+
+    "common_username_placeholder": "输入用户名",
+
+    "common_delete_user": "删除用户",
+
+    "common_password_password_description": "密码",
+
+    "common_password_confirm_password_description": "确认密码",
+
+    "common_password_enter_password_button": "输入密码",
+
+    "common_password_password_placeholder": "请输入密码",
+
+    "common_password_comfirm_password_placeholder": "输入确认密码",
+
+    "common_mailbox_mailbox_description": "邮箱",
+
+    "common_view_wifi_placeholder": "Wi-Fi名称",
+
+    "common_cloud_cloud_storage": "云存储",
+
+    "common_view_upgrading": "正在升级",
+
+    "common_view_upgrade_button": "升级",
+
+    "common_view_upgrade_complete": "升级完成",
+
+    "common_view_nickname_placeholder": "输入昵称",
+
+    "common_view_name": "名称",
+
+    "common_view_name_placeholder": "输入名称",
+
+    "common_uid_placeholder": "输入 UID",
+
+    "common_ip_placeholder": "输入 IP",
+
+    "common_view_string_length_maximum_limit": "最多输入{s1}个字符",
+
+    "common_view_string_length_minimum_limit": "至少输入{s1}个字符",
+
+    "common_view_string_cannot_be_blank": "此项不能为空",
+
+    "common_privacy_statement": "声明与条款",
+
+    "common_volume": "话筒音量",
+
+    "common_learn_more": "了解更多",
+
+    "common_enable": "启用",
+
+    "common_enabled": "已启用",
+
+    "common_view_button": "查看",
+
+    "common_disable": "禁用",
+
+    "common_disabled": "已禁用",
+
+    "common_type": "类型",
+
+    "common_view_help": "帮助",
+
+    "common_view_none": "无",
+
+    "common_view_custom": "自定义",
+
+    "common_view_edit_button": "编辑",
+
+    "common_view_on_button": "开",
+
+    "common_view_more": "更多",
+
+    "common_view_schedule": "计划",
+
+    "common_view_auto": "自动",
+
+    "common_view_pen": "笔",
+
+    "common_view_eraser": "橡皮",
+
+    "common_view_all_button": "全部",
+
+    "common_view_storage": "存储",
+
+    "common_view_settings": "设置",
+
+    "common_view_close": "关闭",
+
+    "common_view_finish": "结束",
+
+    "common_view_synchronize": "同步",
+
+    "common_add": "添加",
+
+    "common_view_delete_button": "删除",
+
+    "common_whether_sure_delete_selected_file": "确认删除选中的文件？",
+
+    "common_view_manual_input": "手动输入",
+
+    "common_smart_home": "智能家居",
+
+    "common_server_address": "服务器地址",
+
+    "account_center_account_sigin_privacy_policy_and_terms": "我已阅读并理解{s1}和{s2}",
+
+    "account_center_account_login_title": "登录",
+
+    "account_center_account_login_forget_password": "忘记密码",
+
+    "account_center_account_login_failed": "登录失败",
+
+    "account_center_account_login_too_much": "操作过于频繁，请于{s1}后再次尝试",
+
+    "setup_wizard_i_heard_it": "我听到了",
+
+    "setup_wizard_create_password_page_name_device_placeholder_not_ipc": "请为您的设备命名",
+
+    "device_init_setup_wizard_device_settings_title": "设备设置",
+
+    "device_init_setup_wizard_wifi_settings_title": "Wi-Fi设置",
+
+    "device_init_setup_wizard_wifi_settings_selecte_wifi": "请选择设备要连接的Wi-Fi",
+
+    "device_init_setup_wizard_wifi_settings_input_password": "输入密码",
+
+    "device_init_setup_wizard_synchronize_settings_help_step_1": "1. 用网线将有问题的摄像机与NVR进行连接。",
+
+    "device_init_setup_wizard_synchronize_settings_help_step_5": "2. 请用摄像机扫描手机上二维码，直至听到\"扫描成功\"。",
+
+    "device_init_setup_wizard_finish_title": "初始化完成",
+
+    "device_init_setup_wizard_finish_tip": "如果您需要更多的配置，请到{s1}进行配置。",
+
+    "player_views_channel_selection_page_video_loss_state": "视频丢失",
+
+    "live_page_toolbar_alarm_manual_dialog_meassage": "触发声音报警",
+
+    "live_page_toolbar_ptz_cruise": "巡航",
+
+    "live_page_toolbar_ptz_cruise_limit": "巡航点达到上限",
+
+    "live_page_toolbar_preset_set_max_positions": "最多标记{s1}个位置",
+
+    "live_page_toolbar_talk_opening": "正在打开对讲",
+
+    "live_page_toolbar_talk_open_failed": "打开对讲失败",
+
+    "live_page_toolbar_clip_demon_description": "把矩形拖动到想要看清楚的位置",
+
+    "remote_playback_enter_not_support": "此设备不支持回放",
+
+    "remote_playback_enter_not_mount": "未接硬盘",
+
+    "remote_playback_enter_not_mount_sdcard": "未检测到摄像机SD卡",
+
+    "device_login_dialog_titile": "设备登录",
+
+    "device_pir_settings_enable_pir": "开启 PIR",
+
+    "device_reset_dialog_reset_button": "重置设备",
+
+    "device_scene_page_scene_name": "场景名称",
+
+    "sidebar_account_page_title": "账号资料",
+
+    "sidebar_account_page_log_out_button": "退出登录",
+
+    "sidebar_account_modify_password_page_old_password_placeholder": "输入旧密码",
+
+    "sidebar_account_modify_password_page_new_password_placeholder": "输入新密码",
+
+    "sidebar_account_change_mailbox_page_mailbox_placeholder": "输入新邮箱",
+
+    "sidebar_cloud_video_page_no_file": "无文件",
+
+    "sidebar_cloud_video_page_deleting": "正在删除",
+
+    "sidebar_cloud_video_edit_page_name_placeholder": "输入视频名称",
+
+    "sidebar_about_page_app_about_us_item": "关于我们",
+
+    "sidebar_follow_us_page_title": "关注我们",
+
+    "sidebar_about_app_version_page_update": "立即升级",
+
+    "sidebar_settings_page_live_when_app_start_title": "自动预览",
+
+    "auto_switch_server_item": "自动切换连接服务器",
+
+    "auto_switch_server_describe": "使用所有连接服务器，以提高摄像机连接的稳定性。",
+
+    "sidebar_settings_page_stretch_display": "拉伸显示",
+
+    "device_login_page_connecting": "正在连接到您的设备...",
+
+    "smart_config_wifi_page_do_hear_tip": "是否听到",
+
+    "smart_config_wifi_guide_page_start_wifi_config_button": "配置Wi-Fi",
+
+    "smart_config_wifi_guide_page_skip_wifi_config_button": "访问摄像机",
+
+    "smart_config_reset_page_reset_tip": "\"请运行手机软件，添加并配置摄像机\"",
+
+    "smart_config_wifi_settings_page_input_tip": "输入Wi-Fi信息",
+
+    "smart_config_scan_qr_code_page_scan_voice_prompt": "\"扫描成功，正在连接无线网络，请稍候\"",
+
+    "smart_config_wifi_test_page_step_tip": "摄像机正在连接路由器，请稍等…",
+
+    "smart_config_wifi_test_page_succeed_button": "连接路由器成功",
+
+    "smart_config_wifi_test_page_failed_button": "连接路由器失败",
+
+    "smart_config_reset_help_new_help_tip": "检查电池是否正确安装",
+
+    "smart_config_reset_help_page_reset_title": "没有听到声音提示？",
+
+    "smart_config_wifi_test_help_page_titile": "连接路由器失败？",
+
+    "smart_config_wifi_test_connection_failed_tip": "连接失败的可能原因",
+
+    "smart_config_wifi_test_help_page_tip": "如果您听到“Wi-Fi配置失败的可能”，原因如下",
+
+    "smart_config_wifi_test_help_page_password_error_tip": "您输入的Wi-Fi或者密码错误",
+
+    "smart_config_wifi_test_help_page_not_support_5g_tip": "本设备仅支持2.4 GHz Wi-Fi",
+
+    "smart_config_wifi_test_help_page_too_far_tip": "设备离路由器太远",
+
+    "smart_config_wifi_test_help_page_reconfigure_wifi_button": "重新配置Wi-Fi",
+
+    "base_add_camera_no_voice_help_page_tip": "未听到语音提示的可能原因如下：",
+
+    "base_add_camera_no_voice_help_page_not_support_tip": "只有电池机才支持语音提示功能。请查看您购买的产品品类是否正确",
+
+    "base_add_camera_no_voice_help_page_not_install_battery": "您的摄像机未正确安装上电池。",
+
+    "base_add_camera_no_voice_help_page_reset_help": "如果安装了电池还未听到语音，请长按重置按钮（如图），直到听到语音提示。",
+
+    "base_add_camera_connection_help_page_reconfig_button": "重新配置",
+
+    "base_cloud_name": "Base",
+
+    "remote_config_page_basic_info_device_name": "设备名称",
+
+    "remote_config_page_basic_info_push_label": "推送",
+
+    "remote_config_device_info_page_title": "设备信息",
+
+    "remote_config_page_video_section_quality_label": "画质",
+
+    "remote_config_page_video_section_sound_label": "录制声音",
+
+    "remote_config_page_video_section_sound_description": "关闭后，观看预览和回放时将无法听到声音",
+
+    "remote_config_page_storage_section_record_item_label": "摄像机录像",
+
+    "remote_config_page_alarm_section_alarm_tip": "报警设置",
+
+    "remote_config_page_alarm_section_md_settings_item_label": "移动侦测",
+
+    "remote_config_page_alarm_section_rf_settings_item_label": "PIR 设置",
+
+    "remote_config_page_account_section_user_manager_item_label": "用户管理",
+
+    "remote_config_page_led_section_title": "灯",
+
+    "remote_config_page_led_section_led_item_label": "红外灯",
+
+    "remote_config_page_tip_light_section_led_item_label": "状态灯",
+
+    "remote_config_page_notification_section_email_item_label": "邮件通知",
+
+    "remote_config_page_notification_section_email_settings_item_label": "邮件设置",
+
+    "remote_config_page_notification_section_push_item_describe": "当检测到移动事件或其它信息更新，发送推送通知手机",
+
+    "remote_config_page_notification_section_alarm_sound_item_label": "鸣笛",
+
+    "remote_config_page_notification_section_alarm_sound_buzzer_item_label": "蜂鸣器",
+
+    "remote_config_page_system_section_date_and_time_item_label": "日期和时间",
+
+    "display_page_title": "显示",
+
+    "display_page_text_background_label": "文字背景",
+
+    "display_page_watermark_label": "水印",
+
+    "osd_position_page_top_center": "中上",
+
+    "osd_position_page_top_left": "左上",
+
+    "osd_position_page_top_right": "右上",
+
+    "osd_position_page_bottom_center": "中下",
+
+    "osd_position_page_bottom_left": "左下",
+
+    "osd_position_page_bottom_right": "右下",
+
+    "display_advanced_page_anti_flicker_item_label": "抗闪烁",
+
+    "display_advanced_page_anti_flicker_item_50hz_label": "50HZ",
+
+    "display_advanced_page_anti_flicker_item_60hz_label": "60HZ",
+
+    "display_advanced_page_day_and_night_item_label": "白天和黑夜",
+
+    "display_advanced_page_day_and_night_item_black_and_white_label": "黑白",
+
+    "display_advanced_page_day_and_night_item_color_label": "彩色",
+
+    "display_advanced_page_backlight_item_3d_nr_label": "3D降噪",
+
+    "email_settings_page_sender_name_label": "发件人名称",
+
+    "email_settings_page_email_content": "邮件内容",
+
+    "email_attach_page_no_attach_item": "文字",
+
+    "email_attach_page_attach_picture_item": "图片",
+
+    "email_attach_page_attach_video_item": "视频和文字",
+
+    "email_attach_page_attach_picture_and_text_item": "图片和文字",
+
+    "email_server_page_other_server": "其他",
+
+    "email_server_page_ssl_label": "SSL or TLS",
+
+    "alarm_sound_page_title": "鸣笛声音",
+
+    "system_config_page_build_no": "编译版本",
+
+    "network_status_page_titile": "网络状态",
+
+    "wifi_config_page_titile": "Wi-Fi",
+
+    "wifi_config_page_wired_connection": "有线连接",
+
+    "wifi_config_page_wifi_current_section_title": "当前Wi-Fi",
+
+    "alarm_settings_page_enable_tip": "启动报警",
+
+    "alarm_siren_custom_settings_page_tap_to_start_record": "开始",
+
+    "alarm_siren_custom_settings_page_tap_to_stop_record": "结束",
+
+    "alarm_siren_custom_settings_page_audition_button": "试听",
+
+    "date_and_time_settings_page_time_format": "时间格式",
+
+    "date_and_time_settings_page_dst_settings_tip": "启用夏令时",
+
+    "date_and_time_settings_time_zone_page_title": "时区",
+
+    "date_and_time_settings_date_format_page_month_day_year": "MM/DD/YYYY",
+
+    "date_and_time_settings_date_format_page_year_month_day": "YYYY/MM/DD",
+
+    "date_and_time_settings_date_format_page_day_month_year": "DD/MM/YYYY",
+
+    "date_and_time_settings_dst_settings_page_title": "夏令时设置",
+
+    "date_and_time_settings_dst_settings_page_end_time_tip": "结束时间",
+
+    "date_and_time_settings_dst_settings_page_week_tip": "星期",
+
+    "date_and_time_settings_dst_settings_offset_page_title": "偏移",
+
+    "date_and_time_settings_dst_settings_offset_page_offset_one_hour": "1小时",
+
+    "date_and_time_settings_dst_settings_offset_page_offset_two_hour": "2小时",
+
+    "date_and_time_settings_dst_settings_page_1_month_tip": "一月",
+
+    "date_and_time_settings_dst_settings_page_2_month_tip": "二月",
+
+    "date_and_time_settings_dst_settings_page_3_month_tip": "三月",
+
+    "date_and_time_settings_dst_settings_page_4_month_tip": "四月",
+
+    "date_and_time_settings_dst_settings_page_5_month_tip": "五月",
+
+    "date_and_time_settings_dst_settings_page_6_month_tip": "六月",
+
+    "date_and_time_settings_dst_settings_page_7_month_tip": "七月",
+
+    "date_and_time_settings_dst_settings_page_8_month_tip": "八月",
+
+    "date_and_time_settings_dst_settings_page_9_month_tip": "九月",
+
+    "date_and_time_settings_dst_settings_page_10_month_tip": "十月",
+
+    "date_and_time_settings_dst_settings_page_11_month_tip": "十一月",
+
+    "date_and_time_settings_dst_settings_page_12_month_tip": "十二月",
+
+    "date_and_time_settings_dst_settings_page_1st_tip": "第一个",
+
+    "date_and_time_settings_dst_settings_page_2nd_tip": "第二个",
+
+    "date_and_time_settings_dst_settings_page_3rd_tip": "第三个",
+
+    "date_and_time_settings_dst_settings_page_4th_tip": "第四个",
+
+    "date_and_time_settings_dst_settings_page_last_tip": "最后一个",
+
+    "remote_config_user_manager_page_admin_user": "管理员",
+
+    "remote_config_password_page_show_password": "显示密码",
+
+    "remote_config_password_page_new_password_tip": "新密码",
+
+    "battery_for_go_page_statistics_remaining_power": "剩余电量(%)",
+
+    "battery_page_statistics_allow_dialog_title": "电量使用统计",
+
+    "battery_page_statistics_close_button": "关闭统计",
+
+    "battery_page_statistics_close_dialog_message": "关闭统计，将停止对设备进行记录和统计，并删除相关数据。",
+
+    "common_schedule_page_select_time_tip_push": "在不同的时间段进行不同的推送设置",
+
+    "common_schedule_page_select_time_tip_sound": "在不同的时间段进行不同的声音设置",
+
+    "common_schedule_page_selecte_time": "选择的时间",
+
+    "common_schedule_page_repeat_dialog_every_day_description": "每天",
+
+    "ftp_upload_settings_page_ftp_server": "FTP 服务器",
+
+    "ftp_upload_settings_page_upload_directory": "上传目录",
+
+    "ftp_upload_settings_page_upload_content": "上传内容",
+
+    "ftp_upload_settings_page_upload_postpone": "FTP录像延长",
+
+    "help_config_page_add_devices_item_label": "自动添加设备",
+
+    "help_config_page_terms_item_label": "服务与条款",
+
+    "help_config_page_privacy_policy_item_label": "隐私政策",
+
+    "settings_help_system_status_item_label": "系统状态",
+
+    "common_click_for_help": "查看帮助",
+
+    "live_hdd_not_formatted_tip": "硬盘未进行格式化，本地回放功能无法使用。",
+
+    "remote_playback_setting_menu_sd_card_not_formatted_tip": "摄像机SD卡未进行格式化，该功能暂不可用。",
+
+    "hdd_config_page_no_sd_card_instruction_with_pic": "无SD卡时，本地回放功能无法使用，可将摄像机断电后，参照以下提示插入SD卡。",
+
+    "hdd_config_page_no_hdd_instruction_without_pic": "无硬盘时，本地回放功能无法使用，可将NVR断电，然后插入硬盘。",
+
+    "forget_pw_page_find_reset_hole": "1. 请找到设备上的重置按钮，长按5-10s进行重置。",
+
+    "forget_pw_page_find_reset_hole_longer_time": "1. 请找到设备上的重置按钮，长按5-10s进行重置。重置后设备将重启，需等待1分钟左右。",
+
+    "forget_pw_page_erase_info_in_device_without_cable": "2. 重置完成后Wi-Fi信息、设备的登录密码等信息会被清除，需重新进行相关配置。",
+
+    "forget_pw_page_erase_info_in_cable_device": "2. 重置完成后Wi-Fi信息、设备的登录密码等信息会被清除，请确保网络连接正常后再重新进行相关配置。",
+
+    "forget_pw_page_check_power_on": "请确保设备处于通电状态且网络连接正常。",
+
+    "forget_pw_page_check_reset": "请确保已进行设备重置。",
+
+    "forget_pw_page_instruction_img_failed": "图片获取失败",
+
+    "forget_pw_page_start_init_after_reset": "已重置",
+
+    "common_spotlight": "照明灯",
+
+    "live_spotlight_once_tip": "点击开启摄像机照明灯，{s1}s后将自动关闭（无报警情况下）。",
+
+    "remote_settings_spotlight_page_func_intro": "夜晚时开启照明灯画面呈现彩色模式，拍摄效果更佳。",
+
+    "remote_config_siren_describe": "检测到移动事件时，会自动鸣笛警示。",
+
+    "day_and_night_adjust_to_default_value": "恢复默认",
+
+    "app_launch_pw_hint": "输入APP启动密码",
+
+    "device_pw_hint": "输入设备登录密码",
+
+    "comon_confirm_login_pw_hint": "再次输入设备登录密码",
+
+    "enter_wifi_pw_hint": "Wi-Fi密码",
+
+    "device_scene_create_tips_next_button": "开始创建",
+
+    "add_device_wifi_not_set": "未配置Wi-Fi",
+
+    "add_device_wifi_not_set_describe": "首次添加摄像机、摄像机重置后选择",
+
+    "add_device_wifi_was_set": "已配置Wi-Fi",
+
+    "scan_setup_wifi_input_wifi_step_not_support_5g": "仅支持2.4 GHz Wi-Fi,不支持5 GHz Wi-Fi。",
+
+    "scan_setup_wifi_scan_step_scan_failed": "扫描失败？",
+
+    "scan_setup_wifi_fail_connect_device_tip": "尝试以下方法，然后重试连接：",
+
+    "scan_setup_wifi_fail_connect_device_tip_switch_mobile": "将手机网络切换到移动网络。",
+
+    "scan_setup_wifi_fail_connect_device_tip_put_closer": "将摄像机靠近路由器。",
+
+    "scan_setup_wifi_fail_connect_device_tip_reboot": "重启路由器或摄像机。",
+
+    "ir_light_usage": "红外补光灯，能让你在夜晚或光线较暗时拍出更清晰的影像。",
+
+    "ir_light_on": "红外灯亮起",
+
+    "ir_light_off": "红外灯关闭",
+
+    "ir_light_turn_on_tip": "光线较暗时自动开启，光线较亮时自动关闭。",
+
+    "remote_infrared_light_page_keep_off": "保持关闭",
+
+    "live_auto_focusing": "自动对焦中...",
+
+    "common_other": "其他",
+
+    "common_login_account_button": "登录",
+
+    "remote_config_page_ipc_push_label": "手机推送",
+
+    "remote_config_page_advanced_label": "高级设置",
+
+    "device_pir_settings_sensitivity_settings_page_sensitivity_high_describe": "灵敏度高，检测到细微的物体移动就报警，不放过任何风吹草动，如细小的蚊虫、较远的人等。",
+
+    "device_pir_settings_sensitivity_settings_page_sensitivity_mid_describe": "灵敏度中，检测到较大的物体移动就报警，如离得不远的人、宠物等。",
+
+    "device_pir_settings_sensitivity_settings_page_sensitivity_low_describe": "灵敏度低，检测到大型的物体移动才报警，如离得较近的人。",
+
+    "remote_settings_spotlight_page_light_off": "未开启照明灯",
+
+    "remote_settings_spotlight_page_light_on": "开启照明灯",
+
+    "remote_settings_spotlight_page_alarm_light": "报警时自动开启",
+
+    "remote_settings_spotlight_page_alarm_light_tip": "夜晚检测到报警事件时，照明灯将自动亮起，一段时间后自动关闭。",
+
+    "sidebar_settings_page_dark_mode_btn": "夜间模式",
+
+    "sidebar_settings_page_ios_dark_mode_entry": "外观",
+
+    "sidebar_settings_page_ios_light_mode": "日间模式",
+
+    "sidebar_settings_page_ios_dark_mode_follow_sys": "跟随系统",
+
+    "remote_config_page_wifi_item_reset": "重置网络",
+
+    "common_device": "设备",
+
+    "manual_trigger_sound_alarm": "声音报警",
+
+    "network_current_network": "当前网络",
+
+    "network_add_wifi": "设置无线网络",
+
+    "network_saved_wifi": "已保存的Wi-Fi",
+
+    "common_setup": "设置",
+
+    "device_login_page_connect_failed_msg": "请确保你的设备已启动并且已连接网络，再重试。",
+
+    "device_pir_settings_sensitivity_settings_page_only_one_saved_when_overlap": "如果重复设置同一段时间，以最后编辑的（排在上方卡片）为准。",
+
+    "smart_config_power_on_and_wait_prompt": "请给摄像机上电，等待声音提示。",
+
+    "smart_config_if_heard_voice": "我听到了摄像机发出的{s1}。",
+
+    "smart_config_camera_scan_code_with_some_distance": "请将摄像机对准二维码，保持约{s1}距离",
+
+    "smart_config_fail_sound": "失败音效",
+
+    "smart_config_ding_wait_for_scan_sound": "“叮-叮”声",
+
+    "smart_config_beep_scan_success_sound": "一声“哔”声",
+
+    "smart_config_20cm_8inches": "20厘米（8英寸）",
+
+    "smart_config_30cm_12inches": "30厘米（12英寸）",
+
+    "remote_config_page_nvr_channel_audio_and_light": "录音与灯光",
+
+    "add_device_prefer_wifi_connection": "选择Wi-Fi连接",
+
+    "add_device_prefer_wifi_connection_tip": "如果你选择让摄像机在Wi-Fi下工作，且未配置Wi-Fi信息，点击此处。",
+
+    "add_device_prefer_cable_connection": "选择网线连接",
+
+    "add_device_prefer_cable_connection_tip": "如果你选择让摄像机在网线下工作，点击此处。",
+
+    "add_device_network_already_config": "已配过 Wi-Fi 或已插网线？",
+
+    "add_device_network_already_config_tip": "点击此处。",
+
+    "common_ai_any_motion_option": "画面变动",
+
+    "common_ai_human_option": "人",
+
+    "common_ai_vehicle_option": "车",
+
+    "common_ai_animal_option": "动物",
+
+    "common_ai_face_option": "人脸",
+
+    "common_schedule_time_page_detection_tab": "报警",
+
+    "common_schedule_time_page_detection_type": "报警类型",
+
+    "common_schedule_time_page_regular_tab": "定时",
+
+    "timelapse_name": "延时摄影",
+
+    "common_no_sdcard_no_function": "未检测到 SD 卡，请关闭摄像机插入 SD 卡后再使用该功能。",
+
+    "common_sdcard_unformat_no_function": "SD 卡未格式化，请格式化后再使用该功能。",
+
+    "timelapse_describe": "延时摄影可将长时间的变化记录成一个短视频或图集。可用于快速查看建筑过程、日出等场景。",
+
+    "timelapse_party_scene": "聚会/行人/车流",
+
+    "timelapse_cloud_moving_scene": "云彩移动",
+
+    "timelapse_sunrise_scene": "日出",
+
+    "timelapse_sunset_scene": "日落",
+
+    "timelapse_blooming_scene": "花开",
+
+    "timelapse_construction_scene": "建筑过程",
+
+    "timelapse_starttime_now": "现在",
+
+    "timelapse_start_at_when": "拍摄间隔：{s1}",
+
+    "timelapse_scene_generating": "正在生成",
+
+    "timelapse_scene_starttime": "开始",
+
+    "timelapse_endtime": "结束",
+
+    "timelapse_generated_file": "已生成的文件：",
+
+    "timelapse_new_another_scene": "创建新的延时摄影",
+
+    "timelapse_end_task_dialog_msg": "结束后将不再进行拍摄，已生成的文件依然会保存。确认要结束吗？",
+
+    "timelapse_overwrite_files": "覆盖延时摄影",
+
+    "timelapse_overwrite_files_describe": "当存储空间满时，将覆盖最早的延时摄影文件。",
+
+    "timelapse_battery_consumption_tip": "请留意电量使用情况与低电量提醒并及时充电。可通过关闭 PIR 减少电量消耗。",
+
+    "timelapse_daily_period": "每天拍摄时段",
+
+    "timelapse_estimated_length": "预计视频时长：",
+
+    "timelapse_estimated_file_size": "预计文件大小：",
+
+    "timelapse_file_too_large": "文件太大？",
+
+    "timelapse_photo_num_exceeds": "提示：一天最多存储 {s1} 张照片，可缩短拍摄时长、增大间隔或更改为视频类型。",
+
+    "common_days": "天",
+
+    "common_hours": "小时",
+
+    "common_minutes": "分钟",
+
+    "common_video_file_type": "视频",
+
+    "common_photo_file_type": "图片",
+
+    "timelapse_file_too_large_help": "你可以通过降低清晰度或增大抓拍间隔来缩减作品的大小。",
+
+    "common_pause_sth": "暂停",
+
+    "common_continue": "继续",
+
+    "timelapse_cannot_cache_when_other_tasks_caching": "有其他延时摄影正在缓存，请稍后重试。",
+
+    "timelapse_no_end_time": "不限制",
+
+    "common_seconds": "秒",
+
+    "timelpase_cannot_change_quality_when_capturing_msg": "修改此画质前请先停止延时摄影，否则会导致延时摄影部分功能不可用。",
+
+    "timelapse_day_night_switch_title": "色彩变化提示",
+
+    "timelapse_day_night_switch_msg": "日出或日落时，画面会出现彩色模式和夜视模式的切换突变，可在预览界面的“更多”中选择“白天与黑夜”并切换成彩色或黑白。（注：调整后预览页面也会变化）",
+
+    "device_init_setup_wizard_name_device": "给设备命名",
+
+    "device_init_setup_wizard_enable_samba": "开启 {s1}。",
+
+    "common_samba_feature": "Samba",
+
+    "samba_enable_help_tip": "Samba 开启后，可在局域网的电脑上访问 {s1} 的内容，此服务建议在非公共场合使用。\n\n如何在 PC 设备中使用 Samba？\n打开Windows 资源管理器—输入“\\\\{s2}\" —点击回车键—输入用户名(admin)与密码(设备登录密码）\n\n如何在 Mac 中使用 Samba？\n打开 Finder—点击左上角“前往”—点击“连接服务器”—输入 \"smb://{s3}\" —”连接“—输入用户名(admin)与密码(设备登录密码）",
+
+    "device_init_setup_wizard_samba_disable_tip": "开启后可在 {s1} 的设置页中关闭。",
+
+    "base_bind_camera": "绑定摄像机",
+
+    "base_bind_camera_unsupport_camera": "有些摄像机暂不支持绑定到 {s1}。点击查看{s2}。",
+
+    "base_bind_camera_support_models": "支持的型号",
+
+    "base_bind_camera_no_support_camera_describe": "您的设备列表中没有可绑定的设备。",
+
+    "base_bind_camera_cloud_already_enbled_title": "已绑定云存储",
+
+    "base_bind_camera_will_unbind_another_base": "{s1}已被绑定到另一台{s2}上。是否改为绑定到这台{s3}上？",
+
+    "base_bind_camera_camera_bound_state": "已绑定",
+
+    "base_camera_bind_base_bind_failed": "绑定失败，请重试。",
+
+    "base_camera_management_upload_stream_type": "录像清晰度",
+
+    "base_storage_page_no_hdd_tip": "未接入 SD 卡或硬盘，无法使用上传与回放功能。可将 {s1} 断电后，参照以下提示插入 SD 卡或硬盘。",
+
+    "live_base_no_storage_tip": "未检测到存储介质，你可能无法使用回放功能。",
+
+    "playback_base_no_storage_tip": "{s1}的存储介质未进行格式化，本地回放功能无法使用。",
+
+    "app_launch_terms_agree": "我同意",
+
+    "app_launch_terms_disagree_exit": "不同意并退出",
+
+    "cloud_account_center_login_title": "欢迎使用{s1}",
+
+    "cloud_account_center_login_mobilephone_description": "手机验证后即可完成登录。",
+
+    "cloud_account_center_input_mobilephone_placeholder": "请输入手机号",
+
+    "cloud_account_center_input_sms_code": "请输入短信验证码",
+
+    "cloud_account_center_get_sms_code": "获取验证码",
+
+    "cloud_account_center_get_sms_code_after_seconds": "{s1}秒后重新获取",
+
+    "cloud_acocunt_center_wrong_sms_code": "验证码错误，请重新输入。",
+
+    "cloud_account_center_login_allow": "登录即同意{s1}{s2}和{s3}。",
+
+    "add_device_use_uid": "通过UID号添加摄像机",
+
+    "add_device_uid_description": "产品UID是摄像机的唯一标识符，可帮助您添加设备或查询设备相关信息。",
+
+    "add_device_bound_by_others": "摄像机已被{s1}用户添加。",
+
+    "add_device_bound_by_others_description": "需要该账户解绑该摄像机后，您才能进行添加。或请求该用户将该摄像机分享给您使用。",
+
+    "add_device_has_password_need_reset": "摄像机需重置，请长按摄像机的重置按键直到听到语音提示。",
+
+    "devices_page_delete_dialog_need_reset_tip": "删除后，设备将与您的账号解除绑定。下次添加设备需要重置设备，恢复出厂。如已开通云存储，该设备也将暂停上传云视频。",
+
+    "account_center_page_input_correct_phone_number": "请输入正确的手机号",
+
+    "account_center_page_send_sms_failed": "验证码发送失败，请重试",
+
+    "add_device_bind_failed_retry": "绑定设备失败，请重试",
+
+    "commom_button_go_back": "返回",
+
+    "zone_WesternDaylight": "日界线西",
+
+    "zone_MidwayIsland": "中途岛",
+
+    "zone_Samoa": "萨摩亚群岛",
+
+    "zone_Hawaii": "夏威夷",
+
+    "zone_AlaskaState": "阿拉斯加",
+
+    "zone_PacificTime": "太平洋时间(美国和加拿大)",
+
+    "zone_MountainTime": "山地时间(美国和加拿大)",
+
+    "zone_CentralTime": "中部时间(美国和加拿大)",
+
+    "zone_EasternTime": "东部时间(美国和加拿大)",
+
+    "zone_Caracas": "加拉加斯",
+
+    "zone_AtlanticTime": "大西洋时间(加拿大)",
+
+    "zone_Newfoundland": "纽芬兰",
+
+    "zone_Georgetown": "乔治敦",
+
+    "zone_Brasilia": "巴西利亚",
+
+    "zone_MidAtlanticTime": "中大西洋时间",
+
+    "zone_CapeVerde": "佛得角群岛",
+
+    "zone_Azores": "亚速尔群岛",
+
+    "zone_Dublin": "都柏林",
+
+    "zone_Edinburgh": "爱丁堡",
+
+    "zone_London": "伦敦",
+
+    "zone_Amsterdam": "阿姆斯特丹",
+
+    "zone_Berlin": "柏林",
+
+    "zone_Rome": "罗马",
+
+    "zone_Paris": "巴黎",
+
+    "zone_Athens": "雅典",
+
+    "zone_Jerusalem": "耶路撒冷",
+
+    "zone_Istanbul": "伊斯坦布尔",
+
+    "zone_Baghdad": "巴格达",
+
+    "zone_Kuwait": "科威特",
+
+    "zone_Moscow": "莫斯科",
+
+    "zone_Tehran": "德黑兰",
+
+    "zone_CaucasusStandardTime": "高加索标准时间",
+
+    "zone_Kabul": "喀布尔",
+
+    "zone_Islamabad": "伊斯兰堡",
+
+    "zone_Karachi": "卡拉奇",
+
+    "zone_Tashkent": "塔什干",
+
+    "zone_Madras": "马德拉斯",
+
+    "zone_Calcutta": "加尔各答",
+
+    "zone_Mumbai": "孟买",
+
+    "zone_NewDelhi": "新德里",
+
+    "zone_Kathmandu": "加德满都",
+
+    "zone_AlmaAta": "阿拉木图",
+
+    "zone_Novosibirsk": "新西伯利亚",
+
+    "zone_Dacca": "达卡",
+
+    "zone_Yangon": "仰光",
+
+    "zone_Bangkok": "曼谷",
+
+    "zone_Hanoi": "河内",
+
+    "zone_Jakarta": "雅加达",
+
+    "zone_Beijing": "北京",
+
+    "zone_Seoul": "首尔",
+
+    "zone_Tokyo": "东京",
+
+    "zone_Osaka": "大阪",
+
+    "zone_Sapporo": "札幌",
+
+    "zone_Adelaide": "阿德莱德",
+
+    "zone_Melbourne": "墨尔本",
+
+    "zone_Sydney": "悉尼",
+
+    "zone_Canberra": "堪培拉",
+
+    "zone_Magadan": "马加丹",
+
+    "zone_SolomonIslands": "索罗门群岛",
+
+    "zone_Auckland": "奥克兰",
+
+    "zone_Wellington": "惠灵顿",
+
+    "zone_Fiji": "斐济",
+
+    "zone_Nukualofa": "努库阿洛法",
+
+    "tooltip_Preset": "预置点",
+
+    "tooltip_HidePassword": "隐藏密码",
+
+    "tooltip_AddDevice": "添加设备",
+
+    "tooltip_SelectPresetPoint": "选择预置点",
+
+    "tooltip_AddPresetPoint": "添加预置点",
+
+    "tooltip_ClientSettings": "客户端设置",
+
+    "tooltip_Split": "分屏",
+
+    "tooltip_FullScreen": "全屏",
+
+    "tooltip_ScreenLock": "锁屏",
+
+    "tooltip_Timeline": "选择日期",
+
+    "tooltip_AdvanceFramebyFrame": "单帧播放",
+
+    "tooltip_ViewInFolder": "在文件夹中显示",
+
+    "tooltip_linkFacebook": "点击关注我们的Facebook账号",
+
+    "tooltip_linkTwitter": "点击关注我们的Twitter账号",
+
+    "tooltip_linkInstagram": "点击关注我们的Instagram账号",
+
+    "tooltip_linkYoutube": "点击订阅我们的Youtube频道",
+
+    "menu_Cut": "剪切",
+
+    "menu_Copy": "复制",
+
+    "menu_Paste": "粘贴",
+
+    "common_Sun": "日",
+
+    "common_Mon": "一",
+
+    "common_Tue": "二",
+
+    "common_Wed": "三",
+
+    "common_Thu": "四",
+
+    "common_Fri": "五",
+
+    "common_Sat": "六",
+
+    "common_AM": "上午",
+
+    "common_PM": "下午",
+
+    "common_btnEsc": "Esc",
+
+    "common_chooseAll": "全选",
+
+    "common_UID": "UID",
+
+    "common_Port": "端口",
+
+    "common_Motion": "移动侦测",
+
+    "common_timing": "定时",
+
+    "common_saveCopyTo": "保存并复制到",
+
+    "common_typeHere": "请输入",
+
+    "common_incorrectFormat": "无效字符",
+
+    "common_passwordsNotMatch": "两次输入密码不一致",
+
+    "common_Succeeded": "成功",
+
+    "common_Failed": "失败",
+
+    "common_Previous": "上一步",
+
+    "common_Next": "下一步",
+
+    "common_SSID": "SSID",
+
+    "common_scanFailed": "扫描失败",
+
+    "common_macAddress": "Mac 地址",
+
+    "common_ipAddress": "IP 地址",
+
+    "common_noDevice": "未检测到可用设备",
+
+    "common_Info": "信息",
+
+    "common_Talk": "对讲",
+
+    "common_Zoom": "缩放",
+
+    "common_Focus": "对焦",
+
+    "common_Unset": "未设置",
+
+    "common_Speed": "速度",
+
+    "common_PTZ": "旋转与缩放",
+
+    "common_CropVideo": "放大",
+
+    "common_Browse": "浏览",
+
+    "common_Standard": "标准",
+
+    "common_Rename": "重命名",
+
+    "common_Connect": "连接",
+
+    "common_Connecting": "连接中",
+
+    "common_Connected": "已连接",
+
+    "common_notInit": "未初始化",
+
+    "common_Timeout": "超时",
+
+    "common_Offline": "离线",
+
+    "common_Closing": "断开中",
+
+    "common_Disconnected": "未连接",
+
+    "common_Deleted": "已删除",
+
+    "common_deleteAll": "全部删除",
+
+    "common_getInfo": "获取信息",
+
+    "common_Disconnect": "断开连接",
+
+    "common_cameraName": "设备名称",
+
+    "common_Download": "下载",
+
+    "common_Downloading": "下载中",
+
+    "common_Downloaded": "已下载",
+
+    "common_Duration": "时间段",
+
+    "common_Size": "大小",
+
+    "common_nofile": "未找到文件",
+
+    "common_Waiting": "等待中",
+
+    "common_User": "用户",
+
+    "common_Language": "语言",
+
+    "common_General": "基本配置",
+
+    "common_Liveview": "预览",
+
+    "common_Playback": "回放",
+
+    "common_errorUsernameExists": "用户名已存在",
+
+    "common_changePassword": "修改密码",
+
+    "common_oldPassword": "原密码",
+
+    "common_incorrectPassword": "密码错误",
+
+    "common_FTP": "FTP",
+
+    "common_Anonymous": "匿名",
+
+    "common_Seconds": "秒",
+
+    "common_secs": "秒",
+
+    "common_sec": "秒",
+
+    "common_mins": "分",
+
+    "common_min": "分",
+
+    "common_multiMins": "分",
+
+    "common_Minutes": "分",
+
+    "common_Minute": "分",
+
+    "common_AUTO": "自动",
+
+    "common_PASV": "被动模式",
+
+    "common_Interval": "间隔",
+
+    "common_Format": "格式化",
+
+    "common_sdCard": "SD卡",
+
+    "common_HDD": "硬盘",
+
+    "common_eSATA": "eSATA",
+
+    "common_unknown": "未知",
+
+    "common_Setup": "设置",
+
+    "common_Sensitivity": "灵敏度",
+
+    "common_Low": "低",
+
+    "common_Middle": "中",
+
+    "common_High": "高",
+
+    "common_Exposure": "曝光",
+
+    "common_Mirroring": "镜像",
+
+    "common_Flip": "翻转",
+
+    "common_otherPosition": "其他位置",
+
+    "common_Brightness": "亮度",
+
+    "common_Contrast": "对比度",
+
+    "common_Saturation": "饱和度",
+
+    "common_Hue": "色调",
+
+    "common_Sharpen": "锐度",
+
+    "common_Resolution": "分辨率",
+
+    "common_privacyMask": "遮盖区域",
+
+    "common_DNS": "DNS",
+
+    "common_DHCP": "DHCP",
+
+    "common_Static": "静态",
+
+    "common_staticDNS": "静态DNS",
+
+    "common_autoDNS": "自动获取DNS",
+
+    "common_preferredDNS": "首选DNS",
+
+    "common_alternateDNS": "备用DNS",
+
+    "common_subnetMask": "子网掩码",
+
+    "common_gateWay": "网关",
+
+    "common_Model": "机型",
+
+    "common_Details": "详细信息",
+
+    "common_Configuration": "配置",
+
+    "common_Export": "导出",
+
+    "common_firmwareUpgrade": "固件升级",
+
+    "common_Restore": "恢复出厂",
+
+    "common_Reboot": "重启",
+
+    "common_Battery": "电池",
+
+    "common_Allow": "允许",
+
+    "common_Sender": "发件设置",
+
+    "common_Overwrite": "覆盖录像",
+
+    "common_PreRecord": "预录像",
+
+    "common_PostRecord": "录像延时",
+
+    "common_Network": "网络",
+
+    "common_netError": "网络错误",
+
+    "common_tooLess": "不少于 {s1} 个字符",
+
+    "common_ipDomain": "IP/域名",
+
+    "common_Error": "错误",
+
+    "common_connectionFailed": "连接失败",
+
+    "common_Warning": "警告",
+
+    "common_RecordSettings": "录像设置",
+
+    "common_wifiSettings": "Wi-Fi 设置",
+
+    "common_current": "当前",
+
+    "common_AddUser": "添加用户",
+
+    "common_notEmpty": "必填项不能为空",
+
+    "common_noFindFolder": "未发现文件夹: {s1}.",
+
+    "common_fullscreenPrompt": "按{s1}键退出全屏模式",
+
+    "common_Account": "账号",
+
+    "autoUpgrade_availableDes": "新版{s1}客户端可用，是否升级？",
+
+    "autoUpgrade_checkingForUpdates": "正在检查更新",
+
+    "autoUpgrade_upgradeFailedDes": "下载更新时出错",
+
+    "deviceAddLogin_creatName_editDeviceName": "输入设备名称",
+
+    "deviceAddLogin_creatPassword_creatDevicePassword": "创建设备密码",
+
+    "deviceAddLogin_connectFailed_title": "Wi-Fi连接失败。",
+
+    "deviceAddLogin_connectFailed_step1": "1. 检查您输入的Wi-Fi密码是否有误；",
+
+    "deviceAddLogin_connectFailed_step2": "2. 将设备尽量靠近路由器；",
+
+    "deviceAddLogin_connectFailed_step3": "3. 本设备仅支持2.4 GHz频段Wi-Fi，请检查您的路由器是否匹配；",
+
+    "deviceAddLogin_connectFailed_step4": "4. 设备上的二维码可能与软件上的二维码不一致。请检查摄像头上的二维码后四位是否为{s1},确认无误后重新扫描。",
+
+    "deviceAddLogin_inputData_voicePrompt": "请运行{s1}手机软件，添加并配置摄像机。",
+
+    "deviceAddLogin_inputData_notHeard": "我没有听到提示音。",
+
+    "deviceAddLogin_inputData_inputwifi": "请输入Wi-Fi信息",
+
+    "deviceAddLogin_qrcodeFailed_qrcodeMismatch": "二维码不匹配",
+
+    "deviceAddLogin_qrcodeFailed_clue1": "1. 检查摄像头后盖是否有误。设备后盖请勿混用，请您确认无误后再试一次；",
+
+    "deviceAddLogin_qrcodeFailed_clue2": "2. 如果在尝试以上方法后仍然提示“二维码不匹配”，请联系我们的技术支持团队。",
+
+    "deviceAddLogin_qrcodeScan_clue1": "当您听到“扫描成功”，说明连接成功；",
+
+    "deviceAddLogin_qrcodeScan_clue2": "连接失败？",
+
+    "deviceAddLogin_qrcodeScan_clue3": "请将摄像头对准下方二维码扫描。",
+
+    "deviceAddLogin_wifiSolution_clue1": "首次为设备配置Wi-Fi",
+
+    "deviceAddLogin_wifiSolution_clue3": "设备Wi-Fi已配置",
+
+    "deviceAddLogin_wifiSolution_clue4": "请检查摄像头的电池和电量，再长按重置按钮直到您听到语音提示。",
+
+    "deviceAddLogin_addDevice_tabScanTitle": "局域网扫描添加",
+
+    "deviceAddLogin_addDevice_networkErrorTip": "添加设备失败。请检查网络连接并确保UID输入无误。",
+
+    "deviceAddLogin_addDevice_batteryAddTip": "您当前添加的设备为电池机。为减少电量消耗，请您注意预览时间。",
+
+    "deviceAddLogin_addDevice_failedTip": "添加设备失败。",
+
+    "deviceAddLogin_addDevice_existsTip": "添加设备失败，该设备已经存在。",
+
+    "liveAudio_stopTalk": "点击关闭对讲",
+
+    "liveAudio_startTalk": "点击开始对讲",
+
+    "livePtz_patrolTime": "巡航时间",
+
+    "livePtz_patrolSpeed": "巡航速度",
+
+    "livePtz_presetPoints": "预置点",
+
+    "localSettings_tooLong": "路径过长",
+
+    "localSettings_general_autoLogin": "自动登录",
+
+    "localSettings_general_runOnStartup": "开机自启动",
+
+    "localSettings_general_alarmBeep": "报警声音",
+
+    "localSettings_general_downloadPath": "下载路径",
+
+    "localSettings_general_capturePath": "保存图片到",
+
+    "localSettings_general_restartClue": "更改显示语言后，请退出{s1}客户端并重启生效",
+
+    "localSettings_general_autoUpdateApp": "自动检查更新",
+
+    "localSettings_record_streamType": "码流类型",
+
+    "localSettings_record_spaceWarning": "硬盘空间不足警告阈值",
+
+    "localSettings_record_recordingFileDuration": "录像文件时长",
+
+    "localSettings_record_recordPath": "录像到",
+
+    "localSettings_record_folderSize": "限制录像文件夹大小",
+
+    "localSettings_record_recordSchedule": "本地录像布防",
+
+    "main_deviceList_clueTitle": "添加设备",
+
+    "main_deviceList_clueDes": "请点击右上角的 {s1} 按钮开始添加设备",
+
+    "main_deviceItem_noSD": "未检测到SD卡。",
+
+    "main_deviceItem_confirmDeleteDevice": "确定删除该设备？",
+
+    "playbackBar_noChannel": "无通道",
+
+    "playbackDownload_downloadArea_allChannels": "所有通道",
+
+    "playbackDownload_downloadArea_fileName": "文件名",
+
+    "playbackDownload_downloadArea_startTime": "开始时间",
+
+    "playbackDownload_downloadArea_filesSelected": "{s1} / {s2} 已选择",
+
+    "playbackDownload_downloadArea_noPermission": "文件夹{s1}没有写入权限",
+
+    "playbackDownload_downloadArea_noSpace": "硬盘空间不足。",
+
+    "playbackDownload_taskArea_taskList": "任务列表",
+
+    "remoteConfig_addUser_subTitle": "允许亲人或朋友访问您的设备，安心加倍",
+
+    "remoteConfig_addUser_userType": "用户类型",
+
+    "remoteConfig_addUser_adminDes": "允许访问设备、更改设备设置和管理所有用户",
+
+    "remoteConfig_addUser_commonDes": "允许访问设备和更改个人账户的登录密码，但不允许更改设备设置",
+
+    "remoteConfig_ftp_title": "FTP设置",
+
+    "remoteConfig_ftp_enableFTP": "启用FTP",
+
+    "remoteConfig_ftp_transportMode": "传输模式",
+
+    "remoteConfig_ftp_maxFileLength": "文件最大容量",
+
+    "remoteConfig_ftp_clearVideoPicture": "清晰视频+图片",
+
+    "remoteConfig_ftp_fluentVideoPicture": "流畅视频+图片",
+
+    "remoteConfig_ftp_balancedVideoPicture": "标准视频+图片",
+
+    "remoteConfig_ftp_onlyPicture": "仅图片",
+
+    "remoteConfig_ftp_clearVideo": "清晰视频",
+
+    "remoteConfig_ftp_fluentVideo": "流畅视频",
+
+    "remoteConfig_ftp_balancedVideo": "标准视频",
+
+    "remoteConfig_hdd_FormatStorage": "格式化",
+
+    "remoteConfig_user_tooManyUser": "用户数量已达上限，无法添加。",
+
+    "remoteConfig_user_deleteUser": "删除后，此用户将不能继续访问该设备，是否继续？",
+
+    "remoteConfig_alarmDetect_subTitle": "创建不接收报警通知的区域以减少误报",
+
+    "remoteConfig_motion_customizedSettings": "自定义",
+
+    "remoteConfig_motion_motionDetect": "移动侦测区域",
+
+    "remoteConfig_motion_motionSchedule": "移动侦测布防",
+
+    "remoteConfig_motion_motionPir": "移动侦测和PIR侦测",
+
+    "remoteConfig_rf_rfSchedule": "RF布防",
+
+    "remoteConfig_copyTo_title": "请选择要复制到的设备。",
+
+    "remoteConfig_retry_title": "获取失败。",
+
+    "remoteConfig_advancedSettings_gainRange": "增益范围",
+
+    "remoteConfig_advancedSettings_shutterRange": "快门范围",
+
+    "remoteConfig_advancedSettings_dynamicRange": "动态范围",
+
+    "remoteConfig_advancedSettings_whiteBalance": "白平衡",
+
+    "remoteConfig_advancedSettings_Backlight": "背光补偿",
+
+    "remoteConfig_advancedSettings_lowNoise": "低噪点",
+
+    "remoteConfig_advancedSettings_antiSmearing": "防拖影",
+
+    "remoteConfig_advancedSettings_redGain": "红色增益",
+
+    "remoteConfig_advancedSettings_blueGain": "蓝色增益",
+
+    "remoteConfig_encode_frameRate": "帧率(FPS)",
+
+    "remoteConfig_encode_maxBitRateOptions": "最大码率(Kbps)",
+
+    "remoteConfig_ddnsSetting_serverType": "服务器类型",
+
+    "remoteConfig_ddnsSetting_domainName": "服务器域名",
+
+    "remoteConfig_ddnsSetting_noIp": "NO-IP",
+
+    "remoteConfig_ddnsSetting_DynDNS": "DynDNS",
+
+    "remoteConfig_netwrokSetting_title": "网络设置",
+
+    "remoteConfig_netwrokSetting_networkAccess": "连接类型",
+
+    "remoteConfig_ntpSetting_server": "服务器",
+
+    "remoteConfig_ntpSetting_port": "端口号",
+
+    "remoteConfig_ntpSetting_autoSynchronize": "自动同步",
+
+    "remoteConfig_ntpSetting_synchronizeEvery": "同步间隔时间",
+
+    "remoteConfig_portSetting_restartClue": "* 更改此选项将会导致设备重启",
+
+    "remoteConfig_portSetting_forceErrorText": "端口已被占用。",
+
+    "remoteConfig_portSetting_Media": "媒体端口",
+
+    "remoteConfig_portSetting_HTTP": "HTTP端口",
+
+    "remoteConfig_portSetting_HTTPS": "HTTPS端口",
+
+    "remoteConfig_portSetting_RTSP": "RTSP端口",
+
+    "remoteConfig_portSetting_RTMP": "RTMP端口",
+
+    "remoteConfig_portSetting_Onvif": "ONVIF端口",
+
+    "remoteConfig_wifiNvrSetting_netPort": "摄像机有网口",
+
+    "remoteConfig_wifiNvrSetting_noNetPort": "摄像机没有网口",
+
+    "remoteConfig_wifiNvrSetting_clue2": "2. 请耐心等候几分钟。若您听到两次“滴”声，表明Wi-Fi已自动同步完成，并即将重启摄像头；",
+
+    "remoteConfig_wifiNvrSetting_clue3": "3. 完成以上操作后，请重新连接摄像头与NVR，并刷新检查是否连接成功。",
+
+    "remoteConfig_wifiNvrSetting_clue4": "1. 长按摄像头尾线上的重置按钮，直至听到语音提示；",
+
+    "remoteConfig_wifiSetting_current": "当前连接",
+
+    "remoteConfig_wifiSetting_notConnected": "设备未连接到Wi-Fi",
+
+    "remoteConfig_wifiSetting_wirelessNetwork": "无线网络",
+
+    "remoteConfig_wifiSetting_manualInput": "手动添加",
+
+    "remoteConfig_dateTime_clue": "设备时间可能有误。",
+
+    "remoteConfig_dateTime_syncTime": "同步本机时间",
+
+    "remoteConfig_dateTime_dateFormat": "日期格式",
+
+    "remoteConfig_dateTime_24hour": "24小时制",
+
+    "remoteConfig_dateTime_12hour": "12小时制",
+
+    "remoteConfig_general_DeviceName": "设备名",
+
+    "remoteConfig_general_HwNo": "硬件编号",
+
+    "remoteConfig_general_CfgVersion": "配置版本",
+
+    "remoteConfig_general_FwVersion": "固件版本",
+
+    "remoteConfig_Maintenance_title": "维护管理",
+
+    "remoteConfig_Maintenance_autoFocus": "自动对焦",
+
+    "remoteConfig_Maintenance_autoReboot": "自动重启",
+
+    "remoteConfig_Maintenance_autoRebootTime": "自动重启时间",
+
+    "remoteConfig_Maintenance_autoUpgrade": "自动升级",
+
+    "remoteConfig_Maintenance_onlineUpgrade": "在线升级",
+
+    "remoteConfig_Maintenance_updateConfigureFile": "重置配置文件",
+
+    "remoteConfig_Maintenance_DefaultSettings": "默认设置",
+
+    "remoteConfig_Maintenance_EverySunday": "每周日",
+
+    "remoteConfig_Maintenance_EveryMonday": "每周一",
+
+    "remoteConfig_Maintenance_EveryTuesday": "每周二",
+
+    "remoteConfig_Maintenance_EveryWednesday": "每周三",
+
+    "remoteConfig_Maintenance_EveryThursday": "每周四",
+
+    "remoteConfig_Maintenance_EveryFriday": "每周五",
+
+    "remoteConfig_Maintenance_EverySaturday": "每周六",
+
+    "remoteConfig_Maintenance_exportingPrompt": "导出中...",
+
+    "remoteConfig_Maintenance_exportSucceededPrompt": "导出成功",
+
+    "remoteConfig_Maintenance_rebootingRestartClue": "恢复出厂设置后设备将重启，是否继续？",
+
+    "remoteConfig_Maintenance_rebootClue": "设备即将重启，是否继续？",
+
+    "remoteConfig_battery_subTitle": "查看设备过去30天的在线状态，了解电池消耗详情。",
+
+    "remoteConfig_battery_clue1": "过去30天运行时长",
+
+    "remoteConfig_battery_clue2": "运行时长包括触发警报和在软件上访问设备所用时间",
+
+    "remoteConfig_battery_powerTips": "电池使用时长警告阈值",
+
+    "remoteConfig_battery_linkTo": "* 在此处找到有关如何延长电池寿命的更多提示。",
+
+    "remoteConfig_battery_lowBattery": "低电量报警",
+
+    "remoteConfig_battery_Charging": "充电中...",
+
+    "remoteConfig_email_SMTPserver": "SMTP服务器",
+
+    "remoteConfig_email_SMTPport": "SMTP端口号",
+
+    "remoteConfig_email_EnableSSLTLS": "使用SSL或TLS",
+
+    "remoteConfig_email_SenderAddress": "发件邮箱",
+
+    "remoteConfig_email_RecipientAddress1": "收件邮箱1",
+
+    "remoteConfig_email_RecipientAddress2": "收件邮箱2",
+
+    "remoteConfig_email_RecipientAddress3": "收件邮箱3",
+
+    "remoteConfig_network_UPnpEnable": "开启UPnP",
+
+    "remoteConfig_network_UIDEnable": "开启UID",
+
+    "remoteConfig_network_restartClue": "关闭后，其他平台将无法通过UID添加该设备，同时当前平台将无法使用设备。",
+
+    "remoteConfig_network_DDNSEnable": "开启DDNS",
+
+    "remoteConfig_network_DDNSSetting": "DDNS设置",
+
+    "remoteConfig_network_NTPSetting": "NTP设置",
+
+    "remoteConfig_network_PortSetting": "端口设置",
+
+    "remoteConfig_network_ICCID": "ICCID",
+
+    "remoteConfig_network_IMEI": "IMEI",
+
+    "remoteConfig_recording_EnableRecord": "开启录像",
+
+    "remoteConfig_recording_PackDuration": "打包时间",
+
+    "remoteConfig_upgrading_readied": "有新的固件可以更新。",
+
+    "remoteConfig_upgrading_readiedSubtitle": "升级时请勿离开该页面，设备将在升级完成后自动重启。",
+
+    "remoteConfig_upgrading_Upgrading": "正在升级...",
+
+    "remoteConfig_upgrading_UpgradingSubtitle": "升级完成前请勿断开电源",
+
+    "remoteConfig_upgrading_upgradeFailed": "升级失败",
+
+    "remoteConfig_upgrading_requestFailedSubtitle": "{s1}请重试。",
+
+    "remoteConfig_upgrading_tryAgain": "重试",
+
+    "remoteConfig_upgrading_uploadingFile": "上传文件中...",
+
+    "remoteConfig_upgrading_upgradingFirmware": "升级固件中...",
+
+    "remoteConfig_upgrading_upgradeCompleted": "升级成功。",
+
+    "remoteConfig_upgrading_upgradeCompletedSubtitle": "设备重启后将正常工作。",
+
+    "remoteConfig_upgrading_upgradeFailedSubtitle": "{s1}请在设备重启之后重试。",
+
+    "remoteConfig_upgrading_timeout": "连接超时",
+
+    "remoteConfig_upgrading_busy": "系统忙",
+
+    "remoteConfig_upgrading_noFind": "请检查文件是否正确。",
+
+    "remoteConfig_upgrading_sameVer": "升级包与当前版本一致。",
+
+    "remoteConfig_upgrading_checkFailed": "无法识别文件格式。",
+
+    "remoteConfig_upgrading_upgradeBusy": "设备忙",
+
+    "remoteConfig_upgrading_upgradeOom": "设备内存不足。",
+
+    "background_batteryDeviceClose": "系统检测到设备[{s1}] 一段时间内无操作，为节省设备电量，是否要断开连接？设备将在{s2}秒后自动断开连接。",
+
+    "background_batteryError": "设备[{s1}]电池状态异常!请检查电池安装是否正确。",
+
+    "background_noDiskSpace": "硬盘空间不足。",
+
+    "background_recordNoWritePermission": "录像文件夹没有写入权限。",
+
+    "aboutUs_title": "关于 {s1}",
+
+    "aboutUs_contactUs": "联系我们",
+
+    "software_manual_link": "https://reolink.com/software-and-manual/",
+
+    "contact_us_link": "https://reolink.com/contact-us/",
+
+    "battery_support_url": "https://support.reolink.com/hc/en-us/articles/360006991893-Extend-the-Battery-Life-of-Reolink-Battery-Powered-Cameras",
+
+    "manual_trigger_sound_alarm_failed": "触发声音报警失败",
+
+    "common_capture": "抓拍",
+
+    "common_record": "录像",
+
+    "wifi_config_page_mobile_network": "移动网络",
+
+    "remote_infrared_light_page_keep_off_description": "关闭红外灯后，黑暗环境中，夜视的效果会较差",
+
+    "client_end": "结束符,不用管这个key",
+
+    "CAMERA_SENSITIVITY_MID": "中",
+
+    "ENABLE_BUZZER": "启用蜂鸣器",
+
+    "BUZZRE_FOR_EXPECTIONS": "异常场景时声音报警设置",
+
+    "ENABLE_EMAIL_ALERTS": "启用邮箱报警",
+
+    "EMAIL_TEST": "测试邮箱",
+
+    "EMAIL_ALERT_FOR_EXPECTIONS": "异常场景时邮箱报警设置",
+
+    "FTP_TEST": "FTP测试",
+
+    "FORMAT_SDCARD_REBOOT": "格式化后将删除SD卡所有的数据并重启，是否进行格式化？",
+
+    "FORMAT_SDCARD_REBOOT_RELOGIN": "格式化后将删除SD卡所有的数据并重启，格式化完后需重新登录，是否进行格式化？",
+
+    "FORMAT_HDD": "格式化后将删除选择的硬盘内所有的数据，是否进行格式化？",
+
+    "FORMAT_HDD_RELOGIN": "格式化后将删除选择的硬盘内所有的数据，格式化完后需重新登录，是否进行格式化？",
+
+    "RELOGIN_TIPS": "修改该选项后需重新登录。",
+
+    "IP_CHANGE_ADD_DEVICE": "IP地址已变更，请获取最新的IP地址后重新添加设备。",
+
+    "IP_CHANGE_RELOGIN": "IP地址已变更，请获取最新的IP地址后重新登录设备。",
+
+    "TIP_IP_CHANGE_ADD_DEVICE": "注：修改IP地址后需要重新添加设备。",
+
+    "upgrade_check_failed_title": "查询失败",
+
+    "change_lockscreen_password": "修改锁屏密码",
+
+    "set_lockscreen_password": "设定锁屏密码",
+
+    "lockscreen_password": "锁屏密码",
+
+    "enter_unlock_password": "输入锁屏密码",
+
+    "drive_support_url": "https://support.reolink.com/hc/en-us/articles/900002574686",
+
+    "drag_camera_here": "请拖入设备",
+
+    "ptz_ai_track_title": "智能追踪",
+
+    "sina_tooltip": "微博",
+
+    "tencent_tooltip": "公众号",
+
+    "get_device_login_status_failed": "获取设备登录状态失败",
+
+    "get_device_profile_failed": "获取设备信息失败",
+
+    "open_device_signature_login_failed": "设备开启免密登录失败",
+
+    "device_restore_confirm_title": "是否已重置设备",
+
+    "device_restore_confirm": "已重置",
+
+    "no_permit_of_playback": "设备没有回放权限",
+
+    "input_too_long": "超出字符限制",
+
+    "ptz_calibration_title": "摄像机需进行校正",
+
+    "ptz_calibration_btn": "开始校正",
+
+    "remote_settings_spotlight_page_night_mode_title": "夜视模式",
+
+    "remote_settings_spotlight_page_auto_on_preview": "预览自动开启",
+
+    "remote_settings_spotlight_page_auto_on_preview_description": "夜晚查看预览时，自动开启，结束后关闭。",
+
+    "remote_settings_spotlight_page_smart_night_vision_description": "夜视模式下侦测到报警事件时自动开启照明灯。",
+
+    "remote_settings_spotlight_page_night_vision_always_on_title": "夜视常亮",
+
+    "remote_settings_spotlight_page_night_vision_always_on_description": "夜视模式下自动持续开启照明灯。",
+
+    "remote_settings_spotlight_page_night_vision_off_description": "夜视模式下不自动开启照明灯。",
+
+    "remote_settings_spotlight_page_timing_always_on_title": "定时常亮",
+
+    "remote_settings_spotlight_page_timing_always_on_description": "夜视模式下定时持续开启照明灯。",
+
+    "remote_config_email_password_placeholder": "输入邮箱密码",
+
+    "remote_config_email_port_placeholder": "输入端口",
+
+    "remote_config_email_smtp_incorrent_tip": "SMTP 服务器信息或端口填写错误，请修改后重试。",
+
+    "remote_config_email_network_error_tip": "设备网络出错，请重试。",
+
+    "remote_config_email_address_or_password_error_tip": "邮箱密码错误或SMTP未打开，请通过以下方式排查：\n步骤一：先确保你的邮箱已开启 SMTP 服务，具体开启方式请询问邮件供应商。\n步骤二：确保邮箱与密码填写正确。某些邮箱只能填写第三方登录密码，请设置第三方登录密码后重试。",
+
+    "remote_config_email_not_allowed_email_tip": "请检查并确保邮箱地址填写正确，或更换一个邮箱尝试。",
+
+    "remote_config_email_device_memory_error_tip": "设备暂时无法发送邮件，请稍后重试。",
+
+    "remote_config_email_unknow_error_tip": "未知错误，请更换邮箱尝试。",
+
+    "common_dialog_clear_button": "清空",
+
+    "common_access_device": "访问设备",
+
+    "device_default_account_tip": "（默认设备账号）",
+
+    "forget_pw_page_device_not_here": "设备不在身边？",
+
+    "forget_pw_page_reset_device_out_of_reach": "如果设备不在身边或难获取，怎么重置设备？",
+
+    "forget_pw_page_reset_device_out_of_reach_help_tip": "1. 请可接触到该设备的人参照上述重置方法重置设备。\n2. 如果你在电脑上可以访问该设备，请在 {s1} 客户端上进行“恢复出厂”操作，创建新的设备密码。\n如果你的朋友或家人可以访问该设备，请让他们在设置中进行“恢复出厂”操作，创建新的设备密码。\n{s2}\n{s3}\n",
+
+    "forget_pw_page_reset_device_via_app": "如何在 {s1} App 上重置设备？",
+
+    "forget_pw_page_reset_device_via_windows_client": "如何在 {s1} 客户端上重置设备？",
+
+    "device_init_setup_wizard_create_password_description": "此账号与密码可用于各个平台访问设备，请妥善保管。",
+
+    "device_default_username_placeholder": "默认设备账号",
+
+    "ptz_preset_point_description": "标记当前位置为预置点，可设置巡航路线。",
+
+    "ptz_guard_point_title": "看守点",
+
+    "ptz_guard_point_description": "设备日常监控的位置,偏离后自动返回。",
+
+    "ptz_guard_point_auto_return": "看守点自动返回",
+
+    "ptz_gurad_point_reset": "更新位置",
+
+    "display_hightlights_shadows_title": "明暗设置",
+
+    "common_view_manual": "手动",
+
+    "display_shadows_title": "暗部",
+
+    "ai_track_type_title": "追踪类型",
+
+    "alarm_settings_alarm_title": "侦测报警",
+
+    "alarm_settings_detection_area_page_title": "报警区域",
+
+    "alarm_tolerance_page_titile": "延时报警",
+
+    "alarm_tolerance_setting_page_description": "检测目标在报警区域内停留的时间超过设置时间将触发报警。",
+
+    "smart_detection_page_title": "智能侦测",
+
+    "alarm_settings_person_sensitivity_high_description": "灵敏度高，检测到与人较相似的移动物体则报警。",
+
+    "alarm_settings_person_sensitivity_mid_description": "灵敏度中，检测到与人相似的物体移动则报警。",
+
+    "alarm_settings_person_sensitivity_low_description": "灵敏度低，检测到与人相似度高的物体移动才报警，可减少更多误报。",
+
+    "alarm_settings_vehicle_sensitivity_high_description": "灵敏度高，检测到与车辆较相似的移动物体则报警。",
+
+    "alarm_settings_vehicle_sensitivity_mid_description": "灵敏度中，检测到与车辆相似的物体移动则报警。",
+
+    "alarm_settings_vehicle_sensitivity_low_description": "灵敏度低，检测到与车辆相似度高的物体移动才报警，可减少更多误报。",
+
+    "alarm_settings_animal_sensitivity_high_description": "灵敏度高，检测到与动物较相似的移动物体则报警。",
+
+    "alarm_settings_animal_sensitivity_mid_description": "灵敏度中，检测到与动物相似的物体移动则报警。",
+
+    "alarm_settings_animal_sensitivity_low_description": "灵敏度低，检测到与动物相似度高的物体移动才报警，可减少更多误报。",
+
+    "alarm_object_size_page_title": "目标尺寸",
+
+    "alarm_object_size_setting_page_description": "小于最小目标尺寸的目标将不报警。大于最大目标尺寸的目标将不报警。",
+
+    "alarm_object_size_min_description": "小于该尺寸的目标将不报警。",
+
+    "alarm_object_size_max_description": "大于该尺寸的目标将不报警。",
+
+    "ptz_self_testing_description": "正在自检中，暂不能操作云台，请稍后...",
+
+    "remote_settings_alarm_volume_description": "可设置设备报警音量及对讲音量",
+
+    "remote_settings_alarm_volume_test_title": "报警音试听",
+
+    "setup_wifi_support_5g_tip": "本款设备支持连接 2.4 GHz 和 5 GHz 两种 Wi-Fi 网络，连接 5 GHz Wi-Fi 网络体验更佳。",
+
+    "wizard_scene_select_title": "选择常用场景",
+
+    "wizard_scene_indoor": "室内",
+
+    "wizard_scene_outdoor": "室外",
+
+    "ptz_preset_point_not_support_cruise_description": "标记当前位置为预置点。",
+
+    "remote_settings_interframe_space_title": "I 帧间隔",
+
+    "display_color_day_mode_title": "白天彩色",
+
+    "display_color_night_mode_title": "夜视彩色",
+
+    "scroll_mouse_wheel_zoom": "滚动鼠标滑轮放大或缩小区域",
+
+    "remoteConfig_Maintenance_exportFailedPrompt": "导出失败",
+
+    "common_language_select": "中文",
+
+    "common_connection_failed": "连接失败。",
+
+    "common_wifi_connection_failed": "Wi-Fi连接失败。",
+
+    "common_new_version_available": "发现新版本。",
+
+    "common_most_current_version": "当前版本已是最新版本。",
+
+    "common_password_not_match": "密码和确认密码不一致。",
+
+    "scan_qr_code_title": "扫描二维码",
+
+    "scan_qr_code_tip": "用Camera摄像头扫描屏幕上的二维码",
+
+    "scan_connect_router_title": "连接路由器",
+
+    "scan_connect_camera_failed_tip": "摄像机与客户端连接失败",
+
+    "scan_switch_same_wifi_tip": "将客户端网络切换到和摄像机同一个Wi-Fi下",
+
+    "scan_go_back_title": "返回重新添加设备",
+
+    "live_page_stop_record_tip": "正在录像中，继续退出将中止当前录像并保存至本地，是否继续退出？",
+
+    "ftp_test_error_450": "未知错误，请重试。",
+
+    "ftp_test_error_451": "登录失败，请检查：\n用户名或者密码是否正确，\n登录权限是否不足。",
+
+    "ftp_test_error_452": "创建文件夹失败，请检查：\n您的服务器磁盘是否已满，\n您是否有权限创建文件夹。",
+
+    "ftp_test_error_453": "上传文件失败，请检查：\n您的服务器是否磁盘已满，\n您是否有权限上传文件。",
+
+    "ftp_test_error_454": "连接失败，请检查您的网络连接情况。",
+
+    "add_device_ip_description": "产品IP可帮助您添加设备或查询设备相关信息。",
+
+    "display_hdr_title": "HDR",
+
+    "display_dual_lens_sync_brightness_title": "左右通道亮度",
+
+    "common_view_sync": "同步",
+
+    "common_view_unsync": "不同步",
+
+    "area_detection_title": "区域报警",
+
+    "area_detection_description": "关闭区域报警将针对整个侦测区域全局报警。\n开启区域报警将以绘制的报警区域为侦测范围。",
+
+    "common_view_go_settings": "前往设置",
+
+    "detection_pet_title": "宠物智能侦测",
+
+    "detection_pet_tip": "宠物安全",
+
+    "detection_pet_decription1": "新增宠物智能侦测功能！该功能目前主要用于关注您的爱犬或爱猫的动态和安全。",
+
+    "detection_pet_decription2": "开启该功能后，您可以在回放/录像/推送中筛选侦测类型，查看相关回放文件及接收相关报警通知。",
+
+    "detection_pet_decription3": "注：该功能仍在内测阶段，存在误报概率，如发现误报请分享至官网，帮助我们完善产品及用户体验！",
+
+    "common_device_volume": "设备音量",
+
+    "common_view_privacy_notice": "隐私声明",
+
+    "common_view_off_full": "关",
+
+    "port_setting_rtmp_des": "注：关闭后将无法浏览设备。",
+
+    "port_setting_http_des": "注：HTTP和HTTPS均关闭后将无法使用网页浏览设备。",
+
+    "network_connect_subtitle": "网络连接",
+
+    "network_info_subtitle": "网络信息",
+
+    "port_setting_https_settings_title": "HTTPS 设置",
+
+    "certificate_title": "证书文件",
+
+    "keyfile_title": "密钥文件",
+
+    "black_white_switch_title": "日夜切换阈值",
+
+    "black_white_switch_des": "白天和黑夜自动模式下，环境光低于设定亮度时，彩色切换成黑白。",
+
+    "common_ai_pet_option": "宠物",
+
+    "day_and_night_value_config_title": "日夜切换阈值",
+
+    "day_and_night_value_config_description": "白天和黑夜自动模式下，黑白彩色切换的环境亮度阈值：",
+
+    "common_dst_title": "DST",
+
+    "display_advanced_sync_brightness_title": "亮度同步",
+
+    "display_advanced_sync_brightness_description": "同步调节左右摄像机，避免画面亮度相差过大",
+
+    "display_advanced_sync_brightness_warning": "切换此开关会重启设备",
+
+    "remote_setting_pre_alarm_description": "检测到移动事件时，有3秒左右的判断预报警时间",
+
+    "remote_setting_pre_alarm_title": "预报警声音",
+
+    "remote_setting_pre_alarm_sound_test_tip": "请靠近摄像机试听一下预报警声音",
+
+    "ftp_test_success_tip": "FTP上传测试成功！",
+
+    "push_test_push_timeout_description": "推送超时，请重试。",
+
+    "push_test_connection_timeout_description": "网络连接超时，请重试。",
+
+    "push_test_ca_verify_failed_description": "CA校验失败，请校准设备时间后重试。",
+
+    "push_test_ca_certificate_wrong_description": "CA证书错误，请校准设备时间后重试。",
+
+    "push_tes_network_failed_description": "网络连接失败，请重试。",
+
+    "push_test_unknown_error_description": "未知错误，请重试。",
+
+    "password_strength_tip": "密码强度：{s1}",
+
+    "common_password_weak": "弱",
+
+    "common_password_medium": "中",
+
+    "common_password_strong": "强",
+
+    "common_password_requirement_length": "至少包含6个字符。",
+
+    "common_password_requirement_characters": "至少包含一个数字（0-9）、大写字母(A-Z)、小写字母(a-z)和一个符号两种类型。",
+
+    "download_cancel_tip": "关闭当前窗口将中止本次下载，是否继续？",
+
+    "wifi_qr_reset_heard_voice_tip": "已听到摄像机播放的语音",
+
+    "base_manager_title": "管理",
+
+    "base_unbind_alert_title": "解绑摄像机",
+
+    "base_unbind_alert_message": "解绑摄像机后，原录像仍保留在Base。",
+
+    "base_bind_not_upgraded_title": "未升级",
+
+    "common_enter": "进入",
+
+    "base_record_view_in_base_tip": "该段录像仅支持在Base查看。",
+
+    "base_samba_help_tip": "了解更多关于Samba服务的信息。",
+
+    "base_no_record_file_found_tip": "无录像信息",
+
+    "common_test": "测试",
+
+    "common_server": "服务器",
+
+    "common_ip": "IP",
+
+    "ftps_protocol_title": "仅用FTPS",
+
+    "ftps_protocol_description": "服务器需支持FTPS协议，否则无法上传文件",
+
+    "common_directory": "目录",
+
+    "ftp_remote_directory_title": "远程目录",
+
+    "ftp_generate_subfolder_rule": "生成子目录",
+
+    "common_upload": "上传",
+
+    "common_image": "图片",
+
+    "common_video_and_image": "视频和图片",
+
+    "ftp_overwirte_file_title": "覆盖",
+
+    "ftp_not_overwrite_title": "不覆盖",
+
+    "ftp_single_file_overwrite_title": "单文件覆盖",
+
+    "ftp_swap_file_overwrite_title": "双文件交替覆盖",
+
+    "ftp_single_file_overwrite_description": "只保留最新那一份文件",
+
+    "ftp_swap_file_overwrite_description": "此选项会产生临时文件",
+
+    "ftp_type_in_file_name_tip": "请填写文件名",
+
+    "push_interval_title": "推送间隔",
+
+    "display_flip_vertical_title": "垂直翻转",
+
+    "display_flip_horizontal_title": "水平翻转",
+
+    "ftp_video_file_max_size": "视频最大大小(MB)",
+
+    "ftp_image_interval_des": "网速不足时，图片有可能会损坏",
+
+    "detection_area_erase": "擦除",
+
+    "detection_area_erase_all": "全部擦除",
+
+    "password_trim_warn": "首尾字符不能是空格",
+
+    "detection_area_draw": "绘制",
+
+    "detection_area_draw_all": "全部绘制",
+
+    "playback_failed_load_file_tip": "加载回放信息失败",
+
+    "common_width": "宽度",
+
+    "common_height": "高度",
+
+    "common_input": "输入",
+
+    "diagnostic_logs_title": "诊断日志",
+
+    "main_devicelist_no_device_tip": "点击添加设备",
+
+    "password_not_match_error": "密码不一致",
+
+    "base_samba_intro_tip": "开启Samba，可在局域网电脑上访问Reolink Drive。开启后可在设置页关闭Samba。建议在非公共场合使用Samba。",
+
+    "base_samba_instructions_title": "使用方法",
+
+    "base_samba_usage_step_one": "1. 先获取Reolink Drive的局域网IP",
+
+    "base_samba_obtain_ip_obtaining": "自动获取IP中…",
+
+    "base_samba_obtain_ip_obtain_failed": "获取失败，重试",
+
+    "base_samba_usage_step_two": "2. 然后在PC/Mac上访问",
+
+    "base_samba_usage_on_pc": "1. 打开 Windows 资源管理器\n2. 输入“\\\\{s1}”，点击回车键\n3. 输入设备的用户名(admin)与密码",
+
+    "base_samba_usage_on_mac": "1. 打开 Finder \n2. 在屏幕顶部菜单栏中点击“前往”\n3. 找到并点击“连接服务器”\n4. 输入“smb://{s1}”\n5. 点击连接\n6. 输入设备的用户名(admin)与密码",
+
+    "https_settings_subtitle": "默认使用自签名证书，你也可以导入自己的证书。",
+
+    "channel_not_support_siren": "设备暂不支持此功能",
+
+    "common_customize": "自定义",
+
+    "hover_title_scrollview": "轮巡切换",
+
+    "scrollview_time_title": "轮巡切换时间",
+
+    "date_and_time_settings_page_current_time": "当前时间",
+
+    "date_and_time_settings_page_modified_time": "修改后的时间",
+
+    "date_and_time_settings_page_time_not_support_modify": "此设备不支持手动修改时间",
+
+    "corresponding_area_settings_need_preview": "请先查看一下此设备的预览画面，再回来设置相应区域",
+
+    "common_iot": "物联网",
+
+    "smart_plug_turn_off_timer_tip": "{s1} 后关闭",
+
+    "smart_plug_turn_on_timer_tip": "{s1} 后开启",
+
+    "smart_plug_reset_tip_2": "长按重置按钮5秒",
+
+    "smart_plug_reset_tip_3": "确认指示灯是否闪烁",
+
+    "smart_plug_reset_contact_after_sales_tip": "如果重试后还不能正常使用，请联系相应渠道的售后人员。",
+
+    "smart_plug_reset_connect_wifi_tip": "在系统设置里连接插座Wi-Fi后，再回来继续设置",
+
+    "smart_plug_go_to_connect_wifi": "去连接",
+
+    "smart_plug_auto_go_to_next_step_tip": "连接成功后会自动进入下一步",
+
+    "smart_plug_max_link_number_tip": "可联动{s1}台设备",
+
+    "smart_plug_link_device_title": "联动设备",
+
+    "smart_plug_schedule_link_conflict_tip": "联动设备后将停用以下功能",
+
+    "smart_plug_timer_title": "倒计时",
+
+    "smart_plug_jog_switch_title": "点动开关",
+
+    "smart_plug_timing_title": "定时",
+
+    "smart_plug_add_link_title": "联动新设备",
+
+    "common_state": "状态",
+
+    "smart_plug_switch_to_state_after_timer_tip": "结束后切换为",
+
+    "smart_plug_jog_switch_tip": "每次通电到设定的时长后会自动断电",
+
+    "smart_plug_switch_to_state_after_timing_tip": "切换为",
+
+    "common_only_once": "仅一次",
+
+    "smart_plug_task_conflict_title": "任务冲突",
+
+    "smart_plug_task_conflict_tip": "与以下任务冲突",
+
+    "smart_plug_linked_devices_title": "已联动的设备",
+
+    "smart_plug_no_device_to_link_tip": "当前没有可联动的设备",
+
+    "common_to_purchase": "去购买",
+
+    "smart_plug_link_tip": "在计划时间内侦测到设定的类型时，联动的插孔开关状态和时长",
+
+    "common_power_on_state": "上电状态",
+
+    "smart_plug_device_restart_state_tip": "设置设备重启状态",
+
+    "common_power_off_title": "断电",
+
+    "common_power_on_title": "通电",
+
+    "smart_plug_follow_state_tip": "跟随断电前状态",
+
+    "smart_plug_log_title": "开关日志",
+
+    "smart_plug_connected_network_power_on_tip": "已联网且插座是通电状态时",
+
+    "smart_plug_connected_network_power_off_tip": "已联网且插座是断电状态时",
+
+    "common_light": "有灯光",
+
+    "common_no_light": "无灯光",
+
+    "push_mute_tip": "暂停推送通知",
+
+    "smart_bell_quick_reply_title": "快速回复",
+
+    "smart_bell_quick_reply_click_to_add_tip": "点击添加按钮即可录制快速回复",
+
+    "common_chime": "叮咚",
+
+    "common_install_guide": "安装指南",
+
+    "common_doorbell": "门铃声",
+
+    "smart_bell_set_volume_title": "设置音量",
+
+    "smart_bell_set_audio_title": "设置音频",
+
+    "common_visitor": "访客",
+
+    "common_qsg_title": "快速使用指南",
+
+    "smart_bell_power_on_with_adapter_tip": "用电源适配器通电",
+
+    "smart_bell_power_on_next_step_tip": "已通电，下一步",
+
+    "wifi_frequency_tip": "此设备支持的 Wi-Fi 频段",
+
+    "smart_bell_chime_config_tip": "有需要连接的Reolink Chime吗？",
+
+    "smart_bell_chime_config_step_1": "将Chime插入插座",
+
+    "smart_bell_power_supply_title": "供电方式",
+
+    "smart_bell_power_supply_cable": "使用有源以太网供电",
+
+    "smart_bell_power_supply_wiring": "使用已有的门铃接线",
+
+    "smart_bell_power_supply_adapter": "使用电源适配器",
+
+    "device_upgrade_att_title": "此设备需升级固件",
+
+    "device_upgrade_att_message_1": "由于2022年2月22日起AT&T全面停止3G网络服务，可能导致使用AT&T Sim卡的Go/GoPT设备无法正常上网。",
+
+    "device_upgrade_att_message_2": "若您的Go/GoPT 使用了AT&T SIM卡，请复制以下链接到浏览器里访问，根据里面的操作说明下载升级固件。",
+
+    "device_upgrade_att_message_3": "若您当前地区不支持AT&T 4G网络，请更换其他品牌SIM卡。",
+
+    "privacy_mask_screenshot_failed_des": "请先查看一下此设备的预览画面，再回来设置相应区域。",
+
+    "base_sd_not_formatted_title": "尚未格式化",
+
+    "base_sd_not_formatted_des": "存储介质需要格式化后，才能正常使用此设备的相应功能。",
+
+    "reset_all_settings": "全部默认",
+
+    "reset_all_settings_dialog_title": "恢复显示全部默认设置？",
+
+    "reset_all_settings_dialog_des": "会恢复全部显示设置，包括：",
+
+    "reset_all_settings_dialog_des_option1": "清空遮盖区域",
+
+    "reset_all_settings_dialog_des_option2": "还原水印设置的位置",
+
+    "reset_all_settings_dialog_des_option3": "过程中可能还会重启设备，确定要全部恢复吗？",
+
+    "illegal_login_lockout_title": "非法登录锁定",
+
+    "illegal_login_lockout_des": "3分钟内登录错误达到限定次数后，将锁定该账号几分钟",
+
+    "lock_account_error": "{s1}，{s2} 次后锁定",
+
+    "locked_account_error": "{s1}。 已锁定，请{s2} 分钟后再试",
+
+    "common_expand": "展开",
+
+    "common_collapse": "收起",
+
+    "device_upgrade_att_message_4": "若没有使用AT&T SIM卡",
+
+    "device_upgrade_view_instruction_title": "查看操作说明",
+
+    "device_upgrade_donot_remin_title": "不再提醒",
+
+    "device_upgrade_att_message_5": "若您有疑问，请联系Reolink技术支持。",
+
+    "fixed_frame_rate": "固定帧率",
+
+    "fixed_frame_rate_des_open": "开，流畅优先",
+
+    "fixed_frame_rate_des_off": "关，画质优先",
+
+    "frame_rate_seq_des": "选择帧率的倍数",
+
+    "ai_track_method": "追踪方式",
+
+    "ai_track_digital": "数码",
+
+    "ai_track_pt_first": "PT优先",
+
+    "ai_track_digital_first": "数码优先",
+
+    "bino_stitch_setting_title": "拼接设置",
+
+    "bino_stitch_setting_distance_des": "微调距离来达到最佳观测效果",
+
+    "bino_stitch_setting_distance_title": "距离（米）",
+
+    "bino_stitch_setting_position_des": "微调画面位置",
+
+    "bino_stitch_setting_horizontal_des": "水平",
+
+    "bino_stitch_setting_vertical_des": "垂直",
+
+    "bino_switch_player_mode_title": "切换画面",
+
+    "bino_switch_wide_angle_picture_title": "广角画面",
+
+    "bino_switch_track_picture_title": "追踪画面",
+
+    "bino_switch_both_picture_title": "双画面",
+
+    "ptz_detect_area_guard_point_des": "设置看守点之后侦测区域才能生效",
+
+    "ptz_guard_point_not_set_des": "尚未设置看守点",
+
+    "common_deleting": "删除中",
+
+    "ptz_add_cruise_poing_title": "添加巡航点",
+
+    "ptz_edit_cruise_poing_title": "编辑巡航点",
+
+    "common_number_reach_max_tip": "已达添加数量上限",
+
+    "reolink_network_service_enable_tip": "此功能需要启用Reolink网络服务",
+
+    "reolink_network_service_title": "Reolink网络服务",
+
+    "reolink_network_service_function_title": "Reolink网络服务提供的功能：",
+
+    "reolink_network_service_function_des1": "外网预览和回放",
+
+    "reolink_network_service_function_des2": "Email和FTP不由Reolink搭建服务器，不在范围内。",
+
+    "reolink_network_service_set_server_tip": "为什么要设置服务器？",
+
+    "reolink_network_service_disable_tip": "停用后只能通过局域网访问此设备，确定停用吗？",
+
+    "common_sort": "排序",
+
+    "cloud_plan_purchase_sequence_title": "购买顺序",
+
+    "cloud_plan_remain_days_title": "剩余天数",
+
+    "cloud_plan_remain_space_title": "剩余容量",
+
+    "timelapse_estimated_video_duration_title": "预计成像时长：",
+
+    "timelapse_estimated_video_size_title": "预计成像大小：",
+
+    "timelapse_duration_title": "时长",
+
+    "timelapse_file_format_title": "格式",
+
+    "timelapse_video_duration_size_title": "已成像时长/大小：",
+
+    "common_file": "文件",
+
+    "common_login_error_max_ip_number": "已达IP数量上限。",
+
+    "common_login_error_denied": "被拒绝登录。",
+
+    "common_login_error_locked": "账号已被锁定。请稍后再试。",
+
+    "common_login_error_max_user_number": "已达最大并发用户数量。",
+
+    "common_no_overwrite": "不覆盖",
+
+    "common_overwrite_oldest": "循环覆盖最早的录像",
+
+    "common_days_title": "{s1} 天",
+
+    "alarm_input_title": "报警输入",
+
+    "alarm_input_config_title": "配置报警输入",
+
+    "alarm_output_title": "报警输出",
+
+    "alarm_output_config_title": "配置报警输出",
+
+    "alarm_input_setting_title": "设置报警输入",
+
+    "alarm_output_setting_title": "设置报警输出",
+
+    "common_delay": "延迟",
+
+    "alarm_output_schedule_title": "报警输出计划",
+
+    "alarm_input_current_channel_title": "当前通道报警输入",
+
+    "alarm_schedule_ipc_title": "IP摄像机报警计划",
+
+    "alarm_input_schedule_title": "报警输入计划",
+
+    "common_timer_schedule_title": "定时计划",
+
+    "alarm_output_channel_title": "报警输出通道",
+
+    "common_overwrite_all_title": "全部覆盖",
+
+    "record_retained_days_title": "仅保留{s1}天录像",
+
+    "login_lock_tip": "{s1}，多次出错会锁定",
+
+    "add_device_connect_smart_plug_title": "连接智能插座",
+
+    "smart_plug_make_sure_light_off_title": "否",
+
+    "smart_plug_make_sure_light_on_title": "是",
+
+    "add_device_connect_smart_plug_ap_title": "连接插座Wi-Fi",
+
+    "common_connecting": "正在连接",
+
+    "smart_plug_in_link_title": "设备联动",
+
+    "common_time_point": "在",
+
+    "common_repeat": "重复",
+
+    "smart_plug_position_and_name_title": "插孔",
+
+    "iot_select_device_title": "选择设备",
+
+    "iot_config_schedule_title": "设置时间",
+
+    "iot_select_alarm_type_title": "设置条件",
+
+    "iot_select_action_title": "设置动作",
+
+    "iot_link_max_number_tip": "联动设备数量已达到上限。",
+
+    "iot_alarm_black_to_color_title": "画面切换到彩色模式时",
+
+    "iot_alarm_color_to_black_title": "画面切换到黑白模式时",
+
+    "common_zoom_in_title": "放大",
+
+    "common_schedule_time_page_iot_action_tip": "设置启用和禁用时间",
+
+    "common_device_date_and_time_title": "此设备的日期和时间",
+
+    "iot_link_guide_title": "如何联动设备",
+
+    "smart_plug_reset_tip_1": "请给插座通电",
+
+    "common_gps_signal_weak_tip": "当前GPS信号弱",
+
+    "common_gps_privacy_purpose_tip": "用于辅助定位和查找摄像机",
+
+    "common_gps_privacy_request_tip": "{s1} 申请定位权限，用于辅助定位、查找摄像机、获取Wi-Fi信息。",
+
+    "tooltip_EditPresetPoint": "编辑预置点",
+
+    "ptz_guard_point_return": "复位",
+
+    "calibration_button_title": "自检",
+
+    "snap_refresh": "刷新画面",
+
+    "timelapse_crops_scene": "农田",
+
+    "common_password_contain_type_number_tip": "至少 {s1} 种字符",
+
+    "common_password_contain_type_tip": "至少有以下 {s1} 种类型字符：",
+
+    "comon_numbers": "数字",
+
+    "common_uppercase_letters": "大写字母",
+
+    "common_lowercase_letters": "小写字母",
+
+    "common_password_special_characters": "特殊字符：!#$%&()'*+-,:;`./;<=>?@[]^_{}|~（允许空格）",
+
+    "common_password_weak_tip": "至少包含一个数字（0-9）、大写字母(A-Z)、小写字母(a-z)和一个符三种类型。",
+
+    "doorbell_default_voice_msg_1": "Hi, we will be right there. Please wait a moment.",
+
+    "doorbell_default_voice_msg_2": "Sorry, we are not home today.",
+
+    "doorbell_default_voice_msg_3": "Hi, please leave the packege at the door. We will get it later.",
+
+    "facebook_group_title": "Facebook Group",
+
+    "facebook_group_des": "A group where sharing videos and pics is more common.",
+
+    "forum_title": "Reolink Community",
+
+    "forum_des": "A forum mainly for support & troubleshooting.",
+
+    "reddit_title": "Reddit",
+
+    "reddit_des": "A sub where people love to DIY and tech discussion.",
+
+    "timelapse_day_night_switch_msg_client": "日出或日落时，画面会出现彩色模式和夜视模式的切换突变，可在“设置 > 摄像机> 显示> 白天与黑夜”中切换成彩色或黑白。（注：调整后预览页面也会变化）",
+
+    "battery_ipc_power_saving_title": "电池类摄像机省电模式",
+
+    "battery_ipc_power_saving_message": "为了省电，电池类摄像机无操作5分钟后会自动断连",
+
+    "hardware_decoding_first_title": "硬件解码优先",
+
+    "hardware_decoding_message": "用软件解码前，先用硬件解码",
+
+    "ai_track_pt": "PT",
+
+    "map_title": "地图",
+
+    "map_description": "标记野外相机发现的动物和使用的设备等信息",
+
+    "map_add_camera_first_tip": "请先添加野外相机再添加标签",
+
+    "map_marker_title": "标签",
+
+    "map_marker_description_title": "功能说明",
+
+    "map_marker_description_1": "可在地图上标记野外相机和动物的位置",
+
+    "map_marker_description_2": "长按地图即可添加标签",
+
+    "map_marker_description_3": "点击地图上的某个标签即可查看内容",
+
+    "common_creation_time": "创建时间",
+
+    "map_add_marker_title": "添加标签",
+
+    "map_edit_marker_title": "编辑标签",
+
+    "chime_qsg_title": "Chime 使用说明",
+
+    "chime_qsg_press_button_title": "按下门铃",
+
+    "chime_qsg_sync_feedback_title": "Chime同步反馈",
+
+    "chime_qsg_no_sound_light_title": "没有声音和灯光反馈？",
+
+    "chime_qsg_sync_descrition_1": "1. 请确保Chime和门铃处于通电状态；",
+
+    "chime_qsg_sync_descrition_2": "2. 重新按一下门铃；",
+
+    "chime_qsg_sync_descrition_3": "3. 如果还没有同步反馈，请长按Chime上的同步按钮5秒，重新同步。",
+
+    "chime_qsg_sync_descrition_4": "4. 如果还是没有同步成功，请联系我们的技术支持。",
+
+    "common_installation_method_title": "安装方式",
+
+    "bell_different_guidelins_installation_title": "不同的供电方式有不同的安装指南",
+
+    "common_voice_message_title": "语音信息",
+
+    "bell_auto_reply_title": "自动回复",
+
+    "bell_auto_reply_waiting_time_title": "等待时长",
+
+    "bell_auto_reply_waiting_time_description": "门铃响后等多久",
+
+    "common_right_away": "马上",
+
+    "bell_auto_reply_delete_description": "这条信息已被设置为自动回复，删除后将没有自动回复的语音。",
+
+    "common_message": "信息",
+
+    "bell_status_led_auto_always_light_description": "状态灯会自动在侦测到人、按压按钮和对讲时有灯光的反馈。",
+
+    "image_push_device_support_description": "此设备支持带图推送",
+
+    "ptz_guard_point_set": "设置当前位置为看守点",
+
+    "ptz_guard_point_returned": "已复位",
+
+    "ptz_guard_point_interval_title": "间隔（秒）",
+
+    "wifi_reset_network_btn": "重置网络",
+
+    "common_telephoto_image": "长焦画面",
+
+    "common_delete_account": "注销账号",
+
+    "live_bino_nvr_resolution_tip": "此摄像机单画面预览时输出的分辨率是4096 X 1536, 超出了这台NVR支持的最大分辨率。\n请设置此摄像机的分辨率。",
+
+    "common_gallery_view": "网格模式",
+
+    "common_list_view": "列表模式",
+
+    "common_already_setup_device_tip": "已配置好？访问设备",
+
+    "smart_plug_reset_description": "长按重置按钮5秒后，松开按钮，确认指示灯是否闪烁。",
+
+    "smart_plug_no_flash_tip": "没有闪烁？",
+
+    "common_connect_device": "连接设备",
+
+    "common_system_wifi_setting_tip": "在系统设置里找到Wi-Fi设置；",
+
+    "smart_plug_connect_ap_tip": "查找和连接“Reolink_Smart_Plug_{s1}\" Wi-Fi",
+
+    "smart_plug_continue_setting_tip": "返回继续设置",
+
+    "common_inspecting": "检测中",
+
+    "iot_connect_ap_failed_tip_1": "检查是否已连接Wi-Fi，且选中的是设备Wi-Fi信号",
+
+    "iot_connect_ap_failed_tip_2": "检查设备是否已重置，且设备有发出Wi-Fi信号",
+
+    "iot_connect_ap_failed_tip_3": "关闭VPN，避免影响设备与APP的连接",
+
+    "iot_connect_ap_failed_tip_4": "如果以上方法未能解决问题，请联系Reolink的技术支持",
+
+    "common_audio": "音频",
+
+    "chime_volume_setting_tip": "1. 音量有5档（静音、最小、较小、较大、最大）；\n2. 音量设为最小和最大时，都会“滴滴”两声；\n3. 设为静音时，只有闪烁。",
+
+    "chime_audio_setting_tip": "按音频按钮即可切换音频",
+
+    "bell_make_sure_powered_on_tip": "请确保门铃处于通电状态且网络连接正常。",
+
+    "common_library": "库",
+
+    "download_auto_cancel_after_quitting_description": "正在下载文件中，退出会清空下载任务。确定要退出吗？",
+
+    "plan_not_purchased_tip": "未购买套餐",
+
+    "device_add_login_qrcode_scan_beep_clue": "当您听到一声“哔”声，说明连接成功；",
+
+    "cloud_plan_cancel": "取消套餐",
+
+    "cloud_plan_schedule_description": "设置视频上传到云端的触发条件",
+
+    "common_quit": "退出",
+
+    "cloud_plan_history": "历史记录",
+
+    "common_expire_time": "到期时间",
+
+    "common_unlock": "解锁",
+
+    "lockscreen_when_client_starts_title": "客户端启动时需要输入锁屏密码",
+
+    "common_storage_time": "存储时长",
+
+    "resolution_not_supported_tip": "NVR不支持当前摄像机的分辨率，请调整摄像机的分辨率。",
+
+    "ai_track_stop_description": "多久后结束追踪",
+
+    "ai_track_object_stops": "目标静止",
+
+    "ai_track_object_disappers": "目标消失",
+
+    "two_factor_authentication": "两步认证",
+
+    "authenticator_code_title": "验证码",
+
+    "backup_code_title": "备用码",
+
+    "authenticator_code_description": "输入您在第三方认证应用中看到的 6 位数字",
+
+    "backup_code_description": "输入某份8位备用码",
+
+    "two_factor_authentication_send_email_description": "发送两步验证码到这个邮箱",
+
+    "two_factor_authentication_code_email_not_received_title": "没收到？",
+
+    "common_verify": "验证",
+
+    "verification_failed_tip": "验证失败，请重新验证",
+
+    "gdpr_select_server_tip": "请选择为本设备提供网络服务的区域服务器。涉及的网络服务：",
+
+    "device_remote_serve": "设备远程访问服务",
+
+    "auto_frame_rate_title": "自动帧率",
+
+    "common_normal": "普通模式",
+
+    "frame_rate_mode_title": "帧率控制",
+
+    "common_verifying": "验证中...",
+
+    "common_send": "发送",
+
+    "common_device_added": "添加成功",
+
+    "common_motion": "智能",
+
+    "common_nighttime": "夜视",
+
+    "bell_push_notification_tip": "有人按{s1}了。",
+
+    "common_smart_plug": "智能插座",
+
+    "comomn_drag": "拖动",
+
+    "common_power": "电源",
+
+    "forget_pw_page_cellular_device_tip": "2. 重置完成后网络连接、设备的登录密码等信息会被清除，需重新进行相关配置。",
+
+    "bell_install_with_poe_title": "使用PoE",
+
+    "bell_install_with_wiring_title": "如何使用电源线安装门铃？",
+
+    "bell_install_poe_title": "PoE 门铃安装",
+
+    "bell_install_wifi_title": "Wi-Fi 门铃安装",
+
+    "bell_install_prepare_title": "准备工作",
+
+    "bell_install_prepare_tip": "准备一条合适长度的网线、PoE设备（NVR或其他PoE设备）。 并将网线的一端接入PoE设备的PoE接口",
+
+    "bell_install_find_place_title": "选择门铃安装位置",
+
+    "bell_install_find_place_tip": "在门前选择合适的安装位置，避免安装后，墙出现在视场内，视场内的墙面可能会反射红外光，导致画面模糊。",
+
+    "bell_install_height_tip": "选择合适的安装高度，确保获得理想的视场体验，推荐安装高度为1.2米（48英寸）。",
+
+    "bell_install_start_title": "开始安装",
+
+    "bell_install_wedge_function_tip": "确定是否使用楔形支架改善视场，如果人位于视场的边缘，则需要使用；否则不需要使用。",
+
+    "bell_install_use_wedge_tip": "使用楔形支架",
+
+    "bell_install_not_use_wedge_tip": "不使用楔形支架",
+
+    "bell_install_drill_hole_title": "定位安装位置",
+
+    "bell_install_drill_hole_tip": "找到包装里的定位贴纸，根据贴纸示意位置定位楔形支架的钻孔位置（注意用楔形支架和不用楔形支架安装时的钻孔位置不一样）。",
+
+    "bell_install_wedge_title": "固定楔形支架",
+
+    "bell_install_wedge_tip": "如果是软墙面，直接打入螺丝将楔形支架固定在墙上； 如果是硬墙面，先打入墙锚，再将螺丝打入楔形支架。 支架的中空部分，钻出孔洞，用于走线。",
+
+    "bell_install_use_mounting_plate_tip": "如果是软墙面，直接打入螺丝将安装支架固定在墙上；如果是硬墙面，先打入墙锚，再将螺丝打入安装支架。支架的中空部分，钻出孔洞，用于走线。",
+
+    "common_soft_wall_title": "软墙面",
+
+    "common_hard_wall_title": "硬墙面",
+
+    "bell_install_mounting_plate_title": "固定安装支架",
+
+    "bell_install_mounting_plate_tip": "拿出门铃固定支架，打入螺丝固定在楔形支架上。",
+
+    "bell_install_connect_cable_title": "网线插入门铃",
+
+    "bell_install_connect_cable_tip": "将网线从墙中穿出，接入门铃设备。",
+
+    "bell_install_fix_in_mounting_plate_title": "将门铃扣入安装支架",
+
+    "bell_install_fix_in_mounting_plate_tip": "根据图示，将门铃扣在支架上。",
+
+    "common_finish": "安装完成",
+
+    "bell_install_finish_tip": "请按一下门铃，看看门铃和叮咚是否有声音反馈，同时查看门铃预览画面。",
+
+    "bell_install_finish_error_title": "为什么我的门铃显示白色的指示灯？",
+
+    "bell_install_use_doorbell_wiring_title": "使用已有的门铃接线",
+
+    "bell_install_use_adapter_title": "使用电源适配器",
+
+    "bell_install_select_network_connection_title": "选择网络方式",
+
+    "bell_install_select_network_connection_tip": "选择门铃的网络接入方式，使用Wi-Fi接入或使用网线接入。",
+
+    "bell_install_use_wifi_title": "使用Wi-Fi",
+
+    "bell_install_use_network_cable_title": "使用网线",
+
+    "bell_install_prepare_network_cable_tip": "准备一条合适长度的网线，另一端连接路由器。",
+
+    "bell_install_find_existing_bell_title": "找到已有的门铃",
+
+    "bell_install_find_existing_bell_tip": "确认现有按钮门铃系统是否工作。按门铃按钮，跟随叮咚声音在室内找到叮咚。",
+
+    "bell_install_find_existing_bell_note": "注：如不工作，请联系专业电工进行安装，或返回第一步选择使用适配器供电。",
+
+    "bell_install_turn_off_power_to_existing_bell_title": "关闭电源",
+
+    "bell_install_turn_off_power_to_existing_bell_tip": "在电工指引下，找到门铃供电系统的开关，关闭电源，再次按门铃按钮，确认叮咚不再响起。",
+
+    "bell_install_electrical_work_warning_tip": "请联系专业电工进行操作！",
+
+    "bell_install_electrical_work_warning_note_1": "请勿将门铃直接连接电源主线。否则会导致火灾、电击或其他伤害损失。如不了解如何操作电线，请联系专业电工进行操作！",
+
+    "bell_install_electrical_work_warning_note_2": "此门铃供电系统支持电压范围为：12-24V AC。",
+
+    "bell_install_i_got_it_title": "我清楚了",
+
+    "bell_install_check_voltage_of_chime_title": "检查叮咚是否提供足够的电压",
+
+    "bell_install_check_voltage_of_chime_tip": "移除叮咚盒子，使用电压计确认供电系统是否可以给门铃提供充足电源，否则需要桥接叮咚。门铃支持电压范围为：12-24V AC。",
+
+    "bell_install_check_voltage_of_chime_note": "注： \n 1：已有的叮咚不会再响；\n 2：如不了解如何操作电线，请联系专业电工进行操作！",
+
+    "bell_install_check_voltage_of_chime_error_title": "我看到情况不一样？",
+
+    "bell_install_remove_existing_bell_title": "拆下已有的门铃",
+
+    "bell_install_remove_existing_bell_tip": "确认电压之后，将叮咚的盒子盖回去。\n1. 卸载旧门铃按钮.\n2. 接上延长线来为连接新门铃做准备；\n3. 给接线处盖上标配的压线帽。",
+
+    "bell_install_connect_bell_to_existing_wiring_title": "将门铃接入电源线",
+
+    "bell_install_connect_bell_to_existing_wiring_tip": "将原本的电源线，接入新门铃设备。",
+
+    "bell_install_connect_bell_to_wiring_tip": "将电源线接入新门铃设备。",
+
+    "bell_install_connect_bell_to_existing_wiring_note": "注：接入后要确保y型接口互不触碰。",
+
+    "bell_install_connect_power_and_network_cable_title": "电源与网线接入门铃",
+
+    "bell_install_connect_power_and_network_cable_tip": "将网线从墙中穿出，和原本的电源线，按图示接入门铃设备。",
+
+    "bell_install_connect_standard_power_and_network_cable_tip": "将网线从墙中穿出，和电源线，按图示接入门铃设备。",
+
+    "bell_install_restore_power_title": "恢复电源",
+
+    "bell_install_restore_power_tip": "检查安装无误后，恢复电源。",
+
+    "bell_install_use_adapter_prepare_tip": "选一个离门较近的地方安装适配器，进行布线，此时先不把适配器插入插座。",
+
+    "ai_animal_funcation_description": "侦测动物功能利用PIR和AI来提高侦测识别动物和人的效率，便于更精准地查看推送通知和回放等内容。",
+
+    "common_locating": "定位中",
+
+    "common_location": "定位",
+
+    "map_view_on_map_title": "在地图中查看",
+
+    "review_invitation_tip": "如果你喜欢这个应用，请评分支持我们。谢谢！",
+
+    "common_dislike": "不喜欢",
+
+    "common_like": "喜欢",
+
+    "common_not_now": "暂时不要",
+
+    "common_rate": "评分",
+
+    "light_pause_alarm_title": "暂停报警",
+
+    "light_pause_alarm_no_pause_title": "不暂停",
+
+    "light_pause_alarm_minutes_title": "暂停{s1}分钟",
+
+    "light_pause_alarm_forever_title": "永远暂停",
+
+    "light_mode_title": "开灯模式",
+
+    "light_smart_night_vision_mode_tip": "自动根据侦测和环境光线情况来亮灯",
+
+    "light_night_vision_always_on_tip": "环境光线变暗就亮灯",
+
+    "light_schedule_mode_tip": "定时亮灯",
+
+    "light_ambient_light_threshold_title": "环境光亮度阈值",
+
+    "light_ambient_light_threshold_tip": "设置的值越高，越早就亮灯。",
+
+    "light_delay_turn_off_duration_title": "亮灯时长",
+
+    "light_delay_turn_off_duration_tip": "移动侦测结束后继续亮灯多久：",
+
+    "common_alarm_audio": "报警声音",
+
+    "light_alarm_audio_tip": "报警声音只能由联动来触发",
+
+    "light_alarm_audio_use_tip": "可通过联动功能调用以下音频",
+
+    "light_audio_used_for_link_tip": "这条音频已用于联动报警，删除后将使用默认音频来代替报警。",
+
+    "light_setting_effect_light_mode_tip": "这个会影响智能开灯模式。",
+
+    "light_alarm_sensitivity_title": "移动侦测的灵敏度",
+
+    "common_if": "如果",
+
+    "common_then": "那么",
+
+    "common_action": "操作",
+
+    "link_action_schedule_tip": "点击某天即可设置其24小时的启用和停用时段。",
+
+    "common_always": "一直",
+
+    "common_no_device": "无设备",
+
+    "cloud_plan_switch_overwrite_tip": "此设备在当前套餐的已存视频容量 > 新套餐剩余存储容量。\n 切换套餐后，将按照视频上传时间自动覆盖删除，即最早上传的视频将被覆盖删除。",
+
+    "common_pair": "配对",
+
+    "chime_sync_tip": "门铃与叮咚已出厂默认配对好。如需重新配对，步骤如下：\n 1. 将叮咚断电；\n 2. 按住设置按钮的同时给叮咚通电。继续按住设置按钮5秒，直到指示灯亮起；\n 3. 按一下门铃按钮，叮咚的指示灯闪烁两下，“嘀嘀”两声，即重新配对成功。",
+
+    "chime_reset_tip": "1. 将叮咚断电；\n2. 按住音量按钮的同时给叮咚通电。听到叮咚先“滴”10声后再快速“滴”4声，即叮咚重置成功。",
+
+    "cloud_test_error_10004": "参数错误",
+
+    "cloud_test_error_10008": "忙碌，一次只能处理一个测试命令。",
+
+    "cloud_test_error_30": "内存分配出错",
+
+    "cloud_test_error_31": "命令不支持",
+
+    "cloud_test_error_32": "命令超时",
+
+    "cloud_test_error_35": "Json 參数解析失败没有权限",
+
+    "cloud_test_error_37": "Token 过期",
+
+    "cloud_test_error_38": "无效的 Token",
+
+    "cloud_test_error_39": "请求携带 Token",
+
+    "cloud_test_error_40": "账户被禁用",
+
+    "cloud_test_error_42": "签名过期",
+
+    "cloud_test_error_43": "暂不开放云存储功能",
+
+    "cloud_test_error_44": "正在处理上一次任务",
+
+    "cloud_test_error_45": "配置未初始化",
+
+    "cloud_test_success_title": "测试成功",
+
+    "cloud_test_success_tip": "已成功发送3秒的测试视频到云存储。",
+
+    "cloud_test_error_46": "未开启云录像功能",
+
+    "cloud_storage_date_option": "特定的时间",
+
+    "link_tip": "如果A设备达到某条件，就触发B设备执行特定动作。",
+
+    "light_night_vision_always_on_luminance": "正常亮度",
+
+    "light_night_vision_always_on_alarm_luminance": "侦测到移动事件时的亮度",
+
+    "common_schedule_settings_page_tip": "选择时段并设置为启用 / 停用状态。",
+
+    "cloud_plan_title": "套餐",
+
+    "common_beta_function": "测试版功能",
+
+    "device_switch_plan_tip_current_plan": "这台设备已被添加到",
+
+    "device_switch_plan_tip_target_plan": "切换这台设备到",
+
+    "horizontal_tracking_range_title": "水平追踪范围",
+
+    "horizontal_tracking_range_tip": "限制水平追踪的范围",
+
+    "horizontal_tracking_range_location_rules": "两点水平位置不能一样，请调整位置。",
+
+    "common_confirm_next": "确定，下一步",
+
+    "smart_battery_mode": "智能省电模式",
+
+    "smart_battery_mode_tip": "为了长时间使用，在不同电量时定时录像会启用不同设置。",
+
+    "smart_battery_mode_des1": "无论电量多少，PIR报警时都是满帧录像。",
+
+    "smart_battery_mode_des2": "关闭智能省电模式时，电量 <= {s1} 时也会停用定时录像。",
+
+    "common_low_frame_rate": "低帧率",
+
+    "common_full_frame_rate": "满帧率",
+
+    "common_power_on_tip": "请给设备通电",
+
+    "light_wizard_no_light_feedback_title": "没有灯光反馈？",
+
+    "common_connect_device_wifi": "连接设备的 Wi-Fi",
+
+    "add_device_light_connect_ap_tip": "查找和连接“Reolink_Floodlight_{s1}” Wi-Fi",
+
+    "iot_link_add_action_title": "添加操作",
+
+    "audition_button_sound_testing": "试听中",
+
+    "pw_error_page_detect_device_just_reset": "设备已重置，请开始初始化。",
+
+    "push_delay_title": "延迟推送",
+
+    "email_delay_title": "延迟发送",
+
+    "push_and_email_delay_time_title": "延迟时间",
+
+    "push_delay_open_tip": "开启后通知将延迟推送，确定开启吗？",
+
+    "email_delay_open_tip": "开启后邮件将延迟发送，确定开启吗？",
+
+    "common_multiSecs": "秒",
+
+    "common_rich_notification": "图文通知",
+
+    "common_rich_notification_des": "直接在推送通知中预览报警画面。",
+
+    "common_rich_notification_learn_more": "此设备支持图文通知。",
+
+    "device_login_page_connect_failed_tip": "请确保你的设备已启动并且已连接网络。",
+
+    "port_setting_rtsp_des": "关闭后将无法使用ONVIF等预览设备。",
+
+    "hdd_config_page_device_restore_sure_tip": "设备将删除所有录像文件并重启，是否继续？",
+
+    "frame_rate_model_auto_tip": "可变帧率，自动调节帧率来保持画质（不适用有快速运动的物体）。",
+
+    "frame_rate_model_fixed_title": "恒定",
+
+    "frame_rate_model_fixed_tip": "恒定帧率，流畅优先。",
+
+    "frame_rate_model_normal_title": "逐步",
+
+    "frame_rate_model_normai_tip": "可变帧率，逐步调节帧率来保持画质（适用有快速运动的物体）。",
+
+    "copy_device_settings_title": "复制到其他设备",
+
+    "copy_device_settings_tip": "应用相同的设置到相同型号的设备。",
+
+    "clear_horizontal_tracking_setting_tip": "确定要清除水平追踪范围的设置吗？",
+
+    "iot_page_date_tip": "这台设备的日期与时间。",
+
+    "common_threshold": "阈值",
+
+    "auto_switch_black_or_white": "自动切换日夜模式",
+
+    "video_noise_reduction": "音频降噪",
+
+    "live_page_toolbar_ptz_3D_zoom": "三维定位",
+
+    "live_page_toolbar_ptz_3D_zoom_tip": "让镜头自动定焦到绘制的区域。",
+
+    "forget_pw_page_erase_info_tip": "2. 重置完成后设备信息将被清空。",
+
+    "common_not_support_device": "设备类型不匹配",
+
+    "installation_position_lifting": "吸顶",
+
+    "installation_position_hanging": "壁挂",
+
+    "installation_position_standing": "桌面",
+
+    "common_image_layout_title": "图像布局",
+
+    "image_model_expansion": "展开",
+
+    "image_model_artwork_master": "鱼眼",
+
+    "common_image_layout_switch_tip": "选项切换后,隐私区域、报警区域、目标尺寸的配置将被清空;\n设备即将重启。确定要切换吗？",
+
+    "image_model_expansion_switch_tip": "配置更改后，隐私区域、报警区域、目标尺寸的配置将被清空。确定要配置吗？",
+
+    "image_model_expansion_switch_tip2": "画面更改后，隐私区域、报警区域、目标尺寸的配置将被清空。",
+
+    "common_rebooting_tip": "设备正在重启。请稍后...",
+
+    "image_rotation": "旋转画面",
+
+    "click_refresh": "点击刷新",
+
+    "expansion_model_180": "180°全景",
+
+    "expansion_model_four_view": "四分屏",
+
+    "expansion_model_cylindrical_view": "环装全景",
+
+    "expansion_model_360": "全景拉伸",
+
+    "expansion_model_hemispheric_view": "半球全景",
+
+    "common_image_layout_title2": "图像布局设置",
+
+    "common_image_layout_tip": "自定义图像布局设置，以满足您的需求。",
+
+    "common_week_sunday_abbr": "日",
+
+    "common_week_monday_abbr": "一",
+
+    "common_week_tuesday_abbr": "二",
+
+    "common_week_wednesday_abbr": "三",
+
+    "common_week_thursday_abbr": "四",
+
+    "common_week_friday_abbr": "五",
+
+    "common_week_saturday_abbr": "六",
+
+    "wan_abbr": "WAN",
+
+    "wan_full_name": "广域网",
+
+    "lan_abbr": "LAN",
+
+    "lan_full_name": "局域网",
+
+    "version_update_hint": "需要更新",
+
+    "version_update_hint_tip": "为了正常使用各种新功能，请更新Reolink客户端到最新版本。",
+
+    "current_version": "当前版本",
+
+    "latest_version": "最新版本",
+
+    "new_function": "新增功能",
+
+    "optimization_function": "优化的地方",
+
+    "wide_angle_fluent": "广角-流畅",
+
+    "tracking_fluent": "追踪-流畅",
+
+    "wide_angle_clear": "广角-清晰",
+
+    "tracking_clear": "追踪-清晰",
+
+    "telephoto_fluent": "长焦-流畅",
+
+    "telephoto_clear": "长焦-清晰",
+
+    "floodlight_title": "泛光灯",
+
+    "configuration_clear_tip": "配置清空中...",
+
+    "configuration_clear_failed_tip": "配置清空失败，请重试。",
+
+    "audio_name_rule1": "开头字符不能是空格。",
+
+    "jump_system_settings": "前往系统设置",
+
+    "live_floodlight_once_tip": "点击开启摄像机泛光灯，{s1}s后将自动关闭（无报警情况下）。",
+
+    "remote_settings_floodlight_page_func_intro": "夜晚时开启泛光灯画面呈现彩色模式，拍摄效果更佳。",
+
+    "remote_settings_floodlight_page_light_off": "未开启泛光灯",
+
+    "remote_settings_floodlight_page_light_on": "开启泛光灯",
+
+    "remote_settings_floodlight_page_alarm_light_tip": "夜晚检测到报警事件时，泛光灯将自动亮起，一段时间后自动关闭。",
+
+    "remote_settings_floodlight_page_auto_on_preview_description": "夜晚查看预览时，自动开启，结束后关闭。",
+
+    "remote_settings_floodlight_page_smart_night_vision_description": "夜视模式下侦测到报警事件时自动开启泛光灯。",
+
+    "remote_settings_floodlight_page_night_vision_always_on_description": "夜视模式下自动持续开启泛光灯。",
+
+    "remote_settings_floodlight_page_night_vision_off_description": "夜视模式下不自动开启泛光灯。",
+
+    "remote_settings_floodlight_page_timing_always_on_description": "夜视模式下定时持续开启泛光灯。",
+
+    "pc_transpond_data_use_up_des": "流量包已用完，请在 {s1} APP上查看详情并及时充值。",
+
+    "installation_position_title": "选择安装方式",
+
+    "common_image_layout_restore_tips": "恢复图像布局默认设置？",
+
+    "common_image_layout_restore_des": "恢复图像布局默认设置，影响包括：",
+
+    "expansion_model_two_view": "二画面",
+
+    "gesture_operated_switch_tips": "点击这里可以单指或双指操控画面",
+
+    "common_image_layout_switch_tip1": "选项切换后，隐私区域、报警区域、目标尺寸的配置将被清空；\n设备即将重启",
+
+    "system_info_terms_and_policies_tips": "请在浏览器里输入下面的链接或扫码对应的二维码，查看具体的声明与条款内容。",
+
+    "system_info_copyright": "Copyright © {s1} {s2} . All Rights Reserved.",
+
+    "common_email_security_protocol_close_tips": "建议保持开启SSL/TLS，以保障数据的传输安全。确认关闭？",
+
+    "common_ftp_open_tips": "在FTP服务中，数据将以未加密形式传输，建议您在家庭和工作网络而非公共网络上启用此功能。或开启此设备FTPS加密选项，并同时开启FTP服务器的FTPS选项，以保障数据的传输安全。确认开启？",
+
+    "common_ftps_title": "不允许未加密的FTP明文传输",
+
+    "common_ftps_des": "使用加密传输，请在FTP服务器上的FTPS选项配置页面进行设置。",
+
+    "common_push_open_terms_and_policies_sure_tips": "我理解 {s1} 会收集设备报警通知和设备信息，这些信息只会用于 {s2} App 推送设备报警通知。",
+
+    "common_upnp_title": "UPnP",
+
+    "common_upnp_open_tips": "开启UPnP后，设备的端口将会在上一级网络中被打开，建议您在家庭和工作网络而非公共网络上启用此功能。确认开启？",
+
+    "common_port_settings_title": "服务设置",
+
+    "common_server_title": "基础服务",
+
+    "common_server_des": "{s1} 应用的基础网络服务，关闭后将无法使用 {s2} 客户端/APP访问设备。",
+
+    "common_rtmp_title": "RTMP",
+
+    "common_rtmp_des": "设备与浏览器Flash Player之间，基于RTMP协议的音视频通信服务。",
+
+    "common_rtmp_open_tips": "在RTMP服务中，数据将以未加密形式传输，建议您在家庭和工作网络而非公共网络上启用此功能。确认开启？",
+
+    "common_http_title": "HTTP",
+
+    "common_http_des": "设备与浏览器之间，基于HTTP协议的访问控制服务。若HTTPS打开并且HTTP关闭时，HTTP访问会自动跳转HTTPS。",
+
+    "common_http_open_tips": "在HTTP服务中，数据将以未加密形式传输，建议您在家庭和工作网络而非公共网络上启用此功能，或使用HTTPS服务替代。确认开启？",
+
+    "common_https_title": "HTTPS",
+
+    "common_https_des": "设备与浏览器之间，基于HTTPS协议的访问控制服务。",
+
+    "common_https_open_tips": "HTTPS默认使用的是自签名证书，您也可以通过 {s1} 客户端导入自己的HTTPS证书后使用。确认开启？",
+
+    "common_import": "导入",
+
+    "common_imported": "已导入",
+
+    "common_http_and_https_close_tips": "同时关闭HTTP和HTTPS服务，浏览器将无法访问设备。确定关闭？",
+
+    "common_rtsp": "RTSP",
+
+    "common_rtsp_des": "设备与第三方软件之间，基于RTSP协议的音视频通信服务。",
+
+    "common_rtsp_open_tips": "在RTSP服务中，数据将以未加密形式传输，建议您在家庭和工作网络而非公共网络上启用此功能。确认开启？",
+
+    "common_onvif": "ONVIF",
+
+    "common_onvif_des": "设备与第三方软件之间，基于ONVIF协议的访问控制服务。开启ONVIF须先启用RTSP服务。",
+
+    "common_onvif_open_tips": "在ONVIF服务中，数据将以未加密形式传输，建议您在家庭和工作网络而非公共网络上启用此功能。确认开启？",
+
+    "common_uid_des": "产品UID是设备的唯一标识符，可帮助您添加设备或查询设备相关信息。可以在手机/电脑上用 {s1} 应用来访问此设备。",
+
+    "common_uid_switch": "允许 {s1} 软件在广域网用UID来访问此设备",
+
+    "common_uid_close_tips": "建议允许 {s1} 软件在广域网用UID来访问此设备，方便随时随地访问。确认关闭？",
+
+    "common_uid_switch_tips": "设定后可在：设置 > 系统 > 信息 页面重设此开关。",
+
+    "server_settings_change_tips": "更改以下开关或端口，浏览器会自动退出访问设备，需要重新登录。",
+
+    "common_push_open_terms_and_policies_sure_tips2": "我已阅读和理解{s1}和{s2}，确认并继续。\n我理解 {s3} 会收集设备报警通知和设备信息，这些信息只会用于 {s4} App 推送设备报警通知。",
+
+    "common_disagree_button": "不同意",
+
+    "common_unpaired": "未配对",
+
+    "device_and_battery_pair_title": "将电池包与设备配对：",
+
+    "device_and_battery_pair_tips1": "* 获取电池包的电量",
+
+    "device_and_battery_pair_tips2": "* 使用智能省电模式",
+
+    "device_and_battery_pair_tutorial_title": "如何配对",
+
+    "device_and_battery_pair_step1": "1. 找到电池包的ID",
+
+    "device_and_battery_pair_step2": "2. 输入电池包的ID",
+
+    "battery_uid_void": "无效ID",
+
+    "electric_quantity_information_anomaly_tips1": "获取电量失败时不启用智能省电模式",
+
+    "electric_quantity_information_anomaly_tips2": "新电池？",
+
+    "doorbell_volume_switch": "门铃按钮的声音",
+
+    "night_vision_focus_title": "夜视对焦增强",
+
+    "night_vision_focus_des": "优化夜视部分情况下的对焦",
+
+    "for_developer": "给开发者用的模块",
+
+    "common_webhook": "Webhook",
+
+    "common_webhook_des": "接收推送的网络钩子。",
+
+    "common_content": "内容",
+
+    "common_url": "网址",
+
+    "common_formatting_error": "格式不正确",
+
+    "alarm_settings_installation_method_des1": "选择设备实际的安装方式，可以提高侦测的精准度。",
+
+    "alarm_settings_installation_method_des2": "您在此处的选择，不会与预览或回放中的安装方式相互影响。",
+
+    "reset_all_settings_dialog_des_option4": "清空隐私区域、报警区域、目标尺寸的配置",
+
+    "common_unconfigured_network": "未配置网络连接",
+
+    "common_configured": "已配置",
+
+    "common_modes_button": "显示模式",
+
+    "display_modes_title": "模式",
+
+    "STR_MAINMENU_SYSTEM": "系统",
+
+    "STR_VERSION": "版本",
+
+    "STR_VERSION_SIZE": "版本大小",
+
+    "STR_DOWNLOAD_FAILED": "下载失败",
+
+    "STR_CHECK_LATEST_VERSION": "检查最新版本",
+
+    "STR_EXCEPT_HDFULL": "硬盘满",
+
+    "STR_EXCEPT_HD": "硬盘错误",
+
+    "STR_EXCEPT_IP": "IP 冲突",
+
+    "STR_EXCEPT_NET": "网络断开",
+
+    "STR_MODIFY_USER": "修改账号",
+
+    "STR_MOUNT_FAIL": "挂载设备失败",
+
+    "STR_SCHUDULE": "布防",
+
+    "STR_NETWORK_MENU_ADVANCED_STATIC_NTP": "网络时间协议",
+
+    "STR_NETWORK_ADVANCED_FTP_BUTTON_SUBFOLDER": "按日期分文件夹",
+
+    "STR_PLAYBACK_CUSTOM_TIPS_VOICE": "声音",
+
+    "STR_PLAN_ENABLE_ALL": "启用全部",
+
+    "STR_PLAN_DISABLE_ALL": "禁用全部",
+
+    "STR_PLAN_EMAIL_VIDEO_LOSS": "摄像头断开连接时邮件警报",
+
+    "STR_PLAN_BUZZER_VIDEO_LOSS": "摄像头断开连接时蜂鸣器警报",
+
+    "STR_CAMERA_STATUS_TAB_STREAM": "码流",
+
+    "STR_CAMERA_STATUS_TAB_ALARM": "侦测",
+
+    "STR_CAMERA_ALARM_COPY": "应用到其他相机",
+
+    "STR_CAMERA_COPY_TIPS1": "选择需要应用的设备",
+
+    "STR_CAMERA_ALARM_NEW_OTHER_TIME": "其他时间",
+
+    "STR_CAMERA_ALARM_NEW_ADD_TIME": "添加时间段",
+
+    "STR_CAMERA_MASK_SET_TIPS": "拖动鼠标设置不想要展示在画面中的隐私区域（黑色色块），最多可以设置{s1}个。",
+
+    "STR_CAMERA_MD_ADD_ALL": "添加所有",
+
+    "STR_MOUNT": "挂载",
+
+    "STR_DISK_INFO_ID": "ID",
+
+    "STR_CAMERA_VOLUME": "音量",
+
+    "common_osd": "OSD",
+
+    "common_osd_full_name": "屏幕上的显示",
+
+    "restore_device_osd_tips": "还原OSD的设置",
+
+    "common_service_unavailable": "不好意思，你所在区域服务不可用。",
+
+    "overexposure_adjustment_mode_title": "调整局部曝光",
+
+    "overexposure_adjustment_tips": "选择过曝区域",
+
+    "overexposure_adjustment_des": "设备会自动减弱指定区域的曝光。",
+
+    "bell_install_bypass_chime_title": "旁路(Bypass)掉旧Chime",
+
+    "bell_install_bypass_chime_tips1": "1. 移除Chime盖子，确认门铃供电系统可以提供充足电源。门铃支持电压范国为：12-24V AC, 30VA或者24V DC。",
+
+    "bell_install_bypass_chime_tips2": "2. 在包装中找到跳线(Jumper Cabel)，将跳线的两端按上图接在Chime上Trans和Front的两端。",
+
+    "bell_install_bypass_chime_note1": "旧Chime不会再工作。",
+
+    "bell_install_bypass_chime_note2": "Bypass可解决新门铃的供电不稳定或旧Chime异晌等问题。",
+
+    "horizontal_tracking_range_des": "默认不限制水平追踪范围",
+
+    "doorbell_light_nighttime_des": "自动且夜视常亮",
+
+    "STR_TIME_LAPSE_TOTAL_TIME_LIMIT": "开始和结束时间间隔不能超过365天。",
+
+    "common_delete_device_tips1": "删除设备后，该设备的{s1}流量服务功能将停用。",
+
+    "common_delete_device_tips2": "删除设备后，该设备的云存储以及{s1}流量服务功能将停用。",
+
+    "common_delete_device_tips3": "删除设备后，该设备的智能家居以及{s1}流量服务功能将停用。",
+
+    "common_delete_device_tips4": "删除设备后，设备的云存储、智能家居、{s1}流量服务功能将停用。",
+
+    "common_reset_device_tips1": "重置设备后，该设备的云存储功能将停用。",
+
+    "common_reset_device_tips2": "重置设备后，该设备的智能家居功能将停用。",
+
+    "common_reset_device_tips3": "重置设备后，该设备的{s1}流量服务功能将停用。",
+
+    "common_reset_device_tips4": "重置设备后，该设备的云存储以及智能家居功能将停用。",
+
+    "common_reset_device_tips5": "重置设备后，该设备的云存储以及{s1}流量服务功能将停用。",
+
+    "common_reset_device_tips6": "重置设备后，该设备的智能家居以及{s1}流量服务功能将停用。",
+
+    "common_reset_device_tips7": "恢复出厂后，设备的云存储、智能家居、{s1}流量服务功能将停用。",
+
+    "enhanced_night_vision_brightness_title": "夜视通透模式",
+
+    "enhanced_night_vision_brightness_des": "优化夜视模式下的画面亮度。",
+
+    "wifi_5g_prefer_title": "5G优先",
+
+    "wifi_5g_prefer_des": "优先连接 5GHz 频段的Wi-Fi",
+
+    "STR_LOCAL_NETWORK_TITLE": "本地网络设置",
+
+    "STR_LOCAL_NETWORK_TIP": "为避免IP冲突，默认网关的子网不能与网络设置中默认的网关地址一样。",
+
+    "common_poe_abbr": "POE",
+
+    "rated_total_power_of_power_adapter": "电源适配器额定总功率(W)",
+
+    "pow_realtime_routput_rtotal_rvoltage": "POE实时输出总电压(∆V)",
+
+    "pow_realtime_total_power": "POE实时总功率(W)",
+
+    "poe_power_abnormal_des": "因为NVR里的HDD和主板也需要用电，所以当POE总功率超过或接近电源适配器额定总功率时会提示POE功率异常。",
+
+    "common_connection": "连接",
+
+    "common_power_w": "功率(W）",
+
+    "maximum_power_of_the_port": "端口的最大功率(W)",
+
+    "poe_power_abnormal_alarm": "POE功率异常时报警",
+
+    "poe_power_abnormal": "POE功率异常",
+
+    "display_mask_title": "画面遮罩",
+
+    "position_mask_title": "位置遮罩",
+
+    "position_mask_des": "新增位置遮罩功能！该功能目前主要用遮盖不同位置的图像，可以更灵活自由设置隐私遮罩的区域。",
+
+    "position_mask_add": "在预览画面上画下方框即可创建遮罩。",
+
+    "get_battery_power_abnormal": "获取电量异常？",
+
+    "common_buy": "购买",
+
+    "device_auto_disconnect_without_operation_tip1": "系统检测到设备[{s1}] 一段时间内无操作，为节省设备流量，是否要断开连接？设备将在{s2}秒后自动断开连接。",
+
+    "auto_connect_tip1": "关闭自动断开连接，且不再提醒",
+
+    "auto_disconnect_title": "自动断开连接",
+
+    "auto_disconnect_des": "打开后，设备五分钟内无任何操作将自动断开连接。",
+
+    "common_device_not_login": "设备未登录",
+
+    "common_bitrate": "码率",
+
+    "bitrate_constant": "恒定码率",
+
+    "bitrate_variable": "可变码率",
+
+    "wifi_channel_prefer_title": "Wi-Fi 频段偏好",
+
+    "which_channel_of_the_same_wifi": "连接同一Wi-Fi的哪种频段",
+
+    "common_only_2_4g_wifi": "仅 2.4G",
+
+    "common_only_5g_wifi": "仅 5G",
+
+    "common_static_ip_address": "选择静态IP地址，以保障{s1}与其他设备连接稳定",
+
+    "common_bind_device": "绑定设备",
+
+    "common_learn_more_about_help_tip": "了解更多关于{s1}",
+
+    "device_bind_to_base_help_tip": "设备绑定到{s1}...",
+
+    "common_ftp_bind": "FTP绑定",
+
+    "device_bind_to_base_second_dialog_message_1": "绑定后，设备将上传回放和延时摄影文件至{s1}。",
+
+    "device_bind_to_base_dialog_message": "绑定后，设备将上传回放和延时摄影文件至{s1}。您确定要绑定吗？",
+
+    "device_ftp_bind_to_base_second_dialog_message_1": "FTP绑定会占用设备FTP的功能，请勿随意更改FTP的配置。",
+
+    "device_ftp_bind_to_base_dialog_message": "FTP绑定会占用设备FTP的功能，请勿随意更改FTP的配置。您确定要绑定吗？",
+
+    "device_bind_to_base_second_dialog_message_2": "该设备已被{s1}绑定。您确定要绑定吗？",
+
+    "common_other_base": "其他{s1}",
+
+    "storage_medium_no_format_tip": "存储介质未格式化",
+
+    "device_file_not_uploaded_to_base_tip": "长时间未上传文件",
+
+    "common_unbind_device_list": "已解绑设备",
+
+    "device_failed_to_fetch_file": "获取文件失败",
+
+    "common_share_device": "分享设备",
+
+    "base_format_hdd_dialog_message": "{s1}将删除硬盘内所有录像文件，是否继续？",
+
+    "ip_connect_type_switch_des": "建议选择静态IP地址，以保障{s1}与其他设备连接稳定。",
+
+    "remote_config_record_describe_with_hdd_or_sd_card": "录制监控视频到设备的SD卡或{s1}，以便查看回放。",
+
+    "common_storage_location": "存储位置",
+
+    "storage_location_sd_card_and_base": "SD卡和{s1}",
+
+    "common_base_2_model_name": "{s1} Safebase",
+
+    "common_base_2_model_abbreviation": "Safebase",
+
+    "hardware_encoding_alert": "硬件解码需要电脑支持才能生效。开启或关闭此功能都需要重启客户端。确定要继续吗？",
+
+    "common_failed_to_get_info_retry_tip": "获取信息失败，请重试。",
+
+    "sidebar_settings_page_multi_view_stretch_display": "多画面拉伸",
+
+    "suspend_liveview_notice": "已长时间没有操作，为节省转发流量，{s1} 秒后会自动暂停预览。",
+
+    "local_record": "本地录像",
+
+    "local_record_des": "建议在局域网（LAN）下使用",
+
+    "connect_nvr_bundled_camera_tutorial": "如何连接配套的摄影机",
+
+    "nvr_bundled_camera_prepaired_info": "配套的摄影机出厂时，已与此 Wi-Fi NVR 配对好。",
+
+    "nvr_bundled_camera_prepaired_autoconnection": "配套的摄像机通电后，会自动连接和添加到此NVR。",
+
+    "nvr_wifi_settings_introduction": "如何设置NVR的Wi-Fi热点",
+
+    "nvr_wifi_settings_introduction_des": "初始化设置完成后，在 Settings > Network > Wi-Fi 页面设置。",
+
+    "nvr_wifi_hotspot": "NVR 的 Wi-Fi 热点",
+
+    "wifi_ssid_name": "Wi-Fi 名称",
+
+    "common_invisible": "隐身",
+
+    "wifi_invisible_des": "隐身后，手动输入Wi-Fi名称才能加入此网络。",
+
+    "common_chanel": "信道",
+
+    "common_security": "安全",
+
+    "auto_connection_condition": "开启此功能后，配套的摄影机通电才能自动连接和添加到NVR里。",
+
+    "connect_nvr_wifi_hotspot_tutorial": "如何连接这个NVR的Wi-Fi热点",
+
+    "sync_wifi_by_cable": "使用网线同步Wi-Fi给设备",
+
+    "connect_device_to_nvr": "用网线连接设备到NVR",
+
+    "power_up_device": "给Wi-Fi 摄像机通电",
+
+    "nvr_wifi_hotspot_qrcode_des": "如果设备不支持5G Wi-Fi，请切换到2.4G。",
+
+    "common_enlarge": "放大",
+
+    "sync_wifi_to_this": "同步Wi-Fi给此设备",
+
+    "common_switch_to": "切换到",
+
+    "modify_wifi_hotspot_des": "修改Wi-Fi配置前，请确保所有的设备都处于已连接的状态。",
+
+    "common_device_connection": "设备连接情况",
+
+    "auto_sync_des": "修改的设置项会自动同步给已连接此Wi-Fi的设备。",
+
+    "nvr_password": "NVR的密码",
+
+    "common_inserted": "已插入",
+
+    "common_uninserted": "未插入",
+
+    "bitrate_mode": "码率模式",
+
+    "variable_bit_rate": "动态码率",
+
+    "constant_bit_rate": "固定码率",
+
+    "variable_bit_rate_des": "自动根据视频内容的复杂度进行码率控制。码率不足时，视频可能会变得模糊。",
+
+    "constant_bit_rate_des": "使用固定的码率来压缩视频。在复杂度差异较大的场景下，可能会导致一些画质损失。",
+
+    "encoding_format": "编码格式",
+
+    "encoding_format_des": "H.265相较于H.264具有更高的编码效率，可以提供更高质量的视频，但相应地需要更高的计算能力和更先进的设备支持。",
+
+    "local_record_switch_des": "录制的视频将自动保存到电脑磁盘，请保持磁盘空间充足。",
+
+    "common_ethernet_cable": "网线",
+
+    "common_sim": "SIM",
+
+    "keep_the_light_off_des": "保持关灯",
+
+    "night_light_alert": "夜间智能模式",
+
+    "night_light_alert_des": "当相机在夜间检测到事件时自动打开。",
+
+    "custom_schedule": "定时模式",
+
+    "custom_schedule_des": "在预定时间段内保持开启。",
+
+    "auto_supplement_lighting": "自动模式",
+
+    "auto_supplement_lighting_des": "根据环境光照条件自动调整亮度以获得最佳夜视效果。",
+
+    "scheduled_light_alert": "智能模式",
+
+    "scheduled_light_alert_des": "自动调整亮度以在弱光条件下进行准确检测，并在预定时间段内摄像机检测到事件时开启。",
+
+    "spotlight_modes": "模式",
+
+    "motion_detection_des": "通过对比视频画面中的像素变化来实现移动侦测。",
+
+    "motion_detection_sensitivity_des": "灵敏度越高，侦测到移动的物体会越小，但误差也会变大；灵敏度越低，侦测到移动的物体会越大，但可能有漏报的问题。请根据设备安装位置和使用场景具体来设置。",
+
+    "infrared_lights_lightness_tip": "请根据夜间预览的效果来调整。",
+
+    "firmwareUpgrade_ipc_done_des": "因同步固件升级的状态需要一定时间，暂不能及时检测固件升级是否成功。",
+
+    "edit_rule_consecutive_spaces_error": "请勿输入连续空格",
+
+    "common_temporary_files_title": "临时文件夹",
+
+    "common_not_support_iot_devices_tip": "暂不支持该设备",
+
+    "remote_settings_interframe_space_des": "I帧间隔小，视频质量高，但文件大。I帧间隔大，文件小，但质量低。",
+
+    "common_email_placeholder": "输入邮箱",
+
+    "common_preset_point_name_placeholder": "预置点名称",
+
+    "common_battery_pair_id_placeholder": "输入电池包ID",
+
+    "common_pin_placeholder": "输入PIN码",
+
+    "common_ip_or_domain_placeholder": "输入IP/域名",
+
+    "common_special_character_bubble_tips1": "仅允许输入{s1}",
+
+    "common_special_character_bubble_tips2": "仅允许输入{s1}、{s2}",
+
+    "common_special_character_bubble_tips3": "仅允许输入{s1}、{s2}、{s3}",
+
+    "common_letter": "字母",
+
+    "common_port_bubble_tips": "1-65535范围的数字",
+
+    "edit_rule_ftp_photos_or_overwrite_recordings_name_error": "不允许输入{s1}",
+
+    "common_special_character_bubble_tips4": "仅允许输入{s1}、{s2}、{s3}、{s4}",
+
+    "common_spaces": "空格",
+
+    "common_nvr_fotgetpassword_tips": "请您前往NVR端的设置，选择相机，然后进入用户选项，查看默认密码或修改密码。",
+
+    "net_rsp_ftp_tls_only_err": "服务器未支持FTPS",
+
+    "net_rsp_ftp_del_err": "删除文件失败",
+
+    "net_rsp_ftp_rename_err": "重命名文件失败",
+
+    "net_rsp_ftp_reupload_err": "重传文件失败",
+
+    "chime_no_sound_and_light_feedback_descrition_tip1": "1.请确保{s1}和门铃处于通电状态；",
+
+    "chime_no_sound_and_light_feedback_descrition_tip2": "2.等待几秒后，重新按一下门铃；",
+
+    "chime_no_sound_and_light_feedback_descrition_tip3": "3.如果还没有同步反馈，可尝试{s1}；",
+
+    "common_repair": "重新配对",
+
+    "common_pair_process_steps_numbers": "{s1}/{s2}",
+
+    "doorbell_chime_2_pair_step_1": "将{s1}插入插座",
+
+    "doorbell_chime_2_pair_step_2": "长按{s1}的设置按钮",
+
+    "doorbell_chime_2_pair_step_2_description": "长按后，{s1}有声音和灯光反馈",
+
+    "doorbell_chime_2_pair_step_3_scanning": "扫描中...",
+
+    "doorbell_chime_2_pair_step_3_description": "选择一个{s1}与门铃配对",
+
+    "doorbell_chime_2_pair_step_3_failed_to_start_scanning": "开始扫描失败，请点击重试",
+
+    "doorbell_chime_2_pair_step_3_chime_not_scanned": "请确保{s1}已通电，然后长按{s2}的设置按钮",
+
+    "doorbell_chime_2_pair_step_4_pair_success": "配对成功",
+
+    "doorbell_chime_2_pair_step_3_pair_fail": "配对失败，请重试",
+
+    "common_operate_failed_try_again_toast_tip": "操作失败，请重试",
+
+    "doorbell_chime_2_config_delete_tip": "删除{s1}后，{s2}将与门铃取消配对，确认删除吗？",
+
+    "doorbell_chime_2_config_no_chime_tip": "请先配对{s1}",
+
+    "doorbell_chime_2_config_number_of_pairs_tip": "一个门铃最多可配对{s1}个{s2}。",
+
+    "doorbell_chime_2_config_maximum_number_of_pairs_tip": "一个门铃最多可配对{s1}个{s2}，请先删除再重试。",
+
+    "common_tone_title": "铃声",
+
+    "doorbell_chime_2_config_sound_tone_default": "叮咚1",
+
+    "smart_config_25_30cm_10_12inches": "25-30厘米（10-12英寸）",
+
+    "smart_config_scan_qr_25_30cm_code_help_page_step_tip": "把手机屏幕上的二维码对准摄像机，距离大概25-30厘米（10-12英寸）",
+
+    "device_init_setup_connect_camera_title": "连接摄像头，并同步Wi-Fi",
+
+    "device_init_setup_wizard_synchronize_wifi_title": "同步Wi-Fi",
+
+    "device_init_setup_wizard_synchronize_wifi_tip": "点击同步，连接NVR的Wi-Fi。",
+
+    "doorbell_chime_2_pair_step_4_pair_success_tip": "按下门铃，{s1}会有声音和灯光反馈",
+
+    "device_playback_time_scale_tip": "滚动鼠标可放大或缩小时间轴比例",
+
+    "doorbell_chime_2_config_sound_tone2": "叮咚2",
+
+    "doorbell_chime_2_config_sound_tone3": "叮咚3",
+
+    "doorbell_chime_2_config_sound_tone4": "叮咚4",
+
+    "doorbell_chime_2_config_sound_tone5": "铃声1",
+
+    "doorbell_chime_2_config_sound_tone6": "铃声2",
+
+    "doorbell_chime_2_config_sound_tone7": "铃声3",
+
+    "doorbell_chime_2_config_sound_tone8": "铃声4",
+
+    "doorbell_chime_2_config_sound_tone9": "铃声5",
+
+    "doorbell_chime_2_config_sound_tone10": "铃声6",
+
+    "doorbell_chime_2_pair_step_4_pairing": "配对中...",
+
+    "common_nvr_fotgetpassword": "连接了NVR的设备",
+
+    "device_init_setup_wifi_name_error": "5G和2.4G的Wi-Fi名称不能相同",
+
+    "common_chinese": "中文",
+
+    "common_reset_illustrate": "如何重置设备？",
+
+    "listening_test_failed_tip": "试听失败",
+
+    "networking_and_listening_test_failed_tip": "网络连接异常，试听失败",
+
+    "localsettings_general_downloadpath_des": "设置回放、延时摄影文件的保存路径",
+
+    "localsettings_general_snapshot": "保存截图文件到",
+
+    "localsettings_general_screenrecording": "保存录屏文件到",
+
+    "local_record_des_2": "自动保存录制的视频到计算机，需要有足够的磁盘空间。建议在局域网内使用。",
+
+    "localsettings_general_localrecording": "保存本地录像文件到",
+
+    "common_chime_list": "叮咚列表"
+}

@@ -9,5 +9,7 @@
         "rvest",
         "typecheck"
     ],
-    "i18n-ally.localesPaths": ["src/renderer/assets/locales"]
+    "i18n-ally.localesPaths": ["src/assets/i18n/locales"],
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "i18n-ally.keystyle": "nested"
 }

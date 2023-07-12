@@ -17,13 +17,14 @@ export default defineConfig({
     mode: process.env.NODE_ENV,
     root: rendererPath,
     define: {
-        __CONFIG__: envClientConfig
+        __CONFIG__: envClientConfig,
     },
     resolve: {
         alias: {
             "@renderer": rendererPath,
-            "@assets": resolve("src/assets")
-        }
+            "@assets": resolve("src/assets"),
+            "@config": resolve("config"),
+        },
     },
     base: "./",
     build: {
@@ -31,17 +32,17 @@ export default defineConfig({
         emptyOutDir: true,
         target: "esnext",
         minify: "esbuild",
-        cssCodeSplit: false
+        cssCodeSplit: false,
     },
     css: {
         preprocessorOptions: {
             less: {
                 additionalData: `@import '${varPath}';@import '${mixinPath}';`,
-                javascriptEnabled: true
-            }
-        }
+                javascriptEnabled: true,
+            },
+        },
     },
     plugins: [vuePlugin()],
     server: {},
-    optimizeDeps: {}
+    optimizeDeps: {},
 });

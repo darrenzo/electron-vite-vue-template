@@ -1,0 +1,3821 @@
+{
+    "reolink_sidebar_page_terms_link": "https://m.reolink.com/terms-conditions/",
+
+    "reolink_sidebar_page_privacy_link": "https://m.reolink.com/privacy-policy/",
+
+    "app_language_mark": "en-us",
+
+    "common_ipc": "Camera",
+
+    "common_bind_ipc": "Bind Cameras",
+
+    "common_bind_view": "Bind",
+
+    "common_no_camera_bound": "You have not bound any cameras yet.",
+
+    "common_unbind": "Unbind",
+
+    "common_login_passowrd_or_usernam_error": "Username or password is incorrect",
+
+    "common_dialog_ok_button": "Confirm",
+
+    "common_dialog_done_button": "Done",
+
+    "common_dialog_save_button": "Save",
+
+    "common_dialog_cancel_button": "Cancel",
+
+    "common_hide_button": "Hide",
+
+    "common_dialog_retry_button": "Retry",
+
+    "common_i_got_it_button": "I Got it",
+
+    "common_dialog_exit": "Exit",
+
+    "common_default_device_name": "My Device",
+
+    "common_channel": "Channel",
+
+    "common_loading_info": "Loading…please wait.",
+
+    "common_load_failed": "Failed to load. Click to try again.",
+
+    "common_operate_failed": "Operation failed.",
+
+    "common_operate_failed_title": "Operation Failed",
+
+    "common_not_support_character": "Please enter valid characters.",
+
+    "common_load_info_not_support": "Not supported",
+
+    "common_load_info_not_supported": "Unsupported",
+
+    "common_skip": "Skip",
+
+    "common_default": "Default",
+
+    "common_week_sunday": "Sun.",
+
+    "common_week_monday": "Mon.",
+
+    "common_week_tuesday": "Tue.",
+
+    "common_week_wednesday": "Wed.",
+
+    "common_week_thursday": "Thu.",
+
+    "common_week_friday": "Fri.",
+
+    "common_week_saturday": "Sat.",
+
+    "common_clarity_stream_clear": "Clear",
+
+    "common_clarity_stream_fluent": "Fluent",
+
+    "common_clarity_stream_balanced": "Balanced",
+
+    "common_username_description": "Username",
+
+    "common_username_placeholder": "Enter username",
+
+    "common_delete_user": "Delete User",
+
+    "common_password_password_description": "Password",
+
+    "common_password_confirm_password_description": "Confirm Password",
+
+    "common_password_enter_password_button": "Enter password",
+
+    "common_password_password_placeholder": "Please enter the password.",
+
+    "common_password_comfirm_password_placeholder": "Confirm password",
+
+    "common_mailbox_mailbox_description": "Email",
+
+    "common_view_wifi_placeholder": "Wi-Fi name",
+
+    "common_cloud_cloud_storage": "Cloud Storage",
+
+    "common_view_upgrading": "Upgrading...",
+
+    "common_view_upgrade_button": "Update",
+
+    "common_view_upgrade_complete": "Update completed",
+
+    "common_view_nickname_placeholder": "Enter nickname",
+
+    "common_view_name": "Name",
+
+    "common_view_name_placeholder": "Enter Name",
+
+    "common_uid_placeholder": "Input UID",
+
+    "common_ip_placeholder": "Input IP address",
+
+    "common_view_string_length_maximum_limit": "Type in no more than {s1} characters",
+
+    "common_view_string_length_minimum_limit": "Type in at least {s1} characters",
+
+    "common_view_string_cannot_be_blank": "Can't be blank",
+
+    "common_privacy_statement": "Terms of Service",
+
+    "common_volume": "Volume",
+
+    "common_learn_more": "Learn more",
+
+    "common_enable": "Enable",
+
+    "common_enabled": "Enabled",
+
+    "common_view_button": "View",
+
+    "common_disable": "Disable",
+
+    "common_disabled": "Disabled",
+
+    "common_type": "Type",
+
+    "common_view_help": "Help",
+
+    "common_view_none": "None",
+
+    "common_view_custom": "Custom",
+
+    "common_view_edit_button": "Edit",
+
+    "common_view_on_button": "On",
+
+    "common_view_more": "More",
+
+    "common_view_schedule": "Schedule",
+
+    "common_view_auto": "Auto",
+
+    "common_view_pen": "Pen",
+
+    "common_view_eraser": "Eraser",
+
+    "common_view_all_button": "All",
+
+    "common_view_storage": "Storage",
+
+    "common_view_settings": "Settings",
+
+    "common_view_close": "Close",
+
+    "common_view_finish": "Finish",
+
+    "common_view_synchronize": "Synchronize",
+
+    "common_add": "Add",
+
+    "common_view_delete_button": "Delete",
+
+    "common_whether_sure_delete_selected_file": "Are you sure to delete the selected file(s)?",
+
+    "common_view_manual_input": "Manual input",
+
+    "common_smart_home": "Smart Home",
+
+    "common_server_address": "Server Address",
+
+    "account_center_account_sigin_privacy_policy_and_terms": "I have read and understood {s1} and {s2}.",
+
+    "account_center_account_login_title": "Log In",
+
+    "account_center_account_login_forget_password": "Forgot your password?",
+
+    "account_center_account_login_failed": "Login failed.",
+
+    "account_center_account_login_too_much": "Too many attempts. Please try again in {s1}.",
+
+    "setup_wizard_i_heard_it": "I Heard It",
+
+    "setup_wizard_create_password_page_name_device_placeholder_not_ipc": "Name your device",
+
+    "device_init_setup_wizard_device_settings_title": "Device settings",
+
+    "device_init_setup_wizard_wifi_settings_title": "Wi-Fi settings",
+
+    "device_init_setup_wizard_wifi_settings_selecte_wifi": "Please select the Wi-Fi to which the device is going to connect.",
+
+    "device_init_setup_wizard_wifi_settings_input_password": "Enter the password",
+
+    "device_init_setup_wizard_synchronize_settings_help_step_1": "1. Connect the camera to an NVR with network cables.",
+
+    "device_init_setup_wizard_synchronize_settings_help_step_5": "2. Please scan the QR code on your phone with the camera until you hear \"Scan Succeeded\".",
+
+    "device_init_setup_wizard_finish_title": "Initialization finished.",
+
+    "device_init_setup_wizard_finish_tip": "For more configurations, please go to the {s1} to proceed.",
+
+    "player_views_channel_selection_page_video_loss_state": "Video Loss",
+
+    "live_page_toolbar_alarm_manual_dialog_meassage": "Trigger audio alarm",
+
+    "live_page_toolbar_ptz_cruise": "Patrol",
+
+    "live_page_toolbar_ptz_cruise_limit": "You have reached the maximum number of patrol points.",
+
+    "live_page_toolbar_preset_set_max_positions": "Mark up to {s1} positions.",
+
+    "live_page_toolbar_talk_opening": "Enabling talk...",
+
+    "live_page_toolbar_talk_open_failed": "Failed to enable talk.",
+
+    "live_page_toolbar_clip_demon_description": "Drag the rectangle to the position you want to see.",
+
+    "remote_playback_enter_not_support": "This camera does not support playback.",
+
+    "remote_playback_enter_not_mount": "No HDD detected.",
+
+    "remote_playback_enter_not_mount_sdcard": "No camera SD card detected.",
+
+    "device_login_dialog_titile": "Device Login",
+
+    "device_pir_settings_enable_pir": "Enable PIR",
+
+    "device_reset_dialog_reset_button": "Reset Device",
+
+    "device_scene_page_scene_name": "Scene Name",
+
+    "sidebar_account_page_title": "Account Info",
+
+    "sidebar_account_page_log_out_button": "Log out",
+
+    "sidebar_account_modify_password_page_old_password_placeholder": "Enter current password",
+
+    "sidebar_account_modify_password_page_new_password_placeholder": "Enter new password",
+
+    "sidebar_account_change_mailbox_page_mailbox_placeholder": "Enter new email address",
+
+    "sidebar_cloud_video_page_no_file": "No files found",
+
+    "sidebar_cloud_video_page_deleting": "Deleting…",
+
+    "sidebar_cloud_video_edit_page_name_placeholder": "Enter video name",
+
+    "sidebar_about_page_app_about_us_item": "About Us",
+
+    "sidebar_follow_us_page_title": "Follow Us",
+
+    "sidebar_about_app_version_page_update": "Update Now",
+
+    "sidebar_settings_page_live_when_app_start_title": "Auto Live View",
+
+    "auto_switch_server_item": "Auto Server Switch",
+
+    "auto_switch_server_describe": "Allow the camera to access all available servers for more stable network connection.",
+
+    "sidebar_settings_page_stretch_display": "Stretch Mode",
+
+    "device_login_page_connecting": "Connecting your device…",
+
+    "smart_config_wifi_page_do_hear_tip": "Do you hear",
+
+    "smart_config_wifi_guide_page_start_wifi_config_button": "Connect to Wi-Fi",
+
+    "smart_config_wifi_guide_page_skip_wifi_config_button": "Access Camera",
+
+    "smart_config_reset_page_reset_tip": "\"Please run app, add the camera and set it up.\"",
+
+    "smart_config_wifi_settings_page_input_tip": "Enter Wi-Fi Info",
+
+    "smart_config_scan_qr_code_page_scan_voice_prompt": "\"Scan succeeds. Camera is connecting to your router. Please wait.\"",
+
+    "smart_config_wifi_test_page_step_tip": "Camera is connecting to your router. Please wait.",
+
+    "smart_config_wifi_test_page_succeed_button": "Connection to the router succeeded",
+
+    "smart_config_wifi_test_page_failed_button": "Connection to the router failed",
+
+    "smart_config_reset_help_new_help_tip": "Please check if the battery is correctly installed.",
+
+    "smart_config_reset_help_page_reset_title": "You heard no sound?",
+
+    "smart_config_wifi_test_help_page_titile": "Failed to connect to the router?",
+
+    "smart_config_wifi_test_connection_failed_tip": "Possible reasons of connection failure",
+
+    "smart_config_wifi_test_help_page_tip": "If you heard \"Wi-Fi connection failed\", follow the steps for troubleshooting:",
+
+    "smart_config_wifi_test_help_page_password_error_tip": "The Wi-Fi or password you entered is incorrect.",
+
+    "smart_config_wifi_test_help_page_not_support_5g_tip": "This device only supports 2.4 GHz Wi-Fi.",
+
+    "smart_config_wifi_test_help_page_too_far_tip": "The device is too far from the router.",
+
+    "smart_config_wifi_test_help_page_reconfigure_wifi_button": "Re-configure Wi-Fi",
+
+    "base_add_camera_no_voice_help_page_tip": "Possible reasons why you didn't hear the voice prompt:",
+
+    "base_add_camera_no_voice_help_page_not_support_tip": "Only the battery powered security cameras support voice prompt. Please check the type of product purchased.",
+
+    "base_add_camera_no_voice_help_page_not_install_battery": "Battery not correctly installed.",
+
+    "base_add_camera_no_voice_help_page_reset_help": "If you have installed battery in the camera but still don't hear the voice prompt, please long press the \"reset\" button (as shown in the picture) until you do.",
+
+    "base_add_camera_connection_help_page_reconfig_button": "Configurate again.",
+
+    "base_cloud_name": "Base",
+
+    "remote_config_page_basic_info_device_name": "Device name",
+
+    "remote_config_page_basic_info_push_label": "Push",
+
+    "remote_config_device_info_page_title": "Device Info",
+
+    "remote_config_page_video_section_quality_label": "Quality",
+
+    "remote_config_page_video_section_sound_label": "Record Audio",
+
+    "remote_config_page_video_section_sound_description": "When disabled, you will not hear sound in live video or playback.",
+
+    "remote_config_page_storage_section_record_item_label": "Camera Recording",
+
+    "remote_config_page_alarm_section_alarm_tip": "Alarm Settings",
+
+    "remote_config_page_alarm_section_md_settings_item_label": "Motion Detection",
+
+    "remote_config_page_alarm_section_rf_settings_item_label": "PIR Motion Sensor",
+
+    "remote_config_page_account_section_user_manager_item_label": "User Management",
+
+    "remote_config_page_led_section_title": "Light",
+
+    "remote_config_page_led_section_led_item_label": "Infrared Lights",
+
+    "remote_config_page_tip_light_section_led_item_label": "Status LED",
+
+    "remote_config_page_notification_section_email_item_label": "Email Alerts",
+
+    "remote_config_page_notification_section_email_settings_item_label": "Email Settings",
+
+    "remote_config_page_notification_section_push_item_describe": "Allow the camera to send notifications to your phone.",
+
+    "remote_config_page_notification_section_alarm_sound_item_label": "Siren",
+
+    "remote_config_page_notification_section_alarm_sound_buzzer_item_label": "Buzzer",
+
+    "remote_config_page_system_section_date_and_time_item_label": "Date & Time",
+
+    "display_page_title": "Display",
+
+    "display_page_text_background_label": "Text Background",
+
+    "display_page_watermark_label": "Watermark",
+
+    "osd_position_page_top_center": "Top Center",
+
+    "osd_position_page_top_left": "Top Left",
+
+    "osd_position_page_top_right": "Top Right",
+
+    "osd_position_page_bottom_center": "Bottom Center",
+
+    "osd_position_page_bottom_left": "Bottom Left",
+
+    "osd_position_page_bottom_right": "Bottom Right",
+
+    "display_advanced_page_anti_flicker_item_label": "Anti-flicker",
+
+    "display_advanced_page_anti_flicker_item_50hz_label": "50Hz",
+
+    "display_advanced_page_anti_flicker_item_60hz_label": "60Hz",
+
+    "display_advanced_page_day_and_night_item_label": "Day and Night",
+
+    "display_advanced_page_day_and_night_item_black_and_white_label": "Black & White",
+
+    "display_advanced_page_day_and_night_item_color_label": "Color",
+
+    "display_advanced_page_backlight_item_3d_nr_label": "3D DNR",
+
+    "email_settings_page_sender_name_label": "Sender Name",
+
+    "email_settings_page_email_content": "Email Content",
+
+    "email_attach_page_no_attach_item": "Text",
+
+    "email_attach_page_attach_picture_item": "Picture",
+
+    "email_attach_page_attach_video_item": "Text with Video",
+
+    "email_attach_page_attach_picture_and_text_item": "Text with Picture",
+
+    "email_server_page_other_server": "Other",
+
+    "email_server_page_ssl_label": "SSL or TLS",
+
+    "alarm_sound_page_title": "Siren Sound",
+
+    "system_config_page_build_no": "Build No.",
+
+    "network_status_page_titile": "Network Status",
+
+    "wifi_config_page_titile": "Wi-Fi",
+
+    "wifi_config_page_wired_connection": "Wired Network Connection",
+
+    "wifi_config_page_wifi_current_section_title": "Current Wi-Fi",
+
+    "alarm_settings_page_enable_tip": "Enable Alarm",
+
+    "alarm_siren_custom_settings_page_tap_to_start_record": "Start",
+
+    "alarm_siren_custom_settings_page_tap_to_stop_record": "Stop",
+
+    "alarm_siren_custom_settings_page_audition_button": "Sound Test",
+
+    "date_and_time_settings_page_time_format": "Time Format",
+
+    "date_and_time_settings_page_dst_settings_tip": "Enable DST",
+
+    "date_and_time_settings_time_zone_page_title": "Time Zone",
+
+    "date_and_time_settings_date_format_page_month_day_year": "MM/DD/YYYY",
+
+    "date_and_time_settings_date_format_page_year_month_day": "YYYY/MM/DD",
+
+    "date_and_time_settings_date_format_page_day_month_year": "DD/MM/YYYY",
+
+    "date_and_time_settings_dst_settings_page_title": "DST Settings",
+
+    "date_and_time_settings_dst_settings_page_end_time_tip": "End Time",
+
+    "date_and_time_settings_dst_settings_page_week_tip": "Week",
+
+    "date_and_time_settings_dst_settings_offset_page_title": "Offset",
+
+    "date_and_time_settings_dst_settings_offset_page_offset_one_hour": "1 hour",
+
+    "date_and_time_settings_dst_settings_offset_page_offset_two_hour": "2 hours",
+
+    "date_and_time_settings_dst_settings_page_1_month_tip": "Jan.",
+
+    "date_and_time_settings_dst_settings_page_2_month_tip": "Feb.",
+
+    "date_and_time_settings_dst_settings_page_3_month_tip": "Mar.",
+
+    "date_and_time_settings_dst_settings_page_4_month_tip": "Apr.",
+
+    "date_and_time_settings_dst_settings_page_5_month_tip": "May",
+
+    "date_and_time_settings_dst_settings_page_6_month_tip": "Jun.",
+
+    "date_and_time_settings_dst_settings_page_7_month_tip": "Jul.",
+
+    "date_and_time_settings_dst_settings_page_8_month_tip": "Aug.",
+
+    "date_and_time_settings_dst_settings_page_9_month_tip": "Sept.",
+
+    "date_and_time_settings_dst_settings_page_10_month_tip": "Oct.",
+
+    "date_and_time_settings_dst_settings_page_11_month_tip": "Nov.",
+
+    "date_and_time_settings_dst_settings_page_12_month_tip": "Dec.",
+
+    "date_and_time_settings_dst_settings_page_1st_tip": "1st.",
+
+    "date_and_time_settings_dst_settings_page_2nd_tip": "2nd.",
+
+    "date_and_time_settings_dst_settings_page_3rd_tip": "3rd.",
+
+    "date_and_time_settings_dst_settings_page_4th_tip": "4th.",
+
+    "date_and_time_settings_dst_settings_page_last_tip": "The last",
+
+    "remote_config_user_manager_page_admin_user": "Administrator",
+
+    "remote_config_password_page_show_password": "Show Password",
+
+    "remote_config_password_page_new_password_tip": "New Password",
+
+    "battery_for_go_page_statistics_remaining_power": "Remaining Battery (%)",
+
+    "battery_page_statistics_allow_dialog_title": "Battery Usage",
+
+    "battery_page_statistics_close_button": "Stop calculation",
+
+    "battery_page_statistics_close_dialog_message": "If you stop calculation now, the recording and calculation of device's online status will be terminated, and the relevant data will be deleted.",
+
+    "common_schedule_page_select_time_tip_push": "Customize push notifications at different times.",
+
+    "common_schedule_page_select_time_tip_sound": "Customize voice alerts at different times.",
+
+    "common_schedule_page_selecte_time": "Time",
+
+    "common_schedule_page_repeat_dialog_every_day_description": "Every Day",
+
+    "ftp_upload_settings_page_ftp_server": "FTP Server",
+
+    "ftp_upload_settings_page_upload_directory": "Upload Directory",
+
+    "ftp_upload_settings_page_upload_content": "File Type",
+
+    "ftp_upload_settings_page_upload_postpone": "FTP Postpone",
+
+    "help_config_page_add_devices_item_label": "Add Devices Automatically",
+
+    "help_config_page_terms_item_label": "Terms & Conditions",
+
+    "help_config_page_privacy_policy_item_label": "Privacy Policy",
+
+    "settings_help_system_status_item_label": "System Status",
+
+    "common_click_for_help": "Click for help",
+
+    "live_hdd_not_formatted_tip": "HDD is not formatted. You may not access playback feature.",
+
+    "remote_playback_setting_menu_sd_card_not_formatted_tip": "Camera SD card is not formatted. You may not access playback feature.",
+
+    "hdd_config_page_no_sd_card_instruction_with_pic": "No camera SD card is detected and you cannot access the playback feature. Please cut off the power of your camera and insert an SD card as instructed.",
+
+    "hdd_config_page_no_hdd_instruction_without_pic": "No HDD is detected and you cannot access the playback feature. Please cut off the power of your NVR and install an HDD.",
+
+    "forget_pw_page_find_reset_hole": "1. Long press the reset hole/button on the device for 5-10 seconds to reset your device to factory settings.",
+
+    "forget_pw_page_find_reset_hole_longer_time": "1. Long press the reset hole/button on the device for 5-10 seconds to reset your device to factory settings. It may take 1 min to reboot your device, please wait.",
+
+    "forget_pw_page_erase_info_in_device_without_cable": "2. After resetting, Wi-Fi info, device login password, and other related info will be erased and need to be reconfigured.",
+
+    "forget_pw_page_erase_info_in_cable_device": "2. After resetting, Wi-Fi info, device login password, and other related info will be erased and need to be reconfigured. Please make sure the network is available before reconfiguration.",
+
+    "forget_pw_page_check_power_on": "Please make sure the device is powered on and the network is available.",
+
+    "forget_pw_page_check_reset": "Please make sure the device has been reset.",
+
+    "forget_pw_page_instruction_img_failed": "Failed to load the instruction image.",
+
+    "forget_pw_page_start_init_after_reset": "I have reset the device.",
+
+    "common_spotlight": "Spotlight",
+
+    "live_spotlight_once_tip": "Tap to turn on the spotlight. It will turn off automatically in {s1}s if there is no motion detected.",
+
+    "remote_settings_spotlight_page_func_intro": "Turn on spotlight at night for higher-quality color image.",
+
+    "remote_config_siren_describe": "The siren will sound when motion is detected.",
+
+    "day_and_night_adjust_to_default_value": "Restore Defaults",
+
+    "app_launch_pw_hint": "Enter app password",
+
+    "device_pw_hint": "Enter device password",
+
+    "comon_confirm_login_pw_hint": "Confirm password",
+
+    "enter_wifi_pw_hint": "Wi-Fi password",
+
+    "device_scene_create_tips_next_button": "Create Now",
+
+    "add_device_wifi_not_set": "Wi-Fi Not Configured",
+
+    "add_device_wifi_not_set_describe": "You need to configure Wi-Fi settings for the newly added or reset devices.",
+
+    "add_device_wifi_was_set": "Wi-Fi Already Configured",
+
+    "scan_setup_wifi_input_wifi_step_not_support_5g": "Only 2.4 GHz Wi-Fi supported. 5 GHz network is not available now.",
+
+    "scan_setup_wifi_scan_step_scan_failed": "Scan failed?",
+
+    "scan_setup_wifi_fail_connect_device_tip": "Please refer to the following and try again:",
+
+    "scan_setup_wifi_fail_connect_device_tip_switch_mobile": "Switch to mobile network.",
+
+    "scan_setup_wifi_fail_connect_device_tip_put_closer": "Put the camera closer to the router.",
+
+    "scan_setup_wifi_fail_connect_device_tip_reboot": "Reboot the router or the camera.",
+
+    "ir_light_usage": "See more clearly in dim light with IR lights on.",
+
+    "ir_light_on": "IR Lights On",
+
+    "ir_light_off": "IR Lights Off",
+
+    "ir_light_turn_on_tip": "IR lights will automatically turn on in dim light and turn off when there is sufficient lighting.",
+
+    "remote_infrared_light_page_keep_off": "Stay Off",
+
+    "live_auto_focusing": "Automatic focusing...",
+
+    "common_other": "Others",
+
+    "common_login_account_button": "Login",
+
+    "remote_config_page_ipc_push_label": "Push Notifications",
+
+    "remote_config_page_advanced_label": "Advanced",
+
+    "device_pir_settings_sensitivity_settings_page_sensitivity_high_describe": "Camera at higher sensitivity detects every small change in the field of view, such as a sneaky person at a distance.",
+
+    "device_pir_settings_sensitivity_settings_page_sensitivity_mid_describe": "Camera at medium sensitivity is moderately sensitive to changes, such as pets and dubious people not far away.",
+
+    "device_pir_settings_sensitivity_settings_page_sensitivity_low_describe": "Camera at lower sensitivity only detects motion of bigger objects, such as running cars and people nearby.",
+
+    "remote_settings_spotlight_page_light_off": "Spotlight Off",
+
+    "remote_settings_spotlight_page_light_on": "Spotlight On",
+
+    "remote_settings_spotlight_page_alarm_light": "Auto-On When Alarm Is Triggered",
+
+    "remote_settings_spotlight_page_alarm_light_tip": "Spotlight will turn on automatically when alarm is triggered at night, and turn off after a while.",
+
+    "sidebar_settings_page_dark_mode_btn": "Dark Mode",
+
+    "sidebar_settings_page_ios_dark_mode_entry": "Appearance",
+
+    "sidebar_settings_page_ios_light_mode": "Light Mode",
+
+    "sidebar_settings_page_ios_dark_mode_follow_sys": "Follow System",
+
+    "remote_config_page_wifi_item_reset": "Reset",
+
+    "common_device": "Device",
+
+    "manual_trigger_sound_alarm": "Audio alarm",
+
+    "network_current_network": "Connected Network",
+
+    "network_add_wifi": "Set up a Wi-Fi network",
+
+    "network_saved_wifi": "Saved Wi-Fi network",
+
+    "common_setup": "Customize",
+
+    "device_login_page_connect_failed_msg": "Please make sure your device is powered on and connected to a stable network before retry.",
+
+    "device_pir_settings_sensitivity_settings_page_only_one_saved_when_overlap": "Only the latest setting (shown on the top) will be saved when you set up one period more than once.",
+
+    "smart_config_power_on_and_wait_prompt": "Please power on the camera and wait for the voice prompts.",
+
+    "smart_config_if_heard_voice": "I have heard {s1} from the camera.",
+
+    "smart_config_camera_scan_code_with_some_distance": "Please face the camera towards QR code and keep scan distance around {s1}.",
+
+    "smart_config_fail_sound": "fail sounds",
+
+    "smart_config_ding_wait_for_scan_sound": "ding sounds",
+
+    "smart_config_beep_scan_success_sound": "a beep sound",
+
+    "smart_config_20cm_8inches": "20 cm (8 inches)",
+
+    "smart_config_30cm_12inches": "30 cm (12 inches)",
+
+    "remote_config_page_nvr_channel_audio_and_light": "Audio and Light",
+
+    "add_device_prefer_wifi_connection": "Choose Wi-Fi Connection",
+
+    "add_device_prefer_wifi_connection_tip": "If you prefer Wi-Fi connection and have not configured it yet, click here.",
+
+    "add_device_prefer_cable_connection": "Choose Network Cable Connection",
+
+    "add_device_prefer_cable_connection_tip": "If you prefer network cable connection, click here.",
+
+    "add_device_network_already_config": "Have Wi-Fi Configured or Network Cable Connected?",
+
+    "add_device_network_already_config_tip": "Click here.",
+
+    "common_ai_any_motion_option": "Any Motion",
+
+    "common_ai_human_option": "Person",
+
+    "common_ai_vehicle_option": "Vehicle",
+
+    "common_ai_animal_option": "Animal",
+
+    "common_ai_face_option": "Face",
+
+    "common_schedule_time_page_detection_tab": "Alarm",
+
+    "common_schedule_time_page_detection_type": "Detection Type",
+
+    "common_schedule_time_page_regular_tab": "Timer",
+
+    "timelapse_name": "Time Lapse",
+
+    "common_no_sdcard_no_function": "No SD card detected. To use this feature, please turn off the camera and insert an SD card.",
+
+    "common_sdcard_unformat_no_function": "SD card not formatted. To use this feature, please format SD card first.",
+
+    "timelapse_describe": "Time lapse feature enables you to capture hour-long or even day-long events, like sunrise, blooming and the work of building, etc. into minute-long videos or photo albums.",
+
+    "timelapse_party_scene": "Event/People/Traffic",
+
+    "timelapse_cloud_moving_scene": "Moving Clouds",
+
+    "timelapse_sunrise_scene": "Sunrise",
+
+    "timelapse_sunset_scene": "Sunset",
+
+    "timelapse_blooming_scene": "Blooming",
+
+    "timelapse_construction_scene": "Construction",
+
+    "timelapse_starttime_now": "Now",
+
+    "timelapse_start_at_when": "Interval: {s1}",
+
+    "timelapse_scene_generating": "Generating...",
+
+    "timelapse_scene_starttime": "Start time",
+
+    "timelapse_endtime": "End time",
+
+    "timelapse_generated_file": "Generated file:",
+
+    "timelapse_new_another_scene": "Create New Time Lapse Capture",
+
+    "timelapse_end_task_dialog_msg": "When you click Finish, the camera will stop capturing while the generated files remain. Are you sure to finish now?",
+
+    "timelapse_overwrite_files": "Overwrite Time Lapse Files",
+
+    "timelapse_overwrite_files_describe": "The earliest time lapse files will be overwritten when storage is full.",
+
+    "timelapse_battery_consumption_tip": "Note: Battery may drain faster with time lapse enabled. Please pay attention to battery usage and charge in time when low battery warning appears. Or you can disable PIR to reduce battery consumption.",
+
+    "timelapse_daily_period": "Daily Capture Period",
+
+    "timelapse_estimated_length": "Estimated video length:",
+
+    "timelapse_estimated_file_size": "Estimated file size:",
+
+    "timelapse_file_too_large": "File Too Large?",
+
+    "timelapse_photo_num_exceeds": "Note: You can only save up to {s1} photos per day. You are recommended to set up shooting in a shorter period or at a longer interval, or record videos instead.",
+
+    "common_days": "Day(s)",
+
+    "common_hours": "Hour(s)",
+
+    "common_minutes": "Minute(s)",
+
+    "common_video_file_type": "Video",
+
+    "common_photo_file_type": "Photo",
+
+    "timelapse_file_too_large_help": "To reduce file size, you may choose a lower quality or snapshot at a longer interval.",
+
+    "common_pause_sth": "Pause",
+
+    "common_continue": "Continue",
+
+    "timelapse_cannot_cache_when_other_tasks_caching": "There are other time lapse videos in the cache process. Please try later.",
+
+    "timelapse_no_end_time": "No Limit",
+
+    "common_seconds": "Second(s)",
+
+    "timelpase_cannot_change_quality_when_capturing_msg": "Please stop the time lapse capture before modifying video quality, otherwise some of the time lapse feature may not be available.",
+
+    "timelapse_day_night_switch_title": "Notes on Color Switch",
+
+    "timelapse_day_night_switch_msg": "When day breaks or night falls, capture may switch between color and black & white. To capture in one color mode only, you may go to camera live view page - three-dot menu - Day and Night to choose the preferred mode. Note: With this altered, live view and record will change accordingly.",
+
+    "device_init_setup_wizard_name_device": "Name Your Device",
+
+    "device_init_setup_wizard_enable_samba": "Enable {s1}",
+
+    "common_samba_feature": "Samba",
+
+    "samba_enable_help_tip": "With Samba enabled, you may access the files stored on {s1} on a computer within LAN. It is recommended that you apply this service on non-public network only.\n\nHow to configure Samba on your PC? \nOpen File Explorer - Type in \\\\{s2} - Press Enter - Type in username (admin) and password (the one you use to login your device) \n\nHow to configure Samba on Mac? \nOpen Finder - Click \"Go\" button on the top menu - Click \"Connect to Server\" - Type in smb://{s3} - Click \"Connect\" - Type in username (admin) and password (the one you use to login your device)",
+
+    "device_init_setup_wizard_samba_disable_tip": "With Samba enabled, you may disable it on {s1} settings page later.",
+
+    "base_bind_camera": "Bind Camera",
+
+    "base_bind_camera_unsupport_camera": "Some cameras don't work with {s1} now. Learn more about {s2}.",
+
+    "base_bind_camera_support_models": "Supported Devices",
+
+    "base_bind_camera_no_support_camera_describe": "There is no device available to be bound on your device list.",
+
+    "base_bind_camera_cloud_already_enbled_title": "Bound to Cloud Services",
+
+    "base_bind_camera_will_unbind_another_base": "{s1} has been bound to another {s2}. Are you sure to bind it to this {s3}?",
+
+    "base_bind_camera_camera_bound_state": "Bound",
+
+    "base_camera_bind_base_bind_failed": "Failed to bind camera. Please try again.",
+
+    "base_camera_management_upload_stream_type": "Video Quality",
+
+    "base_storage_page_no_hdd_tip": "No SD card or HDD inserted. The upload and playback features are not available. Please cut off the power of {s1} and insert SD card or HDD as instructed.",
+
+    "live_base_no_storage_tip": "No storage device detected and you may not use the playback feature.",
+
+    "playback_base_no_storage_tip": "Storage device of {s1} is formatted yet and you may not use the playback feature.",
+
+    "app_launch_terms_agree": "Agree",
+
+    "app_launch_terms_disagree_exit": "Disagree and Exit",
+
+    "cloud_account_center_login_title": "Welcome to {s1}",
+
+    "cloud_account_center_login_mobilephone_description": "Verify your phone number to log in.",
+
+    "cloud_account_center_input_mobilephone_placeholder": "Please enter your phone number",
+
+    "cloud_account_center_input_sms_code": "Please enter the verification code we sent to your phone",
+
+    "cloud_account_center_get_sms_code": "Get Verification Code",
+
+    "cloud_account_center_get_sms_code_after_seconds": "Get verification code again {s1} seconds later",
+
+    "cloud_acocunt_center_wrong_sms_code": "The verification code is wrong. Please re-enter.",
+
+    "cloud_account_center_login_allow": "Login represents you agree to {s1}{s2} and {s3}.",
+
+    "add_device_use_uid": "Add Camera via UID",
+
+    "add_device_uid_description": "A product UID is a unique identifier of a device, which can be used to add device or access device information.",
+
+    "add_device_bound_by_others": "The camera has been added by user {s1}.",
+
+    "add_device_bound_by_others_description": "The bound account needs to be unbound before you can add the camera. Or request the user to share the camera with you.",
+
+    "add_device_has_password_need_reset": "The camera needs to be reset. Please press and hold the reset button until you hear the voice prompt.",
+
+    "devices_page_delete_dialog_need_reset_tip": "After deletion, the device will be unbound with your account. The next time you add a device, you need to reset it. If cloud storage service is enabled, the device will also stop uploading cloud videos.",
+
+    "account_center_page_input_correct_phone_number": "Please enter a valid phone number.",
+
+    "account_center_page_send_sms_failed": "Failed to send verification code. Please try again.",
+
+    "add_device_bind_failed_retry": "Failed to bind device. Please try again.",
+
+    "commom_button_go_back": "Back",
+
+    "zone_WesternDaylight": "Western Daylight",
+
+    "zone_MidwayIsland": "Midway Island",
+
+    "zone_Samoa": "Samoa",
+
+    "zone_Hawaii": "Hawaii",
+
+    "zone_AlaskaState": "Alaska State",
+
+    "zone_PacificTime": "Pacific Time (US & CA)",
+
+    "zone_MountainTime": "Mountain Time (US & CA)",
+
+    "zone_CentralTime": "Central Time (US & CA)",
+
+    "zone_EasternTime": "Eastern Time (US & CA)",
+
+    "zone_Caracas": "Caracas",
+
+    "zone_AtlanticTime": "Atlantic Time",
+
+    "zone_Newfoundland": "Newfoundland",
+
+    "zone_Georgetown": "Georgetown",
+
+    "zone_Brasilia": "Brasilia",
+
+    "zone_MidAtlanticTime": "Mid-Atlantic Time",
+
+    "zone_CapeVerde": "Cape Verde",
+
+    "zone_Azores": "Azores",
+
+    "zone_Dublin": "Dublin",
+
+    "zone_Edinburgh": "Edinburgh",
+
+    "zone_London": "London",
+
+    "zone_Amsterdam": "Amsterdam",
+
+    "zone_Berlin": "Berlin",
+
+    "zone_Rome": "Rome",
+
+    "zone_Paris": "Paris",
+
+    "zone_Athens": "Athens",
+
+    "zone_Jerusalem": "Jerusalem",
+
+    "zone_Istanbul": "Istanbul",
+
+    "zone_Baghdad": "Baghdad",
+
+    "zone_Kuwait": "Kuwait",
+
+    "zone_Moscow": "Moscow",
+
+    "zone_Tehran": "Tehran",
+
+    "zone_CaucasusStandardTime": "Caucasus Standard Time",
+
+    "zone_Kabul": "Kabul",
+
+    "zone_Islamabad": "Islamabad",
+
+    "zone_Karachi": "Karachi",
+
+    "zone_Tashkent": "Tashkent",
+
+    "zone_Madras": "Madras",
+
+    "zone_Calcutta": "Calcutta",
+
+    "zone_Mumbai": "Mumbai",
+
+    "zone_NewDelhi": "New Delhi",
+
+    "zone_Kathmandu": "Kathmandu",
+
+    "zone_AlmaAta": "Alma-Ata",
+
+    "zone_Novosibirsk": "Novosibirsk",
+
+    "zone_Dacca": "Dacca",
+
+    "zone_Yangon": "Yangon",
+
+    "zone_Bangkok": "Bangkok",
+
+    "zone_Hanoi": "Hanoi",
+
+    "zone_Jakarta": "Jakarta",
+
+    "zone_Beijing": "Beijing",
+
+    "zone_Seoul": "Seoul",
+
+    "zone_Tokyo": "Tokyo",
+
+    "zone_Osaka": "Osaka",
+
+    "zone_Sapporo": "Sapporo",
+
+    "zone_Adelaide": "Adelaide",
+
+    "zone_Melbourne": "Melbourne",
+
+    "zone_Sydney": "Sydney",
+
+    "zone_Canberra": "Canberra",
+
+    "zone_Magadan": "Magadan",
+
+    "zone_SolomonIslands": "Solomon Islands",
+
+    "zone_Auckland": "Auckland",
+
+    "zone_Wellington": "Wellington",
+
+    "zone_Fiji": "Fiji",
+
+    "zone_Nukualofa": "Nukualofa",
+
+    "tooltip_Preset": "Preset",
+
+    "tooltip_HidePassword": "Hide Password",
+
+    "tooltip_AddDevice": "Add Device",
+
+    "tooltip_SelectPresetPoint": "Select Preset Point",
+
+    "tooltip_AddPresetPoint": "Add Preset Point",
+
+    "tooltip_ClientSettings": "Client Settings",
+
+    "tooltip_Split": "Split",
+
+    "tooltip_FullScreen": "Full Screen",
+
+    "tooltip_ScreenLock": "Screen Lock",
+
+    "tooltip_Timeline": "Timeline",
+
+    "tooltip_AdvanceFramebyFrame": "Advance Frame by Frame",
+
+    "tooltip_ViewInFolder": "View in Folder",
+
+    "tooltip_linkFacebook": "Like us on Facebook",
+
+    "tooltip_linkTwitter": "Follow us on Twitter",
+
+    "tooltip_linkInstagram": "Follow us on Instagram",
+
+    "tooltip_linkYoutube": "Subscribe us on YouTube",
+
+    "menu_Cut": "Cut",
+
+    "menu_Copy": "Copy",
+
+    "menu_Paste": "Paste",
+
+    "common_Sun": "Sun",
+
+    "common_Mon": "Mon",
+
+    "common_Tue": "Tue",
+
+    "common_Wed": "Wed",
+
+    "common_Thu": "Thu",
+
+    "common_Fri": "Fri",
+
+    "common_Sat": "Sat",
+
+    "common_AM": "a.m.",
+
+    "common_PM": "p.m.",
+
+    "common_btnEsc": "Esc",
+
+    "common_chooseAll": "Choose All",
+
+    "common_UID": "UID",
+
+    "common_Port": "Port",
+
+    "common_Motion": "Motion",
+
+    "common_timing": "timer",
+
+    "common_saveCopyTo": "Save and copy to",
+
+    "common_typeHere": "Type Here",
+
+    "common_incorrectFormat": "Invalid Characters",
+
+    "common_passwordsNotMatch": "The two passwords do not match",
+
+    "common_Succeeded": "Succeeded",
+
+    "common_Failed": "Failed",
+
+    "common_Previous": "Previous",
+
+    "common_Next": "Next",
+
+    "common_SSID": "SSID",
+
+    "common_scanFailed": "Scan Failed",
+
+    "common_macAddress": "MAC Address",
+
+    "common_ipAddress": "IP Address",
+
+    "common_noDevice": "No Device Found",
+
+    "common_Info": "Info",
+
+    "common_Talk": "Talk",
+
+    "common_Zoom": "Zoom",
+
+    "common_Focus": "Focus",
+
+    "common_Unset": "Unset",
+
+    "common_Speed": "Speed",
+
+    "common_PTZ": "PTZ",
+
+    "common_CropVideo": "Clip",
+
+    "common_Browse": "Browse",
+
+    "common_Standard": "Standard",
+
+    "common_Rename": "Rename",
+
+    "common_Connect": "Connect",
+
+    "common_Connecting": "Connecting...",
+
+    "common_Connected": "Connected",
+
+    "common_notInit": "Not initialized",
+
+    "common_Timeout": "Timeout",
+
+    "common_Offline": "Offline",
+
+    "common_Closing": "Closing...",
+
+    "common_Disconnected": "Not connected",
+
+    "common_Deleted": "Deleted",
+
+    "common_deleteAll": "Delete All",
+
+    "common_getInfo": "Get Info",
+
+    "common_Disconnect": "Disconnect",
+
+    "common_cameraName": "Camera Name",
+
+    "common_Download": "Download",
+
+    "common_Downloading": "Downloading",
+
+    "common_Downloaded": "Downloaded",
+
+    "common_Duration": "Duration",
+
+    "common_Size": "Size",
+
+    "common_nofile": "File Not Found",
+
+    "common_Waiting": "Waiting...",
+
+    "common_User": "User",
+
+    "common_Language": "Language",
+
+    "common_General": "General",
+
+    "common_Liveview": "Live View",
+
+    "common_Playback": "Playback",
+
+    "common_errorUsernameExists": "The username already exists.",
+
+    "common_changePassword": "Change Password",
+
+    "common_oldPassword": "Old Password",
+
+    "common_incorrectPassword": "Incorrect Password",
+
+    "common_FTP": "FTP",
+
+    "common_Anonymous": "Anonymous",
+
+    "common_Seconds": "Seconds",
+
+    "common_secs": "secs",
+
+    "common_sec": "sec",
+
+    "common_mins": "mins",
+
+    "common_min": "min",
+
+    "common_multiMins": "Min(s)",
+
+    "common_Minutes": "Minutes",
+
+    "common_Minute": "Minute",
+
+    "common_AUTO": "AUTO",
+
+    "common_PASV": "PASV",
+
+    "common_Interval": "Interval",
+
+    "common_Format": "Format",
+
+    "common_sdCard": "SD Card",
+
+    "common_HDD": "HDD",
+
+    "common_eSATA": "eSATA",
+
+    "common_unknown": "unavailable",
+
+    "common_Setup": "Set Up",
+
+    "common_Sensitivity": "Sensitivity",
+
+    "common_Low": "Low",
+
+    "common_Middle": "Middle",
+
+    "common_High": "High",
+
+    "common_Exposure": "Exposure",
+
+    "common_Mirroring": "Mirroring",
+
+    "common_Flip": "Flip",
+
+    "common_otherPosition": "Other Position",
+
+    "common_Brightness": "Brightness",
+
+    "common_Contrast": "Contrast",
+
+    "common_Saturation": "Saturation",
+
+    "common_Hue": "Tint",
+
+    "common_Sharpen": "Sharpness",
+
+    "common_Resolution": "Resolution",
+
+    "common_privacyMask": "Privacy Mask",
+
+    "common_DNS": "DNS",
+
+    "common_DHCP": "DHCP",
+
+    "common_Static": "Static",
+
+    "common_staticDNS": "Static DNS",
+
+    "common_autoDNS": "Auto DNS",
+
+    "common_preferredDNS": "Preferred DNS",
+
+    "common_alternateDNS": "Alternate DNS",
+
+    "common_subnetMask": "Subnet Mask",
+
+    "common_gateWay": "Gateway",
+
+    "common_Model": "Model",
+
+    "common_Details": "Details",
+
+    "common_Configuration": "Configuration",
+
+    "common_Export": "Export",
+
+    "common_firmwareUpgrade": "Firmware Update",
+
+    "common_Restore": "Restore",
+
+    "common_Reboot": "Reboot",
+
+    "common_Battery": "Battery",
+
+    "common_Allow": "Allow",
+
+    "common_Sender": "Sender",
+
+    "common_Overwrite": "Overwrite Recordings",
+
+    "common_PreRecord": "Pre-Motion Record",
+
+    "common_PostRecord": "Post-Motion Record",
+
+    "common_Network": "Network",
+
+    "common_netError": "Network Error",
+
+    "common_tooLess": "No less than {s1} characters.",
+
+    "common_ipDomain": "IP/Domain",
+
+    "common_Error": "Error",
+
+    "common_connectionFailed": "Connection Failed",
+
+    "common_Warning": "Warning",
+
+    "common_RecordSettings": "Record Settings",
+
+    "common_wifiSettings": "Wi-Fi Settings",
+
+    "common_current": "current",
+
+    "common_AddUser": "Add User",
+
+    "common_notEmpty": "This field cannot be blank.",
+
+    "common_noFindFolder": "Failed to find this folder: {s1}.",
+
+    "common_fullscreenPrompt": "Press {s1} to exit full screen.",
+
+    "common_Account": "Account",
+
+    "autoUpgrade_availableDes": "There is a new version of {s1} Client available. Would you like to update now?",
+
+    "autoUpgrade_checkingForUpdates": "Checking for Updates...",
+
+    "autoUpgrade_upgradeFailedDes": "An error occurred while downloading the update.",
+
+    "deviceAddLogin_creatName_editDeviceName": "Edit device name.",
+
+    "deviceAddLogin_creatPassword_creatDevicePassword": "Create device password",
+
+    "deviceAddLogin_connectFailed_title": "Wi-Fi Connection Failed",
+
+    "deviceAddLogin_connectFailed_step1": "1. The Wi-Fi password you entered is incorrect.",
+
+    "deviceAddLogin_connectFailed_step2": "2. The device is too far from the router.",
+
+    "deviceAddLogin_connectFailed_step3": "3. This device only supports 2.4 GHz Wi-Fi, please check your router.",
+
+    "deviceAddLogin_connectFailed_step4": "4. The QR code number on your app might be different from that of your camera. Please check if the last four digits of the QR code number on the camera are {s1}. Scan the QR code after checking.",
+
+    "deviceAddLogin_inputData_voicePrompt": "Please run the {s1} app, add the camera and set it up.",
+
+    "deviceAddLogin_inputData_notHeard": "I didn't hear the voice prompt.",
+
+    "deviceAddLogin_inputData_inputwifi": "Please type in Wi-Fi info.",
+
+    "deviceAddLogin_qrcodeFailed_qrcodeMismatch": "QR Code Does Not Match",
+
+    "deviceAddLogin_qrcodeFailed_clue1": "1. The rear cover might mismatch the camera. Please don't mix rear covers of devices. Make sure they match and try again.",
+
+    "deviceAddLogin_qrcodeFailed_clue2": "2. If it still displays \"QR code does not match\" after trying the method above, please contact the support team.",
+
+    "deviceAddLogin_qrcodeScan_clue1": "When you hear \"Scan succeeded\", the Wi-Fi connection is succeeded.",
+
+    "deviceAddLogin_qrcodeScan_clue2": "Connection failed?",
+
+    "deviceAddLogin_qrcodeScan_clue3": "Please scan the QR code below with your camera.",
+
+    "deviceAddLogin_wifiSolution_clue1": "Configure Wi-Fi settings on your new device for the first time.",
+
+    "deviceAddLogin_wifiSolution_clue3": "Wi-Fi setup is completed.",
+
+    "deviceAddLogin_wifiSolution_clue4": "Please check your camera battery and power, and then push the reset button until you hear a voice prompt.",
+
+    "deviceAddLogin_addDevice_tabScanTitle": "Scan Device(s) in LAN",
+
+    "deviceAddLogin_addDevice_networkErrorTip": "Failed to add device. Please check your network and ensure the UID is correct.",
+
+    "deviceAddLogin_addDevice_batteryAddTip": "You are adding a battery-powered IP camera. To avoid battery drainage, please reduce the live viewing time.",
+
+    "deviceAddLogin_addDevice_failedTip": "Failed to add device.",
+
+    "deviceAddLogin_addDevice_existsTip": "Failed to add device. This device already exists.",
+
+    "liveAudio_stopTalk": "Click to stop talking.",
+
+    "liveAudio_startTalk": "Click to start talking.",
+
+    "livePtz_patrolTime": "Patrol Time",
+
+    "livePtz_patrolSpeed": "Patrol Speed",
+
+    "livePtz_presetPoints": "Preset Points",
+
+    "localSettings_tooLong": "Path too long",
+
+    "localSettings_general_autoLogin": "Auto Login",
+
+    "localSettings_general_runOnStartup": "Run at Startup",
+
+    "localSettings_general_alarmBeep": "Alarm Beep",
+
+    "localSettings_general_downloadPath": "Download Path",
+
+    "localSettings_general_capturePath": "Save Captured Images to",
+
+    "localSettings_general_restartClue": "If you change display language, {s1} Client will restart automatically to implement the change. Are you sure to continue?",
+
+    "localSettings_general_autoUpdateApp": "Automatic Client Update",
+
+    "localSettings_record_streamType": "Stream Type",
+
+    "localSettings_record_spaceWarning": "Low Disk Space Warning",
+
+    "localSettings_record_recordingFileDuration": "Video File Duration",
+
+    "localSettings_record_recordPath": "Record Videos to",
+
+    "localSettings_record_folderSize": "Video Recording Folder Size",
+
+    "localSettings_record_recordSchedule": "Local Record Schedule",
+
+    "main_deviceList_clueTitle": "Add New Device(s)",
+
+    "main_deviceList_clueDes": "Click the {s1} button on the far right side of the menu bar to add new device(s).",
+
+    "main_deviceItem_noSD": "No SD Card detected.",
+
+    "main_deviceItem_confirmDeleteDevice": "Are you sure to delete this device?",
+
+    "playbackBar_noChannel": "No Channel",
+
+    "playbackDownload_downloadArea_allChannels": "All Channels",
+
+    "playbackDownload_downloadArea_fileName": "File Name",
+
+    "playbackDownload_downloadArea_startTime": "Start Time",
+
+    "playbackDownload_downloadArea_filesSelected": "{s1} of {s2} files selected.",
+
+    "playbackDownload_downloadArea_noPermission": "No write permission to folder: {s1}.",
+
+    "playbackDownload_downloadArea_noSpace": "You are running out of disk space.",
+
+    "playbackDownload_taskArea_taskList": "Task List",
+
+    "remoteConfig_addUser_subTitle": "Add family members and friends as admins or users to access your devices easily.",
+
+    "remoteConfig_addUser_userType": "User Type",
+
+    "remoteConfig_addUser_adminDes": "Access devices, change device settings and manage all users.",
+
+    "remoteConfig_addUser_commonDes": "Access devices and change their own login passwords, but cannot change device settings.",
+
+    "remoteConfig_ftp_title": "FTP Settings",
+
+    "remoteConfig_ftp_enableFTP": "Enable FTP",
+
+    "remoteConfig_ftp_transportMode": "Transport Mode",
+
+    "remoteConfig_ftp_maxFileLength": "Max File Size",
+
+    "remoteConfig_ftp_clearVideoPicture": "Clear video and image",
+
+    "remoteConfig_ftp_fluentVideoPicture": "Fluent video and image",
+
+    "remoteConfig_ftp_balancedVideoPicture": "Standard video and image",
+
+    "remoteConfig_ftp_onlyPicture": "Image only",
+
+    "remoteConfig_ftp_clearVideo": "Clear video",
+
+    "remoteConfig_ftp_fluentVideo": "Fluent video",
+
+    "remoteConfig_ftp_balancedVideo": "Standard video",
+
+    "remoteConfig_hdd_FormatStorage": "Format Storage",
+
+    "remoteConfig_user_tooManyUser": "Unable to add account. You have reached the maximum number of accounts.",
+
+    "remoteConfig_user_deleteUser": "Once deleted, the user account would be invalid and cannot access the device. Are you sure to continue?",
+
+    "remoteConfig_alarmDetect_subTitle": "Create no-alarm zones to reduce false alarms.",
+
+    "remoteConfig_motion_customizedSettings": "Customized Settings",
+
+    "remoteConfig_motion_motionDetect": "Motion Detection Zone",
+
+    "remoteConfig_motion_motionSchedule": "Motion Schedule",
+
+    "remoteConfig_motion_motionPir": "Motion & PIR",
+
+    "remoteConfig_rf_rfSchedule": "RF Schedule",
+
+    "remoteConfig_copyTo_title": "Please choose device(s) to copy to.",
+
+    "remoteConfig_retry_title": "Loading failed.",
+
+    "remoteConfig_advancedSettings_gainRange": "Gain Range",
+
+    "remoteConfig_advancedSettings_shutterRange": "Shutter Range",
+
+    "remoteConfig_advancedSettings_dynamicRange": "Dynamic Range",
+
+    "remoteConfig_advancedSettings_whiteBalance": "White Balance",
+
+    "remoteConfig_advancedSettings_Backlight": "Backlight",
+
+    "remoteConfig_advancedSettings_lowNoise": "Low Noise",
+
+    "remoteConfig_advancedSettings_antiSmearing": "Anti-Smearing",
+
+    "remoteConfig_advancedSettings_redGain": "Red Gain",
+
+    "remoteConfig_advancedSettings_blueGain": "Blue Gain",
+
+    "remoteConfig_encode_frameRate": "Frame Rate (FPS)",
+
+    "remoteConfig_encode_maxBitRateOptions": "Max Bitrate (Kbps)",
+
+    "remoteConfig_ddnsSetting_serverType": "DDNS Server Type",
+
+    "remoteConfig_ddnsSetting_domainName": "Server Domain Name",
+
+    "remoteConfig_ddnsSetting_noIp": "NO-IP",
+
+    "remoteConfig_ddnsSetting_DynDNS": "DynDNS",
+
+    "remoteConfig_netwrokSetting_title": "Network Settings",
+
+    "remoteConfig_netwrokSetting_networkAccess": "Connection Type",
+
+    "remoteConfig_ntpSetting_server": "NTP Server",
+
+    "remoteConfig_ntpSetting_port": "NTP Port",
+
+    "remoteConfig_ntpSetting_autoSynchronize": "Auto-Synchronize",
+
+    "remoteConfig_ntpSetting_synchronizeEvery": "Synchronize Every",
+
+    "remoteConfig_portSetting_restartClue": "Note: May require device restart for change to take effect.",
+
+    "remoteConfig_portSetting_forceErrorText": "Port is already in use.",
+
+    "remoteConfig_portSetting_Media": "Media Port",
+
+    "remoteConfig_portSetting_HTTP": "HTTP Port",
+
+    "remoteConfig_portSetting_HTTPS": "HTTPS Port",
+
+    "remoteConfig_portSetting_RTSP": "RTSP Port",
+
+    "remoteConfig_portSetting_RTMP": "RTMP Port",
+
+    "remoteConfig_portSetting_Onvif": "ONVIF Port",
+
+    "remoteConfig_wifiNvrSetting_netPort": "Cameras with Net Port",
+
+    "remoteConfig_wifiNvrSetting_noNetPort": "Cameras without Net Port",
+
+    "remoteConfig_wifiNvrSetting_clue2": "2. Wait for several minutes until you hear two beeps. And it suggests that the Wi-Fi configuration is successfully synced and the camera will reboot soon.",
+
+    "remoteConfig_wifiNvrSetting_clue3": "3. Connect the camera to an NVR with network cables again after completing the above steps. Refresh and check camera connection.",
+
+    "remoteConfig_wifiNvrSetting_clue4": "1. Please long press the reset button of the camera until you hear the voice prompt.",
+
+    "remoteConfig_wifiSetting_current": "Current Network Connection",
+
+    "remoteConfig_wifiSetting_notConnected": "This device is not connected to any Wi-Fi network.",
+
+    "remoteConfig_wifiSetting_wirelessNetwork": "Wireless Network",
+
+    "remoteConfig_wifiSetting_manualInput": "Add Wi-Fi Info Manually",
+
+    "remoteConfig_dateTime_clue": "Device time may be incorrect.",
+
+    "remoteConfig_dateTime_syncTime": "Sync client time",
+
+    "remoteConfig_dateTime_dateFormat": "Date Format",
+
+    "remoteConfig_dateTime_24hour": "24h time format",
+
+    "remoteConfig_dateTime_12hour": "12h time format",
+
+    "remoteConfig_general_DeviceName": "Device Name",
+
+    "remoteConfig_general_HwNo": "Hardware No.",
+
+    "remoteConfig_general_CfgVersion": "Config Version",
+
+    "remoteConfig_general_FwVersion": "Firmware Version",
+
+    "remoteConfig_Maintenance_title": "Maintenance",
+
+    "remoteConfig_Maintenance_autoFocus": "Auto Focus",
+
+    "remoteConfig_Maintenance_autoReboot": "Auto Reboot",
+
+    "remoteConfig_Maintenance_autoRebootTime": "Auto Reboot Time",
+
+    "remoteConfig_Maintenance_autoUpgrade": "Auto Update",
+
+    "remoteConfig_Maintenance_onlineUpgrade": "Online update",
+
+    "remoteConfig_Maintenance_updateConfigureFile": "Reset Configuration",
+
+    "remoteConfig_Maintenance_DefaultSettings": "Default Settings",
+
+    "remoteConfig_Maintenance_EverySunday": "Every Sunday",
+
+    "remoteConfig_Maintenance_EveryMonday": "Every Monday",
+
+    "remoteConfig_Maintenance_EveryTuesday": "Every Tuesday",
+
+    "remoteConfig_Maintenance_EveryWednesday": "Every Wednesday",
+
+    "remoteConfig_Maintenance_EveryThursday": "Every Thursday",
+
+    "remoteConfig_Maintenance_EveryFriday": "Every Friday",
+
+    "remoteConfig_Maintenance_EverySaturday": "Every Saturday",
+
+    "remoteConfig_Maintenance_exportingPrompt": "Exporting...",
+
+    "remoteConfig_Maintenance_exportSucceededPrompt": "Export successfully!",
+
+    "remoteConfig_Maintenance_rebootingRestartClue": "Warning: Device will be restored to factory settings and reboot. Do you wish to continue?",
+
+    "remoteConfig_Maintenance_rebootClue": "Device will reboot. Continue?",
+
+    "remoteConfig_battery_subTitle": "View device's online status for last 30 days to learn device battery consumption details.",
+
+    "remoteConfig_battery_clue1": "Running time for last 30 days",
+
+    "remoteConfig_battery_clue2": "Running time includes the time taken to trigger alerts and access the device from app or Client.",
+
+    "remoteConfig_battery_powerTips": "Battery Usage Warning Threshold",
+
+    "remoteConfig_battery_linkTo": "Note: Find more tips on how to extend battery life here.",
+
+    "remoteConfig_battery_lowBattery": "Low Battery Warning",
+
+    "remoteConfig_battery_Charging": "Charging ...",
+
+    "remoteConfig_email_SMTPserver": "SMTP Server",
+
+    "remoteConfig_email_SMTPport": "SMTP Port",
+
+    "remoteConfig_email_EnableSSLTLS": "Enable SSL or TLS",
+
+    "remoteConfig_email_SenderAddress": "Sender Address",
+
+    "remoteConfig_email_RecipientAddress1": "Recipient Address 1",
+
+    "remoteConfig_email_RecipientAddress2": "Recipient Address 2",
+
+    "remoteConfig_email_RecipientAddress3": "Recipient Address 3",
+
+    "remoteConfig_network_UPnpEnable": "Enable UPnP",
+
+    "remoteConfig_network_UIDEnable": "Enable UID",
+
+    "remoteConfig_network_restartClue": "When UID is disabled, device will no longer be accessible via UID to this or other platforms.",
+
+    "remoteConfig_network_DDNSEnable": "Enable DDNS",
+
+    "remoteConfig_network_DDNSSetting": "DDNS Settings",
+
+    "remoteConfig_network_NTPSetting": "NTP Settings",
+
+    "remoteConfig_network_PortSetting": "Port Settings",
+
+    "remoteConfig_network_ICCID": "ICCID",
+
+    "remoteConfig_network_IMEI": "IMEI",
+
+    "remoteConfig_recording_EnableRecord": "Enable Record",
+
+    "remoteConfig_recording_PackDuration": "Pack Duration",
+
+    "remoteConfig_upgrading_readied": "New firmware update is available.",
+
+    "remoteConfig_upgrading_readiedSubtitle": "Please do not leave the update page when upgrading. The device will restart automatically when the upgrading completes.",
+
+    "remoteConfig_upgrading_Upgrading": "Device is upgrading...",
+
+    "remoteConfig_upgrading_UpgradingSubtitle": "Please don't power off your device before the upgrading completes.",
+
+    "remoteConfig_upgrading_upgradeFailed": "Update Failed",
+
+    "remoteConfig_upgrading_requestFailedSubtitle": "{s1}Please try again.",
+
+    "remoteConfig_upgrading_tryAgain": "Try Again",
+
+    "remoteConfig_upgrading_uploadingFile": "Uploading files...",
+
+    "remoteConfig_upgrading_upgradingFirmware": "Upgrading firmware...",
+
+    "remoteConfig_upgrading_upgradeCompleted": "Update completed.",
+
+    "remoteConfig_upgrading_upgradeCompletedSubtitle": "After device restarts, it will work normally.",
+
+    "remoteConfig_upgrading_upgradeFailedSubtitle": "{s1}Please try again after the device restarts.",
+
+    "remoteConfig_upgrading_timeout": "Connection has timed out.",
+
+    "remoteConfig_upgrading_busy": "The system is busy now.",
+
+    "remoteConfig_upgrading_noFind": "Please check if the file is valid.",
+
+    "remoteConfig_upgrading_sameVer": "The selected package is identical with the current version.",
+
+    "remoteConfig_upgrading_checkFailed": "Failed to recognize the file format.",
+
+    "remoteConfig_upgrading_upgradeBusy": "Device is busy.",
+
+    "remoteConfig_upgrading_upgradeOom": "There is no enough storage space in the device for Update.",
+
+    "background_batteryDeviceClose": "No operation for long. To save power, do you want to disconnect? The device [{s1}] will be disconnected automatically in {s2}s.",
+
+    "background_batteryError": "Abnormal battery condition in camera[{s1}]! Please check whether the battery is correctly installed.",
+
+    "background_noDiskSpace": "There is not enough disk space available.",
+
+    "background_recordNoWritePermission": "No write permission to record folder.",
+
+    "aboutUs_title": "About {s1}",
+
+    "aboutUs_contactUs": "Contact Us",
+
+    "software_manual_link": "https://reolink.com/software-and-manual/",
+
+    "contact_us_link": "https://reolink.com/contact-us/",
+
+    "battery_support_url": "https://support.reolink.com/hc/en-us/articles/360006991893-Extend-the-Battery-Life-of-Reolink-Battery-Powered-Cameras",
+
+    "manual_trigger_sound_alarm_failed": "Failed to trigger audio alarm.",
+
+    "common_capture": "Snapshot",
+
+    "common_record": "Record",
+
+    "wifi_config_page_mobile_network": "Mobile Network",
+
+    "remote_infrared_light_page_keep_off_description": "When disabled, night vision may not perform well in the dark.",
+
+    "client_end": "结束符,不用管这个key",
+
+    "CAMERA_SENSITIVITY_MID": "Medium",
+
+    "ENABLE_BUZZER": "Enable Buzzer",
+
+    "BUZZRE_FOR_EXPECTIONS": "Buzzer for Exceptions",
+
+    "ENABLE_EMAIL_ALERTS": "Enable Email Alerts",
+
+    "EMAIL_TEST": "Email Test",
+
+    "EMAIL_ALERT_FOR_EXPECTIONS": "Email Alerts for Exceptions",
+
+    "FTP_TEST": "Test",
+
+    "FORMAT_SDCARD_REBOOT": "Formatting will erase all the data on the SD card and the device will reboot. Are you sure you want to do this?",
+
+    "FORMAT_SDCARD_REBOOT_RELOGIN": "Formatting will erase all the data on SD card and the device will reboot. Re-login is required after formatting. Are you sure to continue?",
+
+    "FORMAT_HDD": "Formatting will erase all the data on the disk. Are you sure you want to do this?",
+
+    "FORMAT_HDD_RELOGIN": "Formatting will erase all the data on the disk and re-login is required after formatting. Are you sure to continue?",
+
+    "RELOGIN_TIPS": "Re-login is required if that setting is changed.",
+
+    "IP_CHANGE_ADD_DEVICE": "IP address has changed. Please obtain the latest IP address and re-add the device.",
+
+    "IP_CHANGE_RELOGIN": "IP address has changed. Please obtain the latest IP address and re-log in to the device.",
+
+    "TIP_IP_CHANGE_ADD_DEVICE": "Note: With IP address changed, you need to re-add the device.",
+
+    "upgrade_check_failed_title": "Checking failed.",
+
+    "change_lockscreen_password": "Change Lockscreen Password",
+
+    "set_lockscreen_password": "Set Lockscreen Password",
+
+    "lockscreen_password": "Lockscreen Password",
+
+    "enter_unlock_password": "Enter Unlock Password",
+
+    "drive_support_url": "https://support.reolink.com/hc/en-us/articles/900002574686",
+
+    "drag_camera_here": "Drag & Drop Device Here",
+
+    "ptz_ai_track_title": "Auto Tracking",
+
+    "sina_tooltip": "微博",
+
+    "tencent_tooltip": "公众号",
+
+    "get_device_login_status_failed": "Failed to obtain login status.",
+
+    "get_device_profile_failed": "Failed to obtain device information.",
+
+    "open_device_signature_login_failed": "Password-free login failed.",
+
+    "device_restore_confirm_title": "Please confirm you have reset the device.",
+
+    "device_restore_confirm": "Yes, Continue",
+
+    "no_permit_of_playback": "No permission to play back this recording.",
+
+    "input_too_long": "Character limit exceeded.",
+
+    "ptz_calibration_title": "Calibration required.",
+
+    "ptz_calibration_btn": "Start Calibration",
+
+    "remote_settings_spotlight_page_night_mode_title": "Night Mode",
+
+    "remote_settings_spotlight_page_auto_on_preview": "Auto-On for Live View",
+
+    "remote_settings_spotlight_page_auto_on_preview_description": "Spotlight auto turns on when viewing live feed and turn off afterwards.",
+
+    "remote_settings_spotlight_page_smart_night_vision_description": "Spotlight auto turns on when alarm event is detected.",
+
+    "remote_settings_spotlight_page_night_vision_always_on_title": "Always On at Night",
+
+    "remote_settings_spotlight_page_night_vision_always_on_description": "Spotlight stays on in night mode.",
+
+    "remote_settings_spotlight_page_night_vision_off_description": "Spotlight stays off in night mode.",
+
+    "remote_settings_spotlight_page_timing_always_on_title": "On as scheduled",
+
+    "remote_settings_spotlight_page_timing_always_on_description": "Spotlight stays on at scheduled time in night mode.",
+
+    "remote_config_email_password_placeholder": "Enter email password",
+
+    "remote_config_email_port_placeholder": "Enter port number",
+
+    "remote_config_email_smtp_incorrent_tip": "Incorrect SMTP server info or port. Please correct it and try again.",
+
+    "remote_config_email_network_error_tip": "Device network error. Please try again.",
+
+    "remote_config_email_address_or_password_error_tip": "Incorrect email password or SMTP not enabled. Please troubleshoot as follows:\nStep 1: Make sure the SMTP server is enabled for your email. For details of how to enable it, please contact the email provider.\nStep 2: Make sure that you enter the correct email address and password. Some email can only be accessed by entering an app password. Please set the app password and try again.",
+
+    "remote_config_email_not_allowed_email_tip": "Check if you have typed in a correct email address or try with another email address.",
+
+    "remote_config_email_device_memory_error_tip": "Device cannot send email now. Please wait and try again later.",
+
+    "remote_config_email_unknow_error_tip": "Unknown error. Please try with another email address.",
+
+    "common_dialog_clear_button": "Clear",
+
+    "common_access_device": "Access Device",
+
+    "device_default_account_tip": "(Default device account)",
+
+    "forget_pw_page_device_not_here": "Don't have your device?",
+
+    "forget_pw_page_reset_device_out_of_reach": "How can I reset the device that is out of reach?",
+
+    "forget_pw_page_reset_device_out_of_reach_help_tip": "1. Ask a family member or trusted friend to follow instructions and press the reset button on the device. \n2. If you can access the device on PC, log in to {s1} Client, restore the device to factory settings and create a new device password. \nIf your family members or trusted friends can access the device, you may ask them to restore the device to factory settings and create a new device password. \n{s2}\n{s3}\n",
+
+    "forget_pw_page_reset_device_via_app": "How can I reset the device via {s1} App?",
+
+    "forget_pw_page_reset_device_via_windows_client": "How can I reset the device via {s1} Client?",
+
+    "device_init_setup_wizard_create_password_description": "The account info is required when you access device(s) on other platforms. Keep it for quicker access.",
+
+    "device_default_username_placeholder": "default username",
+
+    "ptz_preset_point_description": "Mark the current position as a preset point to set the patrol route.",
+
+    "ptz_guard_point_title": "Monitor Point",
+
+    "ptz_guard_point_description": "Device will auto return to the initial monitoring position after deviating.",
+
+    "ptz_guard_point_auto_return": "Auto return to Monitor Point",
+
+    "ptz_gurad_point_reset": "Reset Monitor Point",
+
+    "display_hightlights_shadows_title": "Brightness & Shadows",
+
+    "common_view_manual": "Manual",
+
+    "display_shadows_title": "Shadows",
+
+    "ai_track_type_title": "Tracking Type",
+
+    "alarm_settings_alarm_title": "Detection Alarm",
+
+    "alarm_settings_detection_area_page_title": "Detection Zone",
+
+    "alarm_tolerance_page_titile": "Alarm Delay",
+
+    "alarm_tolerance_setting_page_description": "Alarm will be triggered when a detection object stays in detection zone longer than the set time.",
+
+    "smart_detection_page_title": "Smart Detection",
+
+    "alarm_settings_person_sensitivity_high_description": "Camera at high sensitivity detects moving objects with low-similarity appearance to persons.",
+
+    "alarm_settings_person_sensitivity_mid_description": "Camera at medium sensitivity detects moving objects with medium-similarity appearance to persons.",
+
+    "alarm_settings_person_sensitivity_low_description": "Camera at low sensitivity only detects moving objects with high-similarity appearance to persons to reduce false alarms.",
+
+    "alarm_settings_vehicle_sensitivity_high_description": "Camera at high sensitivity detects moving objects with low-similarity appearance to vehicles.",
+
+    "alarm_settings_vehicle_sensitivity_mid_description": "Camera at medium sensitivity detects moving objects with medium-similarity appearance to vehicles.",
+
+    "alarm_settings_vehicle_sensitivity_low_description": "Camera at low sensitivity only detects moving objects with high-similarity appearance to vehicles to reduce false alarms.",
+
+    "alarm_settings_animal_sensitivity_high_description": "Camera at high sensitivity detects moving objects with low-similarity appearance to animals.",
+
+    "alarm_settings_animal_sensitivity_mid_description": "Camera at medium sensitivity detects moving objects with medium-similarity appearance to animals.",
+
+    "alarm_settings_animal_sensitivity_low_description": "Camera at low sensitivity only detects moving objects with high-similarity appearance to animals to reduce false alarms.",
+
+    "alarm_object_size_page_title": "Object Size",
+
+    "alarm_object_size_setting_page_description": "Moving objects that are smaller than the minimum object size or bigger than the maximum object size will not trigger alarm.",
+
+    "alarm_object_size_min_description": "Moving objects that are smaller than this size will not trigger alarm.",
+
+    "alarm_object_size_max_description": "Moving objects that are bigger than this size will not trigger alarm.",
+
+    "ptz_self_testing_description": "Calibration is under process. PTZ feature is currently not available. Please wait.",
+
+    "remote_settings_alarm_volume_description": "Adjust the alarm and speaker volume.",
+
+    "remote_settings_alarm_volume_test_title": "Volume Test",
+
+    "setup_wifi_support_5g_tip": "This device supports 2.4 GHz and 5 GHz Wi-Fi networks. Connect the device to 5 GHz Wi-Fi for a better network experience.",
+
+    "wizard_scene_select_title": "Select Scene",
+
+    "wizard_scene_indoor": "Indoor",
+
+    "wizard_scene_outdoor": "Outdoor",
+
+    "ptz_preset_point_not_support_cruise_description": "Mark the current position as a preset point.",
+
+    "remote_settings_interframe_space_title": "I-frame Interval",
+
+    "display_color_day_mode_title": "Color Day Mode",
+
+    "display_color_night_mode_title": "Color Night Mode",
+
+    "scroll_mouse_wheel_zoom": "Scroll the mouse wheel to zoom in or out.",
+
+    "remoteConfig_Maintenance_exportFailedPrompt": "Export failed.",
+
+    "common_language_select": "English",
+
+    "common_connection_failed": "Connection failed.",
+
+    "common_wifi_connection_failed": "Wi-Fi connection failed.",
+
+    "common_new_version_available": "New Version Available",
+
+    "common_most_current_version": "This is the most current version available.",
+
+    "common_password_not_match": "Password and Confirm Password do not match.",
+
+    "scan_qr_code_title": "Scan QR code.",
+
+    "scan_qr_code_tip": "Scan the QR code on the screen with camera.",
+
+    "scan_connect_router_title": "Connect to router.",
+
+    "scan_connect_camera_failed_tip": "Failed to connect to camera.",
+
+    "scan_switch_same_wifi_tip": "Switch to the same Wi-Fi network as the camera.",
+
+    "scan_go_back_title": "Go back and add the device again.",
+
+    "live_page_stop_record_tip": "Recording… If you quit now, the camera will stop recording and save the videos locally. Are you sure you want to quit?",
+
+    "ftp_test_error_450": "Unknown error. Please try again.",
+
+    "ftp_test_error_451": "Login failed. Please check: \nIf username or password is correct. \nIf you have permission to log in.",
+
+    "ftp_test_error_452": "Failed to create folder. Please check: \nIf your FTP server is full. \nIf you have permission to create folder.",
+
+    "ftp_test_error_453": "Failed to upload file. Please check: \nIf your FTP server is full. \nIf you have permission to upload file.",
+
+    "ftp_test_error_454": "Connection failed. Please check your network connection.",
+
+    "add_device_ip_description": "Product IP can be used to add device or access device information.",
+
+    "display_hdr_title": "HDR",
+
+    "display_dual_lens_sync_brightness_title": "Channel 1 & 2 Brightness",
+
+    "common_view_sync": "Sync",
+
+    "common_view_unsync": "Not Sync",
+
+    "area_detection_title": "Area Detection",
+
+    "area_detection_description": "When disabled, camera will send alerts about the whole detection coverage. \nWhen enabled, camera will detect motion and send alerts about the created detection zones.",
+
+    "common_view_go_settings": "Create Detection Zones",
+
+    "detection_pet_title": "Pet Detection",
+
+    "detection_pet_tip": "Pet Safety",
+
+    "detection_pet_decription1": "Smart pet detection is added! This function is currently used to keep an eye on your dogs and cats.",
+
+    "detection_pet_decription2": "When enabled, you can customize the camera to record videos and send alerts when it detects pet detection events, and filter recordings by pet when viewing the playback.",
+
+    "detection_pet_decription3": "Note: This function is still in the internal testing stage and there is a probability of false alarm. If there is any, please feel at ease to share more details with us on our official website, which will help improve the products and user experience.",
+
+    "common_device_volume": "Device Volume",
+
+    "common_view_privacy_notice": "Privacy Notice",
+
+    "common_view_off_full": "Off",
+
+    "port_setting_rtmp_des": "Note: When disabled, Client cannot access the device.",
+
+    "port_setting_http_des": "Note: When HTTP and HTTPS are both disabled, device cannot be accessed via web browser.",
+
+    "network_connect_subtitle": "Network Connection",
+
+    "network_info_subtitle": "Network Information",
+
+    "port_setting_https_settings_title": "HTTPS Settings",
+
+    "certificate_title": "Certificate",
+
+    "keyfile_title": "Keyfile",
+
+    "black_white_switch_title": "Auto Switch to Black & White",
+
+    "black_white_switch_des": "Go Black & White when ambient light falls below the set brightness value.",
+
+    "common_ai_pet_option": "Pet",
+
+    "day_and_night_value_config_title": "Black & White and Color Switching Threshold",
+
+    "day_and_night_value_config_description": "Ambient brightness threshold when switching between Black & White and Color in Auto mode of Day & Night:",
+
+    "common_dst_title": "DST",
+
+    "display_advanced_sync_brightness_title": "Sync Brightness",
+
+    "display_advanced_sync_brightness_description": "Synchronously adjust left and right cam to avoid brightness difference",
+
+    "display_advanced_sync_brightness_warning": "Toggling the switch will reboot the device",
+
+    "remote_setting_pre_alarm_description": "When motion is detected, you will hear the pre-alarm sound from the camera, indicating the camera is determining the motion. The pre-alarm may last 3 seconds.",
+
+    "remote_setting_pre_alarm_title": "Pre-Alarm Sound",
+
+    "remote_setting_pre_alarm_sound_test_tip": "Please move close to the camera to test the pre-alarm sound.",
+
+    "ftp_test_success_tip": "FTP upload test succeeded!",
+
+    "push_test_push_timeout_description": "Push notification timed out. Please try again.",
+
+    "push_test_connection_timeout_description": "Network connection timed out. Please try again.",
+
+    "push_test_ca_verify_failed_description": "CA verification failed. Please calibrate time of the device and try again.",
+
+    "push_test_ca_certificate_wrong_description": "The CA certificate is wrong. Please calibrate time of the device and try again.",
+
+    "push_tes_network_failed_description": "Network connection failed. Please try again.",
+
+    "push_test_unknown_error_description": "Unknown error. Please try again.",
+
+    "password_strength_tip": "Password strength: {s1}",
+
+    "common_password_weak": "Weak",
+
+    "common_password_medium": "Medium",
+
+    "common_password_strong": "Strong",
+
+    "common_password_requirement_length": "Password must be at least 6 characters.",
+
+    "common_password_requirement_characters": "Password must be at least 2 types of of characters including digits(0-9), capital letters(A-Z), lowercase letters(a-z) and symbols.",
+
+    "download_cancel_tip": "Closing current window will stop this download. Are you sure to continue?",
+
+    "wifi_qr_reset_heard_voice_tip": "I have heard the voice played by the camera.",
+
+    "base_manager_title": "Management",
+
+    "base_unbind_alert_title": "Unbind Camera",
+
+    "base_unbind_alert_message": "After unbinding the camera, the previous video recordings remain in the Base.",
+
+    "base_bind_not_upgraded_title": "Not Update",
+
+    "common_enter": "Enter",
+
+    "base_record_view_in_base_tip": "This video recording can only be viewed in Base.",
+
+    "base_samba_help_tip": "Learn more about Samba Service.",
+
+    "base_no_record_file_found_tip": "No video recording found.",
+
+    "common_test": "Test",
+
+    "common_server": "Server",
+
+    "common_ip": "IP",
+
+    "ftps_protocol_title": "FTPS Only",
+
+    "ftps_protocol_description": "The server must support the FTPS protocol, otherwise files cannot be uploaded.",
+
+    "common_directory": "Directory",
+
+    "ftp_remote_directory_title": "Remote Directory",
+
+    "ftp_generate_subfolder_rule": "Generate subfolder by",
+
+    "common_upload": "Upload",
+
+    "common_image": "Image",
+
+    "common_video_and_image": "Video & Image",
+
+    "ftp_overwirte_file_title": "Overwrite File",
+
+    "ftp_not_overwrite_title": "No",
+
+    "ftp_single_file_overwrite_title": "Overwrite Single File",
+
+    "ftp_swap_file_overwrite_title": "Alternately Overwrite Two Files",
+
+    "ftp_single_file_overwrite_description": "Only retain the latest file.",
+
+    "ftp_swap_file_overwrite_description": "This option will generate temporary files.",
+
+    "ftp_type_in_file_name_tip": "Please type in the file name.",
+
+    "push_interval_title": "Push Interval",
+
+    "display_flip_vertical_title": "Flip Vertical",
+
+    "display_flip_horizontal_title": "Flip Horizontal",
+
+    "ftp_video_file_max_size": "Max File Size (MB)",
+
+    "ftp_image_interval_des": "When the network is slow, the picture might be damaged.",
+
+    "detection_area_erase": "Erase",
+
+    "detection_area_erase_all": "Erase All",
+
+    "password_trim_warn": "The first and last characters cannot be spaces.",
+
+    "detection_area_draw": "Paint",
+
+    "detection_area_draw_all": "Paint All",
+
+    "playback_failed_load_file_tip": "Failed to load playback.",
+
+    "common_width": "Width",
+
+    "common_height": "Height",
+
+    "common_input": "Input",
+
+    "diagnostic_logs_title": "Diagnostic Logs",
+
+    "main_devicelist_no_device_tip": "Click to add device",
+
+    "password_not_match_error": "Passwords do not match",
+
+    "base_samba_intro_tip": "Enable Samba, you can access Reolink Drive on the LAN computer. When enabled, you can disable Samba on the Settings page. It is recommended to use Samba in non-public places.",
+
+    "base_samba_instructions_title": "Instructions",
+
+    "base_samba_usage_step_one": "1. Obtain the LAN IP of Reolink Drive first.",
+
+    "base_samba_obtain_ip_obtaining": "Obtain IP automatically...",
+
+    "base_samba_obtain_ip_obtain_failed": "Obtain failed. Please try again.",
+
+    "base_samba_usage_step_two": "2. Then access on PC/Mac.",
+
+    "base_samba_usage_on_pc": "1. Open Windows Explorer.\n2. Enter \"\\\\{s1}\" and click Enter.\n3. Enter the user name (admin) and password of the device.",
+
+    "base_samba_usage_on_mac": "1. Open Finder.\n2. Click \"Go\" in the menu bar at the top of the screen.\n3. Find and click \"Connect to Server\".\n4. Enter \"smb://{s1}\".\n5. Click Connect.\n6. Enter the user name (admin) and password of the device.",
+
+    "https_settings_subtitle": "A self-signed certificate is used by default, but you can also import your own certificate.",
+
+    "channel_not_support_siren": "The device connected to this channel does not support siren.",
+
+    "common_customize": "Customize",
+
+    "hover_title_scrollview": "Scrollview",
+
+    "scrollview_time_title": "Scrollview Time",
+
+    "date_and_time_settings_page_current_time": "Current Time",
+
+    "date_and_time_settings_page_modified_time": "Modified Time",
+
+    "date_and_time_settings_page_time_not_support_modify": "This device does not support manual modification of time.",
+
+    "corresponding_area_settings_need_preview": "Please check the preview screen of this device, then come back and set the corresponding area.",
+
+    "common_iot": "IoT",
+
+    "smart_plug_turn_off_timer_tip": "{s1} Later will turn off",
+
+    "smart_plug_turn_on_timer_tip": "{s1} Later will turn on",
+
+    "smart_plug_reset_tip_2": "Press and hold the reset button for 5 seconds.",
+
+    "smart_plug_reset_tip_3": "Check if the indicator light is flashing.",
+
+    "smart_plug_reset_contact_after_sales_tip": "If the fault persists after the retry, contact the after-sales personnel of the corresponding channel.",
+
+    "smart_plug_reset_connect_wifi_tip": "Connect to the plug Wi-Fi in system settings and then come back and continue setup.",
+
+    "smart_plug_go_to_connect_wifi": "To Connect",
+
+    "smart_plug_auto_go_to_next_step_tip": "After the connection is successful, it will automatically enter the next step.",
+
+    "smart_plug_max_link_number_tip": "Can link up to {s1} devices",
+
+    "smart_plug_link_device_title": "Link Device(s)",
+
+    "smart_plug_schedule_link_conflict_tip": "The functions below will be disabled after the device is linked",
+
+    "smart_plug_timer_title": "Countdown",
+
+    "smart_plug_jog_switch_title": "Inching",
+
+    "smart_plug_timing_title": "Schedule",
+
+    "smart_plug_add_link_title": "Link New Device(s)",
+
+    "common_state": "State",
+
+    "smart_plug_switch_to_state_after_timer_tip": "After countdown, switch to",
+
+    "smart_plug_jog_switch_tip": "The power will be cut off automatically each time after the power's on for a preset time.",
+
+    "smart_plug_switch_to_state_after_timing_tip": "Turn the smart plug",
+
+    "common_only_once": "Only Once",
+
+    "smart_plug_task_conflict_title": "Task Conflict",
+
+    "smart_plug_task_conflict_tip": "Conflicts with the following tasks",
+
+    "smart_plug_linked_devices_title": "Linked Device(s)",
+
+    "smart_plug_no_device_to_link_tip": "There are no devices that can be linked",
+
+    "common_to_purchase": "To Purchase",
+
+    "smart_plug_link_tip": "State and duration of the linked jack switch when the set type is detected within the scheduled time.",
+
+    "common_power_on_state": "Power-on State",
+
+    "smart_plug_device_restart_state_tip": "Set the device restart state",
+
+    "common_power_off_title": "Power off",
+
+    "common_power_on_title": "Power on",
+
+    "smart_plug_follow_state_tip": "Follow the State Before Power off",
+
+    "smart_plug_log_title": "Switch Log",
+
+    "smart_plug_connected_network_power_on_tip": "When the network is connected and the socket is powered on",
+
+    "smart_plug_connected_network_power_off_tip": "When the network is connected and the socket is powered off",
+
+    "common_light": "Light On",
+
+    "common_no_light": "Light Off",
+
+    "push_mute_tip": "Pause Push Notifications",
+
+    "smart_bell_quick_reply_title": "Quick Reply",
+
+    "smart_bell_quick_reply_click_to_add_tip": "Click the add button to record a quick reply.",
+
+    "common_chime": "Chime",
+
+    "common_install_guide": "Installation Guide",
+
+    "common_doorbell": "Doorbell",
+
+    "smart_bell_set_volume_title": "Set Volume",
+
+    "smart_bell_set_audio_title": "Set Audio",
+
+    "common_visitor": "Visitor",
+
+    "common_qsg_title": "Quick Start Guide",
+
+    "smart_bell_power_on_with_adapter_tip": "Power on with Power Adapter",
+
+    "smart_bell_power_on_next_step_tip": "Powered on, Next Step",
+
+    "wifi_frequency_tip": "Wi-Fi frequency band supported by this device",
+
+    "smart_bell_chime_config_tip": "Is there a Reolink Chime that needs to be connected?",
+
+    "smart_bell_chime_config_step_1": "Plug Chime into socket.",
+
+    "smart_bell_power_supply_title": "Power Supply",
+
+    "smart_bell_power_supply_cable": "Power Over Ethernet",
+
+    "smart_bell_power_supply_wiring": "Use existing doorbell wiring",
+
+    "smart_bell_power_supply_adapter": "Use power adapter",
+
+    "device_upgrade_att_title": "This device requires firmware update",
+
+    "device_upgrade_att_message_1": "As AT&T will shut down its 3G network service by Feb.22,2022, the Go/Go PT devices using AT&T SIM card may not be able to access the network.",
+
+    "device_upgrade_att_message_2": "If your Go/Go PT device uses an AT&T SIM card, please copy the link below into your browser, and download and update the firmware following the instructions.",
+
+    "device_upgrade_att_message_3": "If the AT&T 4G network is not available in your region, please switch to another provider.",
+
+    "privacy_mask_screenshot_failed_des": "Please check the device's live view before setting the zones.",
+
+    "base_sd_not_formatted_title": "Not Formatted",
+
+    "base_sd_not_formatted_des": "You need to format the storage device before you can normally use it.",
+
+    "reset_all_settings": "Reset All Settings",
+
+    "reset_all_settings_dialog_title": "Reset all settings to the factory defaults?",
+
+    "reset_all_settings_dialog_des": "All settings will be restored to the factory defaults, including:",
+
+    "reset_all_settings_dialog_des_option1": "Clearing masked zones",
+
+    "reset_all_settings_dialog_des_option2": "Restoring watermark position",
+
+    "reset_all_settings_dialog_des_option3": "The device may also be restarted during the process. Are you sure you want to reset all settings?",
+
+    "illegal_login_lockout_title": "Illegal Login Lockout",
+
+    "illegal_login_lockout_des": "After a series of failed attempts within 3 minutes, your account will be temporarily locked for a few minutes.",
+
+    "lock_account_error": "{s1}, {s2} attempts left before your account is locked",
+
+    "locked_account_error": "{s1}. Account locked. Please try again in {s2} minutes",
+
+    "common_expand": "Expand",
+
+    "common_collapse": "Collapse",
+
+    "device_upgrade_att_message_4": "If your Go/Go PT device does not use an AT&T SIM card",
+
+    "device_upgrade_view_instruction_title": "View the instruction",
+
+    "device_upgrade_donot_remin_title": "Don’t remind me again",
+
+    "device_upgrade_att_message_5": "If you have any questions, please contact the Reolink support team.",
+
+    "fixed_frame_rate": "Fixed Frame Rate",
+
+    "fixed_frame_rate_des_open": "On, fluency first",
+
+    "fixed_frame_rate_des_off": "Off, clarity first",
+
+    "frame_rate_seq_des": "Choose a multiple of frame rate",
+
+    "ai_track_method": "Tracking Method",
+
+    "ai_track_digital": "Digital Tracking",
+
+    "ai_track_pt_first": "Pan/Tilt Tracking First",
+
+    "ai_track_digital_first": "Digital Tracking First",
+
+    "bino_stitch_setting_title": "Image Stitching",
+
+    "bino_stitch_setting_distance_des": "Fine-tune the distance to achieve the best effect",
+
+    "bino_stitch_setting_distance_title": "Distance (m)",
+
+    "bino_stitch_setting_position_des": "Fine-tune the image position",
+
+    "bino_stitch_setting_horizontal_des": "Horizontal",
+
+    "bino_stitch_setting_vertical_des": "Vertical",
+
+    "bino_switch_player_mode_title": "Change the Images",
+
+    "bino_switch_wide_angle_picture_title": "Wide-Angle Image",
+
+    "bino_switch_track_picture_title": "Tracking Image",
+
+    "bino_switch_both_picture_title": "Dual Images",
+
+    "ptz_detect_area_guard_point_des": "The detection zone will be effective only after the monitor point is set.",
+
+    "ptz_guard_point_not_set_des": "The monitor point hasn't been set.",
+
+    "common_deleting": "Deleting",
+
+    "ptz_add_cruise_poing_title": "Add Patrol Point",
+
+    "ptz_edit_cruise_poing_title": "Edit Patrol Point",
+
+    "common_number_reach_max_tip": "No more can be added.",
+
+    "reolink_network_service_enable_tip": "This feature requires Reolink Network Service to be enabled.",
+
+    "reolink_network_service_title": "Reolink Network Service",
+
+    "reolink_network_service_function_title": "Reolink Network Service offers the following functions:",
+
+    "reolink_network_service_function_des1": "Extranet preview and playback",
+
+    "reolink_network_service_function_des2": "Email and FTP are excluded as their servers are not built by Reolink.",
+
+    "reolink_network_service_set_server_tip": "Why does a server need to be set up?",
+
+    "reolink_network_service_disable_tip": "You can only access the device through the LAN after disabling this function. Are you sure?",
+
+    "common_sort": "Sort by",
+
+    "cloud_plan_purchase_sequence_title": "Purchase Time",
+
+    "cloud_plan_remain_days_title": "Remaining Days",
+
+    "cloud_plan_remain_space_title": "Remaining Capacity",
+
+    "timelapse_estimated_video_duration_title": "Estimated video length:",
+
+    "timelapse_estimated_video_size_title": "Estimated file size:",
+
+    "timelapse_duration_title": "Duration",
+
+    "timelapse_file_format_title": "Format",
+
+    "timelapse_video_duration_size_title": "Video length/file size:",
+
+    "common_file": "File",
+
+    "common_login_error_max_ip_number": "Maximum number of IP reached.",
+
+    "common_login_error_denied": "Login denied.",
+
+    "common_login_error_locked": "Your account has been locked. Please try again later.",
+
+    "common_login_error_max_user_number": "Maximum number of concurrent users reached.",
+
+    "common_no_overwrite": "No overwrite",
+
+    "common_overwrite_oldest": "Overwrite the oldest files",
+
+    "common_days_title": "{s1} days",
+
+    "alarm_input_title": "Alarm Input",
+
+    "alarm_input_config_title": "Configure Alarm Input",
+
+    "alarm_output_title": "Alarm Output",
+
+    "alarm_output_config_title": "Configure Alarm Output",
+
+    "alarm_input_setting_title": "Set Alarm Input",
+
+    "alarm_output_setting_title": "Set Alarm Output",
+
+    "common_delay": "Delay",
+
+    "alarm_output_schedule_title": "Alarm Output Schedule",
+
+    "alarm_input_current_channel_title": "Alarm Input for Current Channel",
+
+    "alarm_schedule_ipc_title": "IP Camera Alarm Schedule",
+
+    "alarm_input_schedule_title": "Alarm Input Schedule",
+
+    "common_timer_schedule_title": "Timer Schedule",
+
+    "alarm_output_channel_title": "Alarm Output Channel",
+
+    "common_overwrite_all_title": "Overwrite all",
+
+    "record_retained_days_title": "Only keep recordings of {s1} days",
+
+    "login_lock_tip": "{s1}. Your account will be locked after too many failed attempts.",
+
+    "add_device_connect_smart_plug_title": "Connect to Smart Plug",
+
+    "smart_plug_make_sure_light_off_title": "No",
+
+    "smart_plug_make_sure_light_on_title": "Yes",
+
+    "add_device_connect_smart_plug_ap_title": "Connect to Smart Plug's Wi-Fi",
+
+    "common_connecting": "Connecting",
+
+    "smart_plug_in_link_title": "In linkage",
+
+    "common_time_point": "At",
+
+    "common_repeat": "Repeat",
+
+    "smart_plug_position_and_name_title": "Outlet",
+
+    "iot_select_device_title": "Select Device",
+
+    "iot_config_schedule_title": "Set Schedule",
+
+    "iot_select_alarm_type_title": "Set Conditions",
+
+    "iot_select_action_title": "Set Action",
+
+    "iot_link_max_number_tip": "No more device can be linked.",
+
+    "iot_alarm_black_to_color_title": "When Image Turns Colorful",
+
+    "iot_alarm_color_to_black_title": "When Image Turns Black & White",
+
+    "common_zoom_in_title": "Zoom in",
+
+    "common_schedule_time_page_iot_action_tip": "Set enable and disable time",
+
+    "common_device_date_and_time_title": "Date and time of this device",
+
+    "iot_link_guide_title": "How to Link Device",
+
+    "smart_plug_reset_tip_1": "Please power up the plug.",
+
+    "common_gps_signal_weak_tip": "Current GPS signal is weak.",
+
+    "common_gps_privacy_purpose_tip": "Used to assist in positioning and finding cameras.",
+
+    "common_gps_privacy_request_tip": "{s1} requests to use location services to assist in positioning, finding cameras, and accessing Wi-Fi information.",
+
+    "tooltip_EditPresetPoint": "Adjust Preset Point",
+
+    "ptz_guard_point_return": "Return to Monitor Point",
+
+    "calibration_button_title": "Calibration",
+
+    "snap_refresh": "Refresh the image",
+
+    "timelapse_crops_scene": "Crops",
+
+    "common_password_contain_type_number_tip": "At least {s1} types of of characters",
+
+    "common_password_contain_type_tip": "Password must contain at least {s1} of the following:",
+
+    "comon_numbers": "Numbers",
+
+    "common_uppercase_letters": "Uppercase letters",
+
+    "common_lowercase_letters": "Lowercase letters",
+
+    "common_password_special_characters": "Special characters: !#$%&()'*+-,:;`./;<=>?@[]^_{}|~ (or a space)",
+
+    "common_password_weak_tip": "Password must be at least 3 types of of characters including digits(0-9), capital letters(A-Z), lowercase letters(a-z) and symbols.",
+
+    "doorbell_default_voice_msg_1": "Hi, we will be right there. Please wait a moment.",
+
+    "doorbell_default_voice_msg_2": "Sorry, we are not home today.",
+
+    "doorbell_default_voice_msg_3": "Hi, please leave the packege at the door. We will get it later.",
+
+    "facebook_group_title": "Facebook Group",
+
+    "facebook_group_des": "A group where sharing videos and pics is more common.",
+
+    "forum_title": "Reolink Community",
+
+    "forum_des": "A forum mainly for support & troubleshooting.",
+
+    "reddit_title": "Reddit",
+
+    "reddit_des": "A sub where people love to DIY and tech discussion.",
+
+    "timelapse_day_night_switch_msg_client": "When the sun rises or sets, the color mode of the videos may change. To continuously capture videos in Color Mode or in Black & White Mode, go to Settings > Camera > Display > Day and Night. (Note: This change will also apply to live view.)",
+
+    "battery_ipc_power_saving_title": "Battery Camera Power Saving Mode",
+
+    "battery_ipc_power_saving_message": "To save power, battery cameras will be disconnected in 5 minutes if there is no operation.",
+
+    "hardware_decoding_first_title": "Hardware Decoding First",
+
+    "hardware_decoding_message": "Before decoding with software, decoding with hardware first.",
+
+    "ai_track_pt": "PT",
+
+    "map_title": "Map",
+
+    "map_description": "Add markers such as animal information and device used.",
+
+    "map_add_camera_first_tip": "Please add a camera first",
+
+    "map_marker_title": "Marker",
+
+    "map_marker_description_title": "What is Marker",
+
+    "map_marker_description_1": "Mark the location of Keen cameras and animals on map.",
+
+    "map_marker_description_2": "Long press to add a marker",
+
+    "map_marker_description_3": "Tap the marker to view contents",
+
+    "common_creation_time": "Creation Time",
+
+    "map_add_marker_title": "Add Marker",
+
+    "map_edit_marker_title": "Edit Marker",
+
+    "chime_qsg_title": "How to Use Chime",
+
+    "chime_qsg_press_button_title": "Press the doorbell button",
+
+    "chime_qsg_sync_feedback_title": "Get sync feedback from Chime",
+
+    "chime_qsg_no_sound_light_title": "No sound and light feedback?",
+
+    "chime_qsg_sync_descrition_1": "1. Make sure Chime and the doorbell are powered on;",
+
+    "chime_qsg_sync_descrition_2": "2. Press the doorbell button again;",
+
+    "chime_qsg_sync_descrition_3": "3. If there is no sync feedback, please long press the sync button on Chime to resync.",
+
+    "chime_qsg_sync_descrition_4": "4. If it still doesn't work, please contact our technical support.",
+
+    "common_installation_method_title": "Installation Method",
+
+    "bell_different_guidelins_installation_title": "There are different guidelines for different installation methods.",
+
+    "common_voice_message_title": "Voice Message",
+
+    "bell_auto_reply_title": "Auto-Reply",
+
+    "bell_auto_reply_waiting_time_title": "Waiting Time",
+
+    "bell_auto_reply_waiting_time_description": "How soon the auto-reply will be triggered after the doorbell rings",
+
+    "common_right_away": "Right away",
+
+    "bell_auto_reply_delete_description": "This message has been set to auto-reply, and there will be no auto-reply voice after deletion.",
+
+    "common_message": "Message",
+
+    "bell_status_led_auto_always_light_description": "Status lights will provide different feedback on person detection, button press, and two-way talk.",
+
+    "image_push_device_support_description": "This device can send image push notification",
+
+    "ptz_guard_point_set": "Set Current Position as Monitor Point",
+
+    "ptz_guard_point_returned": "Returned to monitor point",
+
+    "ptz_guard_point_interval_title": "Interval (seconds)",
+
+    "wifi_reset_network_btn": "Reset Network",
+
+    "common_telephoto_image": "Telephoto Image",
+
+    "common_delete_account": "Delete Account",
+
+    "live_bino_nvr_resolution_tip": "The output resolution of this camera for single-screen preview is 4096 X 1536, which exceeds the maximum resolution supported by this NVR. \n Please set the resolution of this camera.",
+
+    "common_gallery_view": "Gallery View",
+
+    "common_list_view": "List View",
+
+    "common_already_setup_device_tip": "Device already been set up? Access it.",
+
+    "smart_plug_reset_description": "After pressing and holding the reset button for 5 seconds, release the button to confirm whether the indicator light is flashing.",
+
+    "smart_plug_no_flash_tip": "No flashing?",
+
+    "common_connect_device": "Connect the Device",
+
+    "common_system_wifi_setting_tip": "Find Wi-Fi settings in system settings",
+
+    "smart_plug_connect_ap_tip": "Find and connect to \"Reolink_Smart_Plug_{s1}\" Wi-Fi",
+
+    "smart_plug_continue_setting_tip": "Return to continue setting",
+
+    "common_inspecting": "Inspecting...",
+
+    "iot_connect_ap_failed_tip_1": "Make sure that you have connected to the Wi-Fi of this IoT device.",
+
+    "iot_connect_ap_failed_tip_2": "Check whether the device has been successfully reset, and make sure that the device is sending out Wi-Fi signals.",
+
+    "iot_connect_ap_failed_tip_3": "Turn off the VPN to avoid its possible effects on the link between the IoT device and the Reolink app.",
+
+    "iot_connect_ap_failed_tip_4": "If the suggestions above are not helpful to you, please contact Reolink support.",
+
+    "common_audio": "Audio",
+
+    "chime_volume_setting_tip": "1. The chime has 5 levels of volume (mute, low, moderate, loud, and very loud). \n2. When the volume is set to \"low\" or \"very loud\", there will be two beeps. \n3. When the volume is set to \"mute\", the chime will only flash.",
+
+    "chime_audio_setting_tip": "Press the ringtone button to change ringtones",
+
+    "bell_make_sure_powered_on_tip": "Please make sure the doorbell is powered on and the network is available.",
+
+    "common_library": "Library",
+
+    "download_auto_cancel_after_quitting_description": "Downloading files. Quitting now will cancel your download tasks. Are you sure you want to quit?",
+
+    "plan_not_purchased_tip": "Plan not purchased",
+
+    "device_add_login_qrcode_scan_beep_clue": "When you hear a beep sound, Wi-Fi is successfully connected.",
+
+    "cloud_plan_cancel": "Cancel Plan",
+
+    "cloud_plan_schedule_description": "Set trigger conditions for uploading videos to the Cloud.",
+
+    "common_quit": "Quit",
+
+    "cloud_plan_history": "Video History",
+
+    "common_expire_time": "Expire Time",
+
+    "common_unlock": "Unlock",
+
+    "lockscreen_when_client_starts_title": "Lockscreen password required when Client starts",
+
+    "common_storage_time": "Storage Time",
+
+    "resolution_not_supported_tip": "Resolution not supported. Please adjust the resolution of the camera.",
+
+    "ai_track_stop_description": "Time to Stop Tracking",
+
+    "ai_track_object_stops": "Object Stops",
+
+    "ai_track_object_disappers": "Object Disappears",
+
+    "two_factor_authentication": "Two-Factor Authentication",
+
+    "authenticator_code_title": "Authenticator Code",
+
+    "backup_code_title": "Backup Code",
+
+    "authenticator_code_description": "Enter the 6-digit code you saw in the third-party authenticator app.",
+
+    "backup_code_description": "Enter one of your 8-digit backup codes.",
+
+    "two_factor_authentication_send_email_description": "Send authenticator code to this email address",
+
+    "two_factor_authentication_code_email_not_received_title": "Didn't receive an email?",
+
+    "common_verify": "Verify",
+
+    "verification_failed_tip": "Verification failed. Please try again.",
+
+    "gdpr_select_server_tip": "Please select a regional server that provides network services for this device. Network services involved:",
+
+    "device_remote_serve": "Services for Remote Access to Devices",
+
+    "auto_frame_rate_title": "Auto Frame Rate",
+
+    "common_normal": "Normal",
+
+    "frame_rate_mode_title": "Frame Rate Mode",
+
+    "common_verifying": "Verifying…",
+
+    "common_send": "Send",
+
+    "common_device_added": "Device added",
+
+    "common_motion": "Motion",
+
+    "common_nighttime": "Nighttime",
+
+    "bell_push_notification_tip": "Someone rang the {s1}.",
+
+    "common_smart_plug": "Smart Plug",
+
+    "comomn_drag": "Drag",
+
+    "common_power": "Power",
+
+    "forget_pw_page_cellular_device_tip": "2. After resetting, network connection info, device login password, and other related info will be erased and need to be reconfigured.",
+
+    "bell_install_with_poe_title": "Power over Ethernet",
+
+    "bell_install_with_wiring_title": "How to power video doorbells using power cables?",
+
+    "bell_install_poe_title": "Install PoE Video Doorbell",
+
+    "bell_install_wifi_title": "Install Wi-Fi Video Doorbell",
+
+    "bell_install_prepare_title": "Prepare to Install",
+
+    "bell_install_prepare_tip": "Use a network cable of appropriate length. Plug one end of the network cable into the PoE port of your NVR or other PoE devices.",
+
+    "bell_install_find_place_title": "Find a Place for Your Doorbell",
+
+    "bell_install_find_place_tip": "Find a proper place for your doorbell. Do not include walls in the camera view. The walls will reflect infrared light and may cause a blurry image.",
+
+    "bell_install_height_tip": "Choose a proper height for your doorbell. You are recommended to install the doorbell 1.2m (48'') high off the ground, in order to get an ideal camera view.",
+
+    "bell_install_start_title": "Start to Install",
+
+    "bell_install_wedge_function_tip": "Check the camera view to see whether the wedge should be used to adjust the field of view. If a person standing in front of your door is near the edge of the camera's field of view, use the wedge.",
+
+    "bell_install_use_wedge_tip": "Use the wedge",
+
+    "bell_install_not_use_wedge_tip": "Don't use the wedge",
+
+    "bell_install_drill_hole_title": "Find the Place to Drill Holes",
+
+    "bell_install_drill_hole_tip": "Put the mounting hole template on the wall and find the place to drill holes as shown. (Note: The places of drilling differ when you use or don't use the wedge.)",
+
+    "bell_install_wedge_title": "Install the Wedge",
+
+    "bell_install_wedge_tip": "Fix the wedge to the wall. If the wall is soft, screw the wedge to the wall directly. If the wall is hard, insert drywall anchors first. Drill a hole through the wall in the hollow part of the wedge to run the network cable.",
+
+    "bell_install_use_mounting_plate_tip": "Fix the mounting plate to the wall. If the wall is soft, screw the mounting plate to the wall directly. If the wall is hard, insert drywall anchors first. Drill a hole through the wall in the hollow part of the mounting plate to run the network cable.",
+
+    "common_soft_wall_title": "Soft wall",
+
+    "common_hard_wall_title": "Hard wall",
+
+    "bell_install_mounting_plate_title": "Install the Mounting Plate",
+
+    "bell_install_mounting_plate_tip": "Screw the mounting plate into the wedge.",
+
+    "bell_install_connect_cable_title": "Connect Network Cable to Video Doorbell",
+
+    "bell_install_connect_cable_tip": "Run the network cable through the wall and connect it to the video doorbell.",
+
+    "bell_install_fix_in_mounting_plate_title": "Fix Video Doorbell to Mounting Plate",
+
+    "bell_install_fix_in_mounting_plate_tip": "Follow the two steps above to fix the video doorbell.",
+
+    "common_finish": "Finish",
+
+    "bell_install_finish_tip": "Press the doorbell button and check whether the doorbell and chime can ring. Check the live view on your phone.",
+
+    "bell_install_finish_error_title": "Why is the doorbell status light white?",
+
+    "bell_install_use_doorbell_wiring_title": "Use Existing Doorbell Wiring",
+
+    "bell_install_use_adapter_title": "Use Power Adapter",
+
+    "bell_install_select_network_connection_title": "Select Your Network Connection",
+
+    "bell_install_select_network_connection_tip": "Select a way to connect the video doorbell to your network, via Wi-Fi or a network cable.",
+
+    "bell_install_use_wifi_title": "Wi-Fi",
+
+    "bell_install_use_network_cable_title": "Network Cable",
+
+    "bell_install_prepare_network_cable_tip": "Get a cable of appropriate length and attach one end of the network cable to the router.",
+
+    "bell_install_find_existing_bell_title": "Find Your Existing Doorbell & Chime",
+
+    "bell_install_find_existing_bell_tip": "Check whether the existing doorbell system is working. Push the button of the existing doorbell and find the chime following the sound.",
+
+    "bell_install_find_existing_bell_note": "Note: If the existing doorbell system doesn't work, please contact a qualified electrician. Or, you can back to the first step and use a power adapter.",
+
+    "bell_install_turn_off_power_to_existing_bell_title": "Turn off Power to Doorbell",
+
+    "bell_install_turn_off_power_to_existing_bell_tip": "Power off the existing doorbell under the guidance of a qualified electrician. Press the doorbell button again and make sure that the chime does not ring.",
+
+    "bell_install_electrical_work_warning_tip": "Contact Qualified Electricians!",
+
+    "bell_install_electrical_work_warning_note_1": "DO NOT directly connect the video doorbell to the mains. Otherwise, it may cause fires, electric shocks, or other damages or loss. If you are inexperienced in working with electrical wires, please contact a qualified electrician.",
+
+    "bell_install_electrical_work_warning_note_2": "This video doorbell supports a voltage of 12-24V AC.",
+
+    "bell_install_i_got_it_title": "I got it.",
+
+    "bell_install_check_voltage_of_chime_title": "Check the Voltage of the Existing Chime",
+
+    "bell_install_check_voltage_of_chime_tip": "Remove the cover from your existing chime. Use a voltmeter to verify whether the existing doorbell wiring is applicable to the video doorbell. If not, you need to bypass the existing chime. This video doorbell supports a voltage of 12-24V AC.",
+
+    "bell_install_check_voltage_of_chime_note": "Note: \n 1. The existing chime will no longer ring. \n 2. If you are inexperienced in working with electrical wires, please contact a qualified electrician.",
+
+    "bell_install_check_voltage_of_chime_error_title": "My wiring is different from the picture.",
+
+    "bell_install_remove_existing_bell_title": "Remove the Existing Doorbell",
+
+    "bell_install_remove_existing_bell_tip": "Put back the cover of the existing chime after checking the voltage. \n1. Uninstall the old doorbell button; \n2. Use the extension wires to extend the original wires for new doorbell; \n3. Use the provided wires connectors to connect the wires.",
+
+    "bell_install_connect_bell_to_existing_wiring_title": "Wire Up the Video Doorbell",
+
+    "bell_install_connect_bell_to_existing_wiring_tip": "Connect the existing power cable to the video doorbell.",
+
+    "bell_install_connect_bell_to_wiring_tip": "Connect the power cable to the video doorbell.",
+
+    "bell_install_connect_bell_to_existing_wiring_note": "Note: Make sure that the Y-shaped plugs are separate from each other.",
+
+    "bell_install_connect_power_and_network_cable_title": "Connect Power Cable and Network Cable to the Video Doorbell",
+
+    "bell_install_connect_power_and_network_cable_tip": "Run the network cable through the wall. Connect the network cable and the existing power cable to the video doorbell.",
+
+    "bell_install_connect_standard_power_and_network_cable_tip": "Run the network cable through the wall. Connect the network cable and the power cable to the video doorbell.",
+
+    "bell_install_restore_power_title": "Restore Power",
+
+    "bell_install_restore_power_tip": "Check whether the video doorbell is installed properly. If so, restore the power.",
+
+    "bell_install_use_adapter_prepare_tip": "Place the power adapter near the door and set up the cables. Do not plug the adapter into the power socket at this point.",
+
+    "ai_animal_funcation_description": "Supported by PIR and intelligent detection technologies, the camera detects animals and people more efficiently. You can get alerts and filter playbacks more accurately.",
+
+    "common_locating": "Locating",
+
+    "common_location": "Location",
+
+    "map_view_on_map_title": "View on Map",
+
+    "review_invitation_tip": "Please rate if you like this app. \n Thanks for your support!",
+
+    "common_dislike": "Dislike",
+
+    "common_like": "Like",
+
+    "common_not_now": "Not Now",
+
+    "common_rate": "Rate",
+
+    "light_pause_alarm_title": "Alarm Pause",
+
+    "light_pause_alarm_no_pause_title": "No Pause",
+
+    "light_pause_alarm_minutes_title": "For {s1} minutes",
+
+    "light_pause_alarm_forever_title": "Pause Forever",
+
+    "light_mode_title": "Light Mode",
+
+    "light_smart_night_vision_mode_tip": "When the ambient light level is lower than the threshold, automatically turn on the light once the PIR sensor detects a motion.",
+
+    "light_night_vision_always_on_tip": "Turn on the light automatically when the ambient light level is lower than the threshold.",
+
+    "light_schedule_mode_tip": "Turn on the light as scheduled.",
+
+    "light_ambient_light_threshold_title": "Ambient Light Threshold",
+
+    "light_ambient_light_threshold_tip": "Set a higher value and the light will be turned on earlier.",
+
+    "light_delay_turn_off_duration_title": "Light Duration",
+
+    "light_delay_turn_off_duration_tip": "Time the light stays on after the motion ends:",
+
+    "common_alarm_audio": "Alarm Audio",
+
+    "light_alarm_audio_tip": "Alarm audio can only be activated by linkage actions.",
+
+    "light_alarm_audio_use_tip": "Use the following audios in linkage actions.",
+
+    "light_audio_used_for_link_tip": "This audio is used for linkage-activated alarms. If deleted, it will be replaced by default audio.",
+
+    "light_setting_effect_light_mode_tip": "This setting will affect the light activation condition in motion light mode.",
+
+    "light_alarm_sensitivity_title": "Motion Detection Sensitivity",
+
+    "common_if": "If",
+
+    "common_then": "Then",
+
+    "common_action": "Action",
+
+    "link_action_schedule_tip": "Select a day and schedule when to enable or disable it on that day.",
+
+    "common_always": "Always",
+
+    "common_no_device": "No device",
+
+    "cloud_plan_switch_overwrite_tip": "The storage used by this device in the current plan is more than the storage available in the new plan \n When you change the plan, videos will be automatically overwritten according to the upload time. The earliest videos would be overwritten first.",
+
+    "common_pair": "Pair",
+
+    "chime_sync_tip": "The video doorbell and the chime in the same pack are paired by default. If you need to pair the chime again, follow these steps: \n 1. Power off the chime. \n 2. Power on the chime with the setting button pressed to turn on the pairing mode. Keep pressing the button for 5 seconds until the chime status light is on. \n 3. Press the doorbell button once. If the chime status light flashes twice and the chime beeps twice, the chime is successfully paired.",
+
+    "chime_reset_tip": "1. Power off the chime. \n2. Power on the chime with the volume button pressed to reset it. Keep pressing the button until you hear 10 slower beeps followed by 4 faster beeps, which means the chime is successfully reset.",
+
+    "cloud_test_error_10004": "Incorrect parameter.",
+
+    "cloud_test_error_10008": "Busy. Only one test command can be processed at a time.",
+
+    "cloud_test_error_30": "Memory allocation error.",
+
+    "cloud_test_error_31": "Unsupported command.",
+
+    "cloud_test_error_32": "Command timed out.",
+
+    "cloud_test_error_35": "Failed to parse JSON parameters. Permission required.",
+
+    "cloud_test_error_37": "Token expired.",
+
+    "cloud_test_error_38": "Invalid token.",
+
+    "cloud_test_error_39": "Token required.",
+
+    "cloud_test_error_40": "Account disabled.",
+
+    "cloud_test_error_42": "Signature expired.",
+
+    "cloud_test_error_43": "Cloud storage is currently not available.",
+
+    "cloud_test_error_44": "Processing the last task.",
+
+    "cloud_test_error_45": "Configuration not initialized.",
+
+    "cloud_test_success_title": "Test succeeded.",
+
+    "cloud_test_success_tip": "A 3-second test video was successfully uploaded to the Cloud storage.",
+
+    "cloud_test_error_46": "Cloud recording was not on.",
+
+    "cloud_storage_date_option": "Specific Time",
+
+    "link_tip": "If device A meets a certain condition, then device B will perform a specific action.",
+
+    "light_night_vision_always_on_luminance": "Usual Brightness",
+
+    "light_night_vision_always_on_alarm_luminance": "Motion-Triggered Brightness",
+
+    "common_schedule_settings_page_tip": "Select time to schedule when to enable or disable it.",
+
+    "cloud_plan_title": "Plan",
+
+    "common_beta_function": "Beta Feature",
+
+    "device_switch_plan_tip_current_plan": "This device has been added to",
+
+    "device_switch_plan_tip_target_plan": "Switch the device's plan to",
+
+    "horizontal_tracking_range_title": "Horizontal Tracking Range",
+
+    "horizontal_tracking_range_tip": "Limit the horizontal range of tracking.",
+
+    "horizontal_tracking_range_location_rules": "Cannot use the same position to set the two ends. Please try again.",
+
+    "common_confirm_next": "Confirm. Next.",
+
+    "smart_battery_mode": "Smart Battery Mode",
+
+    "smart_battery_mode_tip": "Automatically apply different settings for continuous recording according to battery levels to extend battery life.",
+
+    "smart_battery_mode_des1": "The PIR alarm events will be recorded at full frame rate regardless of battery levels.",
+
+    "smart_battery_mode_des2": "With the smart battery mode off, continuous recording will also be disabled when the battery level is lower than or equal {s1}.",
+
+    "common_low_frame_rate": "Low Frame Rate",
+
+    "common_full_frame_rate": "Full Frame Rate",
+
+    "common_power_on_tip": "Please power up the device.",
+
+    "light_wizard_no_light_feedback_title": "No status light feedback?",
+
+    "common_connect_device_wifi": "Connect to the device's Wi-Fi",
+
+    "add_device_light_connect_ap_tip": "Find and connect to the Wi-Fi of \"Reolink_Floodlight_{s1}\"",
+
+    "iot_link_add_action_title": "Add Action",
+
+    "audition_button_sound_testing": "Testing",
+
+    "pw_error_page_detect_device_just_reset": "Successfully reset. Start the initial setup for your device.",
+
+    "push_delay_title": "Delay Push Notifications",
+
+    "email_delay_title": "Delay Email Alerts",
+
+    "push_and_email_delay_time_title": "Delay Time",
+
+    "push_delay_open_tip": "When this is on, the delivery of push notifications will be delayed. Are you sure to turn this on?",
+
+    "email_delay_open_tip": "When this is on, the delivery of email alerts will be delayed. Are you sure to turn this on?",
+
+    "common_multiSecs": "Sec(s)",
+
+    "common_rich_notification": "Rich Notification",
+
+    "common_rich_notification_des": "Preview the detected event with a snapshot in the push notification.",
+
+    "common_rich_notification_learn_more": "This device supports rich notification.",
+
+    "device_login_page_connect_failed_tip": "Please make sure your device is powered on and connected to a stable network.",
+
+    "port_setting_rtsp_des": "When disabled, cannot access the device via ONVIF or other protocols.",
+
+    "hdd_config_page_device_restore_sure_tip": "Device will delete all the recording files and reboot. Continue?",
+
+    "frame_rate_model_auto_tip": "Use variable frame rate. Ensure clarity by adjusting the frame rate (NOT suitable for fast-moving objects).",
+
+    "frame_rate_model_fixed_title": "Constant",
+
+    "frame_rate_model_fixed_tip": "Use constant frame rate. Prioritize smoothness.",
+
+    "frame_rate_model_normal_title": "Gradual",
+
+    "frame_rate_model_normai_tip": "Use variable frame rate. Ensure clarity by adjusting the frame rate in gradual steps (suitable for fast-moving objects).",
+
+    "copy_device_settings_title": "Copy to Other Devices",
+
+    "copy_device_settings_tip": "Apply the same settings to the same models.",
+
+    "clear_horizontal_tracking_setting_tip": "Are you sure to clear the settings of horizontal tracking range?",
+
+    "iot_page_date_tip": "The device's date and time",
+
+    "common_threshold": "Threshold",
+
+    "auto_switch_black_or_white": "Auto Switch of Color Modes",
+
+    "video_noise_reduction": "Noise Reduction",
+
+    "live_page_toolbar_ptz_3D_zoom": "3D Zoom",
+
+    "live_page_toolbar_ptz_3D_zoom_tip": "Let the camera automatically focus on the area you drew.",
+
+    "forget_pw_page_erase_info_tip": "2. After resetting, the device information will be erased.",
+
+    "common_not_support_device": "Device type mismatch.",
+
+    "installation_position_lifting": "Ceiling",
+
+    "installation_position_hanging": "Wall",
+
+    "installation_position_standing": "Desktop",
+
+    "common_image_layout_title": "Image Layout",
+
+    "image_model_expansion": "Expansion",
+
+    "image_model_artwork_master": "Fisheye",
+
+    "common_image_layout_switch_tip": "The settings of privacy mask, detection zone, and object size will be cleared after changing the image layout.\nDevice will reboot. Are you sure to continue?",
+
+    "image_model_expansion_switch_tip": "The settings of privacy mask, detection zone, and object size will be cleared after changing the configuration. Are you sure to continue?",
+
+    "image_model_expansion_switch_tip2": "The settings of privacy mask, detection zone, and object size will be cleared after rotating the image.",
+
+    "common_rebooting_tip": "Rebooting. Please wait…",
+
+    "image_rotation": "Image Rotation",
+
+    "click_refresh": "Click to refresh",
+
+    "expansion_model_180": "Dual Panoramic View",
+
+    "expansion_model_four_view": "Quad View",
+
+    "expansion_model_cylindrical_view": "Cylindrical View",
+
+    "expansion_model_360": "Defished View",
+
+    "expansion_model_hemispheric_view": "Hemispheric View",
+
+    "common_image_layout_title2": "Image Layout Settings",
+
+    "common_image_layout_tip": "Customize image layout settings to meet your needs.",
+
+    "common_week_sunday_abbr": "S",
+
+    "common_week_monday_abbr": "M",
+
+    "common_week_tuesday_abbr": "T",
+
+    "common_week_wednesday_abbr": "W",
+
+    "common_week_thursday_abbr": "T",
+
+    "common_week_friday_abbr": "F",
+
+    "common_week_saturday_abbr": "S",
+
+    "wan_abbr": "WAN",
+
+    "wan_full_name": "Wide Area Network",
+
+    "lan_abbr": "LAN",
+
+    "lan_full_name": "Local Area Network",
+
+    "version_update_hint": "Update Needed",
+
+    "version_update_hint_tip": "To use the new features of Reolink Client, please update to the latest version.",
+
+    "current_version": "Current Version",
+
+    "latest_version": "Latest Version",
+
+    "new_function": "What's New",
+
+    "optimization_function": "What's Improved",
+
+    "wide_angle_fluent": "Wide-Angle, Fluent",
+
+    "tracking_fluent": "Tracking, Fluent",
+
+    "wide_angle_clear": "Wide-Angle, Clear",
+
+    "tracking_clear": "Tracking, Clear",
+
+    "telephoto_fluent": "Telephoto, Fluent",
+
+    "telephoto_clear": "Telephoto, Clear",
+
+    "floodlight_title": "Floodlight",
+
+    "configuration_clear_tip": "Clearing the configuration...",
+
+    "configuration_clear_failed_tip": "Failed to clear the configuration. Please try again.",
+
+    "audio_name_rule1": "The first character cannot be space.",
+
+    "jump_system_settings": "Go to System Settings",
+
+    "live_floodlight_once_tip": "Tap to turn on the floodlight. It will turn off automatically in {s1}s if there is no motion detected.",
+
+    "remote_settings_floodlight_page_func_intro": "Turn on floodlight at night for higher-quality color image.",
+
+    "remote_settings_floodlight_page_light_off": "Floodlight Off",
+
+    "remote_settings_floodlight_page_light_on": "Floodlight On",
+
+    "remote_settings_floodlight_page_alarm_light_tip": "Floodlight will turn on automatically when alarm is triggered at night, and turn off after a while.",
+
+    "remote_settings_floodlight_page_auto_on_preview_description": "Floodlight auto turns on when viewing live feed and turn off afterwards.",
+
+    "remote_settings_floodlight_page_smart_night_vision_description": "Floodlight auto turns on when alarm event is detected.",
+
+    "remote_settings_floodlight_page_night_vision_always_on_description": "Floodlight stays on in night mode.",
+
+    "remote_settings_floodlight_page_night_vision_off_description": "Floodlight stays off in night mode.",
+
+    "remote_settings_floodlight_page_timing_always_on_description": "Floodlight stays on at scheduled time in night mode.",
+
+    "pc_transpond_data_use_up_des": "No data remaining in the view plan(s) of the device's admin account. Please log into it on {s1} App to check details or add more.",
+
+    "installation_position_title": "Select an Installation Method",
+
+    "common_image_layout_restore_tips": "You want to restore the default image layout settings?",
+
+    "common_image_layout_restore_des": "The results of restoring default settings include:",
+
+    "expansion_model_two_view": "Dual View",
+
+    "gesture_operated_switch_tips": "Tap here, then use one or two fingers to control the view.",
+
+    "common_image_layout_switch_tip1": "The settings of privacy mask, detection zone, and object size will be cleared after changing the image layout. \n Device will reboot.",
+
+    "system_info_terms_and_policies_tips": "Please open the following links in your browser or scan the QR codes to read the terms and policies.",
+
+    "system_info_copyright": "Copyright © {s1} {s2}. All Rights Reserved.",
+
+    "common_email_security_protocol_close_tips": "We recommend enabling SSL/TLS to secure data transfer. Are you sure to disable it?",
+
+    "common_ftp_open_tips": "Data transfer will not be encrypted when using FTP. We recommend using it on your home and work networks, but not public ones. Or, you can enable FTPS on this device and on FTP server to secure data transfer. Are you sure to enable FTP?",
+
+    "common_ftps_title": "Don't allow plain unencrypted FTP.",
+
+    "common_ftps_des": "To use encrypted data transfer, please configure FTPS on FTP server.",
+
+    "common_push_open_terms_and_policies_sure_tips": "I understand that {s1} will collect device alerts and device information. Such information is only used for {s2} App to push device alerts to me.",
+
+    "common_upnp_title": "UPnP",
+
+    "common_upnp_open_tips": "When UPnP is enabled, the device's ports will be opened in the higher level network. We recommend using it on your home and work networks, but not public ones. Are you sure to enable UPnP?",
+
+    "common_port_settings_title": "Server Settings",
+
+    "common_server_title": "Basic Service",
+
+    "common_server_des": "{s1}'s basic network services. When disabled, you cannot access devices via {s2} Client/App.",
+
+    "common_rtmp_title": "RTMP",
+
+    "common_rtmp_des": "Audio and video communication services based on RTMP between devices and Flash Player on browsers.",
+
+    "common_rtmp_open_tips": "Data transfer will not be encrypted when using RTMP. We recommend using it on your home and work networks, but not public ones. Are you sure to enable RTMP?",
+
+    "common_http_title": "HTTP",
+
+    "common_http_des": "Access control services based on HTTP between devices and browsers. When HTTPS is enabled and HTTP is disabled, HTTP access will automatically jump to HTTPS.",
+
+    "common_http_open_tips": "Data transfer will not be encrypted when using HTTP. We recommend using it on your home and work networks, but not public ones. Or, you can use HTTPS services instead. Are you sure to enable HTTP?",
+
+    "common_https_title": "HTTPS",
+
+    "common_https_des": "Access control services based on HTTPS between devices and browsers.",
+
+    "common_https_open_tips": "HTTPS uses a self-signed certificate by default. You can also import your own HTTPS certificate by {s1} Client and use it. Are you sure to enable HTTPS?",
+
+    "common_import": "Import",
+
+    "common_imported": "Imported",
+
+    "common_http_and_https_close_tips": "When HTTP and HTTPS are both turned off, you cannot access devices via browsers. Are you sure to turn it off?",
+
+    "common_rtsp": "RTSP",
+
+    "common_rtsp_des": "Audio and video communication services based on RTSP between devices and third-party applications.",
+
+    "common_rtsp_open_tips": "Data transfer will not be encrypted when using RTSP. We recommend using it on your home and work networks, but not public ones. Are you sure to enable RTSP?",
+
+    "common_onvif": "ONVIF",
+
+    "common_onvif_des": "Access control services based on ONVIF between devices and third-party applications. To use ONVIF, you need to enable RTSP first.",
+
+    "common_onvif_open_tips": "Data transfer will not be encrypted when using ONVIF. We recommend using it on your home and work networks, but not public ones. Are you sure to enable ONVIF?",
+
+    "common_uid_des": "Product UID is the unique identifier of the device. You can use the UID to add device or look up device information. You can access the device on smartphones or computers via {s1} App/Client.",
+
+    "common_uid_switch": "Allow {s1} App/Client to access the device via WAN using UID.",
+
+    "common_uid_close_tips": "You're recommended to enable {s1} App/Client to access the device via WAN using UID for your convenient access to your device. Are you sure to turn it off?",
+
+    "common_uid_switch_tips": "You can find this option and set it again in \"Settings > System > Info\".",
+
+    "server_settings_change_tips": "After changing the following settings, you will log out of the device from the browser and need to log in again.",
+
+    "common_push_open_terms_and_policies_sure_tips2": "By continuing, I acknowledge that I've read and understood the {s1} and {s2}. \nI understand that {s3} will collect device alerts and device information. Such information is only used for {s4} App to push Reolink device alerts to me.",
+
+    "common_disagree_button": "Disagree",
+
+    "common_unpaired": "Unpaired",
+
+    "device_and_battery_pair_title": "Pairing the battery and the device:",
+
+    "device_and_battery_pair_tips1": "* Obtain the power of the battery",
+
+    "device_and_battery_pair_tips2": "* Use Smart Battery Mode",
+
+    "device_and_battery_pair_tutorial_title": "How to Pair",
+
+    "device_and_battery_pair_step1": "1. Find the battery ID",
+
+    "device_and_battery_pair_step2": "2. Input the battery ID",
+
+    "battery_uid_void": "invalid ID",
+
+    "electric_quantity_information_anomaly_tips1": "Do not enable Smart Battery Mode when getting power fails",
+
+    "electric_quantity_information_anomaly_tips2": "New Battery?",
+
+    "doorbell_volume_switch": "Doorbell Button Sound",
+
+    "night_vision_focus_title": "Night Mode Focus enhancement",
+
+    "night_vision_focus_des": "Optimize Focus in partial Night Mode situations",
+
+    "for_developer": "For Developer",
+
+    "common_webhook": "Webhook",
+
+    "common_webhook_des": "The webhook to receive push.",
+
+    "common_content": "Content",
+
+    "common_url": "URL",
+
+    "common_formatting_error": "Invalid Format",
+
+    "alarm_settings_installation_method_des1": "Select the actual installation method to improve detection accuracy.",
+
+    "alarm_settings_installation_method_des2": "Your option here will not interact with your option of installation method in live view or playback.",
+
+    "reset_all_settings_dialog_des_option4": "Clearing the settings of privacy mask, detection zone, and object size",
+
+    "common_unconfigured_network": "No network connection configured",
+
+    "common_configured": "Configured",
+
+    "common_modes_button": "Display Modes",
+
+    "display_modes_title": "Modes",
+
+    "STR_MAINMENU_SYSTEM": "System",
+
+    "STR_VERSION": "Version",
+
+    "STR_VERSION_SIZE": "Version Size",
+
+    "STR_DOWNLOAD_FAILED": "Download Failed",
+
+    "STR_CHECK_LATEST_VERSION": "Check for Latest Version",
+
+    "STR_EXCEPT_HDFULL": "Full HDD",
+
+    "STR_EXCEPT_HD": "HDD Error",
+
+    "STR_EXCEPT_IP": "IP Conflict",
+
+    "STR_EXCEPT_NET": "Network Disconnected",
+
+    "STR_MODIFY_USER": "Modify User",
+
+    "STR_MOUNT_FAIL": "Failed to mount device.",
+
+    "STR_SCHUDULE": "Surveillance",
+
+    "STR_NETWORK_MENU_ADVANCED_STATIC_NTP": "Network Time Protocol",
+
+    "STR_NETWORK_ADVANCED_FTP_BUTTON_SUBFOLDER": "Subfolder by Date",
+
+    "STR_PLAYBACK_CUSTOM_TIPS_VOICE": "Sound",
+
+    "STR_PLAN_ENABLE_ALL": "Enable All",
+
+    "STR_PLAN_DISABLE_ALL": "Disable All",
+
+    "STR_PLAN_EMAIL_VIDEO_LOSS": "Send Emails When Camera Disconnected",
+
+    "STR_PLAN_BUZZER_VIDEO_LOSS": "NVR buzzer goes off when camera disconnects from network.",
+
+    "STR_CAMERA_STATUS_TAB_STREAM": "Stream",
+
+    "STR_CAMERA_STATUS_TAB_ALARM": "Detection",
+
+    "STR_CAMERA_ALARM_COPY": "Apply to Other Cameras",
+
+    "STR_CAMERA_COPY_TIPS1": "Select Camera(s) To Apply Same Settings",
+
+    "STR_CAMERA_ALARM_NEW_OTHER_TIME": "Other Period",
+
+    "STR_CAMERA_ALARM_NEW_ADD_TIME": "Add Time Period",
+
+    "STR_CAMERA_MASK_SET_TIPS": "Drag your mouse to draw rectangles (up to {s1}) on the screen to block out specific areas.",
+
+    "STR_CAMERA_MD_ADD_ALL": "Add All",
+
+    "STR_MOUNT": "Mount",
+
+    "STR_DISK_INFO_ID": "ID",
+
+    "STR_CAMERA_VOLUME": "Volume",
+
+    "common_osd": "OSD",
+
+    "common_osd_full_name": "On-Screen Display",
+
+    "restore_device_osd_tips": "Restoring OSD settings",
+
+    "common_service_unavailable": "Sorry, this service is not available in your area.",
+
+    "overexposure_adjustment_mode_title": "Adjust Local Exposure",
+
+    "overexposure_adjustment_tips": "Select Overexposed Area",
+
+    "overexposure_adjustment_des": "Exposure in the selected areas will be decreased.",
+
+    "bell_install_bypass_chime_title": "Bypass the Existing Chime",
+
+    "bell_install_bypass_chime_tips1": "1. Remove the cover of the chime. Make sure that the existing wiring can provide sufficient power to the Reolink Video Doorbell, which works with a power supply of 12-24V AC, 30VA, or 24V DC.",
+
+    "bell_install_bypass_chime_tips2": "2. Find the jumper cable in the product box. As shown above, connect the two ends of the jumper cable to the Trans and the Front terminals of the Chime.",
+
+    "bell_install_bypass_chime_note1": "The old chime will not work anymore.",
+
+    "bell_install_bypass_chime_note2": "The bypass can fix the issues including unstable power supply to the video doorbell and abnormal sounds of the old chime.",
+
+    "horizontal_tracking_range_des": "No limit on horizontal tracking range by default.",
+
+    "doorbell_light_nighttime_des": "Auto & Always On at Night",
+
+    "STR_TIME_LAPSE_TOTAL_TIME_LIMIT": "The start and end time interval cannot exceed 365 days.",
+
+    "common_delete_device_tips1": "The {s1} View Service feature of this device will stop working once the device is deleted.",
+
+    "common_delete_device_tips2": "The Cloud and {s1} View Service features of this device will stop working once the device is deleted.",
+
+    "common_delete_device_tips3": "The Smart Home and {s1} View Service features of this device will stop working once the device is deleted.",
+
+    "common_delete_device_tips4": "The Cloud, Smart Home, and {s1} View Service features of this device will stop working once the device is deleted.",
+
+    "common_reset_device_tips1": "The Cloud feature of this device will stop working once the device is reset.",
+
+    "common_reset_device_tips2": "The Smart Home feature of this device will stop working once the device is reset.",
+
+    "common_reset_device_tips3": "The {s1} View Service feature of this device will stop working once the device is reset.",
+
+    "common_reset_device_tips4": "The Cloud and Smart Home features of this device will stop working once the device is reset.",
+
+    "common_reset_device_tips5": "The Cloud and {s1} View Service features of this device will stop working once the device is reset.",
+
+    "common_reset_device_tips6": "The Smart Home and {s1} View Service features of this device will stop working once the device is reset.",
+
+    "common_reset_device_tips7": "The Cloud, Smart Home, and {s1} View Service features of this device will stop working once the device is reset.",
+
+    "enhanced_night_vision_brightness_title": "Binning Mode",
+
+    "enhanced_night_vision_brightness_des": "Optimize image brightness in Night Mode.",
+
+    "wifi_5g_prefer_title": "5G Preferred",
+
+    "wifi_5g_prefer_des": "Preferred connection to Wi-Fi in the 5GHz band",
+
+    "STR_LOCAL_NETWORK_TITLE": "Local Network Settings",
+
+    "STR_LOCAL_NETWORK_TIP": "To avoid IP conflict, subnet of the Default Gateway must be different from the gateway address of Network Settings.",
+
+    "common_poe_abbr": "PoE",
+
+    "rated_total_power_of_power_adapter": "Rated total power of power adapter (W)",
+
+    "pow_realtime_routput_rtotal_rvoltage": "PoE real-time output total voltage (∆V)",
+
+    "pow_realtime_total_power": "PoE real-time total power (W)",
+
+    "poe_power_abnormal_des": "Because the HDD and motherboard in the NVR also need power, when the total POE power exceeds or approaches the rated total power of the power adapter, it will prompt that the POE power is abnormal.",
+
+    "common_connection": "Connection",
+
+    "common_power_w": "Power (W)",
+
+    "maximum_power_of_the_port": "The maximum power of the port (W)",
+
+    "poe_power_abnormal_alarm": "Alarm when POE power is abnormal",
+
+    "poe_power_abnormal": "Abnormal POE power",
+
+    "display_mask_title": "Display Mask",
+
+    "position_mask_title": "Position Mask",
+
+    "position_mask_des": "Added position mask function! Tthis function is mainly used to cover images in different positions, which can be more flexible and free to set the area of ​​the privacy mask.",
+
+    "position_mask_add": "Create a mask by drawing a box on the preview screen.",
+
+    "get_battery_power_abnormal": "Have problems viewing battery percentage?",
+
+    "common_buy": "Buy",
+
+    "device_auto_disconnect_without_operation_tip1": "No operation for long. To save data, do you want to disconnect? The device [{s1}] will be disconnected automatically in {s2}s.",
+
+    "auto_connect_tip1": "Disable automatic disconnection and don't remind me again.",
+
+    "auto_disconnect_title": "Automatic Disconnection",
+
+    "auto_disconnect_des": "When enabled, the device will be disconnected automatically if not operated for 5 minutes.",
+
+    "common_device_not_login": "Not logged in to the device.",
+
+    "common_bitrate": "Bitrate",
+
+    "bitrate_constant": "Constant Bitrate",
+
+    "bitrate_variable": "Variable Bitrate",
+
+    "wifi_channel_prefer_title": "Wi-Fi Band Preference",
+
+    "which_channel_of_the_same_wifi": "Which band of the same Wi-Fi to connect",
+
+    "common_only_2_4g_wifi": "Only 2.4GHz",
+
+    "common_only_5g_wifi": "Only 5GHz",
+
+    "common_static_ip_address": "Choose the static IP address for stabilizing the connection between {s1} and other devices. ",
+
+    "common_bind_device": "Bind Device",
+
+    "common_learn_more_about_help_tip": "Learn more about {s1}",
+
+    "device_bind_to_base_help_tip": "binding your device to {s1}...",
+
+    "common_ftp_bind": "FTP Bind",
+
+    "device_bind_to_base_second_dialog_message_1": "After the binding, your device will upload recordings and time-lapse files to {s1}.",
+
+    "device_bind_to_base_dialog_message": "After the binding, your device will upload recordings and time-lapse files to {s1}. Are you sure to continue?",
+
+    "device_ftp_bind_to_base_second_dialog_message_1": "FTP bind will use the function of FTP on the device. Please do not change the configuration of FTP without care.",
+
+    "device_ftp_bind_to_base_dialog_message": "FTP bind will use the function of FTP on the device. Please do not change the configuration of FTP without care. Are you sure to continue?",
+
+    "device_bind_to_base_second_dialog_message_2": "This device has been bound to {s1}. Are you sure to continue?",
+
+    "common_other_base": "other {s1}",
+
+    "storage_medium_no_format_tip": "Storage medium has not been formatted.",
+
+    "device_file_not_uploaded_to_base_tip": "No upload for long",
+
+    "common_unbind_device_list": "Device(s) Unbound",
+
+    "device_failed_to_fetch_file": "Failed to access files",
+
+    "common_share_device": "Share Device",
+
+    "base_format_hdd_dialog_message": "{s1} will delete all the recording files in the HDD. Continue?",
+
+    "ip_connect_type_switch_des": "For a stable connection between {s1} and other devices, the static IP address is recommended. ",
+
+    "remote_config_record_describe_with_hdd_or_sd_card": "With the feature enabled, the camera will record videos to the SD card or {s1} for later playback.",
+
+    "common_storage_location": "Storage Location",
+
+    "storage_location_sd_card_and_base": "SD card and {s1}",
+
+    "common_base_2_model_name": "{s1} Safebase",
+
+    "common_base_2_model_abbreviation": "Safebase",
+
+    "hardware_encoding_alert": "Hardware decoding requires computer support to take effect. Turning this feature on or off requires to restart client. Sure you want to continue?",
+
+    "common_failed_to_get_info_retry_tip": "Failed to retrieve information. Please try again.",
+
+    "sidebar_settings_page_multi_view_stretch_display": "Multi-View Stretch",
+
+    "suspend_liveview_notice": "No operation for long. Live View will be paused after {s1} seconds for saving Reolink View Data.",
+
+    "local_record": "Local Record",
+
+    "local_record_des": "Use within the LAN (Recommended)",
+
+    "connect_nvr_bundled_camera_tutorial": "How to connect the cameras in the kit",
+
+    "nvr_bundled_camera_prepaired_info": "Cameras in the kit have been paired with this Wi-Fi NVR at the factory.",
+
+    "nvr_bundled_camera_prepaired_autoconnection": "When powered on, they will automatically connect and be added to this NVR.",
+
+    "nvr_wifi_settings_introduction": "How to set the WiFi on this NVR",
+
+    "nvr_wifi_settings_introduction_des": "After the initialization, go to Settings > Network > Wi-Fi page to set up Wi-Fi.",
+
+    "nvr_wifi_hotspot": "Wi-Fi on NVR",
+
+    "wifi_ssid_name": "Wi-Fi Name",
+
+    "common_invisible": "Hide",
+
+    "wifi_invisible_des": "After hiding, please manually input the Wi-Fi name to join this network.",
+
+    "common_chanel": "Channel",
+
+    "common_security": "Security",
+
+    "auto_connection_condition": "Enable this feature to automatically connect and add the paired cameras to the NVR when the cameras are powered on.",
+
+    "connect_nvr_wifi_hotspot_tutorial": "How to connect to the Wi-Fi on this NVR",
+
+    "sync_wifi_by_cable": "Sync Wi-Fi info to the device with a network cable",
+
+    "connect_device_to_nvr": "Connect the device to the NVR with a network cable",
+
+    "power_up_device": "Power on the Wi-Fi camera",
+
+    "nvr_wifi_hotspot_qrcode_des": "If the device does not support 5 GHz Wi-Fi, please switch to 2.4 GHz.",
+
+    "common_enlarge": "Zoom in",
+
+    "sync_wifi_to_this": "Sync Wi-Fi Info to This Device",
+
+    "common_switch_to": "Switch to",
+
+    "modify_wifi_hotspot_des": "Please make sure all devices are within the LAN before modifying the Wi-Fi configuration.",
+
+    "common_device_connection": "Device Connection(s)",
+
+    "auto_sync_des": "Modified settings will be automatically synced to the devices that are already connected to this Wi-Fi.",
+
+    "nvr_password": "NVR Password",
+
+    "common_inserted": "Inserted",
+
+    "common_uninserted": "Not Inserted",
+
+    "bitrate_mode": "Bitrate Mode",
+
+    "variable_bit_rate": "Variable Bitrate",
+
+    "constant_bit_rate": "Constant Bitrate",
+
+    "variable_bit_rate_des": "Control the bitrate automatically based on the complexity of the video image. If the bitrate is too low, your video may get blurred.",
+
+    "constant_bit_rate_des": "Use a constant bitrate to compress the video. The image quality may degrade in scenes with large differences in image complexity.",
+
+    "encoding_format": "Encoding Format",
+
+    "encoding_format_des": "Compared with H.264, H.265 is more efficient in compression and produces higher-quality videos. Correspondingly, it requires more computing power and more advanced hardware support.",
+
+    "local_record_switch_des": "Auto save recorded videos to the computer. Sufficient disk space is required.",
+
+    "common_ethernet_cable": "Network cable",
+
+    "common_sim": "SIM",
+
+    "keep_the_light_off_des": "Keep the light(s) off",
+
+    "night_light_alert": "Night Smart Mode",
+
+    "night_light_alert_des": "Automatically turn on when the camera detect an event at night.",
+
+    "custom_schedule": "Timer Mode",
+
+    "custom_schedule_des": "Keep on during the scheduled time periods.",
+
+    "auto_supplement_lighting": "Auto Mode",
+
+    "auto_supplement_lighting_des": "Automatically adapt the brightness based on ambient lighting conditions for optimal night vision.",
+
+    "scheduled_light_alert": "Smart Mode",
+
+    "scheduled_light_alert_des": "Automatically adapt the brightness for accurate detection in low-light conditions, and turn on when the camera detects an event during the scheduled time periods.",
+
+    "spotlight_modes": "Modes",
+
+    "motion_detection_des": "Detect movements by comparing changes in pixels in video images.",
+
+    "motion_detection_sensitivity_des": "With sensitivity set higher, the camera can detect motion of smaller objects, which may also increase false alerts. With sensitivity set lower, the camera will detect motion of bigger objects, but the chance of missing motion events may also increase. Please set the sensitivity based on the actual installation location and scene.",
+
+    "infrared_lights_lightness_tip": "Please adjust according to the preview at night.",
+
+    "firmwareUpgrade_ipc_done_des": "Please wait for a few moments before checking the upgrade status of the firmware. Client needs time to synchronize it.",
+
+    "edit_rule_consecutive_spaces_error": "Please do not input consecutive spaces. ",
+
+    "common_temporary_files_title": "Temporary Folder",
+
+    "common_not_support_iot_devices_tip": "The device is not supported yet.",
+
+    "remote_settings_interframe_space_des": "The smaller the I-frame interval, the higher the image definition and the bigger the file size. The larger the interval, the lower the image definition and the smaller the space occupied by the file.",
+
+    "common_email_placeholder": "Enter email address",
+
+    "common_preset_point_name_placeholder": "Preset point name",
+
+    "common_battery_pair_id_placeholder": "Input battery ID",
+
+    "common_pin_placeholder": "Input PIN",
+
+    "common_ip_or_domain_placeholder": "Input IP/domain name",
+
+    "common_special_character_bubble_tips1": "Only {s1} is allowed in the input field.",
+
+    "common_special_character_bubble_tips2": "Only {s1} and {s2} are allowed in the input field.",
+
+    "common_special_character_bubble_tips3": "Only {s1}, {s2} and {s3} are allowed in the input field.",
+
+    "common_letter": "letter",
+
+    "common_port_bubble_tips": "Number from 0-65535",
+
+    "edit_rule_ftp_photos_or_overwrite_recordings_name_error": "{s1} is not allowed in the input field.",
+
+    "common_special_character_bubble_tips4": "Only {s1}, {s2}, {s3}, and {s4} are allowed in the input field.",
+
+    "common_spaces": "space",
+
+    "common_nvr_fotgetpassword_tips": "Please go to the NVR settings, select Camera, and then access the User option to view the default password or change it.",
+
+    "net_rsp_ftp_tls_only_err": "null",
+
+    "net_rsp_ftp_del_err": "null",
+
+    "net_rsp_ftp_rename_err": "null",
+
+    "net_rsp_ftp_reupload_err": "null",
+
+    "chime_no_sound_and_light_feedback_descrition_tip1": "null",
+
+    "chime_no_sound_and_light_feedback_descrition_tip2": "null",
+
+    "chime_no_sound_and_light_feedback_descrition_tip3": "null",
+
+    "common_repair": "null",
+
+    "common_pair_process_steps_numbers": "null",
+
+    "doorbell_chime_2_pair_step_1": "null",
+
+    "doorbell_chime_2_pair_step_2": "null",
+
+    "doorbell_chime_2_pair_step_2_description": "null",
+
+    "doorbell_chime_2_pair_step_3_scanning": "null",
+
+    "doorbell_chime_2_pair_step_3_description": "null",
+
+    "doorbell_chime_2_pair_step_3_failed_to_start_scanning": "null",
+
+    "doorbell_chime_2_pair_step_3_chime_not_scanned": "null",
+
+    "doorbell_chime_2_pair_step_4_pair_success": "null",
+
+    "doorbell_chime_2_pair_step_3_pair_fail": "null",
+
+    "common_operate_failed_try_again_toast_tip": "null",
+
+    "doorbell_chime_2_config_delete_tip": "null",
+
+    "doorbell_chime_2_config_no_chime_tip": "null",
+
+    "doorbell_chime_2_config_number_of_pairs_tip": "null",
+
+    "doorbell_chime_2_config_maximum_number_of_pairs_tip": "null",
+
+    "common_tone_title": "null",
+
+    "doorbell_chime_2_config_sound_tone_default": "null",
+
+    "smart_config_25_30cm_10_12inches": "25-30 cm (10-12 inches)",
+
+    "smart_config_scan_qr_25_30cm_code_help_page_step_tip": "Please face the camera towards QR code and keep scan distance around 25-30 cm (10-12 inches).",
+
+    "device_init_setup_connect_camera_title": "null",
+
+    "device_init_setup_wizard_synchronize_wifi_title": "null",
+
+    "device_init_setup_wizard_synchronize_wifi_tip": "null",
+
+    "doorbell_chime_2_pair_step_4_pair_success_tip": "null",
+
+    "device_playback_time_scale_tip": "null",
+
+    "doorbell_chime_2_config_sound_tone2": "null",
+
+    "doorbell_chime_2_config_sound_tone3": "null",
+
+    "doorbell_chime_2_config_sound_tone4": "null",
+
+    "doorbell_chime_2_config_sound_tone5": "null",
+
+    "doorbell_chime_2_config_sound_tone6": "null",
+
+    "doorbell_chime_2_config_sound_tone7": "null",
+
+    "doorbell_chime_2_config_sound_tone8": "null",
+
+    "doorbell_chime_2_config_sound_tone9": "null",
+
+    "doorbell_chime_2_config_sound_tone10": "null",
+
+    "doorbell_chime_2_pair_step_4_pairing": "null",
+
+    "common_nvr_fotgetpassword": "Devices connected to NVR",
+
+    "device_init_setup_wifi_name_error": "null",
+
+    "common_chinese": "Chinese",
+
+    "common_reset_illustrate": "null",
+
+    "listening_test_failed_tip": "null",
+
+    "networking_and_listening_test_failed_tip": "null ",
+
+    "localsettings_general_downloadpath_des": "Set the saving path for playback and time lapse files",
+
+    "localsettings_general_snapshot": "Save snapshot to",
+
+    "localsettings_general_screenrecording": "Save Screen Recording to",
+
+    "local_record_des_2": "Auto save recorded videos to the computer. Sufficient disk space is required.Use within the LAN (Recommended)",
+
+    "localsettings_general_localrecording": "Save Local Recording to",
+
+    "common_chime_list": "null "
+}
