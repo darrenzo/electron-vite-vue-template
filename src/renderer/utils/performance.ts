@@ -5,16 +5,16 @@
  * @date 2019-11-29
  */
 
-import Timer from "./timer";
+import { reoTimer } from "./reoTimer";
 
-class Performance {
+export class Performance {
     /**
      * @param {string} [name=""]
      * @return {*}  {(name2?: string) => void}
      * @memberof Performance
      */
     startExecute(name = ""): (name2?: string) => void {
-        const timer = Timer.start();
+        const timer = reoTimer.start();
         const usedJSHeapSize = this.getMemoryInfo().usedJSHeapSize;
         return (name2 = "") => {
             const executeTime = timer.stop();
@@ -59,5 +59,3 @@ class Performance {
         return (byteSize / (1024 * 1024)).toFixed(1);
     }
 }
-
-export default new Performance();

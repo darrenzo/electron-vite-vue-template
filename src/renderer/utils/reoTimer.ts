@@ -1,21 +1,7 @@
-/**
- * 计时器
- * 支持链式调用
- * timeout()
- *  .then(()=>{
- *     return inTheEnd();
- *   })
- *  .then(()=>{
- *      return inTheEnd();
- *   });
- *
- * @date 2019-11-25
- */
-class Timer {
+class ReoTimer {
     /**
      * 延时操作
      * @returns {void}
-     * @date 2019-11-25
      */
     timeout(interval: number, args?: unknown) {
         return new Promise((resolve) => {
@@ -28,7 +14,6 @@ class Timer {
     /**
      * 等待代码片段执行完毕后再执行
      * @returns {void}
-     * @date 2019-11-25
      */
     inTheEnd() {
         return this.timeout(0);
@@ -39,7 +24,6 @@ class Timer {
      * @param {Number} interval 执行间隔
      * @param {Function} [callback] 回调
      * @returns {Object}
-     * @date 2019-11-25
      */
     interval(interval: number, callback: () => unknown) {
         this.timeout(interval).then(() => {
@@ -56,7 +40,6 @@ class Timer {
     /**
      * 计时，单位毫秒
      * @returns {void}
-     * @date 2019-11-29
      */
     start() {
         const startDate = new Date();
@@ -64,9 +47,9 @@ class Timer {
             stop() {
                 const stopDate = new Date();
                 return stopDate.getTime() - startDate.getTime();
-            }
+            },
         };
     }
 }
 
-export default new Timer();
+export const reoTimer = new ReoTimer();

@@ -23,6 +23,7 @@ export default defineConfig({
         alias: {
             "@renderer": rendererPath,
             "@assets": resolve("src/assets"),
+            "@common": resolve("src/common"),
             "@config": resolve("config"),
         },
     },

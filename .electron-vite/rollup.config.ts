@@ -24,21 +24,21 @@ export default (env = "production") => {
             file: rootResolve("dist/electron/main/main.js"),
             format: "cjs",
             name: "MainProcess",
-            sourcemap: false
+            sourcemap: false,
         },
         plugins: [
             replace({
                 preventAssignment: true,
-                UserConfigStr: JSON.stringify(envClientConfig)
+                UserConfigStr: JSON.stringify(envClientConfig),
             }),
             // 提供路径和读取别名
             nodeResolve({
                 preferBuiltins: true,
                 browser: false,
-                extensions: [".mjs", ".ts", ".js", ".json", ".node"]
+                extensions: [".mjs", ".ts", ".js", ".json", ".node"],
             }),
             commonjs({
-                sourceMap: false
+                sourceMap: false,
             }),
             json(),
             esbuild({
@@ -51,7 +51,7 @@ export default (env = "production") => {
                 target: "es2017", // default, or 'es20XX', 'esnext'
                 // Like @rollup/plugin-replace
                 define: {
-                    __VERSION__: "'x.y.z'"
+                    __VERSION__: "'x.y.z'",
                 },
                 // Add extra loaders
                 loaders: {
@@ -59,20 +59,21 @@ export default (env = "production") => {
                     // require @rollup/plugin-commonjs
                     ".json": "json",
                     // Enable JSX in .js files too
-                    ".js": "jsx"
-                }
+                    ".js": "jsx",
+                },
             }),
             alias({
                 entries: [
                     { find: "@assets", replacement: rootResolve("src/assets") },
+                    { find: "@common", replacement: rootResolve("src/common") },
                     { find: "@main", replacement: rootResolve("src/main") },
-                    { find: "@config", replacement: rootResolve("config") }
-                ]
+                    { find: "@config", replacement: rootResolve("config") },
+                ],
             }),
             process.env.NODE_ENV === "production"
                 ? obfuscator({ global: true })
-                : null
+                : null,
         ],
-        external: [...builtinModules, ...Object.keys(dependencies), "electron"]
+        external: [...builtinModules, ...Object.keys(dependencies), "electron"],
     });
 };

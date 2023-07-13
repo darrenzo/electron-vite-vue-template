@@ -1,13 +1,10 @@
 import { createApp } from "vue";
 import { createPinia } from "pinia";
-import "./icon/style.css";
-import "./style/index.less";
-import "./utils/performance";
 import App from "./App.vue";
 import router from "./router";
 import { errorHandler } from "@assets/tools";
 import { i18nCreator } from "@assets/i18n";
-import { injectDependencies } from "@common/remote-config";
+import { injectedDependenciesKey, type IDependencies } from "./provider";
 
 const i18n = await i18nCreator();
 
@@ -18,11 +15,9 @@ app.use(store);
 app.use(i18n);
 errorHandler(app);
 
-app.mount("#app");
+export type { IDependencies };
 
-injectDependencies({
-    demo: "demo from main",
-    anyObject: {
-        val: 1,
-    },
-});
+export const injectDependencies = (dependencies: IDependencies) => {
+    app.provide(injectedDependenciesKey, dependencies);
+    app.mount("#remoteConfig");
+};
