@@ -1,0 +1,116 @@
+<mxfile host="65bd71144e">
+    <diagram id="kViArAauwwQ5WDUYW2p2" name="Page-1">
+        <mxGraphModel dx="1913" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="S3的client目录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="445" y="20" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="release目录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="45" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="ru目录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="client-config.json" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="160" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-130" y="270" width="660" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="win32" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-120" y="290" width="210" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="exe&lt;br&gt;zip&lt;br&gt;exe.blockmap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-80" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="last.yml" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-80" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="macos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="290" width="200" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="dmg&lt;br&gt;zip&lt;br&gt;dmg.blockmap&lt;br&gt;zip.blockmap" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="latest-mac.yml" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="强制更新相关配置，&lt;br&gt;自动更新目标配置，&lt;br&gt;黑名单国家配置，&lt;br&gt;各版本changelog配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="290" width="240" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="25" target="16">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="380" as="sourcePoint"/>
+                        <mxPoint x="450" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="18" target="14">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="380" as="sourcePoint"/>
+                        <mxPoint x="450" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="18" target="15">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="380" as="sourcePoint"/>
+                        <mxPoint x="450" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="client-config.json" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="290" width="210" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="强制更新相关配置，&lt;br&gt;黑名单国家配置，&lt;br&gt;各版本changelog配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;version&lt;/span&gt;: &lt;span style=&quot;color: #d19a66;&quot;&gt;8.12.0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;files&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;&amp;nbsp; - &lt;span style=&quot;color: #e06c75;&quot;&gt;url&lt;/span&gt;: &lt;span style=&quot;color: #98c379;&quot;&gt;reolink_setup_8.12.0.exe&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;sha512&lt;/span&gt;: &lt;span style=&quot;color: #98c379;&quot;&gt;QvvA3TMimSrNOXGwIwynHaBOU9HnLeRwIVFsI2gY4JN7r94i2wZ1+jjr2CgkH0v4rT1orDaV/CrbJ3LmBu3wsA==&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;size&lt;/span&gt;: &lt;span style=&quot;color: #d19a66;&quot;&gt;81809000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;path&lt;/span&gt;: &lt;span style=&quot;color: #98c379;&quot;&gt;reolink_setup_8.12.0.exe&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;sha512&lt;/span&gt;: &lt;span style=&quot;color: #98c379;&quot;&gt;QvvA3TMimSrNOXGwIwynHaBOU9HnLeRwIVFsI2gY4JN7r94i2wZ1+jjr2CgkH0v4rT1orDaV/CrbJ3LmBu3wsA==&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;releaseDate&lt;/span&gt;: &lt;span style=&quot;color: #98c379;&quot;&gt;'2023-07-26T08:15:11.619Z'&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;stagingPercentage&lt;/span&gt;: &lt;span style=&quot;color: #d19a66;&quot;&gt;10&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="-310" y="600" width="780" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="34" target="21">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="180" y="610" as="sourcePoint"/>
+                        <mxPoint x="230" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="34" target="24">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="180" y="610" as="sourcePoint"/>
+                        <mxPoint x="230" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;&quot;lowestVersion&quot;&lt;/span&gt;: &lt;span style=&quot;color: #98c379;&quot;&gt;&quot;8.1.0&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;&quot;needToForceUpdateVersions&quot;&lt;/span&gt;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;&quot;8.7.1&quot;&lt;/span&gt;: [&lt;span style=&quot;color: #98c379;&quot;&gt;&quot;7.1.2&quot;&lt;/span&gt;, &lt;span style=&quot;color: #98c379;&quot;&gt;&quot;7.2.3&quot;&lt;/span&gt;]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;&quot;ufl&quot;&lt;/span&gt;: &lt;span style=&quot;color: #98c379;&quot;&gt;&quot;RU&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;&quot;blcc&quot;&lt;/span&gt;: &lt;span style=&quot;color: #98c379;&quot;&gt;&quot;IR&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;&quot;changelog&quot;&lt;/span&gt;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;&quot;8.8.5&quot;&lt;/span&gt;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;&quot;newFunctionList&quot;&lt;/span&gt;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #98c379;&quot;&gt;&quot;Now compatible with the new fisheye camera series&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #98c379;&quot;&gt;&quot;A new option for doorbell status LED and a switch for doorbell button sound&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;&quot;improvementList&quot;&lt;/span&gt;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #98c379;&quot;&gt;&quot;Focus algorithm in night mode improved for RLC-823A 16X&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #98c379;&quot;&gt;&quot;Bugs fixed and user experience improved&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;&quot;8.10.3&quot;&lt;/span&gt;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;&quot;newFunctionList&quot;&lt;/span&gt;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #98c379;&quot;&gt;&quot;Now compatible with TrackMix LTE Plus&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #e06c75;&quot;&gt;&quot;improvementList&quot;&lt;/span&gt;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #98c379;&quot;&gt;&quot;Memory usage improved when playing videos&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #98c379;&quot;&gt;&quot;Client startup speed improved&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #98c379;&quot;&gt;&quot;Client crashes fixed&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #98c379;&quot;&gt;&quot;Bugs fixed and user experience improved&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="460" width="720" height="590" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="38" target="25">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="810" y="330" as="sourcePoint"/>
+                        <mxPoint x="860" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="505" y="120" as="sourcePoint"/>
+                        <mxPoint x="610" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="16">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="560" y="330" as="sourcePoint"/>
+                        <mxPoint x="900" y="120" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="105" y="120"/>
+                            <mxPoint x="900" y="120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="15">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="560" y="330" as="sourcePoint"/>
+                        <mxPoint x="295" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
