@@ -1,0 +1,84 @@
+<mxfile host="65bd71144e">
+    <diagram id="q6dVrbXaOX1NCyocri-N" name="Page-1">
+        <mxGraphModel dx="1063" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="dll" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="20" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="native.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="225" y="110" width="310" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="edgeStyle=none;html=1;" parent="1" source="22" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="145" y="330" width="470" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="ability.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="config.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="device.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="download.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="live.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="playback.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="player.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="ptz.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="record.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="search.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="620" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="settings.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="620" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="talk.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="620" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="timelapse.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="710" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="tools.ts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="710" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="node-ffi-napi&lt;br&gt;加载dll" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="43" target="22">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="840" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="43" target="44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="index.ts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="870" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="types/" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="870" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
