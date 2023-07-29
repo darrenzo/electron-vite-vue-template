@@ -1,12 +1,9 @@
 import { ipcMain, dialog, BrowserWindow, app } from "electron";
 import { winURL, staticPaths } from "../config/StaticPath";
-import Update from "./checkupdate";
 import { otherWindowConfig } from "../config/windowsConfig";
 
 export default {
     Mainfunc() {
-        const allUpdater = new Update();
-
         ipcMain.handle("windows-mini", (event) => {
             BrowserWindow.fromWebContents(event.sender)?.minimize();
         });
@@ -21,15 +18,6 @@ export default {
         });
         ipcMain.handle("window-close", (event) => {
             BrowserWindow.fromWebContents(event.sender)?.close();
-        });
-        ipcMain.handle("check-update", (event) => {
-            const win = BrowserWindow.fromWebContents(event.sender);
-            if (win) {
-                allUpdater.checkUpdate(win);
-            }
-        });
-        ipcMain.handle("confirm-update", () => {
-            allUpdater.quitAndInstall();
         });
         ipcMain.handle("app-close", () => {
             app.quit();
@@ -47,7 +35,7 @@ export default {
                 title: arg.title || "",
                 buttons: arg.buttons || [],
                 message: arg.message || "",
-                noLink: arg.noLink || true
+                noLink: arg.noLink || true,
             });
             return res;
         });
@@ -61,7 +49,7 @@ export default {
             if (process.env.NODE_ENV === "development") {
                 ChildWin.webContents.openDevTools({
                     mode: "undocked",
-                    activate: true
+                    activate: true,
                 });
             }
             ChildWin.loadURL(winURL + `#${arg.url}`);
@@ -85,5 +73,5 @@ export default {
                 ChildWin.webContents.send("send-data-test", arg.sendData);
             });
         });
-    }
+    },
 };
