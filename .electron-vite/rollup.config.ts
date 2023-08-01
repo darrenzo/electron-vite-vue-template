@@ -28,8 +28,10 @@ export default (env = "production") => {
         },
         plugins: [
             replace({
+                // 不对赋值操作进行替换
                 preventAssignment: true,
                 values: {
+                    // 业务中使用时 UserConfigOfMain 会自动替换成 envClientConfig 对象 而不是字符串
                     UserConfigOfMain: JSON.stringify(envClientConfig),
                 },
             }),
