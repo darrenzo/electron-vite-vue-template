@@ -5,9 +5,10 @@ import "./style/index.less";
 import "./utils/performance";
 import App from "./App.vue";
 import router from "./router";
-import { errorHandler } from "@assets/tools";
+import { vueErrorHandler } from "@renderer/utils";
 import { i18nCreator } from "@assets/i18n";
 import { injectDependencies } from "@common/remote-config";
+import { printLog } from "@assets/utils";
 
 const i18n = await i18nCreator();
 
@@ -16,7 +17,7 @@ const store = createPinia();
 app.use(router);
 app.use(store);
 app.use(i18n);
-errorHandler(app);
+vueErrorHandler(app);
 
 app.mount("#app");
 
@@ -25,4 +26,5 @@ injectDependencies({
     anyObject: {
         val: 1,
     },
+    printLog: printLog,
 });

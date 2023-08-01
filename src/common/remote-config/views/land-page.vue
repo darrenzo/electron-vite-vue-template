@@ -19,6 +19,7 @@ const title = ref("remote-land-page");
 const templateStore = useTemplateStore();
 templateStore.setCrrRouteName(title.value);
 const dependencies = inject(injectedDependenciesKey);
+dependencies?.printLog.error("aaaaa");
 </script>
 
 <style scoped lang="less">

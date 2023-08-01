@@ -1,7 +1,7 @@
 import type { App } from "vue";
 import { nextTick } from "vue";
 
-export const errorHandler = (App: App<Element>) => {
+export const vueErrorHandler = (App: App<Element>) => {
     App.config.errorHandler = (err, vm, info) => {
         nextTick(() => {
             if (process.env.NODE_ENV === "development") {

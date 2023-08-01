@@ -4,7 +4,7 @@ import { playerManager } from "../_sdk/playerManager";
 import { record } from "@reolink/cli.bcsdk";
 import { errorManager } from "@/renderer/assets/ts/errorManager";
 import { electronStorage } from "./electronStorage";
-import { printLog } from "@/../injection/printLog";
+import { printLog } from "@assets/utils";
 import { app } from "electron";
 
 class QuitManager {
@@ -69,7 +69,7 @@ class QuitManager {
 
         await Promise.allSettled([
             this.closeLocalRecordSchedule(),
-            this.stopAllLiveRecord()
+            this.stopAllLiveRecord(),
         ]);
     }
 

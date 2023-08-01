@@ -8,22 +8,21 @@ import {
     type WebContents,
     type Certificate,
     type RenderProcessGoneDetails,
-    type Details
+    type Details,
 } from "electron";
 import electronDl from "electron-dl";
-import ElectronLog from "electron-log";
 // import { quitManager } from "./services/quitManager";
 import InitWindow from "./services/windowManager";
-import type { IClient } from "@assets/types";
+import { printLog } from "@assets/utils";
 
 crashReporter.start({
     productName: "reolink",
     submitURL: "",
-    uploadToServer: false
+    uploadToServer: false,
 });
 
 if (!app.requestSingleInstanceLock()) {
-    ElectronLog.info(
+    printLog.info(
         "------------------ app requestSingleInstanceLock exit ---------------------------"
     );
     app.exit();
@@ -35,8 +34,7 @@ electronDl();
 if (process.env.NODE_ENV === "development") {
     app.setAppUserModelId(process.execPath);
 } else {
-    const userConfig = JSON.parse(UserConfigStr) as IClient.IEnvClientConfig;
-    app.setAppUserModelId(userConfig.clientConfig.appId);
+    app.setAppUserModelId(UserConfigOfMain.clientConfig.appId);
 }
 
 if (app.isPackaged) {
@@ -55,7 +53,7 @@ function onAppReady() {
     if (process.env.NODE_ENV === "development") {
         const { VUEJS3_DEVTOOLS } = require("electron-devtools-vendor");
         session.defaultSession.loadExtension(VUEJS3_DEVTOOLS, {
-            allowFileAccess: true
+            allowFileAccess: true,
         });
         console.log("已安装: vue-devtools");
     }
@@ -77,12 +75,12 @@ function addAppEventListeners() {
             error: string,
             certificate: Certificate
         ) => {
-            ElectronLog.error(
+            printLog.error(
                 `------------------- app certificate-error url: ${JSON.stringify(
                     {
                         url: url,
                         error: error,
-                        certificate: certificate
+                        certificate: certificate,
                     }
                 )} --------------------`
             );
@@ -102,11 +100,11 @@ function addAppEventListeners() {
              */
             error: string
         ) => {
-            ElectronLog.error(
+            printLog.error(
                 `------------------ app continue-activity-error: ${JSON.stringify(
                     {
                         type: type,
-                        error: error
+                        error: error,
                     }
                 )}---------------------------`
             );
@@ -114,7 +112,7 @@ function addAppEventListeners() {
     );
 
     app.on("child-process-gone", (event: Event, details: Details) => {
-        ElectronLog.error(
+        printLog.error(
             `------------------ app child-process-gone, details: ${JSON.stringify(
                 details
             )}---------------------------`
@@ -128,7 +126,7 @@ function addAppEventListeners() {
             webContents: WebContents,
             details: RenderProcessGoneDetails
         ) => {
-            ElectronLog.error(
+            printLog.error(
                 `------------------ app render-process-gone, details: ${JSON.stringify(
                     details
                 )}---------------------------`
@@ -138,7 +136,7 @@ function addAppEventListeners() {
 
     // 如果用户按下了 Cmd + Q，或者开发者调用了 app.quit()，Electron 会首先关闭所有的窗口然后触发 will-quit 事件，在这种情况下 window-all-closed 事件不会被触发
     app.on("window-all-closed", async () => {
-        ElectronLog.info(
+        printLog.info(
             "------------------ window-all-closed ---------------------------"
         );
         // quitManager.handlerAtQuit();
@@ -147,7 +145,7 @@ function addAppEventListeners() {
     // 如果由 autoUpdater.quitAndInstal() 退出应用程序 ，那么在所有窗口触发 close 之后 才会触发 before-quit 并关闭所有窗口
     // 在 Windows 系统中，如果应用程序因系统关机/重启或用户注销而关闭，那么这个事件不会被触发
     app.on("before-quit", () => {
-        ElectronLog.info(
+        printLog.info(
             "------------------ app before-quit ---------------------------"
         );
         // quitManager.handlerAtQuit();
@@ -155,7 +153,7 @@ function addAppEventListeners() {
 
     // 在 Windows 系统中，如果应用程序因系统关机/重启或用户注销而关闭，那么这个事件不会被触发
     app.on("will-quit", () => {
-        ElectronLog.info(
+        printLog.info(
             "------------------ app will-quit ---------------------------"
         );
         // quitManager.handlerAtQuit();
@@ -163,7 +161,7 @@ function addAppEventListeners() {
 
     // 在 Windows 系统中，如果应用程序因系统关机/重启或用户注销而关闭，那么这个事件不会被触发
     app.on("quit", () => {
-        ElectronLog.info(
+        printLog.info(
             "------------------ app quit ---------------------------"
         );
         // quitManager.handlerAtQuit();
@@ -172,7 +170,7 @@ function addAppEventListeners() {
     // 系统即将重启或关机时触发 Linux macOS
     // windows的关机事件在主窗口的session-end事件回调中处理
     powerMonitor.on("shutdown", (e: Event) => {
-        ElectronLog.info(
+        printLog.info(
             "------------------ shutdown ---------------------------"
         );
         e.preventDefault(); // 延缓关机行为

@@ -29,7 +29,9 @@ export default (env = "production") => {
         plugins: [
             replace({
                 preventAssignment: true,
-                UserConfigStr: JSON.stringify(envClientConfig),
+                values: {
+                    UserConfigOfMain: JSON.stringify(envClientConfig),
+                },
             }),
             // 提供路径和读取别名
             nodeResolve({

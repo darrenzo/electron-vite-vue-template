@@ -11,6 +11,9 @@ import { spawn } from "child_process";
 import type { ChildProcess } from "child_process";
 import { createServer } from "vite";
 import rollupOptions from "./rollup.config";
+import { envManager } from "./utils/envManager";
+
+envManager.injectEnvConfig();
 
 const mainOpt = rollupOptions(process.env.NODE_ENV);
 

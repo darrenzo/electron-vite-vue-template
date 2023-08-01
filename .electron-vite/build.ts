@@ -9,6 +9,9 @@ import { rollup, OutputOptions } from "rollup";
 import { Listr } from "listr2";
 import rollupOptions from "./rollup.config";
 import { okayLog, errorLog, doneLog } from "./utils/chalkLog";
+import { envManager } from "./utils/envManager";
+
+envManager.injectEnvConfig();
 
 const mainOpt = rollupOptions(process.env.NODE_ENV);
 
@@ -33,7 +36,7 @@ function greeting() {
         say(text, {
             colors: ["yellow"],
             font: "simple3d",
-            space: false
+            space: false,
         });
     } else {
         console.log(chalk.yellow.bold("\n  let's-build"));
@@ -64,14 +67,14 @@ async function unionBuild() {
                         );
                         process.exit(1);
                     }
-                }
+                },
             },
             {
                 title: "building renderer process",
                 task: async (_, tasks) => {
                     try {
                         await viteBuild({
-                            configFile: pathJoin(__dirname, "vite.config.ts")
+                            configFile: pathJoin(__dirname, "vite.config.ts"),
                         });
                         tasks.output = `${okayLog}take it away ${chalk.yellow(
                             "`electron-builder`"
@@ -84,11 +87,11 @@ async function unionBuild() {
                         process.exit(1);
                     }
                 },
-                options: { persistentOutput: true }
-            }
+                options: { persistentOutput: true },
+            },
         ],
         {
-            exitOnError: false
+            exitOnError: false,
         }
     );
 
