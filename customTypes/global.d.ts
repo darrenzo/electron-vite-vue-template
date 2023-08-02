@@ -12,7 +12,7 @@ interface Window {
     __static: string;
 }
 
-declare const UserConfigOfMain: {
+declare const __MAIN_CONFIG__: {
     envConfig:
         | {
               NODE_ENV: string;

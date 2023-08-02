@@ -34,7 +34,7 @@ electronDl();
 if (process.env.NODE_ENV === "development") {
     app.setAppUserModelId(process.execPath);
 } else {
-    app.setAppUserModelId(UserConfigOfMain.clientConfig.appId);
+    app.setAppUserModelId(__MAIN_CONFIG__.clientConfig.appId);
 }
 
 if (app.isPackaged) {

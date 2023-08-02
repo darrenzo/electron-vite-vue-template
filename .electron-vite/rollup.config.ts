@@ -31,8 +31,8 @@ export default (env = "production") => {
                 // 不对赋值操作进行替换
                 preventAssignment: true,
                 values: {
-                    // 业务中使用时 UserConfigOfMain 会自动替换成 envClientConfig 对象 而不是字符串
-                    UserConfigOfMain: JSON.stringify(envClientConfig),
+                    // 业务中使用时 __MAIN_CONFIG__ 会自动替换成 envClientConfig 对象 而不是字符串
+                    __MAIN_CONFIG__: JSON.stringify(envClientConfig),
                 },
             }),
             // 提供路径和读取别名
